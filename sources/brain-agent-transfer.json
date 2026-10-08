@@ -1,0 +1,45 @@
+[
+  {
+    "id": "BT01",
+    "title": "Neuroscience-Inspired Artificial Intelligence",
+    "year": 2017,
+    "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/ai-and-neuroscience-a-virtuous-circle/Neuron.pdf",
+    "kind": "scholarly_perspective",
+    "venue_or_status": "Neuron 95(2), 245–258; author-organization-hosted published paper",
+    "topics": ["functional abstraction", "biological inspiration", "complementary learning", "external memory", "transfer limits"],
+    "evidence_note": "Advocates computational and algorithmic inspiration while allowing implementations to depart from biological detail.",
+    "limitation": "Scholarly perspective with historical examples; not evidence that a particular agent filing system improves accuracy.",
+    "review_level": "selected full-text introduction, memory sections, and transfer discussion",
+    "additional_primary_urls": ["https://doi.org/10.1016/j.neuron.2017.06.011", "https://deepmind.google/blog/ai-and-neuroscience-a-virtuous-circle/"],
+    "accessed": "2026-10-08"
+  },
+  {
+    "id": "BT02",
+    "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+    "year": 2024,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/6ddc001d07ca4f319af96a3024f6dbd1-Paper-Conference.pdf",
+    "kind": "peer_reviewed_research",
+    "venue_or_status": "NeurIPS 2024; published conference version reviewed",
+    "topics": ["hippocampal indexing analogy", "knowledge graphs", "associative retrieval", "multi-hop QA"],
+    "evidence_note": "LLM-extracted graph and query-seeded Personalized PageRank support passage retrieval; evaluates bounded multi-hop QA.",
+    "limitation": "Extraction and graph-search errors, entity/context tradeoff, and unvalidated larger-scale behavior; no biological equivalence or task-continuation test.",
+    "review_level": "selected full-text methodology, experimental setup, limitations, and appendix error analysis",
+    "additional_primary_urls": ["https://arxiv.org/abs/2405.14831"],
+    "accessed": "2026-10-08"
+  },
+  {
+    "id": "BT03",
+    "title": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v267/gutierrez25a.html",
+    "kind": "peer_reviewed_research",
+    "venue_or_status": "ICML 2025, PMLR 267; selected arXiv v2 full text also inspected",
+    "topics": ["HippoRAG 2", "passage context", "recognition-inspired filtering", "non-parametric memory", "ablation"],
+    "evidence_note": "Combines passage/phrase graph nodes, query-to-triple matching and LLM filtering; compares factual, discourse and associative QA.",
+    "limitation": "Tested reader/corpus configurations and human-memory-inspired task labels do not establish faithful neural simulation or reliable filesystem continuation.",
+    "review_level": "official proceedings metadata plus selected full-text arXiv v2 methods, evaluations, ablations and error analysis",
+    "reviewed_url": "https://arxiv.org/html/2502.14802v2",
+    "additional_primary_urls": ["https://arxiv.org/abs/2502.14802v2"],
+    "accessed": "2026-10-08"
+  }
+]

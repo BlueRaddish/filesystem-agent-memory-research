@@ -82,3 +82,15 @@ For each material error, inspect whether the governing detail existed in durable
 After a proposed filing change, rerun the same held-out tasks and add new independently authored tasks. A design tuned to a few known traps can appear successful while failing ordinary unfamiliar work. Prefer the smallest intervention that fixes a repeatable failure without introducing critical regressions.
 
 The project's [fictional example](../examples/README.md) illustrates this protocol's boundaries. Passing its deterministic repository checks demonstrates a coherent fixture and safe staging behavior. It does not demonstrate that any agent has completed the tasks.
+
+## 8. Test translations from biology and human practice
+
+The [transfer review](../research/brain-agent-transfer.md) specifies proposed comparisons for episode-plus-state views, distinctive cues, retrieval probes with source feedback, maintenance timing, discrimination among similar records, and reminders for future obligations. No new agent experiment is claimed by those proposals.
+
+Keep the learner and mechanism clear. Human retrieval-practice results concern changes in a person; fixed-model external-memory maintenance must identify the records, indexes, prompts or policies it changes. For a maintenance comparison, keep the reader fixed and compare matched interventions, then test with a fresh reader on withheld tasks. Record every repair and its supporting evidence.
+
+Maintenance prompts and final tests must be separately authored. Do not leak final answer keys through a rehearsal process. Evaluate new formulations and combinations, and include a project or scope not seen in maintenance. Use an equal-budget summary-writing or inspection control to distinguish source-feedback benefits from additional work.
+
+For scheduling, match review counts and evidence availability while varying placement around updates and handoffs. Calendar delay alone is not evidence of a human-like spacing effect in static files. Measure correction lag and downstream obsolete-rule use. For source/context cues, use text-length-matched controls and near-duplicate distractors. For reminders, inspect actual trigger handling, local checks and resulting artifacts; remembering an obligation in prose is a separate outcome from completing it.
+
+Describe a successful result as evidence for the tested implementation and task. It does not validate the biological analogy, prove that an agent has human memory, or establish a universal policy for all collections.

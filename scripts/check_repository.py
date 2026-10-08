@@ -16,12 +16,15 @@ CATALOGS = (
     "retrieval-context.json",
     "organization-retention.json",
     "recent-evidence.json",
+    "biological-memory.json",
+    "human-memory-practices.json",
+    "brain-agent-transfer.json",
 )
 REQUIRED = (
     "id", "title", "year", "url", "kind", "venue_or_status", "topics",
     "evidence_note", "limitation", "review_level", "accessed",
 )
-CITATION = re.compile(r"\[((?:AM|RC|OR|RE)\d{2})\]\((https://[^\s)]+)\)")
+CITATION = re.compile(r"\[((?:AM|RC|OR|RE|BM|HM|BT)\d{2})\]\((https://[^\s)]+)\)")
 LINK = re.compile(r"\[[^\]\n]*\]\(([^\s)]+)\)")
 # These catch common leak shapes only; narrative and history review is still required.
 LEAK_PATTERNS = (
@@ -52,7 +55,7 @@ def records():
         for row in rows:
             require(isinstance(row, dict) and all(field in row for field in REQUIRED),
                     f"Missing record fields in {name}")
-            require(re.fullmatch(r"(?:AM|RC|OR|RE)\d{2}", row["id"]) is not None,
+            require(re.fullmatch(r"(?:AM|RC|OR|RE|BM|HM|BT)\d{2}", row["id"]) is not None,
                     f"Invalid ID in {name}")
             require(all(isinstance(row[field], str) and row[field].strip()
                         for field in REQUIRED if field not in {"year", "topics"}),
@@ -74,8 +77,8 @@ def records():
 def bibliography(rows):
     lines = [
         "# Annotated bibliography", "",
-        "Generated from the four JSON catalogs by `python scripts/check_repository.py --write-bibliography`.", "",
-        f"**{len(rows)} cataloged primary works/pages; cutoff 2026-10-08 UTC.** URL aliases are not extra studies. "
+        f"Generated from {len(CATALOGS)} JSON catalogs by `python scripts/check_repository.py --write-bibliography`.", "",
+        f"**{len(rows)} primary-source catalog records; cutoff 2026-10-08 UTC.** URL aliases are not extra studies. "
         "An interface document, creator account, or preservation standard is not an empirical agent result.", "",
         "Review depth and status belong to each record. Full-text review means selected relevant sections, "
         "not reproduction. See [methodology](../research/methodology.md).", "",

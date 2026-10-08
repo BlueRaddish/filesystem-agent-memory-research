@@ -66,6 +66,14 @@ Compare systems in two ways: under matched resource budgets, and at an accuracy 
 
 Full context is an important baseline. It can reveal whether selective retrieval introduced an omission. It is not an oracle reader: interpretation and distraction failures can remain. Oracle evidence is a separate diagnostic condition, and must not leak into ordinary fresh-agent trials.
 
+## Biological memory and human practices
+
+The [biological review](biological-memory.md) adds evidence on distinct memory roles, contextual binding, event organization, replay, updating and forgetting. The [human-practice review](human-memory-practices.md) examines retrieval tests, corrective feedback, spacing, cue design, discrimination and external reminders. These broaden the candidate mechanisms; their human or animal findings do not establish an optimal agent filing system.
+
+The [transfer review](brain-agent-transfer.md) translates selected functions into minimal implementations and proposed comparisons. It also reviews HippoRAG and HippoRAG 2 as existing brain-inspired retrieval work. For this project, an economical experiment is source-linked episodes and current state plus externally checked retrieval probes. Measure later unfamiliar-reader behavior rather than assuming that repeated summaries strengthen memory. A fixed reader's weights do not change merely because a file is reread.
+
+Biological inspiration should remain subordinate to the project's fidelity objective. Retaining evidence while changing its current eligibility is different from deleting it; reconstructing a plausible account is different from recovering the applicable instruction. Candidate maintenance schedules should be tested around changing evidence and handoffs rather than importing a human learning interval directly.
+
 ## Research agenda
 
 The [evaluation protocol](../evaluation/protocol.md) turns these proposals into falsifiable checks. The highest-priority questions are:

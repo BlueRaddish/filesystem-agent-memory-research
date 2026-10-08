@@ -1,8 +1,8 @@
 # Annotated bibliography
 
-Generated from the four JSON catalogs by `python scripts/check_repository.py --write-bibliography`.
+Generated from 7 JSON catalogs by `python scripts/check_repository.py --write-bibliography`.
 
-**77 cataloged primary works/pages; cutoff 2026-10-08 UTC.** URL aliases are not extra studies. An interface document, creator account, or preservation standard is not an empirical agent result.
+**125 primary-source catalog records; cutoff 2026-10-08 UTC.** URL aliases are not extra studies. An interface document, creator account, or preservation standard is not an empirical agent result.
 
 Review depth and status belong to each record. Full-text review means selected relevant sections, not reproduction. See [methodology](../research/methodology.md).
 
@@ -785,3 +785,489 @@ Review depth and status belong to each record. Full-text review means selected r
 **Evidence:** Combined raw excerpts and extracted facts improve the tested LongMemEval configuration.
 
 **Limit:** Mixed measured/published comparisons; infrastructure excluded from modeled cost.
+
+## Biological Memory
+
+### BM01 — Conscious and Unconscious Memory Systems
+
+[2015 · Primary source](https://pmc.ncbi.nlm.nih.gov/articles/PMC4355270/) — Cold Spring Harbor Perspectives in Biology; published scholarly review
+
+**Kind:** scholarly-review. **Reviewed:** Selected full-text taxonomy and systems-comparison sections. **Accessed:** 2026-10-08.
+
+**Evidence:** Synthesizes human amnesia and animal evidence for distinct memory systems.
+
+**Limit:** A taxonomy and synthesis, rather than a single causal experiment.
+
+### BM02 — Why There Are Complementary Learning Systems in the Hippocampus and Neocortex: Insights From the Successes and Failures of Connectionist Models of Learning and Memory
+
+[1995 · Primary source](https://stanford.edu/~jlmcc/papers/McCMcNaughtonOReilly95.pdf) — Psychological Review; published theoretical and computational analysis
+
+**Kind:** computational-theory-paper. **Reviewed:** Abstract and selected full-text theory, interference, interleaving, and fast-learning discussion. **Accessed:** 2026-10-08.
+
+**Evidence:** Connectionist analyses motivate rapid episodic learning and slower integration of shared structure.
+
+**Limit:** The model does not establish uniformly slow cortical learning or universal remote-memory independence.
+
+### BM03 — The hippocampal indexing theory and episodic memory: updating the index
+
+[2007 · Primary source](https://pubmed.ncbi.nlm.nih.gov/17696170/) — Hippocampus; published theoretical review
+
+**Kind:** scholarly-review. **Reviewed:** Primary abstract and publication metadata; full text not inspected. **Accessed:** 2026-10-08.
+
+**Evidence:** Proposes hippocampal binding and reinstatement of distributed cortical episode representations.
+
+**Limit:** A theoretical synthesis; indexing does not guarantee complete or accurate recall.
+
+### BM04 — Requirement for Hippocampal CA3 NMDA Receptors in Associative Memory Recall
+
+[2002 · Primary source](https://pmc.ncbi.nlm.nih.gov/articles/PMC2877140/) — Science; published research article
+
+**Kind:** empirical-study. **Reviewed:** Abstract and selected indexed primary experiment and discussion excerpts; complete full text not inspected. **Accessed:** 2026-10-08.
+
+**Evidence:** CA3 receptor deletion disproportionately impaired spatial recall under partial environmental cues.
+
+**Limit:** Altered representation formation can later resemble a retrieval-specific deficit.
+
+### BM05 — Engram Cells Retain Memory Under Retrograde Amnesia
+
+[2015 · Primary source](https://pubmed.ncbi.nlm.nih.gov/26023136/) — Science; published research article
+
+**Kind:** empirical-study. **Reviewed:** Primary abstract and selected indexed primary figure captions and results excerpts. **Accessed:** 2026-10-08.
+
+**Evidence:** Tagged-cell activation restored conditioned behavior after experimentally induced natural-cue amnesia.
+
+**Limit:** Behavioral rescue does not establish preservation of every episodic feature.
+
+### BM06 — Schemas and memory consolidation
+
+[2007 · Primary source](https://pubmed.ncbi.nlm.nih.gov/17412951/) — Science; published research article
+
+**Kind:** empirical-study. **Reviewed:** Primary abstract and publication metadata; full text not inspected. **Accessed:** 2026-10-08.
+
+**Evidence:** Prior flavor-place associative knowledge enabled rapid integration of new associations.
+
+**Limit:** A trained rat task does not establish arbitrary human schema-based assimilation.
+
+### BM07 — Memory formation and long-term retention in humans and animals: convergence towards a transformation account of hippocampal-neocortical interactions
+
+[2010 · Primary source](https://pubmed.ncbi.nlm.nih.gov/20430044/) — Neuropsychologia; published theoretical review
+
+**Kind:** scholarly-review. **Reviewed:** Primary abstract and publication metadata; complete full text not inspected. **Accessed:** 2026-10-08.
+
+**Evidence:** Argues that detailed and schematic representations can coexist during memory transformation.
+
+**Limit:** A competing account of consolidation, rather than a universally settled mechanism.
+
+### BM08 — Discovering Event Structure in Continuous Narrative Perception and Memory
+
+[2017 · Primary source](https://www.dpmlab.org/papers/Neuron17.pdf) — Neuron; published research article
+
+**Kind:** empirical-study. **Reviewed:** Selected full-text summary, event-model, hippocampal activity, and discussion sections. **Accessed:** 2026-10-08.
+
+**Evidence:** Narrative fMRI links hierarchical event boundaries with hippocampal activity and recall reinstatement.
+
+**Limit:** Model-derived boundaries and correlations do not establish a universal optimal segmentation.
+
+### BM09 — The Godden and Baddeley (1975) experiment on context-dependent memory on land and underwater: a replication
+
+[2021 · Primary source](https://pmc.ncbi.nlm.nih.gov/articles/PMC8568063/) — Royal Society Open Science; published replication study
+
+**Kind:** empirical-replication. **Reviewed:** Abstract and selected full-text methods, results, and discussion. **Accessed:** 2026-10-08.
+
+**Evidence:** A diver word-list replication did not recover a same-environment recall advantage.
+
+**Limit:** Setting and timing differences constrain generalization beyond the attempted replication.
+
+### BM10 — Selective suppression of hippocampal ripples impairs spatial memory
+
+[2009 · Primary source](https://buzsakilab.com/content/PDFs/Girardeau2009NatNeurosci.pdf) — Nature Neuroscience; published brief communication
+
+**Kind:** empirical-study. **Reviewed:** Main brief communication, including protocol, controls, and discussion; supplements not inspected. **Accessed:** 2026-10-08.
+
+**Evidence:** Post-training ripple disruption impaired spatial learning relative to stimulation controls.
+
+**Limit:** Associated neural discharge was suppressed; replay sequence content was not selectively manipulated.
+
+### BM11 — Odor cues during slow-wave sleep prompt declarative memory consolidation
+
+[2007 · Primary source](https://pubmed.ncbi.nlm.nih.gov/17347444/) — Science; published research article
+
+**Kind:** empirical-study. **Reviewed:** Primary abstract and reported control conditions; complete full text not inspected. **Accessed:** 2026-10-08.
+
+**Evidence:** Learning-associated odor cueing benefited declarative retention under slow-wave-sleep conditions.
+
+**Limit:** Effects depended on learning, memory task, cue, and physiological state.
+
+### BM12 — Remembering can cause forgetting: Retrieval dynamics in long-term memory
+
+[1994 · Primary source](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Anderson_RBjork_EBjork_1994.pdf) — Journal of Experimental Psychology: Learning, Memory, and Cognition; published research article
+
+**Kind:** empirical-study. **Reviewed:** Abstract and selected full-text experiment, output-order control, and interpretation sections. **Accessed:** 2026-10-08.
+
+**Evidence:** Practicing selected category members impaired later recall of related unpracticed members.
+
+**Limit:** Impaired recall does not prove erasure or universal adaptive benefit.
+
+### BM13 — Multiple routes to memory: Distinct medial temporal lobe processes build item and source memories
+
+[2003 · Primary source](https://web.mit.edu/wagner/www/papers/DAV_PNAS03.pdf) — Proceedings of the National Academy of Sciences; published research article
+
+**Kind:** empirical-study. **Reviewed:** Full-text abstract and selected introductory description of design and findings. **Accessed:** 2026-10-08.
+
+**Evidence:** Encoding activity in different medial temporal regions predicted item recognition versus source recollection.
+
+**Limit:** Subsequent-memory fMRI correlations do not establish exclusive or causal regional functions.
+
+### BM14 — Fear memories require protein synthesis in the amygdala for reconsolidation after retrieval
+
+[2000 · Primary source](https://pubmed.ncbi.nlm.nih.gov/10963596/) — Nature; published research article
+
+**Kind:** empirical-study. **Reviewed:** Primary abstract and reported reactivation/timing controls; full text not inspected. **Accessed:** 2026-10-08.
+
+**Evidence:** Post-reactivation protein-synthesis inhibition caused amnesia under timing and reactivation controls.
+
+**Limit:** Drug-induced amnesia does not establish irreversible erasure or lability after every retrieval.
+
+### BM15 — Reconsolidation of episodic memories: A subtle reminder triggers integration of new information
+
+[2007 · Primary source](https://pmc.ncbi.nlm.nih.gov/articles/PMC1838545/) — Learning & Memory; published research article
+
+**Kind:** empirical-study. **Reviewed:** Abstract and selected indexed primary results and general-discussion excerpts. **Accessed:** 2026-10-08.
+
+**Evidence:** Reminding before new-list learning produced delayed intrusions into original-list recall.
+
+**Limit:** Behavioral updating does not uniquely identify cellular reconsolidation over contextual explanations.
+
+### BM16 — Creating False Memories: Remembering Words Not Presented in Lists
+
+[1995 · Primary source](https://psychnet.wustl.edu/memory/wp-content/uploads/2018/04/Roediger-McDermott-1995_JEPLMC.pdf) — Journal of Experimental Psychology: Learning, Memory, and Cognition; published research article
+
+**Kind:** empirical-study. **Reviewed:** Abstract and selected indexed primary introductory and experiment excerpts; complete full text not inspected. **Accessed:** 2026-10-08.
+
+**Evidence:** Associated word lists elicited confident recall and recognition of unpresented words.
+
+**Limit:** A laboratory paradigm does not quantify everyday autobiographical error rates.
+
+### BM17 — Selection of experience for memory by hippocampal sharp wave ripples
+
+[2024 · Primary source](https://www.science.org/doi/10.1126/science.adk8261) — Science; published research article, 29 March 2024
+
+**Kind:** empirical-study. **Reviewed:** Selected main-text results, discussion, and figures; supplements not inspected. **Accessed:** 2026-10-08.
+
+**Evidence:** Waking ripple content predicted preferential replay of particular trial blocks during sleep.
+
+**Limit:** Observational replay selection was not linked to trial-specific long-term behavioral retention.
+
+### BM18 — Systems consolidation reorganizes hippocampal engram circuitry
+
+[2025 · Primary source](https://www.nature.com/articles/s41586-025-08993-1) — Nature; published research article, 14 May 2025
+
+**Kind:** empirical-study. **Reviewed:** Primary abstract and extended-data captions 2, 4, 7, 9, and 10; gated main text not inspected. **Accessed:** 2026-10-08.
+
+**Evidence:** Neurogenesis and circuit interventions link hippocampal reorganization with contextual or spatial memory resolution.
+
+**Limit:** Task generalization is not human semantic memory; replay was not selectively manipulated.
+
+### BM19 — Replay without sharp wave ripples in a spatial memory task
+
+[2025 · Primary source](https://www.nature.com/articles/s41467-025-65181-5) — Nature Communications; published 21 November 2025; reference-list author correction 17 April 2026
+
+**Kind:** empirical-study. **Reviewed:** Selected full-text results, discussion, and detection methods; complete correction text inspected through indexed publisher and PMC primary pages, direct correction fetch blocked. **Accessed:** 2026-10-08.
+
+**Evidence:** Sequence detection independent of ripples identified replay without detectable sharp-wave ripples.
+
+**Limit:** Detection and recording coverage bound absence claims; functional necessity was not established.
+
+### BM20 — Replay of procedural memory is independent of the hippocampus
+
+[2026 · Primary source](https://www.nature.com/articles/s41593-026-02362-5) — Nature Neuroscience; published research article, 23 July 2026
+
+**Kind:** empirical-study. **Reviewed:** Selected full-text results, methods, and discussion. **Accessed:** 2026-10-08.
+
+**Evidence:** Striatal replay persisted after hippocampal lesions and was associated with later procedural improvement.
+
+**Limit:** Receptor blockade affected broader plasticity; replay itself was not selectively disrupted.
+
+### BM21 — Hippocampal ripples initiate cortical dimensionality expansion for memory retrieval
+
+[2026 · Primary source](https://www.nature.com/articles/s41467-026-75345-6) — Nature Communications; published research article, 20 July 2026
+
+**Kind:** empirical-study. **Reviewed:** Selected full-text results, discussion, ripple controls, and dimensionality methods in publisher PDF. **Accessed:** 2026-10-08.
+
+**Evidence:** Human intracranial recordings linked successful retrieval, hippocampal ripples, and cortical dimensionality expansion.
+
+**Limit:** Observations do not prove ripple causality or directly measure compressed hippocampal encoding.
+
+### BM22 — Comprehensive protein synthesis inhibition impairs natural and artificial memory recall
+
+[2026 · Primary source](https://link.springer.com/article/10.1186/s13041-026-01305-2) — Molecular Brain; published Micro Report, 29 April 2026; version of record updated 16 June 2026
+
+**Kind:** empirical-study. **Reviewed:** Main-text methods, results, limitations, and Figure 1; supplements not inspected. **Accessed:** 2026-10-08.
+
+**Evidence:** Combined protein-synthesis inhibitors impaired both natural and optogenetically elicited conditioned recall.
+
+**Limit:** Broad drugs and different circuitry do not locate erasure versus access or expression failure.
+
+## Human Memory Practices
+
+### HM01 — Test-enhanced learning: Taking memory tests improves long-term retention
+
+[2006 · Primary source](https://pubmed.ncbi.nlm.nih.gov/16507066/) — Psychological Science 17(3), 249–255; primary abstract in PubMed
+
+**Kind:** empirical_paper. **Reviewed:** abstract. **Accessed:** 2026-10-08.
+
+**Evidence:** Prose experiments separate short-delay performance from delayed retention; testing outperformed restudy at delayed tests.
+
+**Limit:** Student laboratory task; abstract reviewed, without statistical reanalysis.
+
+### HM02 — The effect of testing versus restudy on retention: A meta-analytic review of the testing effect
+
+[2014 · Primary source](https://pubmed.ncbi.nlm.nih.gov/25150680/) — Psychological Bulletin 140(6), 1432–1463; primary abstract in PubMed
+
+**Kind:** meta_analysis. **Reviewed:** abstract. **Accessed:** 2026-10-08.
+
+**Evidence:** Abstract supports testing over restudy and larger benefits for recall tests; several explanatory accounts remain under consideration.
+
+**Limit:** Abstract-only inspection cannot audit synthesis methods or establish a unique mechanism.
+
+### HM03 — Feedback enhances the positive effects and reduces the negative effects of multiple-choice testing
+
+[2008 · Primary source](https://pubmed.ncbi.nlm.nih.gov/18491500/) — Memory & Cognition 36(3), 604–616; primary abstract in PubMed
+
+**Kind:** empirical_paper. **Reviewed:** abstract. **Accessed:** 2026-10-08.
+
+**Evidence:** Immediate and delayed feedback improved later cued recall and reduced lure intrusions compared with no feedback.
+
+**Limit:** Multiple-choice passage task; abstract reviewed; no universal feedback-timing rule inferred.
+
+### HM04 — Distributed practice in verbal recall tasks: A review and quantitative synthesis
+
+[2006 · Primary source](https://pubmed.ncbi.nlm.nih.gov/16719566/) — Psychological Bulletin 132(3), 354–380; primary abstract in PubMed
+
+**Kind:** meta_analysis. **Reviewed:** abstract. **Accessed:** 2026-10-08.
+
+**Evidence:** Synthesis of 317 experiments considers interstudy gap and final-test delay jointly rather than as independent prescriptions.
+
+**Limit:** Verbal learning; abstract-level review; numerical schedules are not agent maintenance policies.
+
+### HM05 — Spacing effects in learning: A temporal ridgeline of optimal retention
+
+[2008 · Primary source](https://labs.biology.ucsd.edu/rifkin/courses/bieb100/f14/Cepeda_et_al_2008_Psychological_Science_Spacing_Effects_in_Learning_A_Temporal_Ridgeline_of_Optimal_Retention.pdf) — Psychological Science 19(11), 1095–1102; published article hosted at UC San Diego
+
+**Kind:** empirical_paper. **Reviewed:** fulltext_sections. **Accessed:** 2026-10-08.
+
+**Evidence:** Methods, gap/results, and discussion sections inspected; fact-learning retention depends nonmonotonically on spacing and target delay.
+
+**Limit:** Specified material and learning criterion; interpolated optima are not universal schedules.
+
+### HM06 — Learning concepts and categories: Is spacing the enemy of induction?
+
+[2008 · Primary source](https://web.williams.edu/Psychology/Faculty/Kornell/Publications/Kornell.Bjork.2008a.pdf) — Psychological Science 19(6), 585–592; author-hosted published article
+
+**Kind:** empirical_paper. **Reviewed:** fulltext_sections. **Accessed:** 2026-10-08.
+
+**Evidence:** Abstract, results, and discussion inspected; interleaved paintings improved new-example classification despite preferences for blocked presentation.
+
+**Limit:** Visual category task; spacing and interleaving are not fully isolated.
+
+### HM07 — Similarity matters: A meta-analysis of interleaved learning and its moderators
+
+[2019 · Primary source](https://pubmed.ncbi.nlm.nih.gov/31556629/) — Psychological Bulletin 145(11), 1029–1052; primary abstract and institutional accepted manuscript inspected
+
+**Kind:** meta_analysis. **Reviewed:** fulltext_sections_abstract_definitions_theory. **Accessed:** 2026-10-08.
+
+**Evidence:** Abstract, definitions, and theory sections inspected; benefits vary with material, category similarity, and learning task.
+
+**Limit:** Complete methods and statistical adjustments not audited; no universal interleaving rule.
+
+### HM08 — Inducing self-explanation: A meta-analysis
+
+[2018 · Primary source](https://link.springer.com/article/10.1007/s10648-018-9434-x) — Educational Psychology Review 30, 703–725; publisher abstract
+
+**Kind:** meta_analysis. **Reviewed:** abstract. **Accessed:** 2026-10-08.
+
+**Evidence:** Abstract describes 69 effect sizes across 64 reports and benefits of prompted self-explanation in multiple instructional conditions.
+
+**Limit:** Abstract-only inspection; accurate explanation and cost-effective implementation are not guaranteed.
+
+### HM09 — Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology
+
+[2013 · Primary source](https://acs.ist.psu.edu/ist521/dunloskyRMNW13.pdf) — Psychological Science in the Public Interest 14(1), 4–58; published article hosted at Penn State
+
+**Kind:** scholarly_review. **Reviewed:** fulltext_sections. **Accessed:** 2026-10-08.
+
+**Evidence:** Summary, explanatory-technique framing, and self-explanation assessment inspected; applicability depends on learners, materials, outcomes, and implementation.
+
+**Limit:** 2013 human-literature assessment; utility ratings are contextual and may evolve.
+
+### HM10 — Encoding specificity and retrieval processes in episodic memory
+
+[1973 · Primary source](https://www.researchgate.net/publication/232454634_Encoding_specificity_and_retrieval_processes_in_episodic_memory) — Psychological Review 80(5), 352–373; primary abstract and APA publisher preview through ResearchGate; DOI 10.1037/h0020071
+
+**Kind:** theoretical_and_empirical_paper. **Reviewed:** abstract_and_publisher_preview. **Accessed:** 2026-10-08.
+
+**Evidence:** Primary abstract relates effective cues to encoding operations and reports recognition failure for some recallable words.
+
+**Limit:** Abstract and opening publisher preview only; no detailed methods inspected.
+
+### HM11 — Buildup of proactive inhibition as a cue-overload effect
+
+[1975 · Primary source](https://doi.org/10.1037/0278-7393.1.4.442) — Journal of Experimental Psychology: Human Learning and Memory 1(4), 442–452; indexed APA primary abstract; direct page failed to fetch
+
+**Kind:** empirical_paper. **Reviewed:** indexed_primary_abstract. **Accessed:** 2026-10-08.
+
+**Evidence:** Indexed primary abstract describes controlled list experiments supporting reduced recall as more material shares category cues.
+
+**Limit:** Abstract-only review; human list results provide no numeric tag or folder limit.
+
+### HM12 — Source monitoring
+
+[1993 · Primary source](https://pubmed.ncbi.nlm.nih.gov/8346328/) — Psychological Bulletin 114(1), 3–28; primary abstract in PubMed
+
+**Kind:** theoretical_review. **Reviewed:** abstract. **Accessed:** 2026-10-08.
+
+**Evidence:** Framework treats origin judgments as fallible attributions using experiential features and flexible criteria.
+
+**Limit:** Abstract reviewed; theoretical synthesis does not evaluate a software provenance implementation.
+
+### HM13 — Illusions of competence in monitoring one's knowledge during study
+
+[2005 · Primary source](https://pubmed.ncbi.nlm.nih.gov/15755238/) — Journal of Experimental Psychology: Learning, Memory, and Cognition 31(2), 187–194; primary abstract
+
+**Kind:** empirical_paper. **Reviewed:** abstract. **Accessed:** 2026-10-08.
+
+**Evidence:** Paired-associate work examines misleading judgments when answers present at study will be absent during later recall.
+
+**Limit:** Abstract-only inspection; human judgment mechanisms do not establish model calibration behavior.
+
+### HM14 — Cognitive offloading
+
+[2016 · Primary source](https://samgilbert.net/pubs/Risko2016TiCS.pdf) — Trends in Cognitive Sciences 20(9), 676–688; author-hosted published article
+
+**Kind:** scholarly_review. **Reviewed:** fulltext_sections. **Accessed:** 2026-10-08.
+
+**Evidence:** Definition, memory, and metacognitive-framework sections inspected; offloading changes demands and can have costs alongside benefits.
+
+**Limit:** Cross-domain human review; long-term consequences and optimal strategy selection remain open.
+
+### HM15 — Strategic offloading of delayed intentions into the external environment
+
+[2015 · Primary source](https://samgilbert.net/pubs/Gilbert2015QJEP.pdf) — Quarterly Journal of Experimental Psychology 68(5), 971–992; author-hosted published article; online 2014
+
+**Kind:** empirical_paper. **Reviewed:** fulltext_sections. **Accessed:** 2026-10-08.
+
+**Evidence:** Results and discussion inspected; reminders aid targets, with distinct triggering/content functions and limited everyday-task external validity.
+
+**Limit:** Constrained online tasks; limited naturalistic association does not prove broad reminder effectiveness.
+
+### HM16 — The generation effect: Delineation of a phenomenon
+
+[1978 · Primary source](https://www.researchgate.net/profile/Peter-Graf/publication/232485723_The_Generation_Effect_Delineation_of_a_Phenomenon/links/53f5eedf0cf2888a7491f9cb/The-Generation-Effect-Delineation-of-a-Phenomenon.pdf) — Journal of Experimental Psychology: Human Learning and Memory 4(6), 592–604; primary article via author's ResearchGate copy
+
+**Kind:** empirical_paper. **Reviewed:** fulltext_sections_abstract_and_discussion. **Accessed:** 2026-10-08.
+
+**Evidence:** Abstract and general discussion inspected; rule-guided generated words were remembered better than read words across tested conditions.
+
+**Limit:** Constrained word tasks and small experiments; generation does not certify truth.
+
+### HM17 — The generation effect: A meta-analytic review
+
+[2007 · Primary source](https://mcdaniel97.github.io/Publications/Bertsch%20et%20al.%202007.pdf) — Memory & Cognition 35(2), 201–210; author-hosted published article
+
+**Kind:** meta_analysis. **Reviewed:** fulltext_sections. **Accessed:** 2026-10-08.
+
+**Evidence:** Abstract and moderator/discussion excerpts inspected; synthesis covers 86 studies and substantial variation by experimental conditions.
+
+**Limit:** Historical heterogeneous studies; selective inspection, without independent statistical reanalysis.
+
+### HM18 — Desirable difficulties in theory and practice
+
+[2020 · Primary source](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2021/01/RABjorkELBjorkJARMAC2020ForPostingSingleSpaced.pdf) — Journal of Applied Research in Memory and Cognition 9(4), 475–479; author-hosted manuscript
+
+**Kind:** theoretical_commentary. **Reviewed:** fulltext_sections. **Accessed:** 2026-10-08.
+
+**Evidence:** Performance/learning distinction and desirable-versus-undesirable difficulty sections inspected; productive difficulty depends on learner capabilities.
+
+**Limit:** Theoretical commentary, not a new experiment or universal difficulty prescription.
+
+### HM19 — Retrieval practice versus elaborative encoding: A systematic and meta-analytic review
+
+[2025 · Primary source](https://link.springer.com/article/10.1007/s10648-025-10076-6) — Educational Psychology Review 37, article 100; published 30 October 2025; publisher abstract
+
+**Kind:** meta_analysis. **Reviewed:** abstract. **Accessed:** 2026-10-08.
+
+**Evidence:** Abstract reports smaller retrieval advantages against elaborative comparators and a feedback-dependent direction of benefit.
+
+**Limit:** Subscription full text not inspected; moderator findings are not universal causal policies.
+
+### HM20 — Research on the testing effect routinely conflates direct and forward testing effects: A meta-analysis of testing effects with free recall
+
+[2026 · Primary source](https://pubmed.ncbi.nlm.nih.gov/42258276/) — Journal of Experimental Psychology: Learning, Memory, and Cognition; online ahead of print 8 June 2026; DOI 10.1037/xlm0001634
+
+**Kind:** meta_analysis. **Reviewed:** abstract. **Accessed:** 2026-10-08.
+
+**Evidence:** Abstract distinguishes direct from mixed free-recall designs and reports larger effects where forward contributions can be confounded.
+
+**Limit:** Abstract-only review; free-recall synthesis does not invalidate every retrieval-practice finding.
+
+### HM21 — Whether interleaving or blocking is more effective for long-term learning depends on one's learning strategy
+
+[2025 · Primary source](https://pubmed.ncbi.nlm.nih.gov/40426440/) — Behavioral Sciences 15(5), 662; primary abstract and indexed primary discussion; DOI 10.3390/bs15050662
+
+**Kind:** empirical_paper. **Reviewed:** abstract_and_indexed_primary_discussion. **Accessed:** 2026-10-08.
+
+**Evidence:** Abstract and indexed discussion report sequence-by-strategy interaction extending across delayed testing and retraining.
+
+**Limit:** Artificial letter-string categories; complete methods not inspected; realistic educational transfer remains open.
+
+### HM22 — Hierarchical retrieval schemes in recall of categorized word lists
+
+[1969 · Primary source](https://www.sciencedirect.com/science/article/pii/S0022537169801246) — Journal of Verbal Learning and Verbal Behavior 8(3), 323–343; indexed publisher abstract; direct page failed to fetch
+
+**Kind:** empirical_paper. **Reviewed:** indexed_primary_abstract. **Accessed:** 2026-10-08.
+
+**Evidence:** Indexed publisher abstract reports organized word-list recall advantages and weaker effects for recognition.
+
+**Limit:** Abstract-only inspection; word-list presentation does not evaluate filesystem folder structures.
+
+### HM23 — Mnemonic training reshapes brain networks to support superior memory
+
+[2017 · Primary source](https://pmc.ncbi.nlm.nih.gov/articles/PMC5439266/) — Neuron 93(5), 1227–1235.e6; 8 March 2017; DOI 10.1016/j.neuron.2017.02.003; primary abstract and indexed author manuscript; direct PMC/Cell access failed
+
+**Kind:** empirical_paper. **Reviewed:** abstract_and_indexed_primary_methods_results_discussion. **Accessed:** 2026-10-08.
+
+**Evidence:** Indexed methods/results inspected: controlled six-week loci training improved word recall and related to athlete-like connectivity; four-month assessment re-encoded words.
+
+**Limit:** Male training sample; constrained lists and network correlations do not prove general workflow or agent-layout benefits.
+
+## Brain Agent Transfer
+
+### BT01 — Neuroscience-Inspired Artificial Intelligence
+
+[2017 · Primary source](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/ai-and-neuroscience-a-virtuous-circle/Neuron.pdf) — Neuron 95(2), 245–258; author-organization-hosted published paper
+
+**Kind:** scholarly_perspective. **Reviewed:** selected full-text introduction, memory sections, and transfer discussion. **Accessed:** 2026-10-08.
+
+**Evidence:** Advocates computational and algorithmic inspiration while allowing implementations to depart from biological detail.
+
+**Limit:** Scholarly perspective with historical examples; not evidence that a particular agent filing system improves accuracy.
+
+### BT02 — HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models
+
+[2024 · Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/file/6ddc001d07ca4f319af96a3024f6dbd1-Paper-Conference.pdf) — NeurIPS 2024; published conference version reviewed
+
+**Kind:** peer_reviewed_research. **Reviewed:** selected full-text methodology, experimental setup, limitations, and appendix error analysis. **Accessed:** 2026-10-08.
+
+**Evidence:** LLM-extracted graph and query-seeded Personalized PageRank support passage retrieval; evaluates bounded multi-hop QA.
+
+**Limit:** Extraction and graph-search errors, entity/context tradeoff, and unvalidated larger-scale behavior; no biological equivalence or task-continuation test.
+
+### BT03 — From RAG to Memory: Non-Parametric Continual Learning for Large Language Models
+
+[2025 · Primary source](https://proceedings.mlr.press/v267/gutierrez25a.html) — ICML 2025, PMLR 267; selected arXiv v2 full text also inspected
+
+**Kind:** peer_reviewed_research. **Reviewed:** official proceedings metadata plus selected full-text arXiv v2 methods, evaluations, ablations and error analysis. **Accessed:** 2026-10-08.
+
+**Evidence:** Combines passage/phrase graph nodes, query-to-triple matching and LLM filtering; compares factual, discourse and associative QA.
+
+**Limit:** Tested reader/corpus configurations and human-memory-inspired task labels do not establish faithful neural simulation or reliable filesystem continuation.
