@@ -76,7 +76,11 @@ Biological inspiration should remain subordinate to the project's fidelity objec
 
 ## Research agenda
 
-The [evaluation protocol](../evaluation/protocol.md) turns these proposals into falsifiable checks. The highest-priority questions are:
+The [evaluation protocol](../evaluation/protocol.md) turns these proposals into falsifiable checks.
+
+The [filing hypotheses](filing-hypotheses.md) specify eight candidate interventions with matched controls and disconfirmation criteria. They prioritize source-linked current views, discriminating task/scope cues and discoverable obligations, then test eligibility and maintenance on changing evidence. These are proposed experiments; no improved agent outcome is claimed.
+
+The highest-priority questions are:
 
 - Does a source-backed current view improve unfamiliar-reader continuation, and how often does it become stale?
 - When does adding lexical, semantic, temporal, or link expansion improve complete evidence retrieval rather than merely top-k relevance?

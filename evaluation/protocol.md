@@ -87,6 +87,8 @@ The project's [fictional example](../examples/README.md) illustrates this protoc
 
 The [transfer review](../research/brain-agent-transfer.md) specifies proposed comparisons for episode-plus-state views, distinctive cues, retrieval probes with source feedback, maintenance timing, discrimination among similar records, and reminders for future obligations. No new agent experiment is claimed by those proposals.
 
+The [filing hypotheses](../research/filing-hypotheses.md) develop eight concrete interventions, including boundary selection, canonical shared records, current eligibility and dependency expansion. They specify negative tests and disconfirmation, with critical errors and full maintenance effort reported separately from search savings.
+
 Keep the learner and mechanism clear. Human retrieval-practice results concern changes in a person; fixed-model external-memory maintenance must identify the records, indexes, prompts or policies it changes. For a maintenance comparison, keep the reader fixed and compare matched interventions, then test with a fresh reader on withheld tasks. Record every repair and its supporting evidence.
 
 Maintenance prompts and final tests must be separately authored. Do not leak final answer keys through a rehearsal process. Evaluate new formulations and combinations, and include a project or scope not seen in maintenance. Use an equal-budget summary-writing or inspection control to distinguish source-feedback benefits from additional work.

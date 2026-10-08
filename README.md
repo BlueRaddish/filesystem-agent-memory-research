@@ -11,6 +11,7 @@ This project is a public, source-grounded research review of agent memory, retri
 | Document | Purpose |
 | --- | --- |
 | [Synthesis and recommendations](research/synthesis.md) | Conclusions, evidence boundaries, a minimal design, and open questions |
+| [Filing hypotheses](research/filing-hypotheses.md) | Eight minimal interventions, matched comparisons, failure cases, and fresh-reader tests |
 | [Agent memory](research/agent-memory.md) | Evidence, current state, procedures, temporal updates, and agent handoffs |
 | [Retrieval and context](research/retrieval-and-context.md) | Lexical and semantic search, long context, sufficiency, compression, and attribution |
 | [Organization and retention](research/organization-and-retention.md) | Human PIM, folders/tags/facets, PARA, stable IDs, and preservation standards |
