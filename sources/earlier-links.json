@@ -1,0 +1,378 @@
+[
+  {
+    "url": "https://aclanthology.org/2024.acl-long.747.pdf",
+    "source_id": "AM05",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://aclanthology.org/2024.acl-long.747/",
+    "source_id": "AM05",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://aclanthology.org/2025.emnlp-main.1656.pdf",
+    "source_id": "RE12",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://aclanthology.org/2025.emnlp-main.1656/",
+    "source_id": "RE12",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-demo.27/",
+    "source_id": "RE04",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.749.pdf",
+    "source_id": "AM16",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://aclanthology.org/2026.acl-long.749/",
+    "source_id": "AM16",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.16130",
+    "source_id": "AM05",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.10813",
+    "source_id": "AM06",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2502.05167",
+    "source_id": "RC09",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2504.19413",
+    "source_id": "AM09",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2507.05257",
+    "source_id": "RE01",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2509.23040",
+    "source_id": "RE02",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2511.05850",
+    "source_id": "RE10",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.05538",
+    "source_id": "RE08",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.24882",
+    "source_id": "RE09",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.29477",
+    "source_id": "RE03",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.22231",
+    "source_id": "AM14",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.38353",
+    "source_id": "RE11",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2404.16130v2",
+    "source_id": "AM05",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2410.10813v2",
+    "source_id": "AM06",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2502.05167v3",
+    "source_id": "RC09",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2502.05589v3",
+    "source_id": "AM07",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2502.12110v11",
+    "source_id": "AM08",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2507.05257v4",
+    "source_id": "RE01",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2511.05850v1",
+    "source_id": "RE10",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2512.12818v1",
+    "source_id": "RE04",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2604.08216v3",
+    "source_id": "RE05",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2605.05538v1",
+    "source_id": "RE08",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2605.12493v1",
+    "source_id": "AM18",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2606.06448v2",
+    "source_id": "AM15",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2607.24882v1",
+    "source_id": "RE09",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2607.26637v1",
+    "source_id": "AM13",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2608.29477v1",
+    "source_id": "RE03",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://arxiv.org/html/2609.22231v1",
+    "source_id": "AM14",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/chroma-core/context-rot",
+    "source_id": "RE13",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/microsoft/SeCom",
+    "source_id": "AM07",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/snap-research/locomo",
+    "source_id": "AM05",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://openreview.net/pdf/576a270b5221461b222ed85e4604047ba370fe96.pdf",
+    "source_id": "RE02",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "access_blocked",
+    "verification_note": "Browser challenge prevented inspection of this PDF; paper identity is mapped to a separately verified primary record.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://openreview.net/pdf?id=xKDZAW0He3",
+    "source_id": "AM07",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "access_blocked",
+    "verification_note": "Browser challenge prevented inspection of this PDF; paper identity is mapped to a separately verified primary record.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://papers.neurips.cc/paper_files/paper/2025/file/19909c36f51abc4856b4560aff3d36d6-Paper-Conference.pdf",
+    "source_id": "AM08",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://redis.github.io/redis-ai-research-public/longmemeval-agent-memory/",
+    "source_id": "RE16",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://research.google/pubs/retrieval-quality-at-context-limit/",
+    "source_id": "RE10",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://trec.nist.gov/pubs/trec34/papers/Overview_rag.pdf",
+    "source_id": "RE15",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/contextual-retrieval",
+    "source_id": "RE14",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://www.trychroma.com/research/context-rot",
+    "source_id": "RE13",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  },
+  {
+    "url": "https://xiaowu0162.github.io/longmemeval-v2/",
+    "source_id": "AM18",
+    "role": "earlier public reference or alternate primary link",
+    "access_status": "primary_record_verified",
+    "verification_note": "Work identity checked against a primary record; the source catalog states inspected version and review depth. This alias is not a separate study.",
+    "checked": "2026-10-08"
+  }
+]
