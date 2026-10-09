@@ -1,0 +1,28 @@
+{
+  "browser": "Installed Chromium/Chrome, actual headless renderer",
+  "viewport_widths": [
+    1400,
+    390
+  ],
+  "checks": [
+    "All86 rendered identities/onboarding/termination/flags; all84 written artifact JSON objects exact",
+    "Regime/hypothesis filters and trial search; H3 literal0/audit8; T043 inspected artifact retains200",
+    "Nine selected-arm onboarding cells N1; all written and audit pass; separate4diagnostic rows",
+    "All3 H6 schedule selections; all24 rendered checkpoints match coverage/stale/dirty/current; coverage details opened"
+  ],
+  "page_errors": [],
+  "page_horizontal_overflow": {
+    "1400": false,
+    "390": false
+  },
+  "embedded_json_equals_reviewed_projection": true,
+  "script_network_code_static_review": "No fetch, XHR, WebSocket, beacon or external assets; not a complete network audit",
+  "file_sha256": {
+    "index.html": "005d0c8773e057b0e51aef949cf4a1dcd541091c508b6390ebf9106c6d13ffc2",
+    "viewer-template.html": "b7822a88751f29e87dd312cc41f3d3f631d137209052d8b590c9727a3a61c458",
+    "viewer-data.json": "8252bc8710cf44aa4b6158abaee1c7176854ca6385028e1b210959ffff66a966",
+    "assemble_viewer.py": "3a0e5fabb526cac3755d7ff473bba9c1dc7214481a6f7c13e8106c9219a8ecc0",
+    "make_viewer_data.py": "8e33558493764938aabe4d0d3ddb3539abaabfcc1d9f1ee8423ccf9516da2b00"
+  },
+  "final_nonsemantic_normalization": "Removed generated trailing whitespace; summary/source digests refreshed; recorded domain values and UI logic unchanged."
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "independently authored fictional transport diagnostic; unscored setup follow-up, not a main corpus trial",
+  "authorship": {
+    "kind": "independent_llm",
+    "fictional": true,
+    "human_authored": false,
+    "reader_model_calls": 0
+  },
+  "cases": [
+    {
+      "id": "unicode-lantern",
+      "family": "Fictional Lantern Unicode transport probe",
+      "hypothesis": "Transport",
+      "task": "Recover the accepted label, symbol and final threshold for the fictional Lantern handoff from the retained records. Record decisions.accepted_label, decisions.symbol, decisions.threshold, decisions.scope and decisions.external_release, plus historical.prior_label and historical.original_threshold. Preserve the exact source characters rather than transliterating them. Write artifacts/result.json with keys status, decisions, historical, unanswered and evidence. Status must be ready if the governing values are established, or blocked if they are unresolved; these are the only allowed status labels. Evidence entries must be bare record IDs such as R123, without span suffixes, links or prose. Discover and preserve the original sources. You are authorized only to write this local artifact and run python tools/check.py artifacts/result.json after your final write, then inspect its result. No external actions are authorized.",
+      "conditions": [
+        {
+          "id": "source_only",
+          "files": {
+            "memory/index.md": "# Local fictional collection\n\nOriginal records are retained under sources/.\n\n- R801: sources/R801.md\n- R802: sources/R802.md\n",
+            "memory/sources/R801.md": "# Record R801\n\n2048-04-03: The Lantern owner accepted the exact label 青灯 and the exact symbol λ. The earlier label was plain-lamp; retain it as prior_label in historical. The initial accepted threshold was 4; retain that initial value as original_threshold in historical. Scope is local_json_only. Only local JSON handoff creation and its structural check are authorized; external_release is false. These names and values are wholly fictional.\n",
+            "memory/sources/R802.md": "# Record R802\n\n2048-04-05: The same Lantern owner issued the final correction: threshold is now 8, replacing the initial 4. The accepted label and symbol from R801, historical values and local-only scope remain unchanged. No external release is authorized.\n",
+            "tools/check.py": "\"\"\"Structural local JSON check; contains no source-derived task answers.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict)\nassert artifact.get(\"status\") in {\"ready\", \"blocked\"}, \"status enum\"\nassert isinstance(artifact.get(\"decisions\"), dict)\nassert isinstance(artifact.get(\"historical\"), dict)\nassert isinstance(artifact.get(\"unanswered\"), list)\nassert all(isinstance(x, str) for x in artifact[\"unanswered\"])\nassert isinstance(artifact.get(\"evidence\"), list)\nassert all(isinstance(x, str) for x in artifact[\"evidence\"])\nprint(\"PASS: JSON structure and status enum; factual correctness not evaluated.\")\n"
+          }
+        }
+      ],
+      "gold": {
+        "artifact_path": "artifacts/result.json",
+        "required_checks": [
+          {
+            "argv": [
+              "python",
+              "tools/check.py",
+              "artifacts/result.json"
+            ],
+            "expected_exit": 0
+          }
+        ],
+        "critical_assertions": {
+          "status": "ready",
+          "decisions.accepted_label": "青灯",
+          "decisions.symbol": "λ",
+          "decisions.threshold": 8,
+          "decisions.scope": "local_json_only",
+          "decisions.external_release": false,
+          "historical.prior_label": "plain-lamp",
+          "historical.original_threshold": 4
+        },
+        "expected_artifact": {
+          "status": "ready",
+          "decisions": {
+            "accepted_label": "青灯",
+            "symbol": "λ",
+            "threshold": 8,
+            "scope": "local_json_only",
+            "external_release": false
+          },
+          "historical": {
+            "prior_label": "plain-lamp",
+            "original_threshold": 4
+          },
+          "unanswered": [],
+          "evidence": [
+            "R801",
+            "R802"
+          ]
+        },
+        "required_source_ids": [
+          "R801",
+          "R802"
+        ],
+        "rationale": "An exact-character UTF-8 transport diagnostic, with a separately retained threshold correction and explicit status/citation syntax. Checks structure only; gold independently checks all governing values and local scope. Not part of the frozen 86-job corpus.",
+        "expected_abstention": false
+      }
+    }
+  ]
+}

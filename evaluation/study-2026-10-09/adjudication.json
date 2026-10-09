@@ -1,0 +1,1440 @@
+{
+  "check_events": {
+    "all_required_modes_supplied_to_later_call": 75,
+    "artifact_write_events": 127,
+    "executed": 194,
+    "exit_zero": 194,
+    "later_receipt_is_inspection_proxy": true
+  },
+  "clean_finish_definition": "Given gate passes AND termination == reader_done AND infrastructure_error is null; later-result proxy is reported separately.",
+  "focused_question_review": {
+    "T049": {
+      "basis": "Explicitly asks which signed instruction governs, identifies R512 seven days versus R513 eleven days, and requests the ordering/precedence rule; held retention remains null and pruning false.",
+      "source_ids": [
+        "R512",
+        "R513",
+        "R515"
+      ]
+    }
+  },
+  "frozen_complete_task_failures": [
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "artifact_written": true,
+      "case_id": "H5-archive",
+      "condition": "explicit_eligibility",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "status_label_convention",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T003"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "artifact_written": true,
+      "case_id": "H3-rota",
+      "condition": "fixed_chunks",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "status_label_convention",
+      "regime": "matched",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T014"
+    },
+    {
+      "applied_rules": [
+        "valid_section_citation"
+      ],
+      "artifact_written": true,
+      "case_id": "h8_quillspan",
+      "condition": "prose_obligations",
+      "frozen_citation_complete": false,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [],
+      "frozen_wrong_field_paths": [],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "citation_format_convention",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T023"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "artifact_written": true,
+      "case_id": "H3-parcel",
+      "condition": "coherent_capsules",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "status_label_convention",
+      "regime": "matched",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T024"
+    },
+    {
+      "applied_rules": [],
+      "artifact_written": false,
+      "case_id": "h2_northcanal",
+      "condition": "generic_headers",
+      "frozen_citation_complete": false,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "config.concession_count",
+        "config.identity_fields",
+        "history.shortcut_disposition"
+      ],
+      "frozen_wrong_field_paths": [
+        "config.concession_count",
+        "config.identity_fields",
+        "config.reissue_rule",
+        "history.shortcut_disposition",
+        "history.shortcut_record",
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": false,
+      "primary_class": "resource_no_write",
+      "regime": "matched",
+      "remaining_required_source_ids_missing": [
+        "NC-01",
+        "NC-02",
+        "NC-03",
+        "NC-04"
+      ],
+      "remaining_wrong_field_paths": [
+        "config.concession_count",
+        "config.identity_fields",
+        "config.reissue_rule",
+        "history.shortcut_disposition",
+        "history.shortcut_record",
+        "status"
+      ],
+      "sensitivity_complete_task": false,
+      "termination": "resource_cap",
+      "trial_id": "T027"
+    },
+    {
+      "applied_rules": [
+        "supported_historical_annotations"
+      ],
+      "artifact_written": true,
+      "case_id": "H7-spindle",
+      "condition": "dependency_links",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [],
+      "frozen_wrong_field_paths": [
+        "historical"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "supported_extra_annotation",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T028"
+    },
+    {
+      "applied_rules": [
+        "supported_historical_annotations"
+      ],
+      "artifact_written": true,
+      "case_id": "H7-raster",
+      "condition": "dependency_links",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [],
+      "frozen_wrong_field_paths": [
+        "historical"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "supported_extra_annotation",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T039"
+    },
+    {
+      "applied_rules": [
+        "valid_section_citation"
+      ],
+      "artifact_written": true,
+      "case_id": "h8_ternwick",
+      "condition": "structured_obligations",
+      "frozen_citation_complete": false,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [],
+      "frozen_wrong_field_paths": [],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "citation_format_convention",
+      "regime": "matched",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T042"
+    },
+    {
+      "applied_rules": [
+        "valid_section_citation"
+      ],
+      "artifact_written": true,
+      "case_id": "h1_sablefin",
+      "condition": "linked_current",
+      "frozen_citation_complete": false,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "config.jitter_ms"
+      ],
+      "frozen_wrong_field_paths": [
+        "config.jitter_ms"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "stale_correction_error",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [
+        "SA-04"
+      ],
+      "remaining_wrong_field_paths": [
+        "config.jitter_ms"
+      ],
+      "sensitivity_complete_task": false,
+      "termination": "reader_done",
+      "trial_id": "T043"
+    },
+    {
+      "applied_rules": [
+        "semantic_focused_blocker"
+      ],
+      "artifact_written": true,
+      "case_id": "H5-ledger",
+      "condition": "generic_headers",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "focused_question_or_empty"
+      ],
+      "frozen_wrong_field_paths": [],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "focused_question_lexical_proxy",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T049"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "artifact_written": true,
+      "case_id": "H3-parcel",
+      "condition": "fixed_chunks",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "status_label_convention",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T054"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "artifact_written": true,
+      "case_id": "H3-parcel",
+      "condition": "fixed_chunks",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "status_label_convention",
+      "regime": "matched",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T056"
+    },
+    {
+      "applied_rules": [
+        "valid_section_citation"
+      ],
+      "artifact_written": true,
+      "case_id": "h1_orris",
+      "condition": "linked_current",
+      "frozen_citation_complete": false,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [],
+      "frozen_wrong_field_paths": [],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "citation_format_convention",
+      "regime": "matched",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T059"
+    },
+    {
+      "applied_rules": [
+        "valid_section_citation"
+      ],
+      "artifact_written": true,
+      "case_id": "h8_citrine",
+      "condition": "prose_obligations",
+      "frozen_citation_complete": false,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [],
+      "frozen_wrong_field_paths": [],
+      "onboarding": "no_entry",
+      "post_write_checks_pass": true,
+      "primary_class": "citation_format_convention",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T064"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "artifact_written": true,
+      "case_id": "H3-parcel",
+      "condition": "coherent_capsules",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "status_label_convention",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T065"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "artifact_written": true,
+      "case_id": "H5-archive",
+      "condition": "generic_headers",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "status_label_convention",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T068"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "artifact_written": true,
+      "case_id": "H3-rota",
+      "condition": "coherent_capsules",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "status_label_convention",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T070"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "artifact_written": true,
+      "case_id": "H5-archive",
+      "condition": "generic_headers",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "status_label_convention",
+      "regime": "matched",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T079"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "artifact_written": true,
+      "case_id": "H3-rota",
+      "condition": "fixed_chunks",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "status_label_convention",
+      "regime": "fidelity_first",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T081"
+    },
+    {
+      "applied_rules": [],
+      "artifact_written": false,
+      "case_id": "H5-archive",
+      "condition": "explicit_eligibility",
+      "frozen_citation_complete": false,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "decisions.bundle_format",
+        "decisions.external_publication",
+        "decisions.image_sample_exception_applies",
+        "decisions.include_index",
+        "decisions.late_import_reverses_change",
+        "decisions.proposal_approved",
+        "historical.original_bundle_format",
+        "historical.original_include_index",
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "decisions.bundle_format",
+        "decisions.external_publication",
+        "decisions.image_sample_exception_applies",
+        "decisions.include_index",
+        "decisions.late_import_reverses_change",
+        "decisions.proposal_approved",
+        "historical.original_bundle_format",
+        "historical.original_include_index",
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": false,
+      "primary_class": "infrastructure_no_write",
+      "regime": "matched",
+      "remaining_required_source_ids_missing": [
+        "R502",
+        "R503",
+        "R504",
+        "R505",
+        "R506"
+      ],
+      "remaining_wrong_field_paths": [
+        "decisions.bundle_format",
+        "decisions.external_publication",
+        "decisions.image_sample_exception_applies",
+        "decisions.include_index",
+        "decisions.late_import_reverses_change",
+        "decisions.proposal_approved",
+        "historical.original_bundle_format",
+        "historical.original_include_index",
+        "status"
+      ],
+      "sensitivity_complete_task": false,
+      "termination": "infrastructure_error",
+      "trial_id": "T082"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "artifact_written": true,
+      "case_id": "H3-rota",
+      "condition": "coherent_capsules",
+      "frozen_citation_complete": true,
+      "frozen_complete_task": false,
+      "frozen_critical_error_paths": [
+        "status"
+      ],
+      "frozen_wrong_field_paths": [
+        "status"
+      ],
+      "onboarding": "unbriefed",
+      "post_write_checks_pass": true,
+      "primary_class": "status_label_convention",
+      "regime": "matched",
+      "remaining_required_source_ids_missing": [],
+      "remaining_wrong_field_paths": [],
+      "sensitivity_complete_task": true,
+      "termination": "reader_done",
+      "trial_id": "T084"
+    }
+  ],
+  "frozen_failure_primary_class_counts": {
+    "citation_format_convention": 4,
+    "focused_question_lexical_proxy": 1,
+    "infrastructure_no_write": 1,
+    "resource_no_write": 1,
+    "stale_correction_error": 1,
+    "status_label_convention": 11,
+    "supported_extra_annotation": 2
+  },
+  "frozen_scores_unchanged": true,
+  "input_sha256": {
+    "cases.json": "1f2fb4ee692b9b048a0ff26ad882055ea249329173d95cde2057485a91e3daf2",
+    "followup-freeze.json": "004f123fb0dd6d44207ae25f3b2fb68f7009cbda464108d5e23c0e2174d0edc0",
+    "followup-plan.md": "31454d1f4462436b2a5a5ddcbbb7b8d9a046c51033fe8e8eedd088b14ab9b69d",
+    "followup-results.json": "66e74e64db098038e2e66eb451733a2953f9df88f05e2ac9fbc8a1e9d58c757b",
+    "freeze.json": "bb0d4fff95aeedc4601c8d7e634c51bad70accc1ef295803b194ec170bc1eec1",
+    "maintenance-results.json": "f3e351690b02455ef0ac5cddbcaea63027a85a5eb3a28e2abdd87503c449083b",
+    "results.json": "fdfc9f7baf67830adf3287ba4984bb65865c96c2975a7ce84b55a7d8fd5060e0",
+    "run_followup.py": "bee0eaa8a47827ea53e2ca0fc34a6dff27da0ef3ba1aae7b80f6dd15673a49e0",
+    "run_study.py": "21502b95356c1f35dbd8086cdc7cab2e764ee26c19186cf7dbacb103dacf3484",
+    "secondary-cases.json": "cf160aaba2f19e87c70c00a191351c929862d1de97d7d9ae57e17bd410be695b",
+    "stdio-encoding-diagnostic.json": "09d7c80ad9a26621309fb8dec51c8673ce714b9a5fc4ac68c537481854ddeea8",
+    "unicode-case.json": "0cb3df8a1c3bc45f7e3c8fbfc38bedbdeecc2db398100a7ac8679000dcbe4226"
+  },
+  "limits": [
+    "Post hoc semantic judgments are unblinded and corpus-specific; not replacement scoring.",
+    "18 authored families, two LLM authors, crossed budgets and repeated calls do not form independent population samples.",
+    "No supplied PARA/other-trial history and fresh local sessions do not prove provider erasure/unfamiliarity or every system-prefix/OS-read byte.",
+    "Host prompt hash covers intended UTF-8, not adapter-decoded input; CP1252 transport defect remains in frozen study.",
+    "Actual T013 byte0x97 evidence is separate from unclassified nonzero T053/T082 exits.",
+    "H4/H6 are engineered staged-file policy mechanics, not production impact or LLM-effect validation."
+  ],
+  "metrics": {
+    "all": {
+      "artifact_written": 84,
+      "exact_citation_gate_pass": 79,
+      "frozen_clean_finish": 62,
+      "frozen_complete_task": 65,
+      "full_required_original_read_proxy": 85,
+      "later_check_receipt_proxy": 75,
+      "n": 86,
+      "post_write_checks_pass": 84,
+      "sensitivity_clean_finish": 80,
+      "sensitivity_complete_task": 83
+    },
+    "exploratory_onboarding": {
+      "artifact_written": 6,
+      "exact_citation_gate_pass": 5,
+      "frozen_clean_finish": 5,
+      "frozen_complete_task": 5,
+      "full_required_original_read_proxy": 6,
+      "later_check_receipt_proxy": 6,
+      "n": 6,
+      "post_write_checks_pass": 6,
+      "sensitivity_clean_finish": 6,
+      "sensitivity_complete_task": 6
+    },
+    "principal_unbriefed": {
+      "artifact_written": 78,
+      "exact_citation_gate_pass": 74,
+      "frozen_clean_finish": 57,
+      "frozen_complete_task": 60,
+      "full_required_original_read_proxy": 79,
+      "later_check_receipt_proxy": 69,
+      "n": 80,
+      "post_write_checks_pass": 78,
+      "sensitivity_clean_finish": 74,
+      "sensitivity_complete_task": 77
+    }
+  },
+  "post_hoc_rules": {
+    "semantic_focused_blocker": "A required hold plus explicit identification/request of the actual missing authority or prerequisite can pass without the lexical proxy keyword.",
+    "status_label_equivalence": "Only complete->ready in non-abstaining secondary tasks/checkers specifying a string without an explicit ready convention; retain every other gate.",
+    "supported_historical_annotations": "Allow notes in an expected empty historical object only after retained-source support and noncontradiction review.",
+    "valid_section_citation": "Recognize ID:S<number> only if retained original ID and exact section exist; still require all governing IDs."
+  },
+  "protocol_exceptions": [
+    {
+      "frozen_complete_task": true,
+      "infrastructure_error": "TypeError: the JSON object must be str, bytes or bytearray, not NoneType",
+      "reader_later_check_receipt_proxy": true,
+      "sensitivity_complete_task": true,
+      "termination": "infrastructure_error",
+      "trial_id": "T013"
+    },
+    {
+      "frozen_complete_task": false,
+      "infrastructure_error": null,
+      "reader_later_check_receipt_proxy": false,
+      "sensitivity_complete_task": false,
+      "termination": "resource_cap",
+      "trial_id": "T027"
+    },
+    {
+      "frozen_complete_task": true,
+      "infrastructure_error": "RuntimeError: Reader process returned nonzero exit",
+      "reader_later_check_receipt_proxy": false,
+      "sensitivity_complete_task": true,
+      "termination": "infrastructure_error",
+      "trial_id": "T053"
+    },
+    {
+      "frozen_complete_task": true,
+      "infrastructure_error": null,
+      "reader_later_check_receipt_proxy": false,
+      "sensitivity_complete_task": true,
+      "termination": "turn_cap",
+      "trial_id": "T073"
+    },
+    {
+      "frozen_complete_task": false,
+      "infrastructure_error": "RuntimeError: Reader process returned nonzero exit",
+      "reader_later_check_receipt_proxy": false,
+      "sensitivity_complete_task": false,
+      "termination": "infrastructure_error",
+      "trial_id": "T082"
+    }
+  ],
+  "reconstruction": {
+    "checks": [
+      "job identity and frozen hashes",
+      "expected fields and critical assertions",
+      "original lexical focus rubric",
+      "exact sufficient-ID citation subsets",
+      "final artifact writes and logical LF hashes",
+      "physical CRLF check hashes and authorized post-final-write results",
+      "successful original full reads",
+      "returned-byte accounting and call/action caps",
+      "combined frozen score gates"
+    ],
+    "inconsistencies_found": 0,
+    "scheduled_unique_trials": 86
+  },
+  "recorded_accepted_call_controls": {
+    "calls": 553,
+    "coverage": "Recorded accepted-call claims; not an independent provider/OS trace. Missing failed-call usage is not zero.",
+    "forbidden_virtual_attempts": 0,
+    "forbidden_virtual_executions": 0,
+    "internal_upstream_requests": 1013,
+    "model": "muse-spark-1.3-contributor",
+    "native_session_bookkeeping_calls": 372,
+    "reasoning_effort": "high",
+    "recorded_conformance_issues": 0,
+    "verified_unavailable_native_attempts": 213
+  },
+  "reviewer_role": "Secondary fixture author and separate audit agent; not blind or independent human adjudication.",
+  "schema_version": 1,
+  "scope": "Public fictional final pilot only; no model/native calls during audit; no changes to frozen gold, scoring, runner, inputs or results.",
+  "selected_followup_audit": {
+    "accepted_reader_calls": 33,
+    "all_actual_post_final_write_checks": true,
+    "all_later_result_receipt_proxies": true,
+    "all_reader_done_without_infrastructure_error": true,
+    "all_required_citations": true,
+    "all_written_gold_fields_match": true,
+    "bookkeeping_calls": 20,
+    "forbidden_virtual_operations": 0,
+    "limits": [
+      "Selected after main outcomes; Sablefin not held out.",
+      "No causal isolation of transport, reader variation, prior service exposure or changed concurrency.",
+      "Public freeze does not pin private adapter or command file; native binary hash is not adapter-code hash.",
+      "No caller-to-upstream prompt-digest comparison or per-call stdio-encoding receipt; exact artifact recovery is functional evidence only."
+    ],
+    "pooled_with_main": false,
+    "public_input_hashes_checked": 7,
+    "reasoning_effort": "high",
+    "reconstruction_issues": 0,
+    "recorded_model": "muse-spark-1.3-contributor",
+    "sablefin_jitter_values": {
+      "D001": 0,
+      "D002": 0,
+      "D003": 0
+    },
+    "trials": 4,
+    "unicode_artifact_values": {
+      "D004": {
+        "accepted_label": "\u9752\u706f",
+        "original_threshold": 4,
+        "symbol": "\u03bb",
+        "threshold": 8
+      }
+    },
+    "verified_unavailable_native_attempts": 3
+  },
+  "source_use_counterexample": {
+    "artifact_write_events": 3,
+    "first_write_at_turn": 5,
+    "full_correction_read_at_turn": 4,
+    "governing_source": "SA-04:S2",
+    "interpretation": "Artifact matches stale view despite reading correction; anchoring is inference, not observed internal reasoning. Local artifact only, no publication/deployment.",
+    "missing_governing_citation": "SA-04",
+    "required_value": 0,
+    "stale_view_reread_at_turn": 6,
+    "successful_structural_checks": 7,
+    "trial_id": "T043",
+    "written_jitter_ms": 200
+  },
+  "status": "completed independent reconstruction; unblinded post hoc adjudication",
+  "supported_extra_annotation_source_map": {
+    "T028": {
+      "historical.rejected_ordering": [
+        "R704"
+      ],
+      "historical.rejected_treatment": [
+        "R704"
+      ],
+      "historical.vitrine_mockup": [
+        "R705"
+      ]
+    },
+    "T039": {
+      "historical.calibration": [
+        "R711",
+        "R712",
+        "R715"
+      ],
+      "historical.grid_approval": [
+        "R711",
+        "R712"
+      ]
+    }
+  },
+  "trial_adjudications": [
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T001"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T002"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T003"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T004"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T005"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T006"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T007"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T008"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T009"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T010"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T011"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T012"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": false,
+      "sensitivity_complete_task": true,
+      "trial_id": "T013"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T014"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T015"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T016"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T017"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T018"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T019"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T020"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T021"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T022"
+    },
+    {
+      "applied_rules": [
+        "valid_section_citation"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T023"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T024"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T025"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T026"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": false,
+      "sensitivity_complete_task": false,
+      "trial_id": "T027"
+    },
+    {
+      "applied_rules": [
+        "supported_historical_annotations"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T028"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T029"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T030"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T031"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T032"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T033"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T034"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T035"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T036"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T037"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T038"
+    },
+    {
+      "applied_rules": [
+        "supported_historical_annotations"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T039"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T040"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T041"
+    },
+    {
+      "applied_rules": [
+        "valid_section_citation"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T042"
+    },
+    {
+      "applied_rules": [
+        "valid_section_citation"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": false,
+      "sensitivity_complete_task": false,
+      "trial_id": "T043"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T044"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T045"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T046"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T047"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T048"
+    },
+    {
+      "applied_rules": [
+        "semantic_focused_blocker"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T049"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T050"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T051"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T052"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": false,
+      "sensitivity_complete_task": true,
+      "trial_id": "T053"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T054"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T055"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T056"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T057"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T058"
+    },
+    {
+      "applied_rules": [
+        "valid_section_citation"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T059"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T060"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T061"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T062"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T063"
+    },
+    {
+      "applied_rules": [
+        "valid_section_citation"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T064"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T065"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T066"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T067"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T068"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T069"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T070"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T071"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T072"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": false,
+      "sensitivity_complete_task": true,
+      "trial_id": "T073"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T074"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T075"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T076"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T077"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T078"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T079"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T080"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T081"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": false,
+      "sensitivity_complete_task": false,
+      "trial_id": "T082"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T083"
+    },
+    {
+      "applied_rules": [
+        "status_label_equivalence"
+      ],
+      "frozen_complete_task": false,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T084"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T085"
+    },
+    {
+      "applied_rules": [],
+      "frozen_complete_task": true,
+      "sensitivity_clean_finish": true,
+      "sensitivity_complete_task": true,
+      "trial_id": "T086"
+    }
+  ]
+}

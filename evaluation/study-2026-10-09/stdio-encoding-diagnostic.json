@@ -1,0 +1,288 @@
+{
+  "scope": "offline stdio and public fictional fixture Unicode audit; no native runtime or model calls",
+  "model_calls": 0,
+  "native_calls": 0,
+  "frozen_adapter_or_runner_modified": false,
+  "inherited_pythonioencoding": null,
+  "default_child_stdio": {
+    "stdin_encoding": "cp1252",
+    "stdin_errors": "surrogateescape",
+    "stdout_encoding": "cp1252",
+    "stdout_errors": "surrogateescape",
+    "utf8_mode": 0
+  },
+  "synthetic_input": {
+    "intended_codepoints": [
+      "U+0041",
+      "U+0053",
+      "U+0043",
+      "U+0049",
+      "U+0049",
+      "U+003B",
+      "U+0020",
+      "U+0063",
+      "U+0075",
+      "U+0072",
+      "U+006C",
+      "U+0079",
+      "U+0020",
+      "U+2019",
+      "U+003B",
+      "U+0020",
+      "U+0065",
+      "U+006D",
+      "U+0020",
+      "U+2014",
+      "U+003B",
+      "U+0020",
+      "U+006E",
+      "U+006F",
+      "U+006E",
+      "U+004C",
+      "U+0061",
+      "U+0074",
+      "U+0069",
+      "U+006E",
+      "U+0020",
+      "U+4E2D",
+      "U+6587",
+      "U+003B",
+      "U+0020",
+      "U+0061",
+      "U+0063",
+      "U+0063",
+      "U+0065",
+      "U+006E",
+      "U+0074",
+      "U+0065",
+      "U+0064",
+      "U+0020",
+      "U+00E9"
+    ],
+    "parsed_codepoints": [
+      "U+0041",
+      "U+0053",
+      "U+0043",
+      "U+0049",
+      "U+0049",
+      "U+003B",
+      "U+0020",
+      "U+0063",
+      "U+0075",
+      "U+0072",
+      "U+006C",
+      "U+0079",
+      "U+0020",
+      "U+00E2",
+      "U+20AC",
+      "U+2122",
+      "U+003B",
+      "U+0020",
+      "U+0065",
+      "U+006D",
+      "U+0020",
+      "U+00E2",
+      "U+20AC",
+      "U+201D",
+      "U+003B",
+      "U+0020",
+      "U+006E",
+      "U+006F",
+      "U+006E",
+      "U+004C",
+      "U+0061",
+      "U+0074",
+      "U+0069",
+      "U+006E",
+      "U+0020",
+      "U+00E4",
+      "U+00B8",
+      "U+00AD",
+      "U+00E6",
+      "U+2013",
+      "U+2021",
+      "U+003B",
+      "U+0020",
+      "U+0061",
+      "U+0063",
+      "U+0063",
+      "U+0065",
+      "U+006E",
+      "U+0074",
+      "U+0065",
+      "U+0064",
+      "U+0020",
+      "U+00C3",
+      "U+00A9"
+    ],
+    "intended_equals_parsed": false
+  },
+  "default_unicode_output": {
+    "curly_apostrophe": {
+      "child_exit": 0,
+      "stdout_hex": "7b2274657874223a202292227d",
+      "valid_utf8": false,
+      "error": "UnicodeDecodeError",
+      "offending_byte_hex": "92",
+      "byte_offset": 10
+    },
+    "em_dash": {
+      "child_exit": 0,
+      "stdout_hex": "7b2274657874223a202297227d",
+      "valid_utf8": false,
+      "error": "UnicodeDecodeError",
+      "offending_byte_hex": "97",
+      "byte_offset": 10
+    },
+    "non_latin": {
+      "child_exit": 1,
+      "stdout_hex": "",
+      "child_error": "UnicodeEncodeError",
+      "valid_utf8": true,
+      "exact_unicode_roundtrip": false
+    }
+  },
+  "process_local_utf8_control": {
+    "stdin_encoding": "utf-8",
+    "stdout_encoding": "utf-8",
+    "input_roundtrip_exact": true,
+    "unicode_output": {
+      "child_exit": 0,
+      "stdout_hex": "7b2274657874223a202241534349493b206375726c7920e280993b20656d20e280943b206e6f6e4c6174696e20e4b8ade696873b20616363656e74656420c3a9227d",
+      "valid_utf8": true,
+      "exact_unicode_roundtrip": true
+    }
+  },
+  "fictional_task_input_fidelity": {
+    "case": "h1_rindle",
+    "intended_prompt_sha256": "af6c15d74b8b37892ea497f8060b922dd08e3176993368cff36c27dafd39e585",
+    "adapter_equivalent_parsed_prompt_sha256": "38a6551e015bb32cb88e42c2d36ec291c927e81089b0083fa1507706a2385416",
+    "intended_equals_parsed": false,
+    "intended_curly_apostrophes": 2,
+    "parsed_mojibake_sequences": 2
+  },
+  "fixture_unicode_audit": {
+    "cases": 18,
+    "condition_arms": 40,
+    "tasks_with_unicode": 11,
+    "task_rows": [
+      {
+        "case": "h1_glassmere",
+        "unicode_count": 1
+      },
+      {
+        "case": "h1_rindle",
+        "unicode_count": 2
+      },
+      {
+        "case": "h1_sablefin",
+        "unicode_count": 2
+      },
+      {
+        "case": "h1_orris",
+        "unicode_count": 1
+      },
+      {
+        "case": "h2_emberhall",
+        "unicode_count": 1
+      },
+      {
+        "case": "h2_bracken",
+        "unicode_count": 2
+      },
+      {
+        "case": "h2_morroway",
+        "unicode_count": 1
+      },
+      {
+        "case": "h8_citrine",
+        "unicode_count": 2
+      },
+      {
+        "case": "h8_quillspan",
+        "unicode_count": 2
+      },
+      {
+        "case": "h8_ternwick",
+        "unicode_count": 2
+      },
+      {
+        "case": "h8_feldglass",
+        "unicode_count": 2
+      }
+    ],
+    "condition_file_rows": [
+      {
+        "case": "h1_rindle",
+        "condition": "unlinked_current",
+        "path": "current.md",
+        "unicode_count": 1
+      },
+      {
+        "case": "h1_rindle",
+        "condition": "linked_current",
+        "path": "current.md",
+        "unicode_count": 1
+      },
+      {
+        "case": "h1_sablefin",
+        "condition": "source_only",
+        "path": "records/31.md",
+        "unicode_count": 1
+      },
+      {
+        "case": "h1_sablefin",
+        "condition": "unlinked_current",
+        "path": "records/31.md",
+        "unicode_count": 1
+      },
+      {
+        "case": "h1_sablefin",
+        "condition": "linked_current",
+        "path": "records/31.md",
+        "unicode_count": 1
+      }
+    ],
+    "all_gold_string_keys_and_values_ascii": true,
+    "gold_unicode_rows": [],
+    "unicode_codepoints": [
+      {
+        "codepoint": "U+2019",
+        "name": "RIGHT SINGLE QUOTATION MARK",
+        "count_one_task_per_case_plus_all_condition_files": 23
+      }
+    ]
+  },
+  "interpretation": [
+    "The host prompt SHA256 covers intended UTF-8 text, not the adapter-decoded upstream prompt.",
+    "Same-call unchanged-user-input receipts establish consistency of the decoded input across internal rounds, not intended-prompt fidelity.",
+    "ASCII gold truth fields reduce direct target-value encoding exposure but do not establish harmlessness for reading, decisions, lexical search or token costs.",
+    "Frozen study retains this confound; UTF-8 corrected follow-up must be a separately declared sensitivity phase."
+  ],
+  "python_x_utf8_control": {
+    "scope": "offline hidden child with Python -X utf8; no native runtime or model inference; adapter source unchanged",
+    "portable_reader_command_pattern": [
+      "python",
+      "-X",
+      "utf8",
+      "<reader_adapter.py>"
+    ],
+    "input_output_contract": "json.load(sys.stdin) then print(json.dumps(value, ensure_ascii=False)); caller supplies and decodes UTF-8",
+    "sample_codepoints": [
+      "U+2019",
+      "U+2014",
+      "U+4E2D",
+      "U+6587",
+      "U+00E9"
+    ],
+    "child_exit": 0,
+    "utf8_mode": 1,
+    "stdin_encoding": "utf-8",
+    "stdout_encoding": "utf-8",
+    "input_output_unicode_roundtrip_exact": true,
+    "adapter_source_unchanged": true,
+    "native_calls": 0,
+    "model_calls": 0,
+    "limitation": "This verifies stdio transport for the named Unicode sample, not reader accuracy, provider memory, arbitrary byte sequences or a scored trial. Main frozen results retain the original encoding condition; corrected trials must be labeled as a separate follow-up."
+  }
+}

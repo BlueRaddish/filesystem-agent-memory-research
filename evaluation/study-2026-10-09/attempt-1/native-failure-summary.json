@@ -1,0 +1,24 @@
+{
+  "receipt_count": 25,
+  "termination_counts": {
+    "infrastructure_error": 25
+  },
+  "accepted_reader_calls": 0,
+  "collection_event_count": 0,
+  "launched_trial_directories": 28,
+  "private_runtime_counts": {
+    "pre_amendment_full_collection_call_logs": 28,
+    "logs_with_bookkeeping": 23,
+    "logs_with_other_native_attempts": 5
+  },
+  "observed_native_attempt_counts": {
+    "write_todos": 23,
+    "muse.list": 5
+  },
+  "host_integrity_counts": {
+    "host_auth_metadata_unchanged:true": 28,
+    "host_settings_sha256_unchanged:true": 28,
+    "temporary_auth_link_removed:true": 28
+  },
+  "note": "Read-only abort snapshot; no failed trial replaced by this audit."
+}

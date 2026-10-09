@@ -1,0 +1,66 @@
+{
+  "actions": 19,
+  "all_controls_verified": true,
+  "artifact_written": true,
+  "check_exits": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "complete_task": true,
+  "condition": "source_only",
+  "effort": "high",
+  "elapsed_seconds": 184.884,
+  "fixture": "h1_glassmere",
+  "forbidden_attempts": 0,
+  "native_attempt_names": [
+    [
+      "write_todos"
+    ],
+    [
+      "write_todos"
+    ],
+    [
+      "write_todos"
+    ],
+    [
+      "write_todos"
+    ],
+    [],
+    [
+      "write_todos"
+    ],
+    [
+      "write_todos"
+    ],
+    []
+  ],
+  "native_failed_unavailable_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "native_request_counts": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    1
+  ],
+  "original_full_reads": 5,
+  "post_write_checks_pass": true,
+  "reader_saw_post_write_check": true,
+  "semantic_artifact_correct": true,
+  "termination": "reader_done",
+  "unscored": true,
+  "note": "Unscored setup-exposed family; not an independent held-out result. Raw native logs are excluded."
+}

@@ -1,0 +1,1370 @@
+{
+  "schema_version": 1,
+  "status": "authored fictional secondary fixtures; no reader or model results in this file",
+  "privacy": "Every record, organization, event, name, date and artifact is wholly invented. No personal memory, private session or PARA data was used.",
+  "experimental_unit": "Matched task-family block. Conditions within a block share originals, task, structural check and reader tools. Six engineered families are mechanism coverage, not independently validated general performance.",
+  "evaluation_notes": {
+    "critical_assertions": "Dot paths address the JSON artifact. Compare JSON values at each path; missing critical paths fail.",
+    "evidence": "required_source_ids is a required subset of artifact.evidence, not an exact list. Extra IDs do not fail by themselves. If valid_source_sets is present, any complete set suffices.",
+    "expected_artifact": "Illustrates correct content. Do not exact-match evidence ordering or natural-language unanswered strings. expected_abstention is separately judged from status and null decision assertions.",
+    "verification": "Observe the required command after the artifact write with expected exit status. Structural PASS is not task-correctness proof.",
+    "freshness": "Stage only one condition's files plus its generic task. Do not expose this evaluator file, builders, prior outputs, original repository, schema briefing or provider memory. Enforce controls rather than relying on a prompt.",
+    "maintenance": "maintenance_cases are deterministic engineered event traces. Do not count them as reader trials or evidence of LLM benefit."
+  },
+  "cases": [
+    {
+      "id": "H3-parcel",
+      "family": "Brindle Parcel",
+      "hypothesis": "H3",
+      "task": "Recover the replacement manifest decision for Brindle Parcel and create a JSON handoff artifact. In decisions record separator, header, sample_rows as arrays of [name, quantity], prior_verification as passed or failed, external_publication as a boolean, and legacy_exception_applies as a boolean. In historical record original_separator and original_header.\nWrite artifacts/result.json with keys status (string), decisions (object), historical (object), unanswered (array of strings), and evidence (array of governing source IDs). Discover the source collection without changing it. Include any genuinely unresolved detail in unanswered. Run python tools/check.py artifacts/result.json after writing, inspect its result, and report the verification limits. The check validates structure only. You are authorized to create this local artifact and run the local structural check.",
+      "conditions": [
+        {
+          "id": "fixed_chunks",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/sources/R301.md": "# Record R301\n\n01: Project Brindle Parcel creates a local manifest for the agreed sample.\n02: Original user approval: separator comma; include a header row.\n03: Sample records in order are fern quantity 3, pearl quantity 2, and umber quantity 7.\n",
+            "memory/sources/R302.md": "# Record R302\n\n01: The first local draft used the original comma format.\n02: Assistant: the draft passed validation.\n03: Observed tool output: exit 1; the quantity for umber was 6, while the agreed value is 7.\n",
+            "memory/sources/R303.md": "# Record R303\n\n01: At the next handoff the user asked for a replacement manifest.\n02: User correction: for the replacement use the caret character ^ between name and quantity.\n03: The correction also says omit the header row and preserve the original sample order.\n04: Assistant: the previous validation passed, so I can reuse that output.\n05: User response: the recorded failure still stands; do not call that old draft verified.\n",
+            "memory/sources/R304.md": "# Record R304\n\n01: The archived specimen called museum-alpha keeps a semicolon separator and a header.\n02: That exception applies only to museum-alpha; it does not apply to the replacement Brindle Parcel manifest.\n",
+            "memory/sources/R305.md": "# Record R305\n\n01: Authorization permits writing and structurally inspecting local JSON describing the replacement.\n02: No upload or external publication is authorized.\n03: No business retention duration has been decided.\n",
+            "memory/index.md": "# Source passage index\n\nAll original records remain under sources/. Entries reproduce original source words.\n\n## Unit 1\n\nR301:01: Project Brindle Parcel creates a local manifest for the agreed sample.\nR301:02: Original user approval: separator comma; include a header row.\nR301:03: Sample records in order are fern quantity 3, pearl quantity 2, and umber quantity 7.\n\n## Unit 2\n\nR302:01: The first local draft used the original comma format.\nR302:02: Assistant: the draft passed validation.\nR302:03: Observed tool output: exit 1; the quantity for umber was 6, while the agreed value is 7.\n\n## Unit 3\n\nR303:01: At the next handoff the user asked for a replacement manifest.\nR303:02: User correction: for the replacement use the caret character ^ between name and quantity.\nR303:03: The correction also says omit the header row and preserve the original sample order.\n\n## Unit 4\n\nR303:04: Assistant: the previous validation passed, so I can reuse that output.\nR303:05: User response: the recorded failure still stands; do not call that old draft verified.\nR304:01: The archived specimen called museum-alpha keeps a semicolon separator and a header.\n\n## Unit 5\n\nR304:02: That exception applies only to museum-alpha; it does not apply to the replacement Brindle Parcel manifest.\nR305:01: Authorization permits writing and structurally inspecting local JSON describing the replacement.\nR305:02: No upload or external publication is authorized.\n\n## Unit 6\n\nR305:03: No business retention duration has been decided.\n"
+          }
+        },
+        {
+          "id": "coherent_capsules",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/sources/R301.md": "# Record R301\n\n01: Project Brindle Parcel creates a local manifest for the agreed sample.\n02: Original user approval: separator comma; include a header row.\n03: Sample records in order are fern quantity 3, pearl quantity 2, and umber quantity 7.\n",
+            "memory/sources/R302.md": "# Record R302\n\n01: The first local draft used the original comma format.\n02: Assistant: the draft passed validation.\n03: Observed tool output: exit 1; the quantity for umber was 6, while the agreed value is 7.\n",
+            "memory/sources/R303.md": "# Record R303\n\n01: At the next handoff the user asked for a replacement manifest.\n02: User correction: for the replacement use the caret character ^ between name and quantity.\n03: The correction also says omit the header row and preserve the original sample order.\n04: Assistant: the previous validation passed, so I can reuse that output.\n05: User response: the recorded failure still stands; do not call that old draft verified.\n",
+            "memory/sources/R304.md": "# Record R304\n\n01: The archived specimen called museum-alpha keeps a semicolon separator and a header.\n02: That exception applies only to museum-alpha; it does not apply to the replacement Brindle Parcel manifest.\n",
+            "memory/sources/R305.md": "# Record R305\n\n01: Authorization permits writing and structurally inspecting local JSON describing the replacement.\n02: No upload or external publication is authorized.\n03: No business retention duration has been decided.\n",
+            "memory/index.md": "# Source passage index\n\nAll original records remain under sources/. Entries reproduce original source words.\n\n## Unit 1\n\nR301:01: Project Brindle Parcel creates a local manifest for the agreed sample.\nR301:02: Original user approval: separator comma; include a header row.\nR301:03: Sample records in order are fern quantity 3, pearl quantity 2, and umber quantity 7.\n\n## Unit 2\n\nR302:01: The first local draft used the original comma format.\nR302:02: Assistant: the draft passed validation.\nR302:03: Observed tool output: exit 1; the quantity for umber was 6, while the agreed value is 7.\n\n## Unit 3\n\nR303:01: At the next handoff the user asked for a replacement manifest.\nR303:02: User correction: for the replacement use the caret character ^ between name and quantity.\nR303:03: The correction also says omit the header row and preserve the original sample order.\nR303:04: Assistant: the previous validation passed, so I can reuse that output.\nR303:05: User response: the recorded failure still stands; do not call that old draft verified.\n\n## Unit 4\n\nR304:01: The archived specimen called museum-alpha keeps a semicolon separator and a header.\nR304:02: That exception applies only to museum-alpha; it does not apply to the replacement Brindle Parcel manifest.\n\n## Unit 5\n\nR305:01: Authorization permits writing and structurally inspecting local JSON describing the replacement.\nR305:02: No upload or external publication is authorized.\nR305:03: No business retention duration has been decided.\n"
+          }
+        }
+      ],
+      "gold": {
+        "artifact_path": "artifacts/result.json",
+        "required_checks": [
+          {
+            "argv": [
+              "python",
+              "tools/check.py",
+              "artifacts/result.json"
+            ],
+            "expected_exit": 0
+          }
+        ],
+        "critical_assertions": {
+          "decisions.separator": "^",
+          "decisions.header": false,
+          "decisions.sample_rows": [
+            [
+              "fern",
+              3
+            ],
+            [
+              "pearl",
+              2
+            ],
+            [
+              "umber",
+              7
+            ]
+          ],
+          "decisions.prior_verification": "failed",
+          "decisions.external_publication": false,
+          "decisions.legacy_exception_applies": false,
+          "historical.original_separator": ",",
+          "historical.original_header": true,
+          "status": "ready"
+        },
+        "expected_artifact": {
+          "status": "ready",
+          "decisions": {
+            "separator": "^",
+            "header": false,
+            "sample_rows": [
+              [
+                "fern",
+                3
+              ],
+              [
+                "pearl",
+                2
+              ],
+              [
+                "umber",
+                7
+              ]
+            ],
+            "prior_verification": "failed",
+            "external_publication": false,
+            "legacy_exception_applies": false
+          },
+          "historical": {
+            "original_separator": ",",
+            "original_header": true
+          },
+          "unanswered": [],
+          "evidence": [
+            "R301",
+            "R302",
+            "R303",
+            "R304",
+            "R305"
+          ]
+        },
+        "required_source_ids": [
+          "R301",
+          "R303",
+          "R304",
+          "R305"
+        ],
+        "rationale": "The coherent arm keeps the correction and challenge to false verification together. The fixed index splits their event boundary; intact originals, source words, tools and task are retained. The archived exception is a distant dependency.",
+        "expected_abstention": false
+      }
+    },
+    {
+      "id": "H3-rota",
+      "family": "Drift Rota",
+      "hypothesis": "H3",
+      "task": "Recover the replacement rehearsal plan for Drift Rota and create a JSON handoff artifact. In decisions record slot_minutes, team_order as an array, prior_verification as passed or failed, publication as local_preview or public_calendar, and winter_exception_applies as a boolean. In historical record original_slot_minutes.\nWrite artifacts/result.json with keys status (string), decisions (object), historical (object), unanswered (array of strings), and evidence (array of governing source IDs). Discover the source collection without changing it. Include any genuinely unresolved detail in unanswered. Run python tools/check.py artifacts/result.json after writing, inspect its result, and report the verification limits. The check validates structure only. You are authorized to create this local artifact and run the local structural check.",
+      "conditions": [
+        {
+          "id": "fixed_chunks",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/sources/R311.md": "# Record R311\n\n01: Project Drift Rota prepares a local plan for the rehearsal.\n02: The original approved slot length was 15 minutes.\n03: Approved ordering is east team, west team, then north team.\n",
+            "memory/sources/R312.md": "# Record R312\n\n01: An assistant created an early plan and said it passed inspection.\n02: Observed tool output: exit 2; the west team was omitted.\n03: The early plan is not a verified result.\n",
+            "memory/sources/R313.md": "# Record R313\n\n01: The director later requested a replacement plan for the rehearsal.\n02: Director correction: each new rehearsal slot lasts 20 minutes.\n03: The replacement must include all three teams in the original order.\n04: Assistant proposed sending this plan to the public calendar.\n05: Director declined publication: create a local preview only.\n",
+            "memory/sources/R314.md": "# Record R314\n\n01: The old winter-demo uses 10 minute slots.\n02: The winter-demo exception is limited to that named archived demonstration.\n03: It does not alter the new Drift Rota rehearsal.\n",
+            "memory/sources/R315.md": "# Record R315\n\n01: A structural JSON inspection is authorized after the replacement is written.\n02: The new plan has not yet undergone an operational rehearsal.\n",
+            "memory/index.md": "# Source passage index\n\nAll original records remain under sources/. Entries reproduce original source words.\n\n## Unit 1\n\nR311:01: Project Drift Rota prepares a local plan for the rehearsal.\nR311:02: The original approved slot length was 15 minutes.\nR311:03: Approved ordering is east team, west team, then north team.\n\n## Unit 2\n\nR312:01: An assistant created an early plan and said it passed inspection.\nR312:02: Observed tool output: exit 2; the west team was omitted.\nR312:03: The early plan is not a verified result.\n\n## Unit 3\n\nR313:01: The director later requested a replacement plan for the rehearsal.\nR313:02: Director correction: each new rehearsal slot lasts 20 minutes.\nR313:03: The replacement must include all three teams in the original order.\n\n## Unit 4\n\nR313:04: Assistant proposed sending this plan to the public calendar.\nR313:05: Director declined publication: create a local preview only.\nR314:01: The old winter-demo uses 10 minute slots.\n\n## Unit 5\n\nR314:02: The winter-demo exception is limited to that named archived demonstration.\nR314:03: It does not alter the new Drift Rota rehearsal.\nR315:01: A structural JSON inspection is authorized after the replacement is written.\n\n## Unit 6\n\nR315:02: The new plan has not yet undergone an operational rehearsal.\n"
+          }
+        },
+        {
+          "id": "coherent_capsules",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/sources/R311.md": "# Record R311\n\n01: Project Drift Rota prepares a local plan for the rehearsal.\n02: The original approved slot length was 15 minutes.\n03: Approved ordering is east team, west team, then north team.\n",
+            "memory/sources/R312.md": "# Record R312\n\n01: An assistant created an early plan and said it passed inspection.\n02: Observed tool output: exit 2; the west team was omitted.\n03: The early plan is not a verified result.\n",
+            "memory/sources/R313.md": "# Record R313\n\n01: The director later requested a replacement plan for the rehearsal.\n02: Director correction: each new rehearsal slot lasts 20 minutes.\n03: The replacement must include all three teams in the original order.\n04: Assistant proposed sending this plan to the public calendar.\n05: Director declined publication: create a local preview only.\n",
+            "memory/sources/R314.md": "# Record R314\n\n01: The old winter-demo uses 10 minute slots.\n02: The winter-demo exception is limited to that named archived demonstration.\n03: It does not alter the new Drift Rota rehearsal.\n",
+            "memory/sources/R315.md": "# Record R315\n\n01: A structural JSON inspection is authorized after the replacement is written.\n02: The new plan has not yet undergone an operational rehearsal.\n",
+            "memory/index.md": "# Source passage index\n\nAll original records remain under sources/. Entries reproduce original source words.\n\n## Unit 1\n\nR311:01: Project Drift Rota prepares a local plan for the rehearsal.\nR311:02: The original approved slot length was 15 minutes.\nR311:03: Approved ordering is east team, west team, then north team.\n\n## Unit 2\n\nR312:01: An assistant created an early plan and said it passed inspection.\nR312:02: Observed tool output: exit 2; the west team was omitted.\nR312:03: The early plan is not a verified result.\n\n## Unit 3\n\nR313:01: The director later requested a replacement plan for the rehearsal.\nR313:02: Director correction: each new rehearsal slot lasts 20 minutes.\nR313:03: The replacement must include all three teams in the original order.\nR313:04: Assistant proposed sending this plan to the public calendar.\nR313:05: Director declined publication: create a local preview only.\n\n## Unit 4\n\nR314:01: The old winter-demo uses 10 minute slots.\nR314:02: The winter-demo exception is limited to that named archived demonstration.\nR314:03: It does not alter the new Drift Rota rehearsal.\n\n## Unit 5\n\nR315:01: A structural JSON inspection is authorized after the replacement is written.\nR315:02: The new plan has not yet undergone an operational rehearsal.\n"
+          }
+        }
+      ],
+      "gold": {
+        "artifact_path": "artifacts/result.json",
+        "required_checks": [
+          {
+            "argv": [
+              "python",
+              "tools/check.py",
+              "artifacts/result.json"
+            ],
+            "expected_exit": 0
+          }
+        ],
+        "critical_assertions": {
+          "decisions.slot_minutes": 20,
+          "decisions.team_order": [
+            "east",
+            "west",
+            "north"
+          ],
+          "decisions.prior_verification": "failed",
+          "decisions.publication": "local_preview",
+          "decisions.winter_exception_applies": false,
+          "historical.original_slot_minutes": 15,
+          "status": "ready"
+        },
+        "expected_artifact": {
+          "status": "ready",
+          "decisions": {
+            "slot_minutes": 20,
+            "team_order": [
+              "east",
+              "west",
+              "north"
+            ],
+            "prior_verification": "failed",
+            "publication": "local_preview",
+            "winter_exception_applies": false
+          },
+          "historical": {
+            "original_slot_minutes": 15
+          },
+          "unanswered": [],
+          "evidence": [
+            "R311",
+            "R312",
+            "R313",
+            "R314",
+            "R315"
+          ]
+        },
+        "required_source_ids": [
+          "R311",
+          "R312",
+          "R313",
+          "R314"
+        ],
+        "rationale": "The coherent index preserves correction, completeness condition and declined publication in one event. A distant archive exception and a false success claim remain in both stores.",
+        "expected_abstention": false
+      }
+    },
+    {
+      "id": "H5-archive",
+      "family": "Cinder Archive",
+      "hypothesis": "H5",
+      "task": "Prepare the current handoff for a new Cinder Archive bundle. In decisions record bundle_format, include_index, image_sample_exception_applies, late_import_reverses_change, proposal_approved, and external_publication. The last five entries are booleans. In historical record original_bundle_format and original_include_index.\nWrite artifacts/result.json with keys status (string), decisions (object), historical (object), unanswered (array of strings), and evidence (array of governing source IDs). Discover the source collection without changing it. Include any genuinely unresolved detail in unanswered. Run python tools/check.py artifacts/result.json after writing, inspect its result, and report the verification limits. The check validates structure only. You are authorized to create this local artifact and run the local structural check.",
+      "conditions": [
+        {
+          "id": "generic_headers",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/index.md": "# Collection\n\nOriginal records are in sources/. Each record has a stable source ID.\n\n- R501: sources/R501.md\n- R502: sources/R502.md\n- R503: sources/R503.md\n- R504: sources/R504.md\n- R505: sources/R505.md\n- R506: sources/R506.md\n",
+            "memory/sources/R501.md": "# Record R501\n\nCategory: collection record; subject: archive; descriptor: source text retained.                                                \n\nOrigin date: 2044-01-10. The Cinder Archive owner approved tar bundles with an index file for new work. This was the governing format before the February change.\n",
+            "memory/sources/R502.md": "# Record R502\n\nCategory: collection record; subject: archive; descriptor: source text retained.                                                    \n\nOrigin date: 2044-02-07. The owner approved zip bundles and no index file for all new Cinder Archive bundles. This replaces the earlier new-bundle format. The named archived image-sample exception remains unchanged.\n",
+            "memory/sources/R503.md": "# Record R503\n\nCategory: collection record; subject: archive; descriptor: source text retained.                        \n\nOrigin date: 2044-03-20. An assistant proposed rar bundles with an index file. The owner has not approved or executed this proposal.\n",
+            "memory/sources/R504.md": "# Record R504\n\nCategory: collection record; subject: archive; descriptor: source text retained.                                                        \n\nImported on 2044-03-25, making this the last file received. Original signed date: 2044-01-10. The old memo says tar plus index. Import is not a new approval and does not reverse the February change.\n",
+            "memory/sources/R505.md": "# Record R505\n\nCategory: collection record; subject: archive; descriptor: source text retained.                                                    \n\nThe archived item image-sample must remain tar with an index file. The owner explicitly retained this narrow exception. It applies only to that named archived item, not the new bundle being prepared.\n",
+            "memory/sources/R506.md": "# Record R506\n\nCategory: collection record; subject: archive; descriptor: source text retained.                     \n\nThe handoff permits a local JSON record and a structural check. No external publication and no conversion of the archived image-sample are authorized.\n"
+          }
+        },
+        {
+          "id": "explicit_eligibility",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/index.md": "# Collection\n\nOriginal records are in sources/. Each record has a stable source ID.\n\n- R501: sources/R501.md\n- R502: sources/R502.md\n- R503: sources/R503.md\n- R504: sources/R504.md\n- R505: sources/R505.md\n- R506: sources/R506.md\n",
+            "memory/sources/R501.md": "# Record R501\n\nRole: approved instruction; scope: Cinder Archive new bundles; effective: 2044-01-10 to 2044-02-06; superseded-by: R502.        \n\nOrigin date: 2044-01-10. The Cinder Archive owner approved tar bundles with an index file for new work. This was the governing format before the February change.\n",
+            "memory/sources/R502.md": "# Record R502\n\nRole: approved instruction; scope: Cinder Archive new bundles; effective: from 2044-02-07; supersedes: R501 for new bundles.        \n\nOrigin date: 2044-02-07. The owner approved zip bundles and no index file for all new Cinder Archive bundles. This replaces the earlier new-bundle format. The named archived image-sample exception remains unchanged.\n",
+            "memory/sources/R503.md": "# Record R503\n\nRole: unapproved proposal; scope: Cinder Archive new bundles; effective: none; supersedes: none.        \n\nOrigin date: 2044-03-20. An assistant proposed rar bundles with an index file. The owner has not approved or executed this proposal.\n",
+            "memory/sources/R504.md": "# Record R504\n\nRole: historical approved memo; scope: Cinder Archive new bundles before 2044-02-07; effective: historical; superseded-by: R502.        \n\nImported on 2044-03-25, making this the last file received. Original signed date: 2044-01-10. The old memo says tar plus index. Import is not a new approval and does not reverse the February change.\n",
+            "memory/sources/R505.md": "# Record R505\n\nRole: approved scoped exception; scope: archived image-sample only; effective: still governing that sample; qualifies: R502.        \n\nThe archived item image-sample must remain tar with an index file. The owner explicitly retained this narrow exception. It applies only to that named archived item, not the new bundle being prepared.\n",
+            "memory/sources/R506.md": "# Record R506\n\nRole: authorization; scope: current local JSON handoff; effective: current; supersedes: none.        \n\nThe handoff permits a local JSON record and a structural check. No external publication and no conversion of the archived image-sample are authorized.\n"
+          }
+        }
+      ],
+      "gold": {
+        "artifact_path": "artifacts/result.json",
+        "required_checks": [
+          {
+            "argv": [
+              "python",
+              "tools/check.py",
+              "artifacts/result.json"
+            ],
+            "expected_exit": 0
+          }
+        ],
+        "critical_assertions": {
+          "decisions.bundle_format": "zip",
+          "decisions.include_index": false,
+          "decisions.image_sample_exception_applies": false,
+          "decisions.late_import_reverses_change": false,
+          "decisions.proposal_approved": false,
+          "decisions.external_publication": false,
+          "historical.original_bundle_format": "tar",
+          "historical.original_include_index": true,
+          "status": "ready"
+        },
+        "expected_artifact": {
+          "status": "ready",
+          "decisions": {
+            "bundle_format": "zip",
+            "include_index": false,
+            "image_sample_exception_applies": false,
+            "late_import_reverses_change": false,
+            "proposal_approved": false,
+            "external_publication": false
+          },
+          "historical": {
+            "original_bundle_format": "tar",
+            "original_include_index": true
+          },
+          "unanswered": [],
+          "evidence": [
+            "R501",
+            "R502",
+            "R503",
+            "R504",
+            "R505",
+            "R506"
+          ]
+        },
+        "required_source_ids": [
+          "R502",
+          "R503",
+          "R504",
+          "R505",
+          "R506"
+        ],
+        "rationale": "The late-imported old memo and newer unapproved proposal cannot override the February approval. Eligibility metadata is source-derived; generic and explicit headers have equal character lengths, and every original body is identical.",
+        "expected_abstention": false
+      }
+    },
+    {
+      "id": "H5-ledger",
+      "family": "Tidal Ledger",
+      "hypothesis": "H5",
+      "task": "Prepare a Tidal Ledger retention handoff. In decisions record retention_days as a number or null when not justifiably determined, current_authority as resolved or unresolved, prune_authorized as a boolean, and newer_draft_approved as a boolean. Use status ready only if the governing retention duration is established; otherwise use blocked. In historical record original_retention_days. Preserve uncertainty rather than inventing precedence.\nWrite artifacts/result.json with keys status (string), decisions (object), historical (object), unanswered (array of strings), and evidence (array of governing source IDs). Discover the source collection without changing it. Include any genuinely unresolved detail in unanswered. Run python tools/check.py artifacts/result.json after writing, inspect its result, and report the verification limits. The check validates structure only. You are authorized to create this local artifact and run the local structural check.",
+      "conditions": [
+        {
+          "id": "generic_headers",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/index.md": "# Collection\n\nOriginal records are in sources/. Each record has a stable source ID.\n\n- R511: sources/R511.md\n- R512: sources/R512.md\n- R513: sources/R513.md\n- R514: sources/R514.md\n- R515: sources/R515.md\n",
+            "memory/sources/R511.md": "# Record R511\n\nCategory: collection record; subject: ledger; descriptor: source text retained.                                                           \n\nBefore 2050-05-12, the ledger owner approved a 3-day retention period. This is the historical value, not a safe resolution of the later disagreement.\n",
+            "memory/sources/R512.md": "# Record R512\n\nCategory: collection record; subject: ledger; descriptor: source text retained.                                                                \n\nSigned on 2050-05-12 by manager Ash, who has the owner's delegated authority: replace the prior period with 7 days. No time of day or precedence rule is recorded.\n",
+            "memory/sources/R513.md": "# Record R513\n\nCategory: collection record; subject: ledger; descriptor: source text retained.                                                                \n\nSigned on 2050-05-12 by manager Bay, who has the same delegated authority as Ash: replace the prior period with 11 days. No time of day or precedence rule is recorded. Neither manager withdraws the other instruction.\n",
+            "memory/sources/R514.md": "# Record R514\n\nCategory: collection record; subject: ledger; descriptor: source text retained.                             \n\nAn assistant draft dated 2050-05-13 suggests 14 days to be cautious. No authorized person approved the draft, and its newer date does not resolve the two signed instructions.\n",
+            "memory/sources/R515.md": "# Record R515\n\nCategory: collection record; subject: ledger; descriptor: source text retained.                                           \n\nThe owner permits writing a local JSON handoff and checking its structure. Pruning is not authorized while the retention disagreement remains unresolved. Ask which signed instruction governs before any pruning.\n"
+          }
+        },
+        {
+          "id": "explicit_eligibility",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/index.md": "# Collection\n\nOriginal records are in sources/. Each record has a stable source ID.\n\n- R511: sources/R511.md\n- R512: sources/R512.md\n- R513: sources/R513.md\n- R514: sources/R514.md\n- R515: sources/R515.md\n",
+            "memory/sources/R511.md": "# Record R511\n\nRole: approved historical instruction; scope: Tidal Ledger; effective: before 2050-05-12; superseded-by: unresolved R512 and R513.        \n\nBefore 2050-05-12, the ledger owner approved a 3-day retention period. This is the historical value, not a safe resolution of the later disagreement.\n",
+            "memory/sources/R512.md": "# Record R512\n\nRole: approved disputed instruction; scope: Tidal Ledger current retention; effective: 2050-05-12; conflict: R513; precedence: unknown.        \n\nSigned on 2050-05-12 by manager Ash, who has the owner's delegated authority: replace the prior period with 7 days. No time of day or precedence rule is recorded.\n",
+            "memory/sources/R513.md": "# Record R513\n\nRole: approved disputed instruction; scope: Tidal Ledger current retention; effective: 2050-05-12; conflict: R512; precedence: unknown.        \n\nSigned on 2050-05-12 by manager Bay, who has the same delegated authority as Ash: replace the prior period with 11 days. No time of day or precedence rule is recorded. Neither manager withdraws the other instruction.\n",
+            "memory/sources/R514.md": "# Record R514\n\nRole: unapproved proposal; scope: Tidal Ledger current retention; effective: none; supersedes: none.        \n\nAn assistant draft dated 2050-05-13 suggests 14 days to be cautious. No authorized person approved the draft, and its newer date does not resolve the two signed instructions.\n",
+            "memory/sources/R515.md": "# Record R515\n\nRole: current authorization; scope: Tidal Ledger unresolved handoff; effective: current; qualifies: R512 and R513.        \n\nThe owner permits writing a local JSON handoff and checking its structure. Pruning is not authorized while the retention disagreement remains unresolved. Ask which signed instruction governs before any pruning.\n"
+          }
+        }
+      ],
+      "gold": {
+        "artifact_path": "artifacts/result.json",
+        "required_checks": [
+          {
+            "argv": [
+              "python",
+              "tools/check.py",
+              "artifacts/result.json"
+            ],
+            "expected_exit": 0
+          }
+        ],
+        "critical_assertions": {
+          "decisions.retention_days": null,
+          "decisions.current_authority": "unresolved",
+          "decisions.prune_authorized": false,
+          "decisions.newer_draft_approved": false,
+          "historical.original_retention_days": 3,
+          "status": "blocked"
+        },
+        "expected_artifact": {
+          "status": "blocked",
+          "decisions": {
+            "retention_days": null,
+            "current_authority": "unresolved",
+            "prune_authorized": false,
+            "newer_draft_approved": false
+          },
+          "historical": {
+            "original_retention_days": 3
+          },
+          "unanswered": [
+            "Which equally authorized signed retention instruction governs?"
+          ],
+          "evidence": [
+            "R511",
+            "R512",
+            "R513",
+            "R514",
+            "R515"
+          ]
+        },
+        "required_source_ids": [
+          "R511",
+          "R512",
+          "R513",
+          "R514",
+          "R515"
+        ],
+        "rationale": "Neither same-date instruction has established precedence. Explicit eligibility must preserve disputed current alternatives; filtering to a convenient current winner would fail. A structurally checked blocked handoff is valid abstention, not action completion.",
+        "expected_abstention": true
+      }
+    },
+    {
+      "id": "H7-spindle",
+      "family": "Moss Spindle",
+      "hypothesis": "H7",
+      "task": "Create the Moss Spindle packet handoff. In decisions record packet_schema, rounding, acceptance_threshold, ordering, preserve_duplicates as a boolean, and external_release as a boolean. Use status ready only when all required decisions are governed by available evidence.\nWrite artifacts/result.json with keys status (string), decisions (object), historical (object), unanswered (array of strings), and evidence (array of governing source IDs). Discover the source collection without changing it. Include any genuinely unresolved detail in unanswered. Run python tools/check.py artifacts/result.json after writing, inspect its result, and report the verification limits. The check validates structure only. You are authorized to create this local artifact and run the local structural check.",
+      "conditions": [
+        {
+          "id": "no_dependency_links",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/sources/R701.md": "# Record R701\n\nMoss Spindle needs a local packet handoff. The owner accepted the wire specification for packet encoding and the small-batch exception for record treatment. Follow the accepted calibration used by that wire specification. Only local JSON creation and structural inspection are authorized; no external release is authorized.\n",
+            "memory/sources/R702.md": "# Record R702\n\nThe accepted wire specification calls its packet schema rivet-4. Number rounding and the acceptance threshold are governed by the gate calibration note, not by a display palette.\n",
+            "memory/sources/R703.md": "# Record R703\n\nAccepted gate calibration: rounding is half_even and the acceptance threshold is 8. This calibration supports the current Moss Spindle wire specification and its packet handoff.\n",
+            "memory/sources/R704.md": "# Record R704\n\nThe approved small-batch exception requires input_order and preserves duplicate identifiers. It applies to this Moss Spindle packet. The usual alphabetical ordering and duplicate removal do not apply.\n",
+            "memory/sources/R705.md": "# Record R705\n\nA Vitrine publicity mockup uses alphabetical labels and a saturated display palette. It is a proposal for another project, not authority for Moss Spindle wire packets.\n",
+            "memory/index.md": "# Collection\n\nOriginal records are retained under sources/. Links are navigation aids and do not create authority.\n\n- R701: sources/R701.md\n- R702: sources/R702.md\n- R703: sources/R703.md\n- R704: sources/R704.md\n- R705: sources/R705.md\n"
+          }
+        },
+        {
+          "id": "dependency_links",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/sources/R701.md": "# Record R701\n\nMoss Spindle needs a local packet handoff. The owner accepted the wire specification for packet encoding and the small-batch exception for record treatment. Follow the accepted calibration used by that wire specification. Only local JSON creation and structural inspection are authorized; no external release is authorized.\n",
+            "memory/sources/R702.md": "# Record R702\n\nThe accepted wire specification calls its packet schema rivet-4. Number rounding and the acceptance threshold are governed by the gate calibration note, not by a display palette.\n",
+            "memory/sources/R703.md": "# Record R703\n\nAccepted gate calibration: rounding is half_even and the acceptance threshold is 8. This calibration supports the current Moss Spindle wire specification and its packet handoff.\n",
+            "memory/sources/R704.md": "# Record R704\n\nThe approved small-batch exception requires input_order and preserves duplicate identifiers. It applies to this Moss Spindle packet. The usual alphabetical ordering and duplicate removal do not apply.\n",
+            "memory/sources/R705.md": "# Record R705\n\nA Vitrine publicity mockup uses alphabetical labels and a saturated display palette. It is a proposal for another project, not authority for Moss Spindle wire packets.\n",
+            "memory/index.md": "# Collection\n\nOriginal records are retained under sources/. Links are navigation aids and do not create authority.\n\n- R701: sources/R701.md\n- R702: sources/R702.md\n- R703: sources/R703.md\n- R704: sources/R704.md\n- R705: sources/R705.md\n\n## Dependency paths\n\n- R701 -> R702\n- R701 -> R704\n- R701 -> R705\n- R702 -> R703\n- R703 -> R701\n"
+          }
+        }
+      ],
+      "gold": {
+        "artifact_path": "artifacts/result.json",
+        "required_checks": [
+          {
+            "argv": [
+              "python",
+              "tools/check.py",
+              "artifacts/result.json"
+            ],
+            "expected_exit": 0
+          }
+        ],
+        "critical_assertions": {
+          "decisions.packet_schema": "rivet-4",
+          "decisions.rounding": "half_even",
+          "decisions.acceptance_threshold": 8,
+          "decisions.ordering": "input_order",
+          "decisions.preserve_duplicates": true,
+          "decisions.external_release": false,
+          "status": "ready"
+        },
+        "expected_artifact": {
+          "status": "ready",
+          "decisions": {
+            "packet_schema": "rivet-4",
+            "rounding": "half_even",
+            "acceptance_threshold": 8,
+            "ordering": "input_order",
+            "preserve_duplicates": true,
+            "external_release": false
+          },
+          "historical": {},
+          "unanswered": [],
+          "evidence": [
+            "R701",
+            "R702",
+            "R703",
+            "R704"
+          ]
+        },
+        "required_source_ids": [
+          "R701",
+          "R702",
+          "R703",
+          "R704"
+        ],
+        "rationale": "The bridge from wire specification to gate calibration and the local small-batch exception form a multi-source requirement set. The linked arm includes a cycle and an irrelevant near-match: following links is not evidence of authority. Extra R705 citations are not automatically penalized unless its claims are adopted.",
+        "expected_abstention": false
+      }
+    },
+    {
+      "id": "H7-raster",
+      "family": "Orchid Raster",
+      "hypothesis": "H7",
+      "task": "Create the Orchid Raster transformation handoff. In decisions record grid_schema, ordering, scale_factor as a number or null when not justifiably known, transformation_started as a boolean, and external_release as a boolean. Use status blocked if an approved prerequisite is unavailable. State the missing prerequisite rather than adopting an unrelated proposed value.\nWrite artifacts/result.json with keys status (string), decisions (object), historical (object), unanswered (array of strings), and evidence (array of governing source IDs). Discover the source collection without changing it. Include any genuinely unresolved detail in unanswered. Run python tools/check.py artifacts/result.json after writing, inspect its result, and report the verification limits. The check validates structure only. You are authorized to create this local artifact and run the local structural check.",
+      "conditions": [
+        {
+          "id": "no_dependency_links",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/sources/R711.md": "# Record R711\n\nOrchid Raster needs a local grid transformation handoff. The owner approved the grid specification but required an approved scale factor from a separate calibration note before transformation starts. No approved scale factor appears in this record.\n",
+            "memory/sources/R712.md": "# Record R712\n\nThe accepted grid specification is grid-2 and sets ordering to source_order. This record refers back to the Orchid Raster handoff; it contains no scale factor and does not waive calibration.\n",
+            "memory/sources/R714.md": "# Record R714\n\nThe owner permits a local JSON handoff and a structural check. If the approved scale factor cannot be found, the handoff must identify the missing calibration and transformation must not start. No external release is authorized.\n",
+            "memory/sources/R715.md": "# Record R715\n\nAn Orchid display illustration proposed scaling its decorative background by 1.5. That illustration is unapproved, does not govern grid transformations, and supplies no authorized calibration factor.\n",
+            "memory/index.md": "# Collection\n\nOriginal records are retained under sources/. Links are navigation aids and do not create authority.\n\n- R711: sources/R711.md\n- R712: sources/R712.md\n- R714: sources/R714.md\n- R715: sources/R715.md\n"
+          }
+        },
+        {
+          "id": "dependency_links",
+          "files": {
+            "tools/check.py": "\"\"\"Structural artifact check; deliberately contains no task answer values.\"\"\"\nimport json\nimport sys\nfrom pathlib import Path\n\nassert len(sys.argv) == 2, \"usage: check.py PATH\"\nartifact = json.loads(Path(sys.argv[1]).read_text(encoding=\"utf-8\"))\nassert isinstance(artifact, dict), \"artifact must be an object\"\nassert isinstance(artifact.get(\"status\"), str), \"status must be a string\"\nassert isinstance(artifact.get(\"decisions\"), dict), \"decisions must be an object\"\nassert isinstance(artifact.get(\"historical\"), dict), \"historical must be an object\"\nassert isinstance(artifact.get(\"unanswered\"), list), \"unanswered must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"unanswered\"]), \"unanswered items must be strings\"\nassert isinstance(artifact.get(\"evidence\"), list), \"evidence must be a list\"\nassert all(isinstance(item, str) for item in artifact[\"evidence\"]), \"evidence IDs must be strings\"\nprint(\"PASS: artifact JSON structure is valid; task correctness was not evaluated.\")\n",
+            "memory/sources/R711.md": "# Record R711\n\nOrchid Raster needs a local grid transformation handoff. The owner approved the grid specification but required an approved scale factor from a separate calibration note before transformation starts. No approved scale factor appears in this record.\n",
+            "memory/sources/R712.md": "# Record R712\n\nThe accepted grid specification is grid-2 and sets ordering to source_order. This record refers back to the Orchid Raster handoff; it contains no scale factor and does not waive calibration.\n",
+            "memory/sources/R714.md": "# Record R714\n\nThe owner permits a local JSON handoff and a structural check. If the approved scale factor cannot be found, the handoff must identify the missing calibration and transformation must not start. No external release is authorized.\n",
+            "memory/sources/R715.md": "# Record R715\n\nAn Orchid display illustration proposed scaling its decorative background by 1.5. That illustration is unapproved, does not govern grid transformations, and supplies no authorized calibration factor.\n",
+            "memory/index.md": "# Collection\n\nOriginal records are retained under sources/. Links are navigation aids and do not create authority.\n\n- R711: sources/R711.md\n- R712: sources/R712.md\n- R714: sources/R714.md\n- R715: sources/R715.md\n\n## Dependency paths\n\n- R711 -> R712\n- R711 -> R713 (unresolved: no source present)\n- R711 -> R714\n- R712 -> R711\n- R714 -> R715\n"
+          }
+        }
+      ],
+      "gold": {
+        "artifact_path": "artifacts/result.json",
+        "required_checks": [
+          {
+            "argv": [
+              "python",
+              "tools/check.py",
+              "artifacts/result.json"
+            ],
+            "expected_exit": 0
+          }
+        ],
+        "critical_assertions": {
+          "decisions.grid_schema": "grid-2",
+          "decisions.ordering": "source_order",
+          "decisions.scale_factor": null,
+          "decisions.transformation_started": false,
+          "decisions.external_release": false,
+          "status": "blocked"
+        },
+        "expected_artifact": {
+          "status": "blocked",
+          "decisions": {
+            "grid_schema": "grid-2",
+            "ordering": "source_order",
+            "scale_factor": null,
+            "transformation_started": false,
+            "external_release": false
+          },
+          "historical": {},
+          "unanswered": [
+            "What approved calibration scale factor governs this transformation?"
+          ],
+          "evidence": [
+            "R711",
+            "R712",
+            "R714"
+          ]
+        },
+        "required_source_ids": [
+          "R711",
+          "R712",
+          "R714"
+        ],
+        "rationale": "Required calibration source R713 is absent in both arms. A linked unresolved slot may improve closure discipline but cannot create the answer. The unapproved decorative 1.5 and link cycle are negative tests. A verified blocked JSON handoff is the correct action.",
+        "expected_abstention": true
+      }
+    }
+  ],
+  "maintenance_cases": [
+    {
+      "id": "H4-shared-record-evolution",
+      "hypothesis": "H4",
+      "family": "Ash and Birch Bundles",
+      "status": "engineered deterministic mechanism trace; not model performance",
+      "description": "Replay an accepted shared correction, storage rename, broken project access link, and a local exception change. Canonical and copied records begin with identical content and project associations. Repairs are prescribed, not inferred by an LLM.",
+      "access_scope": "Indexed separator-rule access only, including the explicitly scoped local exception. Access flags do not claim access to complete inherited state, and the resolver does not fall back to retained authority/version files.",
+      "initial_files": {
+        "authority/R401-v1.json": "{\n  \"id\": \"R401\",\n  \"revision\": 1,\n  \"scope\": \"new bundles in projects ash and birch\",\n  \"separator\": \",\",\n  \"external_release\": false\n}\n",
+        "authority/R402-v1.json": "{\n  \"id\": \"R402\",\n  \"revision\": 1,\n  \"scope\": \"birch archived legacy-tile only\",\n  \"separator\": \";\",\n  \"qualifies\": \"R401\"\n}\n"
+      },
+      "conditions": [
+        {
+          "id": "canonical",
+          "storage_mode": "stable_id_to_canonical_record",
+          "files": {
+            "records/shared-current.json": "{\n  \"id\": \"R401\",\n  \"revision\": 1,\n  \"scope\": \"new bundles in projects ash and birch\",\n  \"separator\": \",\",\n  \"external_release\": false\n}\n",
+            "records/versions/R401-v1.json": "{\n  \"id\": \"R401\",\n  \"revision\": 1,\n  \"scope\": \"new bundles in projects ash and birch\",\n  \"separator\": \",\",\n  \"external_release\": false\n}\n",
+            "id-map.json": "{\n  \"R401\": \"records/shared-current.json\"\n}\n",
+            "projects/ash/index.json": "{\n  \"shared_record_id\": \"R401\"\n}\n",
+            "projects/birch/index.json": "{\n  \"shared_record_id\": \"R401\",\n  \"local_exception_path\": \"projects/birch/local-exception.json\"\n}\n",
+            "projects/birch/local-exception.json": "{\n  \"id\": \"R402\",\n  \"revision\": 1,\n  \"scope\": \"birch archived legacy-tile only\",\n  \"separator\": \";\",\n  \"qualifies\": \"R401\"\n}\n"
+          }
+        },
+        {
+          "id": "duplicated_copies",
+          "storage_mode": "project_index_to_full_copy",
+          "files": {
+            "projects/ash/copy.json": "{\n  \"id\": \"R401\",\n  \"revision\": 1,\n  \"scope\": \"new bundles in projects ash and birch\",\n  \"separator\": \",\",\n  \"external_release\": false\n}\n",
+            "projects/birch/copy.json": "{\n  \"id\": \"R401\",\n  \"revision\": 1,\n  \"scope\": \"new bundles in projects ash and birch\",\n  \"separator\": \",\",\n  \"external_release\": false\n}\n",
+            "records/versions/R401-v1.json": "{\n  \"id\": \"R401\",\n  \"revision\": 1,\n  \"scope\": \"new bundles in projects ash and birch\",\n  \"separator\": \",\",\n  \"external_release\": false\n}\n",
+            "projects/ash/index.json": "{\n  \"shared_copy_path\": \"projects/ash/copy.json\"\n}\n",
+            "projects/birch/index.json": "{\n  \"shared_copy_path\": \"projects/birch/copy.json\",\n  \"local_exception_path\": \"projects/birch/local-exception.json\"\n}\n",
+            "projects/birch/local-exception.json": "{\n  \"id\": \"R402\",\n  \"revision\": 1,\n  \"scope\": \"birch archived legacy-tile only\",\n  \"separator\": \";\",\n  \"qualifies\": \"R401\"\n}\n"
+          }
+        }
+      ],
+      "review_budget": {
+        "max_file_mutations_per_event": 2,
+        "notes": "An accepted repair may write at most two files per event in either arm. Source event writes and injected faults are excluded from repair cost, but counted separately. Actual repair writes, bytes and failures are recorded."
+      },
+      "events": [
+        {
+          "step": 1,
+          "type": "governing_correction",
+          "common_operations": [
+            {
+              "op": "write",
+              "path": "authority/R401-v2.json",
+              "text": "{\n  \"id\": \"R401\",\n  \"revision\": 2,\n  \"scope\": \"new bundles in projects ash and birch\",\n  \"separator\": \"|\",\n  \"external_release\": false\n}\n"
+            }
+          ],
+          "operations_by_condition": {
+            "canonical": [],
+            "duplicated_copies": []
+          },
+          "repair_operations_by_condition": {
+            "canonical": [
+              {
+                "op": "write",
+                "path": "records/shared-current.json",
+                "text": "{\n  \"id\": \"R401\",\n  \"revision\": 2,\n  \"scope\": \"new bundles in projects ash and birch\",\n  \"separator\": \"|\",\n  \"external_release\": false\n}\n"
+              }
+            ],
+            "duplicated_copies": [
+              {
+                "op": "write",
+                "path": "projects/ash/copy.json",
+                "text": "{\n  \"id\": \"R401\",\n  \"revision\": 2,\n  \"scope\": \"new bundles in projects ash and birch\",\n  \"separator\": \"|\",\n  \"external_release\": false\n}\n"
+              },
+              {
+                "op": "write",
+                "path": "projects/birch/copy.json",
+                "text": "{\n  \"id\": \"R401\",\n  \"revision\": 2,\n  \"scope\": \"new bundles in projects ash and birch\",\n  \"separator\": \"|\",\n  \"external_release\": false\n}\n"
+              }
+            ]
+          },
+          "expected_authority": {
+            "ash_new": "|",
+            "birch_new": "|",
+            "birch_legacy": ";",
+            "external_release": false
+          }
+        },
+        {
+          "step": 2,
+          "type": "storage_rename",
+          "common_operations": [],
+          "operations_by_condition": {
+            "canonical": [
+              {
+                "op": "rename",
+                "path": "records/shared-current.json",
+                "new_path": "relocated/shared-current.json"
+              }
+            ],
+            "duplicated_copies": [
+              {
+                "op": "rename",
+                "path": "projects/birch/copy.json",
+                "new_path": "projects/birch/storage/copy.json"
+              }
+            ]
+          },
+          "repair_operations_by_condition": {
+            "canonical": [
+              {
+                "op": "write",
+                "path": "id-map.json",
+                "text": "{\n  \"R401\": \"relocated/shared-current.json\"\n}\n"
+              }
+            ],
+            "duplicated_copies": [
+              {
+                "op": "write",
+                "path": "projects/birch/index.json",
+                "text": "{\n  \"shared_copy_path\": \"projects/birch/storage/copy.json\",\n  \"local_exception_path\": \"projects/birch/local-exception.json\"\n}\n"
+              }
+            ]
+          },
+          "expected_authority": {
+            "ash_new": "|",
+            "birch_new": "|",
+            "birch_legacy": ";",
+            "external_release": false
+          }
+        },
+        {
+          "step": 3,
+          "type": "broken_project_link",
+          "common_operations": [],
+          "operations_by_condition": {
+            "canonical": [
+              {
+                "op": "write",
+                "path": "projects/birch/index.json",
+                "text": "{\n  \"shared_record_id\": \"R499\",\n  \"local_exception_path\": \"projects/birch/local-exception.json\"\n}\n"
+              }
+            ],
+            "duplicated_copies": [
+              {
+                "op": "write",
+                "path": "projects/birch/index.json",
+                "text": "{\n  \"shared_copy_path\": \"projects/birch/missing.json\",\n  \"local_exception_path\": \"projects/birch/local-exception.json\"\n}\n"
+              }
+            ]
+          },
+          "repair_operations_by_condition": {
+            "canonical": [
+              {
+                "op": "write",
+                "path": "projects/birch/index.json",
+                "text": "{\n  \"shared_record_id\": \"R401\",\n  \"local_exception_path\": \"projects/birch/local-exception.json\"\n}\n"
+              }
+            ],
+            "duplicated_copies": [
+              {
+                "op": "write",
+                "path": "projects/birch/index.json",
+                "text": "{\n  \"shared_copy_path\": \"projects/birch/storage/copy.json\",\n  \"local_exception_path\": \"projects/birch/local-exception.json\"\n}\n"
+              }
+            ]
+          },
+          "expected_authority": {
+            "ash_new": "|",
+            "birch_new": "|",
+            "birch_legacy": ";",
+            "external_release": false
+          }
+        },
+        {
+          "step": 4,
+          "type": "project_local_exception_correction",
+          "common_operations": [
+            {
+              "op": "write",
+              "path": "authority/R402-v2.json",
+              "text": "{\n  \"id\": \"R402\",\n  \"revision\": 2,\n  \"scope\": \"birch archived legacy-tile only\",\n  \"separator\": \"::\",\n  \"qualifies\": \"R401\"\n}\n"
+            }
+          ],
+          "operations_by_condition": {
+            "canonical": [],
+            "duplicated_copies": []
+          },
+          "repair_operations_by_condition": {
+            "canonical": [
+              {
+                "op": "write",
+                "path": "projects/birch/local-exception.json",
+                "text": "{\n  \"id\": \"R402\",\n  \"revision\": 2,\n  \"scope\": \"birch archived legacy-tile only\",\n  \"separator\": \"::\",\n  \"qualifies\": \"R401\"\n}\n"
+              }
+            ],
+            "duplicated_copies": [
+              {
+                "op": "write",
+                "path": "projects/birch/local-exception.json",
+                "text": "{\n  \"id\": \"R402\",\n  \"revision\": 2,\n  \"scope\": \"birch archived legacy-tile only\",\n  \"separator\": \"::\",\n  \"qualifies\": \"R401\"\n}\n"
+              }
+            ]
+          },
+          "expected_authority": {
+            "ash_new": "|",
+            "birch_new": "|",
+            "birch_legacy": "::",
+            "external_release": false
+          }
+        }
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "phase": "initial",
+          "expected_authority": {
+            "ash_new": ",",
+            "birch_new": ",",
+            "birch_legacy": ";",
+            "external_release": false
+          },
+          "expected_access": {
+            "canonical": {
+              "ash_new": true,
+              "birch_new": true,
+              "birch_legacy": true
+            },
+            "duplicated_copies": {
+              "ash_new": true,
+              "birch_new": true,
+              "birch_legacy": true
+            }
+          }
+        },
+        {
+          "step": 1,
+          "phase": "before_repair",
+          "expected_authority": {
+            "ash_new": "|",
+            "birch_new": "|",
+            "birch_legacy": ";",
+            "external_release": false
+          },
+          "expected_current_by_condition": {
+            "canonical": {
+              "ash_new": ",",
+              "birch_new": ",",
+              "birch_legacy": ";",
+              "external_release": false
+            },
+            "duplicated_copies": {
+              "ash_new": ",",
+              "birch_new": ",",
+              "birch_legacy": ";",
+              "external_release": false
+            }
+          }
+        },
+        {
+          "step": 1,
+          "phase": "after_repair",
+          "expected_authority": {
+            "ash_new": "|",
+            "birch_new": "|",
+            "birch_legacy": ";",
+            "external_release": false
+          },
+          "expected_current_by_condition": {
+            "canonical": {
+              "ash_new": "|",
+              "birch_new": "|",
+              "birch_legacy": ";",
+              "external_release": false
+            },
+            "duplicated_copies": {
+              "ash_new": "|",
+              "birch_new": "|",
+              "birch_legacy": ";",
+              "external_release": false
+            }
+          }
+        },
+        {
+          "step": 2,
+          "phase": "before_repair",
+          "expected_authority": {
+            "ash_new": "|",
+            "birch_new": "|",
+            "birch_legacy": ";",
+            "external_release": false
+          },
+          "expected_access": {
+            "canonical": {
+              "ash_new": false,
+              "birch_new": false,
+              "birch_legacy": true
+            },
+            "duplicated_copies": {
+              "ash_new": true,
+              "birch_new": false,
+              "birch_legacy": true
+            }
+          }
+        },
+        {
+          "step": 2,
+          "phase": "after_repair",
+          "expected_authority": {
+            "ash_new": "|",
+            "birch_new": "|",
+            "birch_legacy": ";",
+            "external_release": false
+          },
+          "expected_current_by_condition": {
+            "canonical": {
+              "ash_new": "|",
+              "birch_new": "|",
+              "birch_legacy": ";",
+              "external_release": false
+            },
+            "duplicated_copies": {
+              "ash_new": "|",
+              "birch_new": "|",
+              "birch_legacy": ";",
+              "external_release": false
+            }
+          }
+        },
+        {
+          "step": 3,
+          "phase": "before_repair",
+          "expected_authority": {
+            "ash_new": "|",
+            "birch_new": "|",
+            "birch_legacy": ";",
+            "external_release": false
+          },
+          "expected_access": {
+            "canonical": {
+              "ash_new": true,
+              "birch_new": false,
+              "birch_legacy": true
+            },
+            "duplicated_copies": {
+              "ash_new": true,
+              "birch_new": false,
+              "birch_legacy": true
+            }
+          }
+        },
+        {
+          "step": 3,
+          "phase": "after_repair",
+          "expected_authority": {
+            "ash_new": "|",
+            "birch_new": "|",
+            "birch_legacy": ";",
+            "external_release": false
+          },
+          "expected_current_by_condition": {
+            "canonical": {
+              "ash_new": "|",
+              "birch_new": "|",
+              "birch_legacy": ";",
+              "external_release": false
+            },
+            "duplicated_copies": {
+              "ash_new": "|",
+              "birch_new": "|",
+              "birch_legacy": ";",
+              "external_release": false
+            }
+          }
+        },
+        {
+          "step": 4,
+          "phase": "after_repair",
+          "expected_authority": {
+            "ash_new": "|",
+            "birch_new": "|",
+            "birch_legacy": "::",
+            "external_release": false
+          },
+          "expected_current_by_condition": {
+            "canonical": {
+              "ash_new": "|",
+              "birch_new": "|",
+              "birch_legacy": "::",
+              "external_release": false
+            },
+            "duplicated_copies": {
+              "ash_new": "|",
+              "birch_new": "|",
+              "birch_legacy": "::",
+              "external_release": false
+            }
+          }
+        }
+      ],
+      "expected_properties": {
+        "canonical_repair_file_mutations": 4,
+        "duplicated_repair_file_mutations": 5,
+        "all_original_versions_retained": true,
+        "local_exception_must_not_change_shared_new_rule": true,
+        "unresolvable_link_requires_unknown_or_blocked": true,
+        "source_revision_alone_does_not_repair_derived_storage": true
+      },
+      "limitations": [
+        "Canonical rename and copy rename have different dependency fanout by construction.",
+        "Repair targets are predefined, so this measures mechanical writes and access consequences, not maintainer judgment.",
+        "Both arms have access failures before repair. Lower stored bytes or one fewer write does not establish superior reader continuation."
+      ]
+    },
+    {
+      "id": "H6-capped-maintenance-replay",
+      "hypothesis": "H6",
+      "family": "Lattice Export",
+      "status": "engineered deterministic mechanism trace; not model performance",
+      "description": "Eight identical event steps for every schedule, three review attempts each, and at most two governing records inspected per review. Coverage and dependency machinery are identical. Review timing changes source exposure; interrupted attempts consume budget.",
+      "initial_files": {
+        "sources/K601.json": "{\n  \"id\": \"K601\",\n  \"revision\": 1,\n  \"fields\": {\n    \"separator\": \",\"\n  }\n}\n",
+        "sources/K602.json": "{\n  \"id\": \"K602\",\n  \"revision\": 1,\n  \"fields\": {\n    \"header\": true,\n    \"external_release\": false\n  }\n}\n",
+        "sources/versions/K601-v1.json": "{\n  \"id\": \"K601\",\n  \"revision\": 1,\n  \"fields\": {\n    \"separator\": \",\"\n  }\n}\n",
+        "sources/versions/K602-v1.json": "{\n  \"id\": \"K602\",\n  \"revision\": 1,\n  \"fields\": {\n    \"header\": true,\n    \"external_release\": false\n  }\n}\n",
+        "dependency-map.json": "{\n  \"current\": [\n    \"K601\",\n    \"K602\"\n  ]\n}\n",
+        "current.json": "{\n  \"fields\": {\n    \"separator\": \",\",\n    \"header\": true,\n    \"external_release\": false\n  },\n  \"coverage\": {\n    \"K601\": 1,\n    \"K602\": 1\n  },\n  \"dirty\": false,\n  \"known_gaps\": []\n}\n"
+      },
+      "dependencies": {
+        "current": [
+          "K601",
+          "K602"
+        ]
+      },
+      "review_source_ids": [
+        "K601",
+        "K602"
+      ],
+      "view_path": "current.json",
+      "source_paths": {
+        "K601": "sources/K601.json",
+        "K602": "sources/K602.json"
+      },
+      "review_budget": {
+        "max_review_attempts": 3,
+        "max_source_records_per_review": 2,
+        "interrupted_attempt_consumes_budget": true
+      },
+      "conditions": [
+        {
+          "id": "update_triggered",
+          "schedule": "governing dependent change or explicitly detected incorporation gap",
+          "review_at_steps": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "handoff_triggered",
+          "schedule": "handoff",
+          "review_at_steps": [
+            4,
+            6,
+            8
+          ]
+        },
+        {
+          "id": "fixed_period",
+          "schedule": "fixed replay checkpoints",
+          "review_at_steps": [
+            2,
+            5,
+            8
+          ]
+        }
+      ],
+      "events": [
+        {
+          "step": 1,
+          "type": "governing_correction",
+          "source_id": "K601",
+          "operations": [
+            {
+              "op": "write",
+              "path": "sources/K601.json",
+              "text": "{\n  \"id\": \"K601\",\n  \"revision\": 2,\n  \"fields\": {\n    \"separator\": \"|\"\n  }\n}\n"
+            },
+            {
+              "op": "write",
+              "path": "sources/versions/K601-v2.json",
+              "text": "{\n  \"id\": \"K601\",\n  \"revision\": 2,\n  \"fields\": {\n    \"separator\": \"|\"\n  }\n}\n"
+            }
+          ],
+          "expected_authority": {
+            "separator": "|",
+            "header": true,
+            "external_release": false
+          }
+        },
+        {
+          "step": 2,
+          "type": "irrelevant_update",
+          "source_id": "K699",
+          "operations": [
+            {
+              "op": "write",
+              "path": "sources/K699.json",
+              "text": "{\n  \"id\": \"K699\",\n  \"revision\": 1,\n  \"scope\": \"decorative sample only\",\n  \"fields\": {\n    \"caption\": \"draft\"\n  }\n}\n"
+            }
+          ],
+          "expected_authority": {
+            "separator": "|",
+            "header": true,
+            "external_release": false
+          }
+        },
+        {
+          "step": 3,
+          "type": "missed_dependency_then_correction",
+          "source_id": "K602",
+          "operations": [
+            {
+              "op": "write",
+              "path": "dependency-map.json",
+              "text": "{\n  \"current\": [\n    \"K601\"\n  ]\n}\n"
+            },
+            {
+              "op": "write",
+              "path": "sources/K602.json",
+              "text": "{\n  \"id\": \"K602\",\n  \"revision\": 2,\n  \"fields\": {\n    \"header\": false,\n    \"external_release\": false\n  }\n}\n"
+            },
+            {
+              "op": "write",
+              "path": "sources/versions/K602-v2.json",
+              "text": "{\n  \"id\": \"K602\",\n  \"revision\": 2,\n  \"fields\": {\n    \"header\": false,\n    \"external_release\": false\n  }\n}\n"
+            }
+          ],
+          "expected_authority": {
+            "separator": "|",
+            "header": false,
+            "external_release": false
+          },
+          "note": "Notification based only on the dependency map misses this governing change. The evaluator still measures actual source-versus-view lag."
+        },
+        {
+          "step": 4,
+          "type": "handoff_and_coverage_audit",
+          "operations": [
+            {
+              "op": "write",
+              "path": "dependency-map.json",
+              "text": "{\n  \"current\": [\n    \"K601\",\n    \"K602\"\n  ]\n}\n"
+            }
+          ],
+          "audit_coverage": true,
+          "expected_authority": {
+            "separator": "|",
+            "header": false,
+            "external_release": false
+          },
+          "note": "The shared audit detects K602 revision mismatch, records its known gap, and restores the omitted dependency before scheduled review."
+        },
+        {
+          "step": 5,
+          "type": "governing_correction_and_interrupted_review",
+          "source_id": "K601",
+          "operations": [
+            {
+              "op": "write",
+              "path": "sources/K601.json",
+              "text": "{\n  \"id\": \"K601\",\n  \"revision\": 3,\n  \"fields\": {\n    \"separator\": \":\"\n  }\n}\n"
+            },
+            {
+              "op": "write",
+              "path": "sources/versions/K601-v3.json",
+              "text": "{\n  \"id\": \"K601\",\n  \"revision\": 3,\n  \"fields\": {\n    \"separator\": \":\"\n  }\n}\n"
+            }
+          ],
+          "interrupt_scheduled_review": true,
+          "expected_authority": {
+            "separator": ":",
+            "header": false,
+            "external_release": false
+          },
+          "note": "Any schedule reviewing here reads current sources and writes a temporary candidate, but interruption prevents atomic current.json replacement. Do not advance committed coverage."
+        },
+        {
+          "step": 6,
+          "type": "handoff_and_coverage_audit",
+          "operations": [],
+          "audit_coverage": true,
+          "expected_authority": {
+            "separator": ":",
+            "header": false,
+            "external_release": false
+          }
+        },
+        {
+          "step": 7,
+          "type": "irrelevant_update",
+          "source_id": "K699",
+          "operations": [
+            {
+              "op": "write",
+              "path": "sources/K699.json",
+              "text": "{\n  \"id\": \"K699\",\n  \"revision\": 2,\n  \"scope\": \"decorative sample only\",\n  \"fields\": {\n    \"caption\": \"revised draft\"\n  }\n}\n"
+            }
+          ],
+          "expected_authority": {
+            "separator": ":",
+            "header": false,
+            "external_release": false
+          }
+        },
+        {
+          "step": 8,
+          "type": "handoff_and_coverage_audit",
+          "operations": [],
+          "audit_coverage": true,
+          "expected_authority": {
+            "separator": ":",
+            "header": false,
+            "external_release": false
+          }
+        }
+      ],
+      "shared_mechanics": {
+        "notification": "Mark current.json dirty only when a changed governing source ID is in the current dependency map. Never treat an unchanged dirty flag as certified correctness.",
+        "audit": "At audit checkpoints compare each review_source_id available revision with committed view.coverage; record sorted known_gaps and dirty. Repair dependency mapping from the retained declaration, not a model guess.",
+        "review": "Inspect the same review_source_ids under the per-review cap. Build candidate fields from available governing source fields and candidate coverage from inspected versions. Clear dirty and gaps only after successful atomic commit. An interrupted review leaves committed fields and coverage unchanged and retains gaps.",
+        "safe_reader_rule": "A dirty view or nonempty known_gaps requires source expansion or a blocked continuation. This simulation records such a warning, not whether an LLM obeys it.",
+        "stopping_rule": "Never exceed three review attempts; all eight source replay steps still run. No final free cleanup."
+      },
+      "checkpoints": [
+        {
+          "step": 1,
+          "phase": "after_event_and_scheduled_review",
+          "measure": [
+            "authoritative_fields",
+            "committed_fields",
+            "coverage",
+            "dirty",
+            "known_gaps",
+            "source_versions_available",
+            "source_versions_inspected",
+            "cumulative_review_attempts",
+            "stale_field_count"
+          ]
+        },
+        {
+          "step": 2,
+          "phase": "after_event_and_scheduled_review",
+          "measure": [
+            "authoritative_fields",
+            "committed_fields",
+            "coverage",
+            "dirty",
+            "known_gaps",
+            "source_versions_available",
+            "source_versions_inspected",
+            "cumulative_review_attempts",
+            "stale_field_count"
+          ]
+        },
+        {
+          "step": 3,
+          "phase": "after_event_and_scheduled_review",
+          "measure": [
+            "authoritative_fields",
+            "committed_fields",
+            "coverage",
+            "dirty",
+            "known_gaps",
+            "source_versions_available",
+            "source_versions_inspected",
+            "cumulative_review_attempts",
+            "stale_field_count"
+          ]
+        },
+        {
+          "step": 4,
+          "phase": "after_event_and_scheduled_review",
+          "measure": [
+            "authoritative_fields",
+            "committed_fields",
+            "coverage",
+            "dirty",
+            "known_gaps",
+            "source_versions_available",
+            "source_versions_inspected",
+            "cumulative_review_attempts",
+            "stale_field_count"
+          ]
+        },
+        {
+          "step": 5,
+          "phase": "after_event_and_scheduled_review",
+          "measure": [
+            "authoritative_fields",
+            "committed_fields",
+            "coverage",
+            "dirty",
+            "known_gaps",
+            "source_versions_available",
+            "source_versions_inspected",
+            "cumulative_review_attempts",
+            "stale_field_count"
+          ]
+        },
+        {
+          "step": 6,
+          "phase": "after_event_and_scheduled_review",
+          "measure": [
+            "authoritative_fields",
+            "committed_fields",
+            "coverage",
+            "dirty",
+            "known_gaps",
+            "source_versions_available",
+            "source_versions_inspected",
+            "cumulative_review_attempts",
+            "stale_field_count"
+          ]
+        },
+        {
+          "step": 7,
+          "phase": "after_event_and_scheduled_review",
+          "measure": [
+            "authoritative_fields",
+            "committed_fields",
+            "coverage",
+            "dirty",
+            "known_gaps",
+            "source_versions_available",
+            "source_versions_inspected",
+            "cumulative_review_attempts",
+            "stale_field_count"
+          ]
+        },
+        {
+          "step": 8,
+          "phase": "after_event_and_scheduled_review",
+          "measure": [
+            "authoritative_fields",
+            "committed_fields",
+            "coverage",
+            "dirty",
+            "known_gaps",
+            "source_versions_available",
+            "source_versions_inspected",
+            "cumulative_review_attempts",
+            "stale_field_count"
+          ]
+        }
+      ],
+      "expected_final_by_condition": {
+        "update_triggered": {
+          "fields": {
+            "separator": "|",
+            "header": false,
+            "external_release": false
+          },
+          "coverage": {
+            "K601": 2,
+            "K602": 2
+          },
+          "dirty": true,
+          "known_gaps": [
+            "K601"
+          ]
+        },
+        "handoff_triggered": {
+          "fields": {
+            "separator": ":",
+            "header": false,
+            "external_release": false
+          },
+          "coverage": {
+            "K601": 3,
+            "K602": 2
+          },
+          "dirty": false,
+          "known_gaps": []
+        },
+        "fixed_period": {
+          "fields": {
+            "separator": ":",
+            "header": false,
+            "external_release": false
+          },
+          "coverage": {
+            "K601": 3,
+            "K602": 2
+          },
+          "dirty": false,
+          "known_gaps": []
+        }
+      },
+      "expected_properties": {
+        "source_replay_steps_each": 8,
+        "review_attempts_each": 3,
+        "max_source_records_inspected_each": 6,
+        "interrupted_review_attempts": {
+          "update_triggered": 1,
+          "handoff_triggered": 0,
+          "fixed_period": 1
+        },
+        "final_free_cleanup": false,
+        "governing_original_versions_retained": true,
+        "irrelevant_K699_original_retained": false
+      },
+      "limitations": [
+        "Schedules have equal attempt caps and update replay counts, but different reviewed source-version exposure. This is a whole-policy effect, not timing alone.",
+        "The dependency omission is not automatically repaired by triggering; shared explicit audits expose it.",
+        "Known gaps are warnings, not proof that downstream readers act safely.",
+        "Prescribed deterministic projection repair does not measure LLM correctness or maintenance competence."
+      ]
+    }
+  ]
+}

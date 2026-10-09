@@ -105,10 +105,18 @@ def check_documents(rows):
         if not path.is_file() or ".git" in path.parts or "__pycache__" in path.parts:
             continue
         require(not path.is_symlink(), f"Symlink in public tree: {path.relative_to(ROOT)}")
-        require(path.suffix in {".md", ".json", ".py", ""}
+        require(path.suffix in {".md", ".json", ".py", ".html", ".svg", ".png", ""}
                 or path.name in {".gitignore", ".gitattributes"},
                 f"Unexpected public file type: {path.relative_to(ROOT)}")
-        text = path.read_text(encoding="utf-8")
+        if path.suffix == ".png":
+            raw = path.read_bytes()
+            require(raw.startswith(b"\x89PNG\r\n\x1a\n"), f"Invalid PNG: {path.relative_to(ROOT)}")
+            # Uncompressed readable metadata participates in this pattern scan;
+            # compressed metadata and image rendering need separate review.
+            # This is bounded hygiene, not a privacy proof.
+            text = raw.decode("utf-8", errors="ignore")
+        else:
+            text = path.read_text(encoding="utf-8")
         require(not any(pattern.search(text) for pattern in LEAK_PATTERNS),
                 f"Potential sensitive pattern: {path.relative_to(ROOT)}")
         if path.suffix != ".md":

@@ -1,0 +1,784 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27;; style-src &#x27;unsafe-inline&#x27; https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src data:; connect-src &#x27;none&#x27;; object-src &#x27;none&#x27;; frame-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;"><title>Filing Hypotheses Pilot Viewer</title>
+<style>
+:root{
+  --ground:#EDF0F3; --surface:#FFFFFF; --surface-2:#F5F7F9;
+  --ink:#16202B; --ink-soft:#33424F; --muted:#5C6B79;
+  --rule:#CDD6DE; --rule-soft:#E2E8ED;
+  --copper:#A2572C;
+  --moss:#4F6B3E;  --moss-bg:#E4EDDF;
+  --ochre:#87661A; --ochre-bg:#F3EAD3;
+  --brick:#8E3B36; --brick-bg:#F3E0DE;
+  --sans:-apple-system,"Segoe UI",system-ui,sans-serif;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --mono:ui-monospace,"Cascadia Code",Consolas,monospace;
+  --shadow:0 1px 2px rgba(22,32,43,.06),0 8px 24px -12px rgba(22,32,43,.18);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#111920; --surface:#19232C; --surface-2:#1F2A34;
+    --ink:#DCE4EA; --ink-soft:#BAC7D1; --muted:#8797A4;
+    --rule:#2E3C48; --rule-soft:#26333D;
+    --copper:#D68F5F;
+    --moss:#93B87C;  --moss-bg:#22301C;
+    --ochre:#C9A44E; --ochre-bg:#332B14;
+    --brick:#D3837B; --brick-bg:#33201E;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#111920; --surface:#19232C; --surface-2:#1F2A34;
+  --ink:#DCE4EA; --ink-soft:#BAC7D1; --muted:#8797A4;
+  --rule:#2E3C48; --rule-soft:#26333D;
+  --copper:#D68F5F;
+  --moss:#93B87C;  --moss-bg:#22301C;
+  --ochre:#C9A44E; --ochre-bg:#332B14;
+  --brick:#D3837B; --brick-bg:#33201E;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);
+  font-family:var(--serif);font-size:17px;line-height:1.62}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px 96px}
+.col{max-width:660px}
+header{padding:72px 0 40px;border-bottom:1px solid var(--rule)}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--copper);margin:0 0 18px;font-weight:600}
+h1{font-family:var(--sans);font-weight:800;letter-spacing:-.03em;line-height:1.02;
+  font-size:clamp(38px,6.4vw,66px);margin:0 0 22px;text-wrap:balance}
+.standfirst{font-size:20px;line-height:1.5;color:var(--ink-soft);margin:0;max-width:640px}
+.standfirst strong{color:var(--ink);font-weight:600}
+section{padding-top:56px}
+h2{font-family:var(--sans);font-weight:750;letter-spacing:-.02em;font-size:29px;
+  line-height:1.15;margin:0 0 6px;text-wrap:balance}
+h3{font-family:var(--sans);font-weight:700;letter-spacing:-.01em;font-size:19px;margin:30px 0 8px}
+.sec-label{font-family:var(--mono);font-size:11px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 14px;padding-bottom:10px;border-bottom:1px solid var(--rule-soft)}
+p{margin:0 0 16px}
+.col p:last-child{margin-bottom:0}
+strong{font-weight:600}
+a{color:var(--copper)}
+ul,ol{margin:0 0 16px;padding-left:22px}
+li{margin:0 0 7px}
+code,.mono{font-family:var(--mono);font-size:.855em}
+code{background:var(--surface-2);border:1px solid var(--rule-soft);border-radius:3px;padding:.08em .34em}
+pre{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:16px 18px;
+  overflow-x:auto;margin:22px 0 0;font-size:13.5px;line-height:1.5}
+pre code{background:none;border:none;padding:0;font-size:inherit}
+figure{margin:34px 0 0;background:var(--surface);border:1px solid var(--rule);
+  border-radius:6px;padding:26px 22px 18px;box-shadow:var(--shadow)}
+.figscroll{overflow-x:auto}
+figure svg{display:block;width:100%;min-width:680px;height:auto;color:var(--ink)}
+figcaption{font-family:var(--sans);font-size:13.5px;line-height:1.5;color:var(--muted);
+  margin-top:18px;padding-top:14px;border-top:1px solid var(--rule-soft)}
+.tablewrap{overflow-x:auto;margin:26px 0 0;border:1px solid var(--rule);border-radius:6px;
+  background:var(--surface);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:14.5px}
+th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+thead th{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--muted);font-weight:600;background:var(--surface-2);border-bottom:1px solid var(--rule)}
+tbody tr:last-child td{border-bottom:none}
+td.name{font-family:var(--sans);font-weight:650;white-space:nowrap}
+.callout{margin:30px 0 0;background:var(--surface);border:1px solid var(--rule);
+  border-left:3px solid var(--copper);border-radius:0 6px 6px 0;padding:20px 22px}
+.callout p{margin:0 0 10px;font-size:16px}
+.callout p:last-child{margin:0}
+.callout .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--copper);font-weight:600;display:block;margin-bottom:8px}
+.chip{display:inline-block;font-family:var(--sans);font-size:11.5px;font-weight:650;
+  padding:3px 10px;border-radius:10px;white-space:nowrap}
+.c-good{background:var(--moss-bg);color:var(--moss)}
+.c-warn{background:var(--ochre-bg);color:var(--ochre)}
+.c-stop{background:var(--brick-bg);color:var(--brick)}
+footer{margin-top:64px;padding-top:22px;border-top:1px solid var(--rule);
+  font-family:var(--sans);font-size:13px;color:var(--muted)}
+@media (max-width:640px){body{font-size:16px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* page-specific */
+.badge {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-family: var(--mono);
+  margin: 2px 2px 2px 0;
+  white-space: nowrap;
+}
+.badge.pass { background: var(--moss-bg); color: var(--moss); border: 1px solid var(--moss); }
+.badge.fail { background: var(--brick-bg); color: var(--brick); border: 1px solid var(--brick); }
+.badge.warn { background: var(--ochre-bg); color: var(--ochre); border: 1px solid var(--ochre); }
+
+.details-pre {
+  font-size: 0.75rem;
+  max-height: 250px;
+  max-width: 100%;
+  overflow: auto;
+  background: var(--surface-2);
+  padding: 8px;
+  border-radius: 4px;
+  white-space: pre;
+  margin-top: 0.5rem;
+  border: 1px solid var(--rule-soft);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+th, td {
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+th {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+td {
+  font-size: 0.9rem;
+}
+
+.case-card {
+  border: 1px solid var(--rule);
+  padding: 1.25rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  background: var(--surface);
+}
+.case-card h3, .case-card h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: var(--sans);
+  color: var(--ink);
+}
+.case-card p {
+  margin: 0.5rem 0;
+}
+
+.flex-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.flex-col {
+  flex: 1;
+  min-width: 280px;
+}
+
+.filters {
+  background: var(--surface-2);
+  padding: 12px;
+  border-radius: 6px;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  border: 1px solid var(--rule-soft);
+}
+.filters label {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-right: 0.5rem;
+}
+.filters select, .filters input {
+  padding: 4px 8px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  font-family: var(--sans);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+details summary {
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--copper);
+  font-weight: 500;
+  user-select: none;
+}
+details summary:hover {
+  text-decoration: underline;
+}
+
+.error-text {
+  font-size: 0.8rem;
+  color: var(--brick);
+  margin-bottom: 6px;
+  font-family: var(--sans);
+}
+</style></head><body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">EVALUATION DASHBOARD</p>
+    <h1>Filing Hypotheses Pilot Viewer</h1>
+    <p class="standfirst">Interactive exact-data viewer for continuation trials and filesystem replays, examining reader retrieval performance under varied storage conventions.</p>
+  </header>
+<section>
+  <div class="col">
+    <div id="loading-state" class="callout">
+      <span class="k">DATA STATUS</span>
+      <p>Data not loaded. Waiting for deterministic importer to inject exact viewer records...</p>
+    </div>
+  </div>
+
+  <div id="loaded-state" style="display: none;">
+    <div class="col">
+      <div class="callout" style="border-color: var(--ochre); margin-bottom: 2rem;">
+        <span class="k" style="background: var(--ochre-bg); color: var(--ochre);">CAVEAT</span>
+        <p>18 LLM-authored fictional families, 80 main + 6 exploratory, unblinded secondary author post-hoc audit, scores unchanged. Main 60/80 literal 57/80 clean; audit 77/80 and 74/80 clean. New local rootless sessions no inherited PARA primer; remote erasure/personalization/exposure unproved. Short collections, no actual personal vault bootstrap; main gold ASCII / main Windows CP1252/UTF8 defect, T013 confirmed; 53/82 unclassified. Selected 4 UTF8 diagnostics not pooled, don't identify why results changed. Preserve exact imported data and structural check vs facts distinction.</p>
+      </div>
+      <div style="margin-bottom: 2rem; font-family: var(--sans); font-size: 0.9rem;">
+        <a href="https://github.com/BlueRaddish/filesystem-agent-memory-research/blob/main/evaluation/study-2026-10-09/REPORT.md">Report</a> |
+        <a href="https://github.com/BlueRaddish/filesystem-agent-memory-research/blob/main/evaluation/study-2026-10-09/AUDIT.md">Audit</a> |
+        <a href="https://github.com/BlueRaddish/filesystem-agent-memory-research/blob/main/evaluation/study-2026-10-09/results.json">results.json</a> |
+        <a href="https://github.com/BlueRaddish/filesystem-agent-memory-research/tree/main/evaluation/study-2026-10-09/figures">12 Figures</a>
+      </div>
+      <p class="sec-label">Study Audit & Summary</p>
+      <div id="overview-metrics"></div>
+    </div>
+
+    <div class="col" style="margin-top: 2.5rem;">
+      <p class="sec-label">Trial Explorer</p>
+      <p style="font-size: 0.85rem; color: var(--ink-soft); margin-top: -0.5rem; margin-bottom: 1rem; line-height: 1.4;">All 86 shown; 80 main + 6 additional; main comparison bars explicitly select unbriefed. Label 'Read' as required-original full-read proxy and 'Receipt' as successful check result supplied to later call, not comprehension. Clean means gate pass + reader_done, not just check success. Frozen/audit gates remain separate.</p>
+      <div class="filters">
+        <label for="regime-filter">Filter by Regime:</label>
+        <select id="regime-filter">
+          <option value="all">All Regimes</option>
+          <option value="matched">Matched</option>
+          <option value="fidelity_first">Fidelity First</option>
+        </select>
+
+        <label for="hypothesis-filter" style="margin-left: 1rem;">Hypothesis:</label>
+        <select id="hypothesis-filter">
+          <option value="all">All</option>
+        </select>
+
+        <label for="case-search" style="margin-left: 1rem;">Search Case/Trial ID:</label>
+        <input type="text" id="case-search" placeholder="e.g. sablefin or T043">
+      </div>
+
+      <div id="comparison-bars" style="margin-top: 1.5rem; width: 100%;"></div>
+    </div>
+
+    <div class="tablewrap" style="margin: 0.5rem auto 2rem auto;">
+      <table id="heatmap-table">
+        <thead>
+          <tr>
+            <th>Hypothesis</th>
+            <th>Condition</th>
+            <th>Family (Case)</th>
+            <th>Regime</th>
+            <th>Literal Score</th>
+            <th>Audit Score</th>
+            <th>Execution Flags</th>
+            <th>Written Artifact</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="col" style="margin-top: 2.5rem;">
+      <p class="sec-label">Exploratory Onboarding</p>
+      <div id="onboarding-metrics"></div>
+    </div>
+
+    <div class="col" style="margin-top: 2.5rem;">
+      <p class="sec-label">Maintenance Traces (H4 & H6)</p>
+      <div id="h4-maintenance-details" style="margin-bottom: 2rem;"></div>
+
+      <div class="filters" style="margin-bottom: 1rem;">
+        <label for="h6-schedule-select">H6 Schedule:</label>
+        <select id="h6-schedule-select"></select>
+      </div>
+      <div id="h6-timeline-plot" style="margin-bottom: 1.5rem;"></div>
+      <div id="h6-maintenance-details"></div>
+    </div>
+
+    <div class="col" style="margin-top: 2.5rem;">
+      <p class="sec-label">T043 Sablefin Authority Sequence</p>
+      <div id="sablefin-visual"></div>
+    </div>
+
+    <div class="col" style="margin-top: 2.5rem;">
+      <p class="sec-label">UTF-8 Diagnostics</p>
+      <p>Recovery occurred under a changed execution condition. These selected draws cannot identify why the result changed.</p>
+      <div id="diagnostic-details"></div>
+
+      <div style="margin-top: 3rem; font-family: var(--sans); font-size: 0.9rem;">
+        <a href="https://github.com/BlueRaddish/filesystem-agent-memory-research/blob/main/evaluation/study-2026-10-09/REPORT.md">Report</a> |
+        <a href="https://github.com/BlueRaddish/filesystem-agent-memory-research/blob/main/evaluation/study-2026-10-09/AUDIT.md">Audit</a> |
+        <a href="https://github.com/BlueRaddish/filesystem-agent-memory-research/blob/main/evaluation/study-2026-10-09/results.json">results.json</a> |
+        <a href="https://github.com/BlueRaddish/filesystem-agent-memory-research/tree/main/evaluation/study-2026-10-09/figures">12 Figures</a>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<script>
+const STUDY_DATA = {"__DATA_INJECTION_SLOT__":true};
+
+document.addEventListener("DOMContentLoaded", () => {
+  if (STUDY_DATA && !STUDY_DATA["__DATA_INJECTION_SLOT__"]) {
+    document.getElementById("loading-state").style.display = "none";
+    document.getElementById("loaded-state").style.display = "block";
+    renderDashboard(STUDY_DATA);
+  }
+});
+
+function renderDashboard(data) {
+  renderOverview(data);
+
+  const regimeFilter = document.getElementById("regime-filter");
+  const hypFilter = document.getElementById("hypothesis-filter");
+  const caseSearch = document.getElementById("case-search");
+
+  if (data.main_trials && hypFilter) {
+    const hyps = [...new Set(data.main_trials.map(t => t.hypothesis).filter(Boolean))].sort();
+    hyps.forEach(h => {
+      const opt = document.createElement("option");
+      opt.value = h; opt.textContent = h;
+      hypFilter.appendChild(opt);
+    });
+  }
+
+  const updateHeatmap = () => {
+    if(typeof renderComparisonBars === 'function') renderComparisonBars(data, regimeFilter.value, hypFilter ? hypFilter.value : "all");
+    renderHeatmap(data, regimeFilter.value, hypFilter ? hypFilter.value : "all", caseSearch.value);
+  };
+
+  regimeFilter.addEventListener("change", updateHeatmap);
+  if(hypFilter) hypFilter.addEventListener("change", updateHeatmap);
+  caseSearch.addEventListener("input", updateHeatmap);
+
+  updateHeatmap();
+
+  renderOnboarding(data);
+  renderMaintenance(data);
+  renderDiagnostics(data);
+  if(typeof renderSablefin === 'function') renderSablefin();
+}
+
+function escapeHtml(unsafe) {
+    if (typeof unsafe !== 'string') return "";
+    return unsafe
+         .replace(/&/g, "&amp;")
+         .replace(/</g, "&lt;")
+         .replace(/>/g, "&gt;")
+         .replace(/"/g, "&quot;")
+         .replace(/'/g, "&#039;");
+}
+
+function safeStringify(obj) {
+  return escapeHtml(JSON.stringify(obj, null, 2));
+}
+
+function renderOverview(data) {
+  const am = data.audit_metrics || {};
+  const fp = data.failure_partition || {};
+  const aborted = data.aborted || [];
+
+  let html = `<div class="flex-row">`;
+
+  if (am.principal_unbriefed) {
+    html += `
+      <div class="case-card flex-col">
+        <h3>Principal Trials (Unbriefed)</h3>
+        <p style="font-family: var(--mono); font-size: 0.85em; color: var(--ink-soft);">N=${am.principal_unbriefed.n}</p>
+        <p>Main literal pass: <strong>${am.principal_unbriefed.frozen_complete_task}</strong>
+           (Clean: ${am.principal_unbriefed.frozen_clean_finish})</p>
+        <p>Audited sensitivity pass: <strong>${am.principal_unbriefed.sensitivity_complete_task}</strong>
+           (Clean: ${am.principal_unbriefed.sensitivity_clean_finish})</p>
+      </div>`;
+  }
+
+  if (am.all) {
+    html += `
+      <div class="case-card flex-col">
+        <h3>All Trials</h3>
+        <p style="font-family: var(--mono); font-size: 0.85em; color: var(--ink-soft);">N=${am.all.n}</p>
+        <p>Literal pass: <strong>${am.all.frozen_complete_task}</strong> (Clean: ${am.all.frozen_clean_finish})</p>
+        <p>Audited pass: <strong>${am.all.sensitivity_complete_task}</strong> (Clean: ${am.all.sensitivity_clean_finish})</p>
+      </div>`;
+  }
+
+  html += `
+    <div class="case-card flex-col">
+      <h3>Failure Partition & Aborted</h3>
+      <ul style="margin: 0 0 0.5rem 0; padding-left: 1.2rem; font-size: 0.85rem;">
+        ${Object.entries(fp).map(([k,v]) => `<li>${k.replace(/_/g, ' ')}: <strong>${v}</strong></li>`).join('')}
+      </ul>
+      <div style="font-size: 0.85rem; border-top: 1px solid var(--rule-soft); padding-top: 0.5rem;">
+        <strong>Aborted:</strong>
+        ${aborted.map(a => `<br>Attempt ${a.attempt}: ${a.receipts}/${a.launched} receipts`).join('')}
+      </div>
+    </div>
+  </div>`;
+
+  document.getElementById("overview-metrics").innerHTML = html;
+}
+
+function renderHeatmap(data, regime = "all", hyp = "all", search = "") {
+  const tbody = document.querySelector("#heatmap-table tbody");
+  tbody.innerHTML = "";
+
+  if (!data.main_trials) return;
+
+  let trials = data.main_trials.filter(t => {
+    if (regime !== "all" && t.regime !== regime) return false;
+    if (hyp !== "all" && t.hypothesis !== hyp) return false;
+    if (search) {
+      const s = search.toLowerCase();
+      if (!t.case_id.toLowerCase().includes(s) && !(t.trial_id && t.trial_id.toLowerCase().includes(s))) return false;
+    }
+    return true;
+  });
+
+  trials.sort((a,b) => {
+    if (a.hypothesis !== b.hypothesis) return (a.hypothesis || "").localeCompare(b.hypothesis || "");
+    if (a.condition !== b.condition) return (a.condition || "").localeCompare(b.condition || "");
+    return (a.case_id || "").localeCompare(b.case_id || "");
+  });
+
+  trials.forEach(t => {
+    const term = t.actual_termination || t.termination;
+    const isClean = t.complete_task && term === "reader_done";
+    const isAuditClean = t.sensitivity_complete_task && term === "reader_done";
+
+    const statusClass = t.complete_task ? (isClean ? "pass" : "warn") : "fail";
+    const auditClass = t.sensitivity_complete_task ? (isAuditClean ? "pass" : "warn") : "fail";
+
+    let statusLabel = isClean ? "Pass (Clean)" : (t.complete_task ? "Pass" : "Fail");
+    let auditLabel = isAuditClean ? "Pass (Clean)" : (t.sensitivity_complete_task ? "Pass" : "Fail");
+
+    const flags = [];
+    flags.push({name: "Cited", state: t.citation_complete ? "pass" : "fail"});
+    flags.push({name: "Read", state: t.origin_read_complete ? "pass" : "fail"});
+    flags.push({name: "Check", state: t.post_write_checks_pass ? "pass" : "fail"});
+    flags.push({name: "Receipt", state: t.reader_saw_post_write_check ? "pass" : "fail"});
+
+    let errorHTML = "";
+    if (t.wrong_fields && Object.keys(t.wrong_fields).length > 0) {
+      errorHTML = `<div class="error-text">Mismatch: ${escapeHtml(Object.keys(t.wrong_fields).join(', '))}</div>`;
+    }
+
+    const artifactStr = (t.artifact_written && t.artifact)
+      ? `${errorHTML}<details><summary>Inspect JSON</summary><pre class="details-pre">${safeStringify(t.artifact)}</pre></details>`
+      : `${errorHTML}<em style="color:var(--ink-soft); font-size:0.85em;">Absent / Unchanged Draft</em>`;
+
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="name">${escapeHtml(t.hypothesis || "")}</td>
+      <td>${escapeHtml((t.condition || "").replace(/_/g, ' '))}</td>
+      <td><strong>${escapeHtml(t.case_id)}</strong> <br><span style="font-size:0.75em; font-family:var(--mono); color:var(--ink-soft);">${escapeHtml(t.trial_id)}</span></td>
+      <td>${escapeHtml(t.regime)}<br><span style="font-size:0.75em; color:var(--ink-soft);">${escapeHtml(t.onboarding || "")}</span><br><span style="font-size:0.75em; font-family:var(--mono); color:var(--ink-soft);">${escapeHtml(term || "")}</span></td>
+      <td><span class="badge ${statusClass}">${statusLabel}</span></td>
+      <td><span class="badge ${auditClass}">${auditLabel}</span></td>
+      <td>${flags.map(f => `<span class="badge ${f.state}">${f.name}</span>`).join('')}</td>
+      <td>${artifactStr}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function renderOnboarding(data) {
+  const container = document.getElementById("onboarding-metrics");
+  if (!data.onboarding || !data.onboarding.length) {
+    container.innerHTML = "<p>No onboarding data available.</p>";
+    return;
+  }
+
+  let html = `<div class="tablewrap"><table>
+    <thead><tr>
+      <th>Case ID</th>
+      <th>Onboarding</th>
+      <th>N</th>
+      <th>Complete Task (Frozen)</th>
+      <th>Artifact Written (Actual)</th>
+      <th>Audit Pass (Actual)</th>
+    </tr></thead><tbody>`;
+
+  data.onboarding.forEach(o => {
+    let actual_artifact = false;
+    let actual_audit = false;
+    if (data.main_trials) {
+      const trial = data.main_trials.find(t =>
+        t.case_id === o.case_id &&
+        t.condition === o.condition &&
+        t.onboarding === o.onboarding &&
+        t.regime === 'fidelity_first'
+      );
+      if (trial) {
+        actual_artifact = !!trial.artifact_written;
+        actual_audit = !!trial.sensitivity_complete_task;
+      }
+    }
+    html += `
+      <tr>
+        <td class="name">${escapeHtml(o.case_id)}</td>
+        <td>${escapeHtml(o.onboarding.replace(/_/g, ' '))}</td>
+        <td>${o.n}</td>
+        <td><span class="badge ${o.complete_task ? 'pass' : 'fail'}">${o.complete_task ? 'Yes' : 'No'}</span></td>
+        <td><span class="badge ${actual_artifact ? 'pass' : 'fail'}">${actual_artifact ? 'Yes' : 'No'}</span></td>
+        <td><span class="badge ${actual_audit ? 'pass' : 'fail'}">${actual_audit ? 'Yes' : 'No'}</span></td>
+      </tr>
+    `;
+  });
+  html += `</tbody></table></div>`;
+  container.innerHTML = html;
+}
+
+function renderMaintenance(data) {
+  if (!data.maintenance) return;
+
+  const h4traces = data.maintenance.filter(m => m.hypothesis === "H4");
+  const h4container = document.getElementById("h4-maintenance-details");
+  if (h4traces.length > 0) {
+    let h4html = `<div class="flex-row">`;
+    h4traces.forEach(trace => {
+      h4html += `
+        <div class="case-card flex-col">
+          <h4>${escapeHtml(trace.hypothesis)} &mdash; ${escapeHtml(trace.condition_id.replace(/_/g, ' '))}</h4>
+          <details><summary>Summary</summary><pre class="details-pre">${safeStringify(trace.summary)}</pre></details>
+          <div class="tablewrap">
+            <table style="font-size:0.85em; margin-bottom:0;">
+              <thead><tr><th>Step</th><th>Phase</th><th>Authority (Unavailable)</th><th>Current (Stale)</th></tr></thead>
+              <tbody>
+                ${(trace.checkpoints || []).map(cp => {
+                  const authStr = safeStringify(cp.authority || 'N/A');
+                  const currStr = safeStringify(cp.current || 'N/A');
+                  const unavail = cp.unavailable_scopes ? safeStringify(cp.unavailable_scopes) : '[]';
+                  const stale = cp.stale_scopes ? safeStringify(cp.stale_scopes) : '[]';
+                  return `
+                  <tr>
+                    <td>${cp.step}</td>
+                    <td>${escapeHtml(cp.phase)}</td>
+                    <td><details><summary>Auth</summary><pre>${authStr}</pre></details>Unavail: ${unavail}</td>
+                    <td><details><summary>Current</summary><pre>${currStr}</pre></details>Stale: ${stale}</td>
+                  </tr>
+                `}).join('')}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    });
+    h4html += `</div>`;
+    h4container.innerHTML = h4html;
+  }
+
+  const h6traces = data.maintenance.filter(m => m.hypothesis === "H6");
+  const sel = document.getElementById("h6-schedule-select");
+  sel.innerHTML = "";
+
+  h6traces.forEach((m) => {
+    const opt = document.createElement("option");
+    opt.value = m.condition_id;
+    opt.textContent = m.condition_id.replace(/_/g, ' ');
+    sel.appendChild(opt);
+  });
+
+  sel.addEventListener("change", () => renderH6Details(data, sel.value));
+  if (h6traces.length > 0) {
+    renderH6Details(data, h6traces[0].condition_id);
+  }
+}
+
+function renderH6Details(data, condition_id) {
+  const trace = data.maintenance.find(m => m.hypothesis === "H6" && m.condition_id === condition_id);
+  const container = document.getElementById("h6-maintenance-details");
+  const plotContainer = document.getElementById("h6-timeline-plot");
+  if (!trace) return;
+
+  if (plotContainer) {
+    const cps = (trace.checkpoints || []).slice(0, 8);
+    let svg = `<svg viewBox="0 0 800 120" style="width:100%; max-width:800px; height:auto; background:var(--surface-2); border-radius:4px; font-family:var(--sans); margin-bottom:1rem;">`;
+    svg += `<text x="10" y="20" font-size="12" fill="var(--ink-soft)">copper bar=number of stale fields; red dot=dirty flag; clean-looking but stale step 3 is visible</text>`;
+    const maxStale = Math.max(...cps.map(c => c.stale_field_count || 0), 2);
+    cps.forEach((cp, i) => {
+      const x = 50 + i * 90;
+      const staleCount = cp.stale_field_count || 0;
+      const h = (staleCount / maxStale) * 60;
+      svg += `<rect x="${x-10}" y="${90-h}" width="20" height="${h}" fill="var(--copper)" />`;
+      svg += `<text x="${x}" y="${85-h}" text-anchor="middle" font-size="10" fill="var(--copper)">${staleCount}</text>`;
+      svg += `<text x="${x}" y="105" text-anchor="middle" font-size="10" fill="var(--ink)">Step ${cp.step}</text>`;
+      if (cp.dirty) {
+        svg += `<circle cx="${x}" cy="${25}" r="4" fill="var(--brick)" />`;
+        svg += `<text x="${x}" y="15" text-anchor="middle" font-size="10" fill="var(--brick)">Dirty</text>`;
+      }
+    });
+    svg += `</svg>`;
+    plotContainer.innerHTML = svg;
+  }
+
+  let html = `
+    <div class="case-card">
+      <h4 style="color: var(--copper);">${escapeHtml(trace.hypothesis)} &mdash; ${escapeHtml(trace.condition_id.replace(/_/g, ' '))}</h4>
+      <details><summary>Summary</summary><pre class="details-pre">${safeStringify(trace.summary)}</pre></details>
+      <div class="tablewrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Phase</th>
+              <th>Authoritative</th>
+              <th>Committed</th>
+              <th>Coverage</th>
+              <th>Known Gaps</th>
+              <th>Stale Count</th>
+              <th>Dirty</th>
+              <th>Actually Current</th>
+            </tr>
+          </thead>
+          <tbody>
+  `;
+
+  (trace.checkpoints || []).slice(0, 8).forEach(cp => {
+    const gaps = cp.known_gaps ? safeStringify(cp.known_gaps) : 'None';
+    html += `
+      <tr>
+        <td>${cp.step}</td>
+        <td>${escapeHtml(cp.phase)}</td>
+        <td><details><summary>Auth</summary><pre class="details-pre">${safeStringify(cp.authoritative_fields)}</pre></details></td>
+        <td><details><summary>Committed</summary><pre class="details-pre">${safeStringify(cp.committed_fields)}</pre></details></td>
+        <td><details><summary>Coverage</summary><pre class="details-pre">${safeStringify(cp.coverage)}</pre></details></td>
+        <td>${gaps}</td>
+        <td>${cp.stale_field_count || 0}</td>
+        <td>${cp.dirty ? '<span class="badge fail">Yes</span>' : '<span class="badge pass">No</span>'}</td>
+        <td>${cp.actually_current ? '<span class="badge pass">Yes</span>' : '<span class="badge fail">No</span>'}</td>
+      </tr>
+    `;
+  });
+
+  html += `</tbody></table></div></div>`;
+  container.innerHTML = html;
+}
+
+function renderComparisonBars(data, regime = "all", hyp = "all") {
+  const container = document.getElementById("comparison-bars");
+  if (!container) return;
+  if (!data.main_trials) { container.innerHTML = ""; return; }
+
+  const trials = data.main_trials.filter(t => t.onboarding === 'unbriefed' &&
+    (regime === "all" || t.regime === regime) &&
+    (hyp === "all" || t.hypothesis === hyp));
+
+  const groups = {};
+  trials.forEach(t => {
+    const key = `${t.hypothesis || 'None'}|${t.condition || 'None'}`;
+    if (!groups[key]) groups[key] = { hyp: t.hypothesis, cond: t.condition, n: 0, passFroz: 0, passAud: 0 };
+    groups[key].n++;
+    if (t.complete_task) groups[key].passFroz++;
+    if (t.sensitivity_complete_task) groups[key].passAud++;
+  });
+
+  let html = `<div style="display:flex; flex-wrap:wrap; gap:1rem; align-items:flex-end;">`;
+  Object.values(groups).sort((a,b) => (a.hyp||'').localeCompare(b.hyp||'') || (a.cond||'').localeCompare(b.cond||'')).forEach(g => {
+    const pctFroz = g.n ? (g.passFroz / g.n) * 100 : 0;
+    const pctAud = g.n ? (g.passAud / g.n) * 100 : 0;
+    html += `
+      <div style="width:120px; font-family:var(--sans); font-size:0.8rem; text-align:center;">
+        <div style="margin-bottom:4px; color:var(--ink-soft); font-weight:bold;">${escapeHtml(g.hyp)}</div>
+        <div style="margin-bottom:4px; color:var(--ink-soft); font-size:0.7rem; white-space:normal; overflow-wrap:break-word;" title="${escapeHtml(g.cond||'')}">${escapeHtml((g.cond||'').replace(/_/g, ' '))}</div>
+        <div style="height:100px; background:var(--surface-2); position:relative; border-radius:4px; overflow:hidden;">
+          <div style="position:absolute; bottom:0; left:0; width:50%; height:${pctFroz}%; background:var(--moss); opacity:0.7;" title="Frozen: ${g.passFroz}/${g.n}"></div>
+          <div style="position:absolute; bottom:0; right:0; width:50%; height:${pctAud}%; background:var(--copper); opacity:0.9;" title="Audited: ${g.passAud}/${g.n}"></div>
+        </div>
+        <div style="margin-top:4px; font-family:var(--mono); font-size:0.75rem;">F:${g.passFroz}/${g.n} A:${g.passAud}/${g.n}</div>
+      </div>
+    `;
+  });
+  html += `</div>`;
+  container.innerHTML = html;
+}
+
+function renderSablefin() {
+  const container = document.getElementById("sablefin-visual");
+  if (!container) return;
+
+  container.innerHTML = `
+    <div class="case-card" style="background:var(--surface-2); border-color:var(--rule);">
+      <h4 style="margin-bottom: 1rem;">Observed source-use failure (anchoring is inference, not measured causality)</h4>
+      <div style="display:flex; flex-wrap:wrap; gap:1rem; align-items:center;">
+
+        <div style="background:var(--surface); padding:1rem; border-radius:6px; border:1px solid var(--rule); min-width:180px;">
+          <div style="font-family:var(--mono); font-size:0.8rem; color:var(--ink-soft); margin-bottom:4px;">SA-03 Initial</div>
+          <div style="font-size:1.2rem; color:var(--brick); font-weight:bold;">200</div>
+          <div style="font-size:0.8rem; color:var(--ink-soft);">(Initially approved; later superseded)</div>
+        </div>
+
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+
+        <div style="background:var(--surface); padding:1rem; border-radius:6px; border:1px solid var(--rule); min-width:180px;">
+          <div style="font-family:var(--mono); font-size:0.8rem; color:var(--ink-soft); margin-bottom:4px;">SA-04 Process</div>
+          <div style="font-size:0.9rem;">S1 Accept: <span style="color:var(--brick); font-weight:bold;">200</span></div>
+          <div style="font-size:0.9rem;">S2 Final: <span style="color:var(--moss); font-weight:bold;">0</span> (Required)</div>
+        </div>
+
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+
+        <div style="background:var(--surface); padding:1rem; border-radius:6px; border:1px solid var(--rule); min-width:180px;">
+          <div style="font-family:var(--mono); font-size:0.8rem; color:var(--ink-soft); margin-bottom:4px;">Reading Phase</div>
+          <div style="font-size:0.85rem;">Turn 2: Stale view read</div>
+          <div style="font-size:0.85rem;">May 9 view: <span style="color:var(--brick); font-weight:bold;">200</span> (omits SA-04)</div>
+          <div style="font-size:0.85rem;">Turn 4: Full SA-04 read</div>
+        </div>
+
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+
+        <div style="background:var(--surface); padding:1rem; border-radius:6px; border:1px solid var(--rule); min-width:180px;">
+          <div style="font-family:var(--mono); font-size:0.8rem; color:var(--ink-soft); margin-bottom:4px;">Writing Phase</div>
+          <div style="font-size:0.85rem;">Turn 5: First write <span style="color:var(--brick); font-weight:bold;">200</span></div>
+          <div style="font-size:0.85rem;">3 writes + 7 structural passes</div>
+          <div style="font-size:0.9rem; margin-top:4px;">Final Output: <span style="color:var(--brick); font-weight:bold;">200</span></div>
+        </div>
+
+      </div>
+    </div>
+  `;
+}
+
+function renderDiagnostics(data) {
+  const container = document.getElementById("diagnostic-details");
+  if (!data.diagnostics || !data.diagnostics.length) {
+    container.innerHTML = "<p>No diagnostic data available.</p>";
+    return;
+  }
+
+  let html = `<div class="tablewrap"><table>
+    <thead><tr>
+      <th>Trial ID</th>
+      <th>Case</th>
+      <th>Condition</th>
+      <th>Turns</th>
+      <th>Artifact Score</th>
+    </tr></thead><tbody>`;
+
+  data.diagnostics.forEach(d => {
+    let scoreObj = "N/A";
+    if (d.score) {
+       scoreObj = `<details><summary>View Score JSON</summary><pre class="details-pre">${safeStringify(d.score)}</pre></details>`;
+    }
+    html += `
+      <tr>
+        <td class="name">${escapeHtml(d.trial_id)}</td>
+        <td>${escapeHtml(d.case_id)}</td>
+        <td>${escapeHtml(d.condition)}</td>
+        <td>${d.turns}</td>
+        <td>${scoreObj}</td>
+      </tr>
+    `;
+  });
+  html += `</tbody></table></div>`;
+  container.innerHTML = html;
+}
+</script>
+</body></html>

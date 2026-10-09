@@ -2,6 +2,8 @@
 
 **Status:** proposed experimental protocol, not completed benchmark results. The included fictional fixture is an illustration and harness check, not a validated benchmark. The primary objective is material correctness; tokens, latency, and maintenance are secondary measurements.
 
+The [2026-10-09 pilot report](study-2026-10-09/REPORT.md) records actual bounded experiments, with an [independent reconstruction](study-2026-10-09/AUDIT.md). It distinguishes operationally fresh local sessions from unproved remote unfamiliarity, keeps setup failures and selected follow-ups separate, and discloses scoring underspecification and a transport defect. It does not establish that all of this protocol's ideal controls were achieved or that the corpus is a validated benchmark.
+
 ## 1. Specify what success requires before testing
 
 Choose concrete tasks with observable outcomes: recover a current decision, explain a historical change, diagnose a failed attempt, update a local artifact, or continue unfinished work. Have an evaluator identify the required facts, governing sources, temporal order, scope, disallowed actions, necessary checks, and legitimately unknown details before running the reader. Annotate minimal sufficient evidence sets, including valid alternative sets, separately from useful supporting context. Do not penalize a correct grounded answer for omitting a redundant source.

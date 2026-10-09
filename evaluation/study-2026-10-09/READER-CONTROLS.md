@@ -1,0 +1,73 @@
+# Reader execution controls
+
+This note describes the Muse runtime controls actually exercised during preparation on 2026-10-09 and the public interface for replicating collection with another reader. Runtime canaries establish that inference and its controls work; they are not scored filing trials, retrieval-quality measurements or independent reproduction of the study.
+
+## Runtime actually checked
+
+The reader used the native Muse Code **1.4.4-R5419.1** runtime, with the explicit model ID **`muse-spark-1.3-contributor`**. Initial adapter canaries used reasoning effort **`low`**; the third-boundary continuation rehearsal used **`high`**. Scored runs must record their own effective model and effort rather than treating a default or a canary setting as evidence about those runs.
+
+Every adapter invocation created a new hidden native process, new evaluation-owned configuration and data directories, and a new ephemeral MSP session. The host used `muse serve --provider meta --model muse-spark-1.3-contributor --no-session-log --disable-shell --disable-write`. The client initialized the connection, called `session/start` without `workspaceRoot` or `workspaceRoots`, and submitted exactly one text input through `turn/start`. It did not call resume, fork or side-chat methods. Initial session metadata reported a null workspace root, zero prior turns, no fork/side parent and ephemeral durability. [MSP sessions and turns](https://meta-models.github.io/muse-code-sdk/next/guides/msp-concepts/sessions-and-turns/), [durability profiles](https://meta-models.github.io/muse-code-sdk/next/guides/msp-concepts/durability-profiles/)
+
+The new configuration was not a copy of ordinary user settings. It contained evaluation settings and skill deactivation entries, with no user rules, project instructions, retained conversation or memory files staged in the new stores. `context.foreign_personal_skills` was false. All 23 discovered user, bundled and plugin skills were disabled during preparation; every invocation checked that the enabled native skill catalog was empty before inference. Web search was off, web fetch was disabled and artifact tools were disabled. The rootless session received no staged filesystem workspace, corpus, evaluator directory or repository path. These controls exclude the established local context sources; they do not trace every possible operating-system read or prove every injected instruction byte. [Configuration and context](https://dev.meta.ai/docs/muse-code/configuration), [skills and activation](https://meta-models.github.io/muse-code-sdk/next/guides/extend/skills/)
+
+Rootless serving is consequential: SDK documentation states that a session with no workspace root composes no workspace tooling. Actual upstream requests were inspected to verify the resulting inventory, rather than inferring it from command-line flags. They advertised **only `muse.write_todos`**, a native session-plan bookkeeping function. There were no native filesystem read/list/search/write, shell, web, artifact, session-access or MCP tools in the advertised request. This was **not a zero-native-tool configuration**. [Plugins in SDK sessions](https://meta-models.github.io/muse-code-sdk/next/guides/plugins/concepts/plugins-in-sdk-sessions/)
+
+The adapter requires that exact one-tool inventory. Its initial policy rejected every completed native tool-call item, including `write_todos`. The first scored launch encountered automatic todo bookkeeping and unavailable native list requests on longer task prompts, and was aborted as an infrastructure failure before any reader response was accepted or collection operation executed. Its failed receipts and original freeze are preserved. A second boundary allowed session-local todo bookkeeping but still rejected attempted native read/list names even when the host refused them. A first-turn-only canary did not expose this later protocol behavior. Both rejected launches must remain distinct from a prospective replacement collection.
+
+The third boundary permits **only session-local `write_todos` bookkeeping as an executable native capability**. Other native requests are acceptable only when their completed item has status `failed` and the host's exact unavailable-tool error: `tool unavailable: unknown tool ... Session tool ids: write_todos`. The adapter verifies the complete exact string for the observed tool name, the unchanged one-tool advertisement, and absence of a successful non-bookkeeping native item. It never executes, forwards or grants these unavailable requests. All other native outcomes invalidate the call. An unavailable `muse.read` or `muse.list` request returns no source data; the Python harness later performs any valid JSON collection action independently. These protocol false starts are recorded separately from real file operations and artifact semantics.
+
+The adapter reads the actual native item's `tool` member rather than `toolName`. `native_tools_used` records observed native attempt names, including unavailable attempts; `native_failed_unavailable_tools`, its attempt count and `all_non_bookkeeping_native_attempts_failed_unavailable` identify the verified refusals. They must not be described as native filesystem executions. The todo state expires with the current invocation and cannot access collection files or another native session. Acceptance auditing occurs **after native dispatch/refusal**, not as an enforced denial before a request is attempted. The rootless inventory and the host's unknown-tool refusal supply the filesystem boundary.
+
+The generic continuation runner, rather than the native model harness, owns every authorized file operation and executable check. Settings hooks were not used as the isolation boundary: a rootless probe did not run the configured model-request hook, and documented hook failures can continue without applying their output. [Hook behavior and failure limits](https://meta-models.github.io/muse-code-sdk/next/guides/plugins/reference/hook-events/)
+
+Each invocation's **initial upstream request** contains exactly one user input. Native todo exchanges or refused unknown-tool requests can cause further upstream requests inside that same native turn, with more input items. These internal requests must retain exactly the original user input, contain only the permitted bookkeeping calls or individually verified unavailable attempts, use the frozen model, specify `store: false`, and omit `previous_response_id`, conversation and session-association request members. Request count therefore measures internal inference rounds and is not fixed at one. No native turn or todo state is carried into another adapter invocation. A prompt-cache key is present; the adapter does not export or save its value or supply a saved key to another invocation. Transport bodies are parsed transiently to retain request structure and tool names. Hidden reasoning bodies and raw provider bodies are not retained in the public result. Numeric token-use counters are recovered from `session/tokenUsage`; reasoning-token counters are usage metadata, not reasoning text. [Configuration and transport tracing](https://dev.meta.ai/docs/muse-code/configuration), [token-usage notification](https://meta-models.github.io/muse-code-sdk/next/generated/msp/notifications/session-tokenusage/)
+
+The existing native login was made available through a temporary same-file credential reference. The adapter did not print or copy credential contents, rewrite host settings or initiate login. The reference was removed in cleanup, including failed-call cleanup. Host authentication size, modification time and file identity, together with the host settings hash, were checked before and after calls. Creating/removing that reference changes filesystem link-count metadata; the check does not claim all metadata remained identical.
+
+Before the amendments, one adapter canary and a separate group of three concurrent adapter canaries returned their exact requested fictional JSON, completed successfully and used no native tools. Each of the three concurrent calls had its own configuration/data stores and temporary credential reference. These checks establish that three-way collection was operational for those calls; they do not establish unlimited concurrency, stable entitlement or latency advantages. A later full-prompt first-turn canary returned a valid list action after one todo exchange, but did not test the continuation after a collection observation.
+
+The third-boundary **unscored end-to-end rehearsal** exercised the full public continuation prompt and explicit history with the fictional Glassmere source-only fixture at high effort. It completed eight fresh reader calls and 19 actual mediated actions, including five complete original-source reads, an artifact edit, four successful local checks, two later calls receiving the final-write check receipt, and a final JSON `done: true`. The artifact passed the declared semantic and complete-task rubric. Request counts per call were 2, 2, 2, 2, 1, 2, 2 and 1. Six native todo calls were observed; no unavailable native request occurred in this rehearsal. Every call passed the workspace, inventory, input, provider-request and host-cleanup audits. This one rehearsal establishes working continuation and check observation for that fixture, not a filing-treatment effect or general reader accuracy. Separately, the exact-refusal acceptance logic was checked against previously captured failed native read/list items without additional inference; checks also reject a completed or nonexact non-bookkeeping native outcome.
+
+## Fresh calls and explicit replay within a trial
+
+A fresh native process and session do **not** mean the reader is asked to forget the work already observed in its current trial. The continuation interface supplies one explicit prompt containing the task and that trial's accumulated action/observation history. A later step creates another fresh native session and replays only that controlled history. This preserves the reader's within-trial evidence and artifact changes without relying on a hidden retained session.
+
+Each trial begins without another trial's history. Replay must exclude corpus-author conversations, gold answers, scoring rules, evaluator paths, family/condition labels and private notes. Only the selected condition's allowed file observations, the same task and the current trial's own actions/results enter the prompt. The model returns a JSON action or action batch in the runner's declared schema. The Python runner validates it and performs only the specified allowlisted list/read/search/write/check/finish operations. Tool errors and checker exit statuses become explicit observations. A claimed write or check in model prose does not count as execution.
+
+This mode measures continuation through an explicitly mediated action interface. It should not be labeled unconstrained native Muse tool use or treated as equivalent to a persistent chat session. Replayed context, the native system prefix and tool observations all contribute to reported input-token costs. Cache-read counters must not be added again to an input count that already includes them.
+
+## Public replication interface
+
+The locally installed native adapter and its machine-specific configuration are outside this repository's publication scope. The methods description therefore supports reimplementation; it is not a public, turnkey reproduction of that installation. A replicator can supply a generic reader adapter with the following process contract, keeping the public runner and fictional cases unchanged:
+
+```text
+stdin:  exactly one UTF-8 JSON object, then EOF
+stdout: exactly one UTF-8 JSON object, then process exit
+stderr: diagnostics, kept separate from model text
+```
+
+Input members:
+
+| Member | Contract |
+| --- | --- |
+| `prompt` | Required nonempty string; the complete controlled task/replay prompt. |
+| `reasoning_effort` | Optional requested effort; report the effective value or mark it unknown. |
+| `timeout_seconds` | Optional positive bounded time limit. A timeout is a recorded failure. |
+
+Output members:
+
+| Member | Contract |
+| --- | --- |
+| `text` | Required string containing the model's response. The public runner separately validates its action schema. |
+| `model` | Effective model identifier; do not substitute a requested alias for an unobserved effective model. |
+| `usage` | Provider-reported numeric counters such as `input_tokens`, `output_tokens`, `cached_tokens`, `cache_read_tokens`, `cache_write_tokens` and `reasoning_tokens`. Omit or use null for unavailable counters; never invent zero. Document the provider's cache-count convention. |
+| `native_tools_used` | Array of actually observed native tool names. An empty array means observed absence only within the stated receipt coverage. |
+| `control_receipt` | Public-safe facts about fresh process/session, supplied input count, workspace/tool inventory, replay boundary, retention posture, effective effort and validation coverage. Mark unsupported checks unknown or false. |
+
+The adapter must receive no evaluator filesystem root. Prefer a model API with no enabled native tools; otherwise declare and validate every remaining native capability. Start fresh for each invocation, avoid automatic user memory/instruction discovery, and never use a previous-response or conversation handle from another invocation. Write only private collection logs and return no local absolute paths, credentials, account identifiers, provider association handles or hidden reasoning. Nonzero exits, malformed envelopes, unexpected tools and incomplete outputs are collection failures to preserve and report, not silent opportunities to replace an unfavorable scored outcome.
+
+## Limits of the isolation claim
+
+These controls verify a new local native session, explicit input/replay, observed tool advertisement and accepted-call tool receipts. They do **not** prove provider-side account data erasure, deletion from provider logs, absence of all server-side personalization, an uncached model execution or an independent record of every host file read. `store: false` is a checked request setting, not an audit of provider retention.
+
+The native generic system prefix remains supplied. Its full composition and every injected byte were not independently verified. Runtime probes showed that prefix caching can occur, so repeated input cost and timing do not establish a cold-cache causal comparison. Different readers may also bring different system prompts, models, tokenizers and JSON-action behavior. A replication must report these differences instead of attributing them to filing conditions.

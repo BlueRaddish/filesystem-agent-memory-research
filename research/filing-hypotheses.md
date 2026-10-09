@@ -2,6 +2,8 @@
 
 **Status: proposed experiments, not measured agent benefits.** These hypotheses translate the public reviews into small changes to files, metadata, and maintenance. The objective is recovery of complete governing evidence by a reader unfamiliar with the collection. Efficient means reaching usable context and verified completion with reasonable discovery time, maintenance work, bytes, tokens, and tool calls. A cheaper answer that loses a critical exception fails this objective.
 
+**Pilot update, 2026-10-09:** the [executed synthetic study](../evaluation/study-2026-10-09/REPORT.md) tests bounded versions of these comparisons. It reports 80 main trials, six exploratory onboarding runs, five engineered maintenance traces and four separate transport diagnostics, including negative outcomes and scoring/control limitations. These hypotheses remain unvalidated general benefit claims; the pilot does not fully implement every proposed mechanism or establish remote reader unfamiliarity.
+
 The starting point is ordinary source files and full-text search. Add one intervention at a time; neither a graph database nor a replacement folder taxonomy is assumed. Directory names below are illustrative. All examples are wholly fictional. The [synthesis](synthesis.md) explains the evidence boundaries, and the [evaluation protocol](../evaluation/protocol.md) supplies the testing contract.
 
 ## Shared experimental contract
