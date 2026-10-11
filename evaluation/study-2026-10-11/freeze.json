@@ -1,0 +1,82 @@
+{
+  "adapter_command_sha256": "7ea2a0b38d7b16064c8c2e10280476da03fd9013b55aa4e1a1e58f3a83551325",
+  "corpus_authorship": "two isolated LLM authors; common documentary framing; no human adjudication",
+  "created_utc": "2026-10-11T23:44:07.961327+00:00",
+  "development_families": 12,
+  "discovery_control_reserve_bytes": 256,
+  "files": {
+    "MODEL-RESEARCH.md": "e1cd2fc3316ea2bfe73cd520ea4bfcd9069017ae704ee7114b7a495835aa1293",
+    "PLAN.md": "a8e45bd3394a14c9e821fb9687bad3449f15736e3aff24b50363454c152b9814",
+    "author-a-check.py": "247de6a9202d6c117a9387a5ee73faa7aa0585bf24eb91c60a6415762468c5ae",
+    "author-a.json": "549dea41aad08872ccfb80527ec04057c60ebe3209d8e263382cdc92e18c57e0",
+    "author-b-check.py": "1c970033ad36f0d448c50f29625d9c17554bbff8cf4f4c868746024c69fe8640",
+    "author-b.json": "78d11a65751e65dc2f4f5cf02b8b276c44a538ee9a4eea277e4ec6a47b60460f",
+    "benchmark.py": "bd7aab4bf04aecd6e70936666ed802487c64a1ccf2d6d862216aa87584cdbd34",
+    "check_artifact.py": "551c04741770835d2d95211547381388990418e49b0f53c8d4922a56fc4a19ca",
+    "family-split.json": "b755a99c491d168a23fa3bbe0ecdadb6ea173690e7a96b837e0552e4b33a2aed",
+    "model-sources.json": "9c8a4629e31b5d36386249ea5532a76504545aac2b9b43c5fb789f7f0bdfe63d",
+    "model_runtime.py": "9b51864b3723fde239aa31e3ec9d1050a24d9464ce871b0145a04553e1ddc83f",
+    "preflight.json": "f2541b5d50932a0442dd3fde30e2867f5d479497a0bc84897b2d696a5182500d",
+    "reader-schedule.json": "5c15cc3a3e18088d7ecd016f3b26ef6a3703a16a044e93c04f72c5def22b4912",
+    "run_readers.py": "ec024d29e4e1d9cc42d1a81c83f6be4a7f48c60b09fd0eb049df677e297c8dac"
+  },
+  "held_out_families": 36,
+  "model_files": {
+    "minilm": {
+      "config.json": {
+        "bytes": 794,
+        "sha256": "380e02c93f431831be65d99a4e7e5f67c133985bf2e77d9d4eba46847190bacc"
+      },
+      "onnx/model_quint8_avx2.onnx": {
+        "bytes": 23200716,
+        "sha256": "c80a8b34256ea453093d612e3ac48d3d965a0c0a48c7906709af8b8e28461bf9"
+      },
+      "special_tokens_map.json": {
+        "bytes": 132,
+        "sha256": "3c3507f36dff57bce437223db3b3081d1e2b52ec3e56ee55438193ecb2c94dd6"
+      },
+      "tokenizer.json": {
+        "bytes": 711396,
+        "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+      },
+      "tokenizer_config.json": {
+        "bytes": 1330,
+        "sha256": "a5c2e5a7b1a29a0702cd28c08a399b5ecc110c263009d17f7e3b415f25905fd8"
+      }
+    },
+    "mixedbread": {
+      "config.json": {
+        "bytes": 968,
+        "sha256": "470a53befc79da411cc04e466770d9f219f3c14adb276bfa0a58df28774ceade"
+      },
+      "onnx/model_quantized.onnx": {
+        "bytes": 87245802,
+        "sha256": "15ef19a6de90be7d52b627f2c784107bd806e64826450f41fb75fa4f0179ab30"
+      },
+      "special_tokens_map.json": {
+        "bytes": 970,
+        "sha256": "b2f1b2f15f29a6b6d9d6ea4eca1675d2c231a71477f151d48f79cc83a625ba21"
+      },
+      "tokenizer.json": {
+        "bytes": 8649139,
+        "sha256": "305674b4d785287feecfb5f73f24aa75e9b57c87c579cfe24fbd207987d4b4c4"
+      },
+      "tokenizer_config.json": {
+        "bytes": 1447,
+        "sha256": "aafc9f36a056307bf0cbfcbd42fe00d9df89083d23db6114466c8bfaedb09ce5"
+      }
+    }
+  },
+  "pinned_binary_sha256": "5caacb02eea2734405786e50cb42aeea3eeb46b4fa9801cfa666cda225101749",
+  "planned_reader_trials": 144,
+  "planned_retrieval_rows": 18432,
+  "primary_reader_metric": "exact authored value-and-source match plus accepted controls, host write/check, clean completion",
+  "private_adapter_sha256": "29354810bd0f589eb2b17e4ce55814c56a4aeedc0aaba954a7dfa8b66f0bc847",
+  "private_wrapper_sha256": "97e1676677c9540c0b22dc3cc2eca580ac81bfe5675aaf6d8b52e19aa1015db7",
+  "reader_model": "muse-spark-1.3-contributor",
+  "reader_schedule_sha256": "5c15cc3a3e18088d7ecd016f3b26ef6a3703a16a044e93c04f72c5def22b4912",
+  "reasoning_effort": "high",
+  "scored_retry_policy": "none",
+  "status": "prospective; no scored retrieval or reader collection yet",
+  "study": "atomic-retrieval-2026-10-11"
+}

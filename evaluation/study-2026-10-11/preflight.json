@@ -1,0 +1,357 @@
+{
+  "development_rehearsal": {
+    "local_ranking_repeatability": [
+      {
+        "events": [
+          {
+            "cache_enabled": false,
+            "input_pair_tokens": 8012,
+            "model": "minilm",
+            "pairs": 32,
+            "seconds": 12.727081000019098,
+            "truncated_pairs": 0
+          },
+          {
+            "cache_enabled": false,
+            "input_pair_tokens": 8012,
+            "model": "minilm",
+            "pairs": 32,
+            "seconds": 15.64681340000243,
+            "truncated_pairs": 0
+          }
+        ],
+        "model": "minilm",
+        "ranked_ids_equal": true,
+        "repetitions": 2
+      },
+      {
+        "events": [
+          {
+            "cache_enabled": false,
+            "input_pair_tokens": 7743,
+            "model": "mixedbread",
+            "pairs": 32,
+            "seconds": 29.956497200008016,
+            "truncated_pairs": 0
+          },
+          {
+            "cache_enabled": false,
+            "input_pair_tokens": 7743,
+            "model": "mixedbread",
+            "pairs": 32,
+            "seconds": 22.63355309999315,
+            "truncated_pairs": 0
+          }
+        ],
+        "model": "mixedbread",
+        "ranked_ids_equal": true,
+        "repetitions": 2
+      }
+    ],
+    "phase": "development only; excluded from all scored trials",
+    "reader": {
+      "actual_host_write": true,
+      "arm": "oracle",
+      "artifact": {
+        "answer": {
+          "after_limit": "close passed opaque cover",
+          "authority": "conservation desk",
+          "hours_per_day": 2,
+          "lux": 30
+        },
+        "evidence": [
+          "A01R01",
+          "A01R03",
+          "A01R04",
+          "A01R05"
+        ],
+        "status": "ready"
+      },
+      "block": "diagnostic",
+      "budget": 4096,
+      "calls": [
+        {
+          "accepted": true,
+          "control_receipt": {
+            "adapter_source_sha256": "29354810bd0f589eb2b17e4ce55814c56a4aeedc0aaba954a7dfa8b66f0bc847",
+            "advertised_tool_audit": "actual upstream request",
+            "all_non_bookkeeping_native_attempts_failed_unavailable": true,
+            "all_upstream_user_text_matches": true,
+            "auth_values_read_printed_or_copied_by_harness": false,
+            "caller_stdin_encoding": "utf8",
+            "caller_stdout_encoding": "utf8",
+            "elapsed_seconds": 21.859,
+            "enabled_skill_count": 0,
+            "foreign_personal_skills_disabled": true,
+            "fresh_ephemeral_session": true,
+            "fresh_process": true,
+            "fresh_prompt_cache_key_present": true,
+            "host_auth_metadata_unchanged": true,
+            "host_settings_sha256_unchanged": true,
+            "initial_upstream_user_inputs": 1,
+            "intended_prompt_utf8_sha256": "5dff89ec0b5e737bdf2c699ac7ac602c218b7288480c4bd3105d71ee4bc21bce",
+            "measured_upstream_request_text_count": 1,
+            "native_bookkeeping_calls": 0,
+            "native_failed_unavailable_count": 0,
+            "native_failed_unavailable_tools": [],
+            "native_filesystem_tools_advertised": false,
+            "native_session_tools_advertised": false,
+            "native_tool_continuation_requests": 0,
+            "native_tools_advertised": [
+              "muse.write_todos"
+            ],
+            "pinned_binary_sha256": "5caacb02eea2734405786e50cb42aeea3eeb46b4fa9801cfa666cda225101749",
+            "previous_inputs_absent": true,
+            "prompt_cache_key_values_not_saved_or_reused": true,
+            "provider_continuation_keys_absent": true,
+            "provider_store_false": true,
+            "reasoning_effort": "high",
+            "request_count": 1,
+            "same_call_user_input_unchanged": true,
+            "session_local_bookkeeping_only": true,
+            "shell_and_writes_disabled": true,
+            "temporary_auth_link_removed": true,
+            "web_and_artifact_tools_disabled": true,
+            "workspace_root_absent": true,
+            "wrapper_source_sha256": "97e1676677c9540c0b22dc3cc2eca580ac81bfe5675aaf6d8b52e19aa1015db7"
+          },
+          "elapsed_seconds": 24.191622499987716,
+          "exit_code": 0,
+          "input_utf8_bytes": 5088,
+          "intended_prompt_sha256": "5dff89ec0b5e737bdf2c699ac7ac602c218b7288480c4bd3105d71ee4bc21bce",
+          "model": "muse-spark-1.3-contributor",
+          "native_tools_used": [],
+          "response_text_sha256": "6ad59b5940d6c5355f7d7a27a913123feb29f614517e8cba79239385b6ed364d",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "659ce8e7ad7cfc5ad4e6c6a5d402297a35a1896e44dcd10695e20e4e92af341a",
+          "usage": {
+            "cache_read_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 10717,
+            "output_tokens": 870,
+            "reasoning_tokens": 753
+          },
+          "wire_input_sha256": "97b5673cf8b2a429241b9dd4a529fb3d5fed7e6d4a839a21fe06e5f4583cae7a"
+        }
+      ],
+      "collection_size": 144,
+      "family_id": "A01",
+      "interpretation": "Exact-match failure on action wording retained; no scored retry.",
+      "score": {
+        "citation_sufficient": true,
+        "critical_correct": false,
+        "factual_correct": false,
+        "field_errors": {
+          "after_limit": {
+            "expected": "close opaque cover",
+            "observed": "close passed opaque cover"
+          }
+        },
+        "invalid_citations": [],
+        "schema_valid": true,
+        "success": false
+      },
+      "structural_check_pass": true,
+      "task_id": "A01Q1",
+      "trial_id": "DEV_REHEARSAL"
+    }
+  },
+  "hardware": {
+    "cpu": "Intel Core i5-12450H",
+    "inference": "CPU only; two intra-op threads per scorer",
+    "installed_memory_bytes": 16909754368,
+    "logical_processors": 12,
+    "physical_cores": 8
+  },
+  "models": [
+    {
+      "model": {
+        "acquire_or_checksum_seconds": 0.06318110000574961,
+        "batch_size": 12,
+        "files": {
+          "config.json": {
+            "bytes": 794,
+            "sha256": "380e02c93f431831be65d99a4e7e5f67c133985bf2e77d9d4eba46847190bacc"
+          },
+          "onnx/model_quint8_avx2.onnx": {
+            "bytes": 23200716,
+            "sha256": "c80a8b34256ea453093d612e3ac48d3d965a0c0a48c7906709af8b8e28461bf9"
+          },
+          "special_tokens_map.json": {
+            "bytes": 132,
+            "sha256": "3c3507f36dff57bce437223db3b3081d1e2b52ec3e56ee55438193ecb2c94dd6"
+          },
+          "tokenizer.json": {
+            "bytes": 711396,
+            "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+          },
+          "tokenizer_config.json": {
+            "bytes": 1330,
+            "sha256": "a5c2e5a7b1a29a0702cd28c08a399b5ecc110c263009d17f7e3b415f25905fd8"
+          }
+        },
+        "inputs": {
+          "attention_mask": "tensor(int64)",
+          "input_ids": "tensor(int64)",
+          "token_type_ids": "tensor(int64)"
+        },
+        "load_seconds": 0.2521236000175122,
+        "name": "minilm",
+        "packages": {
+          "numpy": "2.4.5",
+          "onnxruntime": "1.29.0",
+          "tokenizers": "0.23.1"
+        },
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "spec": {
+          "bytes": 23200716,
+          "repo": "cross-encoder/ms-marco-MiniLM-L6-v2",
+          "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+          "sha256": "c80a8b34256ea453093d612e3ac48d3d965a0c0a48c7906709af8b8e28461bf9",
+          "weight": "onnx/model_quint8_avx2.onnx"
+        },
+        "threads": 2
+      },
+      "smoke_scores": [
+        6.175812244415283,
+        -11.368438720703125,
+        1.85316002368927
+      ],
+      "smoke_usage": {
+        "input_pair_tokens": 75,
+        "pairs": 3,
+        "seconds": 0.02299160000984557,
+        "truncated_pairs": 0
+      }
+    },
+    {
+      "model": {
+        "acquire_or_checksum_seconds": 0.238434300001245,
+        "batch_size": 12,
+        "files": {
+          "config.json": {
+            "bytes": 968,
+            "sha256": "470a53befc79da411cc04e466770d9f219f3c14adb276bfa0a58df28774ceade"
+          },
+          "onnx/model_quantized.onnx": {
+            "bytes": 87245802,
+            "sha256": "15ef19a6de90be7d52b627f2c784107bd806e64826450f41fb75fa4f0179ab30"
+          },
+          "special_tokens_map.json": {
+            "bytes": 970,
+            "sha256": "b2f1b2f15f29a6b6d9d6ea4eca1675d2c231a71477f151d48f79cc83a625ba21"
+          },
+          "tokenizer.json": {
+            "bytes": 8649139,
+            "sha256": "305674b4d785287feecfb5f73f24aa75e9b57c87c579cfe24fbd207987d4b4c4"
+          },
+          "tokenizer_config.json": {
+            "bytes": 1447,
+            "sha256": "aafc9f36a056307bf0cbfcbd42fe00d9df89083d23db6114466c8bfaedb09ce5"
+          }
+        },
+        "inputs": {
+          "attention_mask": "tensor(int64)",
+          "input_ids": "tensor(int64)"
+        },
+        "load_seconds": 1.0331608999986202,
+        "name": "mixedbread",
+        "packages": {
+          "numpy": "2.4.5",
+          "onnxruntime": "1.29.0",
+          "tokenizers": "0.23.1"
+        },
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "spec": {
+          "bytes": 87245802,
+          "repo": "mixedbread-ai/mxbai-rerank-xsmall-v1",
+          "revision": "b5c6e9da73abc3711f593f705371cdbe9e0fe422",
+          "sha256": "15ef19a6de90be7d52b627f2c784107bd806e64826450f41fb75fa4f0179ab30",
+          "weight": "onnx/model_quantized.onnx"
+        },
+        "threads": 2
+      },
+      "smoke_scores": [
+        1.516884446144104,
+        -5.696761608123779,
+        -0.513356626033783
+      ],
+      "smoke_usage": {
+        "input_pair_tokens": 76,
+        "pairs": 3,
+        "seconds": 0.029315799998585135,
+        "truncated_pairs": 0
+      }
+    }
+  ],
+  "phase": "development-only; not scored outcomes",
+  "reader": {
+    "artifact": {
+      "answer": {
+        "label": "青灯 λ é —",
+        "value": 8
+      },
+      "evidence": [
+        "DEV01"
+      ],
+      "status": "ready"
+    },
+    "control_receipt": {
+      "adapter_source_sha256": "29354810bd0f589eb2b17e4ce55814c56a4aeedc0aaba954a7dfa8b66f0bc847",
+      "advertised_tool_audit": "actual upstream request",
+      "all_non_bookkeeping_native_attempts_failed_unavailable": true,
+      "all_upstream_user_text_matches": true,
+      "auth_values_read_printed_or_copied_by_harness": false,
+      "caller_stdin_encoding": "utf8",
+      "caller_stdout_encoding": "utf8",
+      "elapsed_seconds": 6.954,
+      "enabled_skill_count": 0,
+      "foreign_personal_skills_disabled": true,
+      "fresh_ephemeral_session": true,
+      "fresh_process": true,
+      "fresh_prompt_cache_key_present": true,
+      "host_auth_metadata_unchanged": true,
+      "host_settings_sha256_unchanged": true,
+      "initial_upstream_user_inputs": 1,
+      "intended_prompt_utf8_sha256": "97522d211dbe74e1c9b7648f8b1f53fc0852053b2779d486374e0e0e6bb99568",
+      "measured_upstream_request_text_count": 1,
+      "native_bookkeeping_calls": 0,
+      "native_failed_unavailable_count": 0,
+      "native_failed_unavailable_tools": [],
+      "native_filesystem_tools_advertised": false,
+      "native_session_tools_advertised": false,
+      "native_tool_continuation_requests": 0,
+      "native_tools_advertised": [
+        "muse.write_todos"
+      ],
+      "pinned_binary_sha256": "5caacb02eea2734405786e50cb42aeea3eeb46b4fa9801cfa666cda225101749",
+      "previous_inputs_absent": true,
+      "prompt_cache_key_values_not_saved_or_reused": true,
+      "provider_continuation_keys_absent": true,
+      "provider_store_false": true,
+      "reasoning_effort": "high",
+      "request_count": 1,
+      "same_call_user_input_unchanged": true,
+      "session_local_bookkeeping_only": true,
+      "shell_and_writes_disabled": true,
+      "temporary_auth_link_removed": true,
+      "web_and_artifact_tools_disabled": true,
+      "workspace_root_absent": true,
+      "wrapper_source_sha256": "97e1676677c9540c0b22dc3cc2eca580ac81bfe5675aaf6d8b52e19aa1015db7"
+    },
+    "model": "muse-spark-1.3-contributor",
+    "usage": {
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "input_tokens": 9718,
+      "output_tokens": 627,
+      "reasoning_tokens": 573
+    }
+  }
+}

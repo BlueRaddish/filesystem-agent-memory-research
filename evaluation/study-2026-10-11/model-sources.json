@@ -1,0 +1,178 @@
+[
+  {
+    "id": "DR01",
+    "title": "MiniLM L6 MS MARCO cross encoder publisher model card and distribution",
+    "year": 2021,
+    "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
+    "kind": "publisher-model-card",
+    "evidence_note": "English 22.7M-parameter Apache-2.0 relevance scorer. Live API revision 233902d25c440f23af6f7d6e94d2946bac0bee0a; selected onnx/model_quint8_avx2.onnx is 23200716 bytes with advertised LFS SHA256 c80a8b34256ea453093d612e3ac48d3d965a0c0a48c7906709af8b8e28461bf9. Inspected configuration is built-in BERT, length 512, lowercasing tokenizer, no auto_map.",
+    "limitation": "Publisher ranking benchmarks are not memory-action results; reported throughput uses a V100. Weight availability and license do not establish reproducibility of every training input. No local inference performed as part of this review.",
+    "review_level": "Model-card usage and benchmark sections; official ONNX listing; live API metadata and small configuration files. No model weights downloaded.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR02",
+    "title": "Mixedbread xsmall v1 publisher model card and distribution",
+    "year": 2024,
+    "url": "https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1",
+    "kind": "publisher-model-card",
+    "evidence_note": "English 70.8M-parameter Apache-2.0 cross-encoder. Live API revision b5c6e9da73abc3711f593f705371cdbe9e0fe422; onnx/model_quantized.onnx is 87245802 bytes with advertised LFS SHA256 15ef19a6de90be7d52b627f2c784107bd806e64826450f41fb75fa4f0179ab30. Built-in DeBERTa-v2, length 512, case preserved, no auto_map. Quantization config uses per-channel QInt8 weights and reduced range.",
+    "limitation": "Newer v2 multilingual and long-context marketing does not apply to xsmall v1. Quantized/full-precision ranking equivalence and local CPU compatibility are not established by metadata.",
+    "review_level": "Model-card usage and benchmark sections; official ONNX listing; live API metadata, model/tokenizer configs and quantization config. No weights downloaded.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR03",
+    "title": "Qwen3 Reranker 0.6B publisher model card",
+    "year": 2025,
+    "url": "https://huggingface.co/Qwen/Qwen3-Reranker-0.6B",
+    "kind": "publisher-model-card",
+    "evidence_note": "Apache-2.0 multilingual causal-model reranker with documented 32K sequence length. Official usage reads final-position yes/no logits without generated reasoning.",
+    "limitation": "Larger than the immediate CPU candidates. Published retrieval benchmarks and context capacity do not establish local latency or correction-sensitive memory accuracy.",
+    "review_level": "Model-card overview, model table, license and scoring example; official repository scoring code and configuration inspected.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR04",
+    "title": "Jina reranker v3 publisher model card",
+    "year": 2025,
+    "url": "https://huggingface.co/jinaai/jina-reranker-v3",
+    "kind": "publisher-model-card",
+    "evidence_note": "Multilingual listwise reranker distributed under CC BY-NC 4.0; illustrates restricted open weights and a distinct listwise approach.",
+    "limitation": "Noncommercial restriction prevents describing the release as unrestricted open source. Publisher recommendation of a successor is not a verified local performance comparison.",
+    "review_level": "Model-card architecture summary, current successor notice and license section; no weight or runtime inspection.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR05",
+    "title": "Sentence Transformers cross encoder inference efficiency documentation",
+    "year": null,
+    "url": "https://www.sbert.net/docs/cross_encoder/usage/efficiency.html",
+    "kind": "official-documentation",
+    "evidence_note": "Documents PyTorch, ONNX and OpenVINO backends and hardware/workload-dependent optimization tradeoffs.",
+    "limitation": "Aggregated backend benchmarks are not speed guarantees for the study hardware, thread count, passage lengths or selected quantized artifacts.",
+    "review_level": "Backend descriptions, benchmark caveats and recommendation section; no backend benchmark independently rerun.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR06",
+    "title": "Sentence Transformers retrieve and rerank documentation",
+    "year": null,
+    "url": "https://www.sbert.net/examples/sentence_transformer/applications/retrieve_rerank/README.html",
+    "kind": "official-documentation",
+    "evidence_note": "Explains candidate retrieval followed by query-passage cross-encoder scoring, with full scoring for small collections and shortlist reranking for larger collections.",
+    "limitation": "A methodological tutorial, not evidence that a particular shortlist or model achieves complete memory-source recovery. Relevance scoring is not an authority judgment.",
+    "review_level": "Full short tutorial including pipeline, bi-encoder, cross-encoder and example descriptions.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR07",
+    "title": "BEIR A Heterogeneous Benchmark for Zero shot Evaluation of Information Retrieval Models",
+    "year": 2021,
+    "url": "https://arxiv.org/abs/2104.08663",
+    "kind": "research-paper",
+    "evidence_note": "Comparison across 18 datasets and ten retrieval systems finds BM25 robust and reranking/late interaction strong on average at higher computational cost.",
+    "limitation": "Benchmarks are heterogeneous information retrieval, not this study's personal-memory action tasks. Average findings do not guarantee a gain on a particular collection.",
+    "review_level": "Author abstract and publication metadata; not a full-paper or artifact reproduction review.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR08",
+    "title": "Hybrid Hierarchical Retrieval for Open Domain Question Answering",
+    "year": 2023,
+    "url": "https://aclanthology.org/2023.findings-acl.679/",
+    "kind": "research-paper",
+    "evidence_note": "Combines sparse and dense retrieval at document and passage levels and reports better zero-shot recall than its dense hierarchical baseline; discusses accuracy, latency and storage tradeoffs.",
+    "limitation": "Document-passage hierarchy and trained QA retrieval differ from folders and workstream routing. No universal optimum for pruning or PARA organization follows.",
+    "review_level": "Publisher abstract and proceedings metadata; detailed experimental tables and code not independently audited.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR09",
+    "title": "RAPTOR Recursive Abstractive Processing for Tree Organized Retrieval",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2401.18059v1",
+    "kind": "research-paper",
+    "evidence_note": "Constructs a hierarchy with original passages and summaries. Its querying comparison on a 20-document QASPER subset favors collapsed-tree search over layer-by-layer traversal; main experiments use collapsed retrieval.",
+    "limitation": "Small querying-policy comparison, QA tasks, learned summarization and different context allowances prevent treating this as a universal anti-hierarchy result or proof about personal folder routing.",
+    "review_level": "Methods and Querying sections, querying comparison description and selected baseline tables; not a full appendix or implementation audit.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR10",
+    "title": "LongMemEval Benchmarking Chat Assistants on Long Term Interactive Memory",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2410.10813",
+    "kind": "research-paper",
+    "evidence_note": "Five memory abilities and 500 curated questions; separates indexing, retrieval and reading and proposes granularity/key/time-query improvements. First submitted in 2024, revised and published at ICLR 2025.",
+    "limitation": "Conversation question answering differs from executable agent workflows; published optimizations do not automatically transfer to filing. The benchmark's authoring and grading require separate assessment before reuse.",
+    "review_level": "Author abstract, current version and conference metadata; detailed benchmark files and evaluation code not audited here.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR11",
+    "title": "Question Answering under Temporal Conflict Evaluating and Organizing Evolving Knowledge with LLMs",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2506.07270v1",
+    "kind": "research-preprint",
+    "evidence_note": "Temporal snapshots and cumulative news expose outdated/conflicting facts; structured subject-relation-object-timestamp knowledge organization improves the tested ICL/RAG baselines.",
+    "limitation": "Extraction uses language models; evaluation uses LLM consensus and selected datasets. Improvements do not prove metadata extraction accuracy or a production filing advantage.",
+    "review_level": "Abstract, dataset and knowledge-organization methods, evaluation setup and selected result tables; code not reproduced.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR12",
+    "title": "A Hierarchical Consistency Framework for Auditing Retrieval Augmented Generation Systems",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.07075",
+    "kind": "research-preprint",
+    "evidence_note": "September 2026 preprint with 100 controlled query-corpus instances across five domains; source-linked conflict inspection distinguishes corpus, retrieved context and answer consistency. Similarity and answer consistency can diverge.",
+    "limitation": "Controlled study and abstract-level review; does not certify factual truth or show a deployed memory system improves. Full methods and evaluator reliability not independently audited here.",
+    "review_level": "Author abstract and submission metadata only.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR13",
+    "title": "SetFit official framework repository",
+    "year": null,
+    "url": "https://github.com/huggingface/setfit",
+    "kind": "official-source-repository",
+    "evidence_note": "Apache-2.0 prompt-free classification framework combining a Sentence Transformer body with a classifier head; supports few-shot training and multilingual base models.",
+    "limitation": "Framework license does not replace base-model license. A branch router needs labeled training examples, drift handling and held-out evaluation; sentiment examples do not validate memory routing.",
+    "review_level": "README overview, license metadata and training example; official quickstart training and inference sections. No training or source-code audit.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR14",
+    "title": "fastText official classification library repository",
+    "year": null,
+    "url": "https://github.com/facebookresearch/fastText",
+    "kind": "official-source-repository",
+    "evidence_note": "MIT-licensed software for text representation and supervised classification; a simple potential branch-label baseline.",
+    "limitation": "Software and available supervised task models do not provide a ready-made filing router. Branch training labels and language coverage need explicit experimental design; platform compatibility untested here.",
+    "review_level": "README purpose, usage/resource descriptions and license section; official supervised tutorial overview. No build or training run.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR15",
+    "title": "Hierarchical Reasoning Model official release",
+    "year": 2025,
+    "url": "https://github.com/sapientinc/HRM",
+    "kind": "official-research-repository",
+    "evidence_note": "Apache-2.0 release of a small two-timescale recurrent reasoning architecture with puzzle-domain training/evaluation examples.",
+    "limitation": "Puzzle results do not establish natural-language document retrieval or a pretrained filing router. Applying the architecture would require new representation, training and evaluation.",
+    "review_level": "README architecture summary, task examples, evaluation instructions and license metadata; no model training or implementation reproduction.",
+    "accessed": "2026-10-11"
+  },
+  {
+    "id": "DR16",
+    "title": "Tiny Recursive Models official release",
+    "year": 2025,
+    "url": "https://github.com/SamsungSAILMontreal/TinyRecursiveModels",
+    "kind": "official-research-repository",
+    "evidence_note": "MIT-licensed research implementation of a small recursive reasoning model with trained Sudoku, maze and ARC task settings.",
+    "limitation": "Small parameter count is not evidence of effective text-memory retrieval or lower end-to-end latency; new retrieval-specific training and simple-baseline comparisons would be necessary. Publisher repository is archived as of the access date.",
+    "review_level": "README description, task/training examples and license metadata; companion paper abstract for architecture context. No executable reproduction.",
+    "accessed": "2026-10-11"
+  }
+]
