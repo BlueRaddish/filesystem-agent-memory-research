@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-10-12T00:44:11.286493+00:00",
+  "files": {
+    "EXECUTION-AMENDMENT.md": "60039bab5ed30f77bd2892481a6b57d52a25ca2b771052c2c83c45fdf01eed69",
+    "execution-preflight.json": "0b0f3077ce4ce3bce093a2e5ad69fce55e9901b44a9d76c95978bdfc19a43d9b",
+    "interruption.json": "201b157526dabb1a0472c122f49a01a05a0b25c3eddc98dd3c5d50b39b4ee1c9"
+  },
+  "interrupted_results": {
+    "path": "interrupted-results.json",
+    "sha256": "2fe7dda53334ea2889254527702eaf58f5216f7ca28335205b60a4a755c53e47"
+  },
+  "model_files": {
+    "minilm": {
+      "config.json": {
+        "bytes": 794,
+        "sha256": "380e02c93f431831be65d99a4e7e5f67c133985bf2e77d9d4eba46847190bacc"
+      },
+      "onnx/model_quint8_avx2.onnx": {
+        "bytes": 23200716,
+        "sha256": "c80a8b34256ea453093d612e3ac48d3d965a0c0a48c7906709af8b8e28461bf9"
+      },
+      "special_tokens_map.json": {
+        "bytes": 132,
+        "sha256": "3c3507f36dff57bce437223db3b3081d1e2b52ec3e56ee55438193ecb2c94dd6"
+      },
+      "tokenizer.json": {
+        "bytes": 711396,
+        "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+      },
+      "tokenizer_config.json": {
+        "bytes": 1330,
+        "sha256": "a5c2e5a7b1a29a0702cd28c08a399b5ecc110c263009d17f7e3b415f25905fd8"
+      }
+    },
+    "mixedbread": {
+      "config.json": {
+        "bytes": 968,
+        "sha256": "470a53befc79da411cc04e466770d9f219f3c14adb276bfa0a58df28774ceade"
+      },
+      "onnx/model_quantized.onnx": {
+        "bytes": 87245802,
+        "sha256": "15ef19a6de90be7d52b627f2c784107bd806e64826450f41fb75fa4f0179ab30"
+      },
+      "special_tokens_map.json": {
+        "bytes": 970,
+        "sha256": "b2f1b2f15f29a6b6d9d6ea4eca1675d2c231a71477f151d48f79cc83a625ba21"
+      },
+      "tokenizer.json": {
+        "bytes": 8649139,
+        "sha256": "305674b4d785287feecfb5f73f24aa75e9b57c87c579cfe24fbd207987d4b4c4"
+      },
+      "tokenizer_config.json": {
+        "bytes": 1447,
+        "sha256": "aafc9f36a056307bf0cbfcbd42fe00d9df89083d23db6114466c8bfaedb09ce5"
+      }
+    }
+  },
+  "original_freeze_sha256": "158952683454941e021317b8cefb8e417164ecab316c846b330ff44e22f5b21f",
+  "ranking_packing_and_reader_inputs": "original freeze unchanged",
+  "reader_retry_policy": "none",
+  "required_overlap_rows": 576,
+  "runner_sha256": "bed2342695641f3a1b6359523ad05a4b19221eee6401d714679992ba6ce1f9a5",
+  "status": "execution amendment pinned before recovered scored collection",
+  "workers": 4
+}

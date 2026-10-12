@@ -1,0 +1,13 @@
+{
+  "compared_packet_rows": 192,
+  "compared_rankings": 48,
+  "development_task": "A01Q1",
+  "exact_packet_and_ranking_match": true,
+  "exact_pair_grouping_match": true,
+  "held_out_tasks": 0,
+  "inference_events": 28,
+  "original_freeze_sha256": "158952683454941e021317b8cefb8e417164ecab316c846b330ff44e22f5b21f",
+  "runner_sha256": "bed2342695641f3a1b6359523ad05a4b19221eee6401d714679992ba6ce1f9a5",
+  "state": "passed",
+  "unique_cached_pairs": 387
+}

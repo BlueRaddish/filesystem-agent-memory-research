@@ -1,0 +1,10 @@
+{
+  "detected_utc": "2026-10-12T00:34:36.384790+00:00",
+  "prior_state": "running",
+  "persisted_comparisons": 576,
+  "planned_comparisons": 18432,
+  "snapshot_sha256": "2fe7dda53334ea2889254527702eaf58f5216f7ca28335205b60a4a755c53e47",
+  "termination": "prior tool process no longer present; exit cause and unpersisted work unknown",
+  "scores_inspected_for_tuning": false,
+  "use": "execution provenance and deterministic overlap check; excluded from independent-case counts"
+}
