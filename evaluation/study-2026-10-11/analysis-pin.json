@@ -1,0 +1,10 @@
+{
+  "analysis_sha256": "5006cc1cffca9e75c7466d1780c71ef74f5b23e1f34775a31d9af5d85a1c1c87",
+  "bootstrap_replicates": 2000,
+  "created_utc": "2026-10-12T01:07:56.543052+00:00",
+  "model_weight_loads_for_selfcheck": 0,
+  "original_freeze_sha256": "158952683454941e021317b8cefb8e417164ecab316c846b330ff44e22f5b21f",
+  "reader_calls_for_selfcheck": 0,
+  "seed": 1011,
+  "status": "Analysis implementation pinned before complete retrieval and before scored readers"
+}

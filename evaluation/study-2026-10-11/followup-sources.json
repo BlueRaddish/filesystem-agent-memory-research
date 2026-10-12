@@ -1,0 +1,123 @@
+[
+  {
+    "id": "FR01",
+    "title": "NAVER SPLADE official implementation, research and exact checkpoint licensing",
+    "year": 2022,
+    "url": "https://github.com/naver/splade",
+    "kind": "primary-source-bundle",
+    "evidence_note": "Learned vocabulary weighting/expansion supports inverted-index retrieval. Official repository LICENSE is CC BY-NC-SA 4.0; exact cocondenser-ensembledistil and splade-v3 cards declare the same license. SPLADE-v3 shows a contact-sharing access gate.",
+    "limitation": "These exact artifacts are noncommercial, not unrestricted open-source releases. Sparsity/effectiveness research does not establish CPU latency or governing-evidence completeness in this study. No gated access requested.",
+    "review_level": "Official README architecture/indexing sections and LICENSE; SPLADE++ paper sections 3-4; exact publisher model cards and public API revision/license/access metadata. No weights downloaded or code executed.",
+    "accessed": "2026-10-12",
+    "access_timezone": "UTC",
+    "supporting_sources": [
+      {"url": "https://raw.githubusercontent.com/naver/splade/main/LICENSE", "kind": "official-code-license", "review_level": "License identifier and noncommercial grant inspected."},
+      {"url": "https://arxiv.org/html/2205.04733v2", "kind": "research-paper", "review_level": "Methods section 3 and experiment/evaluation section 4; no reproduction."},
+      {"url": "https://huggingface.co/naver/splade-cocondenser-ensembledistil", "kind": "publisher-model-card", "review_level": "License, architecture, length, usage and referenced paper inspected."},
+      {"url": "https://huggingface.co/naver/splade-v3", "kind": "publisher-model-card", "review_level": "License, access gate, architecture and cited paper metadata inspected; no gate acceptance."}
+    ],
+    "exact_artifacts": [
+      {"id": "naver/splade-cocondenser-ensembledistil", "revision": "49cf4c7b0db5b870a401ddf5e2669993ef3699c7", "checkpoint_license": "CC-BY-NC-SA-4.0", "gated": false},
+      {"id": "naver/splade-v3", "revision": "fdfeceb91d7b9de7985b38addd3ba9f53a59a355", "checkpoint_license": "CC-BY-NC-SA-4.0", "gated": "auto"}
+    ],
+    "code_license": "CC-BY-NC-SA-4.0"
+  },
+  {
+    "id": "FR02",
+    "title": "OpenSearch document-only learned sparse checkpoint and primary paper",
+    "year": 2024,
+    "url": "https://huggingface.co/opensearch-project/opensearch-neural-sparse-encoding-doc-v2-distill",
+    "kind": "primary-source-bundle",
+    "evidence_note": "Exact doc-v2-distill card uses learned document encoding and query token presence multiplied by supplied IDF weights. Non-doc v2-distill encodes both queries and documents. Both cards declare Apache-2.0 and link official neural-search LICENSE.",
+    "limitation": "Inference-free means no learned neural query pass, not zero query cost. Paper experiment uses BERT-base, so its measurements cannot automatically be attributed to the exact 67M DistilBERT checkpoint. No local test or index build performed.",
+    "review_level": "Exact publisher cards, query/document examples, LICENSE link and API revisions reviewed. Independent source check inspected paper v2 methods sections 3-4, setup/relevance/efficiency/IDF sections 5.1-5.4. No weights downloaded.",
+    "accessed": "2026-10-12",
+    "access_timezone": "UTC",
+    "supporting_sources": [
+      {"url": "https://huggingface.co/opensearch-project/opensearch-neural-sparse-encoding-v2-distill", "kind": "publisher-model-card", "review_level": "Both-side model inference example, architecture, comparison table and license inspected."},
+      {"url": "https://arxiv.org/html/2411.04403v2", "kind": "research-paper", "review_level": "Independent source check: methods 3-4 and experiments 5.1-5.4; latest listed version July 1, 2025; no reproduction."},
+      {"url": "https://github.com/opensearch-project/neural-search/blob/main/LICENSE", "kind": "official-code-license", "review_level": "Apache-2.0 license text inspected; code license separate from card declaration."},
+      {"url": "https://huggingface.co/opensearch-project/opensearch-neural-sparse-encoding-doc-v2-distill/tree/main", "kind": "publisher-file-listing", "review_level": "Independent source check: IDF/tokenizer/router assets listed; no standalone LICENSE visible, no file downloads."}
+    ],
+    "exact_artifacts": [
+      {"id": "opensearch-project/opensearch-neural-sparse-encoding-doc-v2-distill", "revision": "8921a26c78b8559d6604eb1f5c0b74c079bee38f", "checkpoint_license": "Apache-2.0", "gated": false},
+      {"id": "opensearch-project/opensearch-neural-sparse-encoding-v2-distill", "revision": "269e6638b2c4f648996691f6d751495285d8f330", "checkpoint_license": "Apache-2.0", "gated": false}
+    ],
+    "code_license": "Apache-2.0"
+  },
+  {
+    "id": "FR03",
+    "title": "Sentence Transformers semantic-search documentation and exact dense baseline",
+    "year": null,
+    "url": "https://www.sbert.net/examples/sentence_transformer/applications/semantic-search/README.html",
+    "kind": "primary-source-bundle",
+    "evidence_note": "Documents precomputed corpus embeddings, per-query embedding and similarity search; explains asymmetric retrieval and approximate-search misses. all-MiniLM-L6-v2 card describes 384-dimensional vectors, short-paragraph use and default 256-word-piece truncation.",
+    "limitation": "General embedding checkpoint is a proposed baseline, not evidence of best asymmetric memory retrieval. ANN introduces a recall tradeoff. CPU latency and correction-sensitive recall need local execution.",
+    "review_level": "Official background, symmetric/asymmetric, manual search and ANN sections; model card license/intended use; official framework LICENSE and public API checkpoint revision inspected. No weights downloaded.",
+    "accessed": "2026-10-12",
+    "access_timezone": "UTC",
+    "supporting_sources": [
+      {"url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2", "kind": "publisher-model-card", "review_level": "License, dimensionality, intended use and default truncation inspected."},
+      {"url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/master/LICENSE", "kind": "official-code-license", "review_level": "Apache-2.0 code license inspected separately from checkpoint card."}
+    ],
+    "exact_artifacts": [
+      {"id": "sentence-transformers/all-MiniLM-L6-v2", "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41", "checkpoint_license": "Apache-2.0", "gated": false}
+    ],
+    "code_license": "Apache-2.0"
+  },
+  {
+    "id": "FR04",
+    "title": "ColBERTv2 and PLAID official implementation, query/index boundary and update API",
+    "year": 2022,
+    "url": "https://github.com/stanford-futuredata/ColBERT",
+    "kind": "primary-source-bundle",
+    "evidence_note": "Stores token-level passage vectors; query encoding and MaxSim occur at search. PLAID adds centroid filtering and optimized kernels. Official README supports CPU execution but requires GPU training/indexing. Updater exposes add/remove/persist, with application-owned source mapping.",
+    "limitation": "Published server/thread measurements are not desktop speed guarantees. Updater is marked beta in README and is not a filesystem correction detector or atomic version-policy implementation. No index or query was executed.",
+    "review_level": "README architecture, installation, indexing/search/update notices; MIT code license and exact model card; PLAID methods section 4, setup/hardware section 5.1 and evaluation limits; updater public methods/source inspected.",
+    "accessed": "2026-10-12",
+    "access_timezone": "UTC",
+    "supporting_sources": [
+      {"url": "https://raw.githubusercontent.com/stanford-futuredata/ColBERT/main/LICENSE", "kind": "official-code-license", "review_level": "Full short MIT license inspected."},
+      {"url": "https://huggingface.co/colbert-ir/colbertv2.0", "kind": "publisher-model-card", "review_level": "MIT license declaration and architecture/installation/indexing/search descriptions inspected."},
+      {"url": "https://arxiv.org/html/2205.09707v1", "kind": "research-paper", "review_level": "Methods section 4, setup/hardware section 5.1, CPU/GPU evaluation sections 5.2-5.4; no reproduction."},
+      {"url": "https://github.com/stanford-futuredata/ColBERT/blob/main/colbert/index_updater.py", "kind": "official-code", "review_level": "IndexUpdater constructor, add/remove/persist methods and source-ID inputs inspected; not run."},
+      {"url": "https://arxiv.org/abs/2112.01488", "kind": "research-paper", "review_level": "Author abstract and publication metadata only; no full-paper review."}
+    ],
+    "exact_artifacts": [
+      {"id": "colbert-ir/colbertv2.0", "revision": "c1e84128e85ef755c096a95bdb06b47793b13acf", "checkpoint_license": "MIT", "gated": false}
+    ],
+    "code_license": "MIT"
+  },
+  {
+    "id": "FR05",
+    "title": "OpenSearch official hybrid ranking and exact-term field semantics",
+    "year": null,
+    "url": "https://docs.opensearch.org/latest/vector-search/ai-search/hybrid-search/index/",
+    "kind": "primary-source-bundle",
+    "evidence_note": "Official docs describe lexical/semantic hybrid search, score normalization versus reciprocal rank fusion, and pre/post filtering. Exact-term guidance warns that analyzed text fields can fail literal matches.",
+    "limitation": "Documents an available mechanism, not a recommendation to add a cluster or proof that fusion/filters preserve governing context. Authored metadata rules in the research note are prospective policies, not validated truth extraction.",
+    "review_level": "Hybrid overview, ranking processors and filtering sections; exact-term matching semantics and analyzed-field warning inspected. No server configured or query executed.",
+    "accessed": "2026-10-12",
+    "access_timezone": "UTC",
+    "supporting_sources": [
+      {"url": "https://docs.opensearch.org/latest/query-dsl/term/term/", "kind": "official-documentation", "review_level": "Exact match, capitalization/spacing and analyzed-text warning inspected."}
+    ],
+    "code_license": "No new code or checkpoint selected in this entry."
+  },
+  {
+    "id": "FR06",
+    "title": "scikit-learn supervised decision trees and code licensing",
+    "year": null,
+    "url": "https://scikit-learn.org/stable/modules/tree.html",
+    "kind": "primary-source-bundle",
+    "evidence_note": "DecisionTreeClassifier fits feature arrays with supplied class labels. Official docs describe depth-dependent inference, overfitting, instability and class imbalance. Source code license is BSD-3-Clause.",
+    "limitation": "No pretrained personal filing classifier is supplied. Labels, features, unknown handling, thresholds and held-out validation would be new work. Fast traversal does not make feature extraction free or scores authoritative.",
+    "review_level": "Supervised overview, classification input/output, complexity and practical limitations sections; full short COPYING license inspected. No fitting, dependencies or labels added.",
+    "accessed": "2026-10-12",
+    "access_timezone": "UTC",
+    "supporting_sources": [
+      {"url": "https://github.com/scikit-learn/scikit-learn/blob/main/COPYING", "kind": "official-code-license", "review_level": "BSD-3-Clause license text inspected."}
+    ],
+    "code_license": "BSD-3-Clause"
+  }
+]

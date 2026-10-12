@@ -1,0 +1,62 @@
+{
+  "actual_max_workers": 2,
+  "created_utc": "2026-10-12T01:07:56.541409+00:00",
+  "execution_freeze_sha256": "6fc600aa70514ba938de509501d2cf009b5812b54858b3bfff960e19b5b9609b",
+  "files": {
+    "RESOURCE-AMENDMENT.md": "dd65072d2f1141515a7fee77e12faaf38fe5948c60e4f42f16377e2582a2ad3a",
+    "run_resource_safe.py": "f15d62b9363f1dce2b5aacf160f31b08fc1c132c9671aa4904485bea420b48d4"
+  },
+  "host_memory_observations": [
+    {
+      "commit_available": 1348767744,
+      "commit_limit": 32638394368,
+      "physical_available": 1351704576,
+      "physical_total": 16909754368,
+      "utc": "2026-10-12T01:00:38.578664+00:00"
+    },
+    {
+      "commit_available": 1135562752,
+      "commit_limit": 32638394368,
+      "physical_available": 795353088,
+      "physical_total": 16909754368,
+      "utc": "2026-10-12T01:01:45.494976+00:00"
+    },
+    {
+      "commit_available": 5804101632,
+      "commit_limit": 27591938048,
+      "physical_available": 3286790144,
+      "physical_total": 16909754368,
+      "utc": "2026-10-12T01:03:16.957482+00:00"
+    }
+  ],
+  "latency": "Frozen serial uncached 144-observation block; scorer threads=2, batch=12 unchanged",
+  "original_freeze_sha256": "158952683454941e021317b8cefb8e417164ecab316c846b330ff44e22f5b21f",
+  "original_overlap_rows_required": 576,
+  "previous_checkpoint_sha256": {
+    "A01Q1": "ad0fad877c7a4273cb8dafd64c6490fa11091178c94b44fd730c4c0fda7e8119",
+    "A03Q1": "ccc5584002411512a60c1fa257a084a4e0f3881e0ca58c9f6c2b09c5ae029be5",
+    "A09Q1": "1d3f07ff0075d75cac86f12ac8c725399bea118e2f1ab3f1bcd07876f46570ad",
+    "A16Q2": "7e80092fe16e29101530bf582532314495bf9fff3fae82fdbdaa7144b2494293",
+    "A23Q2": "b3853c4c99975eb7947a261b3db0ad5504e15a9138b525a31e556346ca011bd7",
+    "A24Q1": "bf0bf0f7851e5a3ad1ee89ce6c233329c4c3e67c901e29ceb33c91f451c51d72",
+    "B04Q1": "29ae00d7e7338aca4d854bea05737e6133b92ca0cda6897cbe75c83ead20bd06",
+    "B05Q1": "69908f8a5df28a19dad0f46a160f7fb7c076ecfaec7cc08e5664342be6a16b5b",
+    "B06Q2": "3881b489d106cf515a2c9406a04c08c06a3c5f2305342d144e1bea39cbc7b9af",
+    "B07Q1": "3bc1775949210e4c34eb6494ed3e00ace0fb3da65431d167236193b66ab5b780",
+    "B08Q1": "b497dbc09b1d4c32c0d1c65e6f74b393e9b4da282604835def9922ebc1c85da3",
+    "B09Q1": "a6428e7abbbeb6d726ab6153e86f72af8a6e6748434826957cb70a18633a0073",
+    "B16Q1": "0847a7c0d3f2269bb2383d06ef994c95dd1e907514525f9486ffda47d2a7f52d",
+    "B17Q1": "c06b9fe4be724d72fa216a659fc378f14b6a58834a04222653b95ef4667ea001",
+    "B17Q2": "87a934488c05d0d4b6ff31f17e6ea676addeeb58b563038b819f4d83f66490c7",
+    "B23Q1": "9b6f04ed4e0e15f49c7e34a956de28a0ae1049666723987663573342ba3ec7c9"
+  },
+  "previous_completed_tasks": 16,
+  "previous_packet_rows": 3072,
+  "prior_chunk_reconstruction_passed": true,
+  "prior_resource_phase_stopped_utc": "2026-10-12T01:03:15.472105+00:00",
+  "reader_retry_policy": "none",
+  "requested_workers": 4,
+  "runner_sha256": "bed2342695641f3a1b6359523ad05a4b19221eee6401d714679992ba6ce1f9a5",
+  "schema_version": 1,
+  "status": "Resource-only amendment frozen before capped restart; no held-out parameter tuning"
+}

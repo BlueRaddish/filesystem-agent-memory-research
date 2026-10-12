@@ -6,10 +6,17 @@ This project is a public, source-grounded research review of agent memory, retri
 
 **Initial review cutoff: 2026-10-08 UTC. Pilot execution: 2026-10-09.** This is an AI-assisted structured scoping review with an original fictional continuation pilot: 80 main reader trials, six exploratory onboarding trials, five engineered filesystem traces and four separately reported transport diagnostics. It is not an exhaustive systematic review, a peer-reviewed publication or a validated benchmark. Sources have different publication statuses and review depths, recorded in their catalog entries.
 
+**Expanded study: October 11 local date; collection in progress.** Its frozen design contains 48 authored family histories, 96 clustered queries, three independent switches, six engines, 18,432 planned packet comparisons and 144 planned fresh-reader trials. These are repeated comparisons over 48 families, not 18,432 independent cases. No expanded-study winner or finished result is available yet. Separate source catalogs extend the historical review; their entries and supporting URLs are not summed into a unique-paper count.
+
 ## Start reading
 
 | Document | Purpose |
 | --- | --- |
+| [Expanded report draft](evaluation/study-2026-10-11/REPORT.md) | Prospective methods and limits; results pending complete collection and audit |
+| [Atomic study protocol](evaluation/study-2026-10-11/PLAN.md) | Frozen switches, combinations, held-out families, budgets, controls and scoring |
+| [Decision-model research](evaluation/study-2026-10-11/MODEL-RESEARCH.md) | Primary sources, exact model artifacts, licensing and routing limits |
+| [Index-time retrieval research](evaluation/study-2026-10-11/FOLLOWUP-RESEARCH.md) | Dense, sparse, late-interaction, hybrid and rule-based future comparisons |
+| [Resource execution amendment](evaluation/study-2026-10-11/RESOURCE-AMENDMENT.md) | Explicit worker cap and preserved checkpoints under observed host memory pressure |
 | [Pilot report and 12 figures](evaluation/study-2026-10-09/REPORT.md) | Actual outcomes, a stale-correction failure, unfamiliar-reader controls, scoring/transport limits and next experiments |
 | [Interactive pilot viewer](evaluation/study-2026-10-09/index.html) | Portable HTML with trial filters, correction lineage and maintenance timelines; download and open to interact |
 | [Independent pilot audit](evaluation/study-2026-10-09/AUDIT.md) | Reconstruction of all 86 main/onboarding receipts and separately labeled posthoc convention sensitivity |
@@ -39,7 +46,7 @@ The biological and human-practice extension examines functions worth translating
 
 ## Check the repository
 
-Python 3.10 or later; the checks and reader/maintenance runners use the standard library. Regenerating pilot figures additionally needs Matplotlib.
+Python 3.10 or later; repository checks and reader/maintenance runners use the standard library. Scientific figures require Matplotlib. The expanded local scoring runtime additionally uses NumPy, ONNX Runtime and tokenizers; model files stay outside the repository. Its pinned artifacts and execution requirements are documented in the expanded protocol and model runtime.
 
 ```sh
 python scripts/check_repository.py
