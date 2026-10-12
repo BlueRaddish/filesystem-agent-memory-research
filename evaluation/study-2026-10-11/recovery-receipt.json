@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "complete_rankings": 4608,
+  "complete_retrieval_rows": 18432,
+  "complete_serial_timing_observations": 144,
+  "exact_all_row_values_match": true,
+  "execution_freeze_sha256": "6fc600aa70514ba938de509501d2cf009b5812b54858b3bfff960e19b5b9609b",
+  "original_freeze_sha256": "158952683454941e021317b8cefb8e417164ecab316c846b330ff44e22f5b21f",
+  "overlap_matches": 576,
+  "overlap_planned": 576,
+  "runner_sha256": "bed2342695641f3a1b6359523ad05a4b19221eee6401d714679992ba6ce1f9a5",
+  "state": "published_success"
+}

@@ -6,13 +6,16 @@ This project is a public, source-grounded research review of agent memory, retri
 
 **Initial review cutoff: 2026-10-08 UTC. Pilot execution: 2026-10-09.** This is an AI-assisted structured scoping review with an original fictional continuation pilot: 80 main reader trials, six exploratory onboarding trials, five engineered filesystem traces and four separately reported transport diagnostics. It is not an exhaustive systematic review, a peer-reviewed publication or a validated benchmark. Sources have different publication statuses and review depths, recorded in their catalog entries.
 
-**Expanded study: October 11 local date; collection in progress.** Its frozen design contains 48 authored family histories, 96 clustered queries, three independent switches, six engines, 18,432 planned packet comparisons and 144 planned fresh-reader trials. These are repeated comparisons over 48 families, not 18,432 independent cases. No expanded-study winner or finished result is available yet. Separate source catalogs extend the historical review; their entries and supporting URLs are not summed into a unique-paper count.
+**Expanded study: October 11 Pacific; collection completed October 12 UTC.** All 18,432 packet comparisons, 4,608 rankings, 144 uncached timing observations and 144 fresh-reader trials are recorded over 48 authored family histories and 96 clustered queries. Three switches and six engines have paired comparisons; 36 families are held out. These are repeated measurements, not 18,432 independent cases. The report includes fifteen scientific figure pairs and an execution audit. Separate source catalogs extend the historical review; their entries and supporting URLs are not summed into a unique-paper count.
 
 ## Start reading
 
 | Document | Purpose |
 | --- | --- |
-| [Expanded report draft](evaluation/study-2026-10-11/REPORT.md) | Prospective methods and limits; results pending complete collection and audit |
+| [Expanded report and 15 figures](evaluation/study-2026-10-11/REPORT.md) | Actual atomic-policy comparisons, executed local scorers, downstream controls and fresh-discovery failures |
+| [Expanded execution audit](evaluation/study-2026-10-11/AUDIT.md) | Reconstruction of all scheduled packets and actual artifacts; preserved failures and execution amendments |
+| [Supplemental blinded review](evaluation/study-2026-10-11/SEMANTIC-REVIEW.md) | All 123 actual artifacts checked against exposed originals; wording sensitivity separate from frozen scores |
+| [Display amendment](evaluation/study-2026-10-11/VISUAL-AMENDMENT.md) | Disclosed post-collection label fixes with unchanged numeric plots and computational tables |
 | [Atomic study protocol](evaluation/study-2026-10-11/PLAN.md) | Frozen switches, combinations, held-out families, budgets, controls and scoring |
 | [Decision-model research](evaluation/study-2026-10-11/MODEL-RESEARCH.md) | Primary sources, exact model artifacts, licensing and routing limits |
 | [Index-time retrieval research](evaluation/study-2026-10-11/FOLLOWUP-RESEARCH.md) | Dense, sparse, late-interaction, hybrid and rule-based future comparisons |
@@ -39,6 +42,10 @@ This project is a public, source-grounded research review of agent memory, retri
 The literature does not establish a universally best folder structure or memory product. A useful direction to test is **recoverable source evidence, a maintained current-state view, and simple navigation that can expand back to the sources**. Correctness also depends on the writer, retriever, reader, and execution environment. An organized collection can still contain an inaccurate summary; a perfect lookup can still select an obsolete rule.
 
 The project distinguishes evidence preservation from retrieval, retrieval from interpretation, and interpretation from action success. Its proposed improvements are hypotheses with failure cases and measurements, rather than an architecture ranking.
+
+In the expanded bank, dependency expansion has the most consistently positive atomic recovery effect. At 144 documents and 8,192 bytes, MiniLM plus expansion/version gating without added headers (`011`) recovers 69/72 authored evidence bundles; all switches enabled recover 61/72. This observed configuration was not separately confirmed on a new bank or in downstream reader trials. At 4,096 bytes, headers reduce the authored-bundle feasibility ceiling from 49/72 to 32/72. Learned branch routing adds computation and establishes no general speed or quality advantage. Main exact value-and-source task completion is 0, 1, 0 and 0 of 24; 21/24 fresh-discovery trials produce no artifact. These outcomes expose packing, reading and completion limits, not a universally best filing system or semantic accuracy estimate.
+
+The expanded blinded LLM review finds source-supported requested values/status in 66 of 123 actual artifacts, including 37 that fail exact answer matching; all 24 diagnostic control artifacts receive full-query support judgments. This exposes substantial scoring-convention sensitivity. The supplement retains every frozen outcome, excludes no-write trials from review rather than hiding them, and claims no human-validated or adjusted accuracy.
 
 The first pilot passes the frozen rubric in **60/80 main trials**. A disclosed source audit accepts **77/80 checked artifacts** after accounting for underspecified output conventions; neither count is a population accuracy estimate. One reader receives all required originals yet retains a superseded setting through successful structural checks. The pilot motivates testing source-version incorporation and correction-specific checks; it does not identify a winning folder taxonomy or justify a production migration.
 

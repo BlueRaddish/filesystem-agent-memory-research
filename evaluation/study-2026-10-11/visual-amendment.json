@@ -1,0 +1,118 @@
+{
+  "analysis_code_sha256": "5006cc1cffca9e75c7466d1780c71ef74f5b23e1f34775a31d9af5d85a1c1c87",
+  "changes": [
+    {
+      "figure": "05-candidate-versus-packing-loss",
+      "numeric_artists_sha256": "791bccb5629417eecbaeae33137941e60347c95328dac493a0adb48a405eec39",
+      "original_files": [
+        {
+          "file": "figures/05-candidate-versus-packing-loss.png",
+          "sha256": "565f4b0b5002875b0f229ecbcefff8a6dfc737da55ebea176e254d850cba1b62"
+        },
+        {
+          "file": "figures/05-candidate-versus-packing-loss.svg",
+          "sha256": "bc6602685e2ca3e26bd222438732b6dab126a55ef21a6e37f774017efa532341"
+        }
+      ],
+      "updated_files": [
+        {
+          "file": "figures/05-candidate-versus-packing-loss.png",
+          "sha256": "60bf85e2f81a813ec9a4714bc353572bbd999c1ee5526105357555eaf93badea"
+        },
+        {
+          "file": "figures/05-candidate-versus-packing-loss.svg",
+          "sha256": "67a5846969c890db5b92dc5c35d835b14584862b9930fd85c68ece157bd0eb72"
+        }
+      ]
+    },
+    {
+      "figure": "07-context-recovery-frontier",
+      "numeric_artists_sha256": "498b73448e14f4cfd3f92e4a92f70e9b40646e6c2f09352edf37cf2840ef977b",
+      "original_files": [
+        {
+          "file": "figures/07-context-recovery-frontier.png",
+          "sha256": "27b9229319902cffe5a524fce9d899c4664ddaf5bbe18eef25237794751b282a"
+        },
+        {
+          "file": "figures/07-context-recovery-frontier.svg",
+          "sha256": "982d71e38ee10be18c47ac151dfef8fda59e52e2c30a6068d467957a9eb86da3"
+        }
+      ],
+      "updated_files": [
+        {
+          "file": "figures/07-context-recovery-frontier.png",
+          "sha256": "b6557a191c0ef54abacb287ab0c0ee0a5d0e94470bbf66702c5e9c2ceddbb43f"
+        },
+        {
+          "file": "figures/07-context-recovery-frontier.svg",
+          "sha256": "a5bc5fa6ea9719c6e7c61bcc18662f3f37b5aff488e4194e9720b5203a0a0923"
+        }
+      ]
+    },
+    {
+      "figure": "08-uncached-computation-frontier",
+      "numeric_artists_sha256": "a8cc463d77a1ff14c674ef4882e07ed797390f62a039d762d69dd9b89c4386e5",
+      "original_files": [
+        {
+          "file": "figures/08-uncached-computation-frontier.png",
+          "sha256": "a864d280593dcd126801b8f9e07ea5cb2c4de90f1d23962d8dbbf87f35ba0396"
+        },
+        {
+          "file": "figures/08-uncached-computation-frontier.svg",
+          "sha256": "38e3e4db5f7dc1da20c5103f2f3b8997de93558f032e5e81347b14893f88a051"
+        }
+      ],
+      "updated_files": [
+        {
+          "file": "figures/08-uncached-computation-frontier.png",
+          "sha256": "8382152cedd16f657ce3850ec2851d4593cb8827f0492e57d272d0535bb8d278"
+        },
+        {
+          "file": "figures/08-uncached-computation-frontier.svg",
+          "sha256": "74c36709450440a1ad2d04833e0d7d899ca95a2664a7dbc07c2532b023d3ca95"
+        }
+      ]
+    },
+    {
+      "figure": "15-whole-record-budget-feasibility",
+      "numeric_artists_sha256": "bf4d3db1cfc48c8b258a8b1abae64d97dd3dc8cfc0704d18f3f6fb0692dd390d",
+      "original_files": [
+        {
+          "file": "figures/15-whole-record-budget-feasibility.png",
+          "sha256": "864394dfdb1cd4853a9b36562ad1d1685d802d033f698c876a45517bb78c5878"
+        },
+        {
+          "file": "figures/15-whole-record-budget-feasibility.svg",
+          "sha256": "ee97cf3e6276dfb8511db68b2af70f673eaeec7d3eca8c7266a00044dea9d148"
+        }
+      ],
+      "updated_files": [
+        {
+          "file": "figures/15-whole-record-budget-feasibility.png",
+          "sha256": "ca5e735066f4950db1976cb3ca73132057d8ae024fdfcaf795748cddad54c440"
+        },
+        {
+          "file": "figures/15-whole-record-budget-feasibility.svg",
+          "sha256": "966540d4276de997fc1e276c92657fa93cc952b47bc34d5293c8cb5b53fa6bf1"
+        }
+      ]
+    }
+  ],
+  "computational_tables_sha256": "599b5dc1fe01a009c739778d7af383ea1dbe5eb0a82e4bd854ef6b51939ae3ed",
+  "original_analysis_sha256": "3182f66a9d6ed56f9c5d1a9e75e820bbd5a9dc01742447204ed278def412f527",
+  "renderer_sha256": "9ae16d2db47ac8380540939c16831f3bd981cfb742bb631e3b2b39c9ee043664",
+  "scope": "Display-only post-collection amendment; primary outcomes unchanged",
+  "selfcheck": {
+    "checks": [
+      "numeric_artists_unchanged",
+      "coincident_labels_moved_to_table"
+    ],
+    "model_loads": 0,
+    "reader_calls": 0,
+    "state": "passed",
+    "statistical_recomputations": 0
+  },
+  "state": "complete",
+  "untouched_figure_files": 22,
+  "updated_analysis_sha256": "a6147922a8421091e44294c49082881105c68bb48e16c6e584dadd2d43d01269"
+}
