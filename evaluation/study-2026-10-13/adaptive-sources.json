@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "access_date_utc": "2026-10-13",
+  "assembled_utc": "2026-10-13T11:41:32.253670+00:00",
+  "scope": "Six prospective mechanisms reviewed after the main freeze; research only. No source-system reproduction, trained weights, provider calls, installs, or main-outcome analysis.",
+  "execution": "NOT_EXECUTED",
+  "source_summary_budget": {
+    "maximum_article_derived_words_per_source_across_report_and_catalog": 200,
+    "direct_quotes": 0,
+    "method": "Concise factual paragraphs and metadata; hypotheses/controls are separately authored future designs."
+  },
+  "html_digest_note": "Hashes identify the HTML bytes delivered during this audit; arXiv v1 URLs identify manuscript versions. HTML rendering may change. No full paper text is rehosted.",
+  "license_note": "Verified repository LICENSE bytes apply to repository software; paper, dataset, dependency, and model rights require their own checks.",
+  "deduplication": {
+    "method": "Recursively inspect URL strings in existing source catalogs; normalize arXiv abs/html/pdf and version variants to paper IDs, and GitHub/raw tree/blob URLs to repository identity.",
+    "catalogs": [
+      {
+        "catalog": "evaluation/study-2026-10-11/followup-sources.json",
+        "sha256": "9b9d590c0388e33666e350e78bc090d1a01f1d59c395181bf1a067dce4978931",
+        "bytes": 11321,
+        "canonical_identity_count": 9
+      },
+      {
+        "catalog": "evaluation/study-2026-10-11/model-sources.json",
+        "sha256": "9c8a4629e31b5d36386249ea5532a76504545aac2b9b43c5fb789f7f0bdfe63d",
+        "bytes": 13026,
+        "canonical_identity_count": 9
+      },
+      {
+        "catalog": "evaluation/study-2026-10-13/expansion-sources.json",
+        "sha256": "b12e02f818afe11ce1fbbdbd7fde476bac10638a0fa08c121fc983cf07680e47",
+        "bytes": 6094,
+        "canonical_identity_count": 13
+      },
+      {
+        "catalog": "evaluation/study-2026-10-13/external-transfer-sources.json",
+        "sha256": "4044d3248c9b8e1ac920fa13c64b168788a93daab95a3d7eba6b30e9dbbf440c",
+        "bytes": 22868,
+        "canonical_identity_count": 9
+      },
+      {
+        "catalog": "evaluation/study-2026-10-13/index-sources.json",
+        "sha256": "ee199d28fae42f22036174d01446e2f274274ccb8317c889f735b71da31b1191",
+        "bytes": 11247,
+        "canonical_identity_count": 8
+      },
+      {
+        "catalog": "evaluation/study-2026-10-13/packing-sources.json",
+        "sha256": "cedb89d4a55dc34a124f446a2636264089bfe1e782196c91a653ab677b93fa90",
+        "bytes": 11776,
+        "canonical_identity_count": 9
+      }
+    ],
+    "duplicate_identity_matches": [],
+    "local_entry_count": 6,
+    "new_canonical_paper_identities": 6,
+    "new_canonical_official_repository_identities": 4,
+    "global_source_total_updated": false
+  },
+  "sources": [
+    {
+      "id": "AD01",
+      "title": "MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory",
+      "type": "primary_paper_with_official_repository_metadata",
+      "url": "https://arxiv.org/html/2601.03192v1",
+      "arxiv_id": "2601.03192",
+      "version": "v1",
+      "access_date_utc": "2026-10-13",
+      "review_depth": [
+        "selected_method_sections",
+        "selected_evaluation_sections",
+        "limitations_and_evidence_boundaries"
+      ],
+      "source_summary": "Semantic recall precedes feedback-updated utility selection; frozen model weights.",
+      "limits": "stationary_reward_assumptions; feedback_credit_not_document_causality",
+      "status": "reviewed_not_executed",
+      "future_hypothesis_id": "H1",
+      "paper_rights": "not_independently_verified; repository_license_not_applied_to_article",
+      "html_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/html/2601.03192v1",
+        "status": 200,
+        "bytes": 388012,
+        "sha256": "8ea7f849df63119291ac3c606d8aa52a2b4d8341ed00f66578000a5dfcc70e8f"
+      },
+      "duplicates_in_existing_catalogs": [],
+      "software": {
+        "url": "https://github.com/MemTensor/MemRL",
+        "revision": "c1b322ca43de36ddf64c6712f89d0095bfc35ce0",
+        "revision_url": "https://github.com/MemTensor/MemRL/tree/c1b322ca43de36ddf64c6712f89d0095bfc35ce0",
+        "software_license": "MIT",
+        "review_depth": [
+          "README",
+          "LICENSE",
+          "repository_tree_metadata",
+          "release_listing"
+        ],
+        "artifacts": [
+          {
+            "path": "LICENSE",
+            "url": "https://raw.githubusercontent.com/MemTensor/MemRL/c1b322ca43de36ddf64c6712f89d0095bfc35ce0/LICENSE",
+            "sha256": "edb8d2d30665cbc9cf313a6194d6ff6e36fab43a47324ab59fbb3416df77ef55",
+            "bytes": 1064
+          },
+          {
+            "path": "README.md",
+            "url": "https://raw.githubusercontent.com/MemTensor/MemRL/c1b322ca43de36ddf64c6712f89d0095bfc35ce0/README.md",
+            "sha256": "602556fa0efc3015f49a232f1572c9bb5a794dbcf6ca81aabdd29260f0a00f56",
+            "bytes": 7787
+          }
+        ],
+        "releases_reviewed": [],
+        "full_code_audit": false
+      },
+      "factual_paragraph_word_count": 51
+    },
+    {
+      "id": "AD02",
+      "title": "MemAgent: Learning to Manage Heterogeneous Memory Providers for LLM Agents",
+      "type": "primary_paper_with_official_repository_metadata",
+      "url": "https://arxiv.org/html/2609.32521v1",
+      "arxiv_id": "2609.32521",
+      "version": "v1",
+      "access_date_utc": "2026-10-13",
+      "review_depth": [
+        "selected_method_sections",
+        "selected_evaluation_sections",
+        "limitations_and_evidence_boundaries"
+      ],
+      "source_summary": "Generative phase-specific controller selects retrieval, injection, and storage across heterogeneous providers.",
+      "limits": "generation_required_for_controller_and_storage; probe_only_avoids_retrieval_generation",
+      "status": "reviewed_not_executed",
+      "future_hypothesis_id": "H2",
+      "paper_rights": "not_independently_verified; repository_license_not_applied_to_article",
+      "html_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/html/2609.32521v1",
+        "status": 200,
+        "bytes": 628842,
+        "sha256": "1f4029e884148c447daf1c7f498e43a314ba8d92a1957c9679959d864a24917b"
+      },
+      "duplicates_in_existing_catalogs": [],
+      "software": {
+        "url": "https://github.com/WalkerWorldPeace/MemAgent",
+        "revision": "7121cfe991c329748cd610515a3419cabc875ba6",
+        "revision_url": "https://github.com/WalkerWorldPeace/MemAgent/tree/7121cfe991c329748cd610515a3419cabc875ba6",
+        "software_license": "Apache-2.0",
+        "review_depth": [
+          "README",
+          "LICENSE",
+          "repository_tree_metadata",
+          "release_listing"
+        ],
+        "artifacts": [
+          {
+            "path": "LICENSE",
+            "url": "https://raw.githubusercontent.com/WalkerWorldPeace/MemAgent/7121cfe991c329748cd610515a3419cabc875ba6/LICENSE",
+            "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+            "bytes": 11358
+          },
+          {
+            "path": "README.md",
+            "url": "https://raw.githubusercontent.com/WalkerWorldPeace/MemAgent/7121cfe991c329748cd610515a3419cabc875ba6/README.md",
+            "sha256": "d760d7a4ab01d3c1f23c65b9bbc61b058be2ecc1d3ac102eec2ea6d5fe3d9ded",
+            "bytes": 11446
+          }
+        ],
+        "releases_reviewed": [],
+        "full_code_audit": false,
+        "trained_checkpoint_status": "not_identified_in_reviewed_README_and_release_listing; availability_elsewhere_not_ruled_out"
+      },
+      "factual_paragraph_word_count": 59
+    },
+    {
+      "id": "AD03",
+      "title": "From Passive Retrieval to Active Memory Navigation: Learning to Use Memory as a Structured Action Space",
+      "type": "primary_paper",
+      "url": "https://arxiv.org/html/2607.05794v1",
+      "arxiv_id": "2607.05794",
+      "version": "v1",
+      "access_date_utc": "2026-10-13",
+      "review_depth": [
+        "selected_method_sections",
+        "selected_evaluation_sections",
+        "limitations_and_evidence_boundaries"
+      ],
+      "source_summary": "Linked memory granularities expose navigation tools; terminal reward trains navigation and answers.",
+      "limits": "privacy_forgetting_scaling_incomplete; release_unverified",
+      "status": "reviewed_not_executed",
+      "future_hypothesis_id": "H3",
+      "paper_rights": "not_independently_verified; repository_license_not_applied_to_article",
+      "html_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/html/2607.05794v1",
+        "status": 200,
+        "bytes": 346975,
+        "sha256": "e5700dc26ee9ee1eb2566f18fa3e306cd0c38efb8454f0e859d81d69acc42cb0"
+      },
+      "duplicates_in_existing_catalogs": [],
+      "software_release_status": "not_independently_verified; paper_only_review",
+      "factual_paragraph_word_count": 58
+    },
+    {
+      "id": "AD04",
+      "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+      "type": "primary_paper_with_official_repository_metadata",
+      "url": "https://arxiv.org/html/2607.08716v1",
+      "arxiv_id": "2607.08716",
+      "version": "v1",
+      "access_date_utc": "2026-10-13",
+      "review_depth": [
+        "selected_method_sections",
+        "selected_evaluation_sections",
+        "limitations_and_evidence_boundaries"
+      ],
+      "source_summary": "Separate memory agent supplies grounded reminders or no intervention alongside action execution.",
+      "limits": "untrained_model_regression_reported; no_CPU_or_checkpoint_availability_claim",
+      "status": "reviewed_not_executed",
+      "future_hypothesis_id": "H4",
+      "paper_rights": "not_independently_verified; repository_license_not_applied_to_article",
+      "html_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/html/2607.08716v1",
+        "status": 200,
+        "bytes": 188308,
+        "sha256": "bd6c17bfb45326d92ddc9ee82d896b5c168788460a22544f878d28c38fad28db"
+      },
+      "duplicates_in_existing_catalogs": [],
+      "software": {
+        "url": "https://github.com/yifannnwu/proactive-memory-agent",
+        "revision": "89e5c0d6aadfe531a1aee42fd290d48be89973dd",
+        "revision_url": "https://github.com/yifannnwu/proactive-memory-agent/tree/89e5c0d6aadfe531a1aee42fd290d48be89973dd",
+        "software_license": "Apache-2.0",
+        "review_depth": [
+          "README",
+          "LICENSE",
+          "repository_tree_metadata",
+          "release_listing"
+        ],
+        "artifacts": [
+          {
+            "path": "LICENSE",
+            "url": "https://raw.githubusercontent.com/yifannnwu/proactive-memory-agent/89e5c0d6aadfe531a1aee42fd290d48be89973dd/LICENSE",
+            "sha256": "bbbcb4cfa4a21f1f5a1dbb6941c4005c284851843849d250833af730e1d4a376",
+            "bytes": 11354
+          },
+          {
+            "path": "README.md",
+            "url": "https://raw.githubusercontent.com/yifannnwu/proactive-memory-agent/89e5c0d6aadfe531a1aee42fd290d48be89973dd/README.md",
+            "sha256": "b4b07b9cf9dd8ed7624b393ee9f8a6301fd72cbcb9fbcfb994d92d30d885ef8a",
+            "bytes": 7895
+          }
+        ],
+        "releases_reviewed": [],
+        "full_code_audit": false,
+        "trained_checkpoint_status": "not_identified_in_reviewed_README_and_release_listing; availability_elsewhere_not_ruled_out"
+      },
+      "factual_paragraph_word_count": 59
+    },
+    {
+      "id": "AD05",
+      "title": "EvolveMem: Self-Evolving Memory Architecture via AutoResearch for LLM Agents",
+      "type": "primary_paper_with_official_repository_metadata",
+      "url": "https://arxiv.org/html/2605.13941v1",
+      "arxiv_id": "2605.13941",
+      "version": "v1",
+      "access_date_utc": "2026-10-13",
+      "review_depth": [
+        "selected_method_sections",
+        "selected_evaluation_sections",
+        "limitations_and_evidence_boundaries"
+      ],
+      "source_summary": "Guarded diagnosis/proposal loop adapts retrieval and synthesis, with coverage repair.",
+      "limits": "small_structured_subset; lexical_scorer_sensitivity; adaptation_and_synthesis_confound",
+      "status": "reviewed_not_executed",
+      "future_hypothesis_id": "H5",
+      "paper_rights": "not_independently_verified; repository_license_not_applied_to_article",
+      "html_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/html/2605.13941v1",
+        "status": 200,
+        "bytes": 421321,
+        "sha256": "3a5ec61f7fcaa90ac6e6ba8f83cbbbc7bdf47e11c7c2938ecea184dce841f89e"
+      },
+      "duplicates_in_existing_catalogs": [],
+      "software": {
+        "url": "https://github.com/aiming-lab/SimpleMem",
+        "revision": "db80b6a7c591e0ea730a058e9f5fc4eb06572299",
+        "revision_url": "https://github.com/aiming-lab/SimpleMem/tree/db80b6a7c591e0ea730a058e9f5fc4eb06572299",
+        "software_license": "MIT",
+        "review_depth": [
+          "README",
+          "LICENSE",
+          "repository_tree_metadata",
+          "release_listing"
+        ],
+        "artifacts": [
+          {
+            "path": "LICENSE",
+            "url": "https://raw.githubusercontent.com/aiming-lab/SimpleMem/db80b6a7c591e0ea730a058e9f5fc4eb06572299/LICENSE",
+            "sha256": "276dc8cc9eb5a8c59d1edca3283163815d2caa512b17bd0bf053050304b4cd3e",
+            "bytes": 1067
+          },
+          {
+            "path": "README.md",
+            "url": "https://raw.githubusercontent.com/aiming-lab/SimpleMem/db80b6a7c591e0ea730a058e9f5fc4eb06572299/README.md",
+            "sha256": "420cdf2a5c22d74354d11e7617fdd24a1ce60eeba8e0d21b51ed4442b7149001",
+            "bytes": 25454
+          },
+          {
+            "path": "EvolveMem/README.md",
+            "url": "https://raw.githubusercontent.com/aiming-lab/SimpleMem/db80b6a7c591e0ea730a058e9f5fc4eb06572299/EvolveMem/README.md",
+            "sha256": "9761dd40afd40fe7e5ee701eecb5ac3db7e61e8f2df36c6ec46f8c22d1e1ac24",
+            "bytes": 8965
+          }
+        ],
+        "releases_reviewed": [
+          {
+            "tag": "v0.3.0",
+            "published_at": "2026-05-21T16:02:50Z",
+            "asset_count": 0
+          },
+          {
+            "tag": "v0.2.0",
+            "published_at": "2026-04-03T04:11:24Z",
+            "asset_count": 0
+          },
+          {
+            "tag": "v0.1.0",
+            "published_at": "2026-03-10T03:55:16Z",
+            "asset_count": 0
+          }
+        ],
+        "full_code_audit": false
+      },
+      "factual_paragraph_word_count": 66
+    },
+    {
+      "id": "AD06",
+      "title": "Supra Cognitive Modes: A Routed Architecture for Agent Memory",
+      "type": "primary_paper",
+      "url": "https://arxiv.org/html/2607.19096v1",
+      "arxiv_id": "2607.19096",
+      "version": "v1",
+      "access_date_utc": "2026-10-13",
+      "review_depth": [
+        "selected_method_sections",
+        "selected_evaluation_sections",
+        "limitations_and_evidence_boundaries"
+      ],
+      "source_summary": "Semantic modes initialize payloads; runtime gates can change executed procedures.",
+      "limits": "bundled_configuration; fixed_controls_and_complete_final_path_telemetry_missing",
+      "status": "reviewed_not_executed",
+      "future_hypothesis_id": "H6",
+      "paper_rights": "not_independently_verified; repository_license_not_applied_to_article",
+      "html_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/html/2607.19096v1",
+        "status": 200,
+        "bytes": 381332,
+        "sha256": "824a2e0f254f17c5d27b0ff864e1309d7f0954ba7f56e9ca4e6b03588c0f0c9f"
+      },
+      "duplicates_in_existing_catalogs": [],
+      "software_release_status": "not_independently_verified; paper_only_review",
+      "factual_paragraph_word_count": 54
+    }
+  ]
+}
