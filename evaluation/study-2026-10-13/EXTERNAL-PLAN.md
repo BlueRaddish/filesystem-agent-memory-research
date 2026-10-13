@@ -1,0 +1,50 @@
+# Separate BEAM text retrieval adaptation — prospective protocol
+
+This external lane is separate from the October 13 fictional bank. Freeze this protocol, the data manifest and implementation/dependency hashes before scored retrieval. No answer model, judge, tool execution, official BEAM score, or pooled fictional/external score is authorized by this protocol. The endpoint is recovery of publisher-declared message IDs, not answer accuracy, semantic entailment, minimal evidence, or official benchmark reproduction.
+
+## Public source and fixed selection
+
+Use the [official BEAM repository](https://github.com/mohammadtavakoli78/BEAM/tree/b2da22eac88bb0874c64665f13457eb99835774a), revision `b2da22eac88bb0874c64665f13457eb99835774a`. Its README distinguishes MIT code from CC BY-SA 4.0 benchmark data. Raw corpus files remain private; the public manifest contains URLs, byte counts, publisher Git-blob SHA-1 and actual SHA-256. No pickle or remote code is read.
+
+Enumerate the 20 paths matching `chats/100K/*/chat.json` in the complete pinned Git tree. Sort ascending by `SHA256("external-beam-20261013-v1:" + full_path)`, then path. Take the first five, before retrieval outcomes: histories **14, 6, 7, 16, 10**, in that order. Fetch each chat and its `probing_questions/probing_questions.json`; verify the complete file's size and Git blob against the pinned tree, and record SHA-256. The selected chat files total 3,130,137 bytes. Questions are an additional 159,516 bytes. The earlier convenience audit of history 1 does not enter this comparison.
+
+Each selected history supplies 20 queries. The 18 questions with nonempty `source_chat_ids` enter the positive-support retrieval endpoint: **90 queries across five histories**. The ten unlabeled abstention questions remain in the source audit and are outside this explicitly positive-support endpoint; their absence is not scored as successful abstention. Count every scheduled positive-support query and every grid cell, including failures. The nine positive-support ability categories each have ten queries. Histories are the five analysis clusters; queries and grid cells are repeated observations within them.
+
+## Source and gold boundaries
+
+Flatten each chat's batch → turn-group → message nesting. Retain only the original integer message ID, role, content, and message time anchor (falling back to the enclosing batch's nullable anchor). Preserve missing/null dates as JSON `null`; do not infer or carry forward dates. Map IDs to stable adapter IDs `M` plus six zero-padded digits. One original message is one source record. Its unchanged message content is embedded in `time_anchor: JSON_VALUE\nROLE: CONTENT`; all packet offsets refer to this adapted body, and complete-body coverage is conservative complete original-message exposure. Fixed adapter metadata: source kind, revision 1, blank title/authored_at, scope `all`, and empty aliases/links/supersedes/incorporations. No profiles, plans, `question_type` construction markers, probing questions, answers, rubrics, references, or support labels enter the source records or their indexes.
+
+Only the question string crosses the query interface. Category, difficulty, reasoning, rubric, answer and support metadata remain in the evaluator. Named dictionaries in `source_chat_ids` retain their criterion groups; plain lists form one group. Every listed ID in every group is required for the publisher-label proxy. Groups are conjunctive, not alternative minimal support sets. Repeated IDs within/across groups do not become separate originals. Reject booleans, textual IDs, duplicate source message IDs and unresolved references. All 90 selected positive-support queries have resolved references in the initial schema audit. Source projections and query projections are hashed independently from withheld labels.
+
+## Fixed comparison
+
+Use the existing implementations without outcome-driven tuning:
+
+| Ranker | Representation and rule |
+|---|---|
+| `body_bm25` | Entire adapted message bodies; existing BM25 `k1=1.2`, `b=.75`. |
+| `entity_rrf` | Existing word/character RRF with `k=60` and any literal adapter-ID matches. Source aliases are empty; there is no new entity extractor or authored query metadata. |
+| `dense_windows` | Existing quantized MiniLM encoder; original-body token windows of width 192 with overlap 32, record score = maximum window cosine. |
+| `dense_window_rrf` | Same dense-window rank fused with body BM25 via existing RRF `k=60`. |
+
+The encoder is `sentence-transformers/all-MiniLM-L6-v2`, revision `1110a243fdf4706b3f48f1d95db1a4f5529b4d41`, ONNX `model_quint8_avx2.onnx`, SHA-256 `b941bf19f1f1283680f449fa6a7336bb5600bdcd5f84d10ddc5cd72218a0fd21`. Reuse the [verified model specification](dense-model-spec.json) and the existing private cache. CPUExecutionProvider, two intra-op threads, one inter-op thread, batch 12, 384 dimensions, masked mean pooling then L2 normalization; 256 tokens maximum, including special tokens. Record actual window/query encodings, truncations, cache hits, bytes and runtime versions. No torch, new package, authentication, or provider call. These English text embeddings are an adaptation, not the paper's multi-model QA setup.
+
+Each ranker returns every message once, with adapter-ID tie order. Keep the first **32** ranked IDs as packing candidates. Cross all four rankers with existing `whole_record` and `sentence_neighbors` at **4,096, 8,192, 16,384 UTF-8 bytes**: **2,160 scheduled packets**. `sentence_neighbors` uses the existing lexical sentence anchors, neighboring sentences and maximum two windows per source. Identical packets still retain their scheduled rows. Every wrapper and two-newline separator counts; no packet is cropped after generation. Verify source text, source hash and character bounds for every observation, and independently remeasure packet UTF-8 bytes. There is no graph/derived-memory adaptation in this lane.
+
+## Endpoints and analysis
+
+For each query/cell record: all required publisher IDs recovered as complete original-message bodies; fraction of required distinct IDs fully recovered; fraction of criterion groups completely recovered; any/complete selected-ID proxy (partial messages count only here); partial selected IDs separately; bytes used; candidate all/any/fraction at 8/16/32/64; and ranking/packet digests. Complete exposure may arise from the union of adjacent source-exact observations; a selected ID or isolated passage does not imply exposure of the publisher's answer-bearing material. No source span labels are provided, so there is no sufficient-span or semantic-truth endpoint.
+
+Compute the required-ID union's single-whole-body-per-record cost using the respective packer's wrapper, independently of ranked packing. This is an exact whole-record bundle cost for `whole_record` and an optimistic lower bound for `sentence_neighbors`: extra passage wrappers and its two-window ceiling can prevent recovery even when that lower bound fits. Report this necessary feasibility ceiling per budget, and whether the union falls inside the first 32 candidates. A bundle whose lower bound exceeds the byte budget cannot be fully exposed in this adapter, even with perfect ranking. Keep impossible-bundle results in the main denominator and also report feasible-only descriptive results with their denominators. Feasible-only results are a diagnostic, not the primary comparison.
+
+Aggregate each metric within a history first, then average the five histories equally. Show all 24 cells, the five history results, nine category strata, and paired differences versus `body_bm25` under the same packer/budget. Report gains, ties and regressions. Do not treat 90 queries as independent observations; do not compute a query-level confidence interval or claim a population winner from five synthetic histories. No method is selected or tuned after observing this grid.
+
+Build/run times are operational receipts under shared-machine activity, not controlled latency benchmarks. Lexical work may run before dense work; both stages verify the identical frozen hashes. Dense model loading waits for explicit resource coordination from the parent task. Interrupted stages retain receipts; a stage is marked complete only when all its scheduled rows are persisted. Unexpected code/data changes require a new dated freeze/amendment before replacement results.
+
+## Runnable audit and execution
+
+`python external_probe.py` runs the independent stdlib self-check. `python external_probe.py --private-root PRIVATE_DOWNLOAD_DIR` verifies all bounded artifacts and source/gold projections without scoring, fetching, or writing. `python external_eval.py --self-check` checks adapter, criterion groups, source-exact packet validation and byte ceilings with fictional fixtures. With verified private downloads present, run `--audit`, then `--freeze`, then `--stage lexical`, and finally `--stage dense --cache-root PRIVATE_EXISTING_CACHE`. All commands use `--private-root PRIVATE_DOWNLOAD_DIR`; only dense execution creates/loads an encoder. Scored stages write private row receipts and the public allowlisted `external-results.json`. The freeze timestamp and code/data hashes are included in that result. Third-party source files, prompts, labels, embeddings, and packet text are never copied into Git.
+
+## Limits
+
+The selected texts are externally authored synthetic conversations, not an independent human/representative corpus. Publisher support IDs are an unverified semantic proxy and may be incomplete or overinclusive; named groups describe labels, not proven necessary/alternative evidence. Automatic question generation and source-plan knowledge may influence their cues. The source-category taxonomy differs from the fictional bank. Entire-message recovery is deliberately stricter than partial useful evidence; passage ID selection is deliberately weaker. This test cannot establish answer correctness, preference compliance, event-order correctness, safe tool use, or deployment usefulness.

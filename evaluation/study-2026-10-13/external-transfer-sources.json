@@ -1,0 +1,486 @@
+{
+  "access_date_utc": "2026-10-13",
+  "downloaded_files": [
+    {
+      "bytes": 3437,
+      "http_status": 200,
+      "local_relative": "lme2/README.md",
+      "prefix_only": false,
+      "sha256": "c5de92eadfd8238802b476e446b05a766c312ab0f07518dbda434f914aa4df37",
+      "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2/resolve/f152293e235517d504809563c833d7190b8c713b/README.md"
+    },
+    {
+      "bytes": 2506,
+      "http_status": 200,
+      "local_relative": "lme2/DATA_CARD.md",
+      "prefix_only": false,
+      "sha256": "8d4a3795dd32a33c6878d5572889e42655fd6c803e2ce385b360648217563aa8",
+      "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2/resolve/f152293e235517d504809563c833d7190b8c713b/DATA_CARD.md"
+    },
+    {
+      "bytes": 1879,
+      "http_status": 200,
+      "local_relative": "lme2/SCHEMA.md",
+      "prefix_only": false,
+      "sha256": "0672cf47cf16c30365648770628b433076bb3f5b73edded673af7dd6d5f3246f",
+      "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2/resolve/f152293e235517d504809563c833d7190b8c713b/SCHEMA.md"
+    },
+    {
+      "bytes": 9109,
+      "http_status": 200,
+      "local_relative": "lme2/LICENSE",
+      "prefix_only": false,
+      "sha256": "d547f7673579465fcecc8f257fcdb410f51c82fd784a10b1587e83036f9c29e1",
+      "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2/resolve/f152293e235517d504809563c833d7190b8c713b/LICENSE"
+    },
+    {
+      "bytes": 3561,
+      "http_status": 200,
+      "local_relative": "lme2/checksums.sha256",
+      "prefix_only": false,
+      "sha256": "b17a18daa52873f915808502217c3c5fab39d20638544f986401155c9e8d67a6",
+      "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2/resolve/f152293e235517d504809563c833d7190b8c713b/checksums.sha256"
+    },
+    {
+      "bytes": 286186,
+      "http_status": 200,
+      "local_relative": "lme2/questions.jsonl",
+      "prefix_only": false,
+      "sha256": "0a3ae5ebea938c24d7800e1e0b0828e08ae1646f939a53853b2b8cdc08e292b7",
+      "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2/resolve/f152293e235517d504809563c833d7190b8c713b/questions.jsonl"
+    },
+    {
+      "bytes": 822632,
+      "http_status": 200,
+      "local_relative": "lme2/haystacks/lme_v2_small.json",
+      "prefix_only": false,
+      "sha256": "9b5301defb23a088a5f06e45ff8d5f35e569d78305a66d492046a9fff9b46593",
+      "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2/resolve/f152293e235517d504809563c833d7190b8c713b/haystacks/lme_v2_small.json"
+    },
+    {
+      "bytes": 8388608,
+      "http_status": 200,
+      "local_relative": "lme2/trajectories.prefix",
+      "prefix_only": true,
+      "sha256": "566b99157e413e24c81e830acaed30c26b28590295b1e333a3effe28a240eec5",
+      "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2/resolve/f152293e235517d504809563c833d7190b8c713b/trajectories.jsonl"
+    },
+    {
+      "bytes": 626,
+      "http_status": 200,
+      "local_relative": "lme1/README.md",
+      "prefix_only": false,
+      "sha256": "fe31783d4e5d132681a25e4192e85def8edd214094939879f5283818c0a4a3e0",
+      "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned/resolve/98d7416c24c778c2fee6e6f3006e7a073259d48f/README.md"
+    },
+    {
+      "bytes": 15388478,
+      "http_status": 200,
+      "local_relative": "lme1/longmemeval_oracle.json",
+      "prefix_only": false,
+      "sha256": "821a2034d219ab45846873dd14c14f12cfe7776e73527a483f9dac095d38620c",
+      "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned/resolve/98d7416c24c778c2fee6e6f3006e7a073259d48f/longmemeval_oracle.json"
+    },
+    {
+      "bytes": 8388608,
+      "http_status": 200,
+      "local_relative": "lme1/longmemeval_s_cleaned.prefix",
+      "prefix_only": true,
+      "sha256": "8ae79d4297ac0dd709fb0200c1ea7c86f431900720e6bcf7b4f8de8b4ab61897",
+      "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned/resolve/98d7416c24c778c2fee6e6f3006e7a073259d48f/longmemeval_s_cleaned.json"
+    },
+    {
+      "bytes": 7469,
+      "http_status": 200,
+      "local_relative": "mem2act/README.md",
+      "prefix_only": false,
+      "sha256": "2301013b1bb861c225673ba8cb02b35b90a6a31361fdcd3b2cc8db7111c436aa",
+      "url": "https://raw.githubusercontent.com/Cantaloupe-M/Mem2ActBench/b00726940b5abbe9bd324bdd7a2cb272f5c62a29/README.md"
+    },
+    {
+      "bytes": 248,
+      "http_status": 200,
+      "local_relative": "mem2act/benchmark_statistics.json",
+      "prefix_only": false,
+      "sha256": "805e8b60a79414628ae53595b27c119c4c6d0c93bb8a593393076f2b79059c78",
+      "url": "https://raw.githubusercontent.com/Cantaloupe-M/Mem2ActBench/b00726940b5abbe9bd324bdd7a2cb272f5c62a29/Mem2ActBench/benchmark_statistics.json"
+    },
+    {
+      "bytes": 690277,
+      "http_status": 200,
+      "local_relative": "mem2act/qa_dataset.jsonl",
+      "prefix_only": false,
+      "sha256": "24fc8692567e5fc16457a7e6c9ec12d68ba06245d53b315c7ced5f76a84fd039",
+      "url": "https://raw.githubusercontent.com/Cantaloupe-M/Mem2ActBench/b00726940b5abbe9bd324bdd7a2cb272f5c62a29/Mem2ActBench/qa_dataset.jsonl"
+    },
+    {
+      "bytes": 2097152,
+      "http_status": 200,
+      "local_relative": "mem2act/toolmem_conversation.prefix",
+      "prefix_only": true,
+      "sha256": "54dd2d5c2afa581d5bb5d70fa134134cb92a45423dc33857585414065cf87d29",
+      "url": "https://raw.githubusercontent.com/Cantaloupe-M/Mem2ActBench/b00726940b5abbe9bd324bdd7a2cb272f5c62a29/Mem2ActBench/toolmem_conversation.jsonl"
+    },
+    {
+      "bytes": 564977,
+      "http_status": 200,
+      "local_relative": "beam/chat.json",
+      "prefix_only": false,
+      "sha256": "ea71efd5dcc13f7366d3737b45d532eadb3d1497f3d6f23d1fa1c4004d5ffdf2",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/1/chat.json"
+    },
+    {
+      "bytes": 1074,
+      "http_status": 200,
+      "local_relative": "beam/LICENSE",
+      "prefix_only": false,
+      "sha256": "60c7b74ffaacaae383c3f06a48bc79d204b25bc9c1856df9711b3d290febd474",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/LICENSE"
+    },
+    {
+      "bytes": 31547,
+      "local_relative": "beam/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "047398ff1497674b11585e7b4829c3d64d2d5e63f7f3572c826b73ca1faaf898",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/1/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 11357,
+      "local_relative": "lme2/CODE_LICENSE",
+      "prefix_only": false,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "url": "https://raw.githubusercontent.com/xiaowu0162/LongMemEval-V2/2cc8c540bdb87fe6761629b585e727e1c4704520/LICENSE"
+    },
+    {
+      "bytes": 1062,
+      "local_relative": "lme1/CODE_LICENSE",
+      "prefix_only": false,
+      "sha256": "d3c4b9aa54759df6ded337978a6f3b55b75615e5e4525c3b82d7e2627d4b9732",
+      "url": "https://raw.githubusercontent.com/xiaowu0162/LongMemEval/9e0b455f4ef0e2ab8f2e582289761153549043fc/LICENSE"
+    },
+    {
+      "bytes": 1067,
+      "local_relative": "mab/CODE_LICENSE",
+      "prefix_only": false,
+      "sha256": "94d735aad92355b4880c969fa309e824eb12fdeeb271ae51cf6143866cf78cf7",
+      "url": "https://raw.githubusercontent.com/HUST-AI-HYZ/MemoryAgentBench/538026089d1a8a8eff05121d0db89b388f360eba/LICENSE"
+    },
+    {
+      "bytes": 14549,
+      "git_blob_sha1": "4fcb69138bf9ce3566cc5f315b267f583fc76445",
+      "local_relative": "beam-selected/README.md",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "6eb38ece9322cdd96dba99a50f882187688e55e80b594068ad8827db5bc08020",
+      "upstream_path": "README.md",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/README.md"
+    },
+    {
+      "bytes": 1074,
+      "git_blob_sha1": "3f9b9d0c86435b02a9867570d765f934a01d4587",
+      "local_relative": "beam-selected/LICENSE",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "60c7b74ffaacaae383c3f06a48bc79d204b25bc9c1856df9711b3d290febd474",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/LICENSE"
+    },
+    {
+      "bytes": 492497,
+      "git_blob_sha1": "70485c19d3c8b0509af46b4d4e9be3f171251df8",
+      "local_relative": "beam-selected/chats/100K/14/chat.json",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "43fbffd9ca235a980203faf4c5d6f636e97af4f31f6d91d9cbe42035ab4f0b0d",
+      "upstream_path": "chats/100K/14/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/14/chat.json"
+    },
+    {
+      "bytes": 30180,
+      "git_blob_sha1": "ad118749ec58becc527ffec7f07d067313a2276d",
+      "local_relative": "beam-selected/chats/100K/14/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "f30350303b4ccd52a36deaf57750a2bf6924fa5885da92d8230797a82dcfbe5f",
+      "upstream_path": "chats/100K/14/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/14/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 635112,
+      "git_blob_sha1": "8704f92ab52d3e35023c2649bcaa1bafa0b87e4b",
+      "local_relative": "beam-selected/chats/100K/6/chat.json",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "5365cdc41da212fb7143cf9f191ff7862eed8e9ca175b3728fe593adedc87871",
+      "upstream_path": "chats/100K/6/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/6/chat.json"
+    },
+    {
+      "bytes": 34228,
+      "git_blob_sha1": "46e7be78b14adf00507888473a1d9211098cd2d8",
+      "local_relative": "beam-selected/chats/100K/6/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "7a6f88dfdeb3f1b582209a745e7c980158dbb2829a9ceae6cdb08bb868a00035",
+      "upstream_path": "chats/100K/6/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/6/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 616803,
+      "git_blob_sha1": "d7ecce93eb7b08dae2768527aeff60164c9e2857",
+      "local_relative": "beam-selected/chats/100K/7/chat.json",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "525271b1d24179dbc2deb664c69db0bbaead5938630a0b0d5cd2881b8b79224d",
+      "upstream_path": "chats/100K/7/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/7/chat.json"
+    },
+    {
+      "bytes": 32366,
+      "git_blob_sha1": "2bec447bc76d1c0ca1334e61e96a4f736bc2db8a",
+      "local_relative": "beam-selected/chats/100K/7/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "2c00219e839d54c7cd3e4fbb396f8a2517fd9f143d3a3b8ea1c4fb9f5c4435c7",
+      "upstream_path": "chats/100K/7/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/7/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 663564,
+      "git_blob_sha1": "c8aaa7087e534d9bd472bd9b25588a724109eb9b",
+      "local_relative": "beam-selected/chats/100K/16/chat.json",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "414f11e16156d490cfb8449db62bddae88308e5b37fa79df54b147637f059afd",
+      "upstream_path": "chats/100K/16/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/16/chat.json"
+    },
+    {
+      "bytes": 30613,
+      "git_blob_sha1": "6bb7f50bcf89044a7287c251cd3f7ccbdaaeaa1b",
+      "local_relative": "beam-selected/chats/100K/16/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "abf20d16a37322112af0fe48f5c43be0d824d54ae2bb2c5e3e069c6e84c54033",
+      "upstream_path": "chats/100K/16/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/16/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 722161,
+      "git_blob_sha1": "19ebcc365412674f7657b424e104f10dfba6760a",
+      "local_relative": "beam-selected/chats/100K/10/chat.json",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "de18b7b0ad73491f338296b64ae30f16b94d77404420d971d3f6b513d190ad1c",
+      "upstream_path": "chats/100K/10/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/10/chat.json"
+    },
+    {
+      "bytes": 32129,
+      "git_blob_sha1": "0e4c8ceece7267702e7f2fbcac9eddb283d732f1",
+      "local_relative": "beam-selected/chats/100K/10/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "publisher_verified": true,
+      "sha256": "e9bf9bb545b350425a770ef65b501434ba9983c7535b4524dd6ae4d5743b5a95",
+      "upstream_path": "chats/100K/10/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/10/probing_questions/probing_questions.json"
+    }
+  ],
+  "privacy_boundary": "No raw third-party corpus, question/answer text, screenshots, personal vault data, credentials, or host paths are committed.",
+  "schema_version": 1,
+  "sources": [
+    {
+      "audit_counts": {
+        "complete_prefix_trajectories": 8,
+        "question_images": 29,
+        "questions": 451,
+        "small_haystacks": 2,
+        "text_only_questions": 422,
+        "trajectories_per_small_haystack": 100
+      },
+      "code_license": "Apache-2.0",
+      "code_revision": "2cc8c540bdb87fe6761629b585e727e1c4704520",
+      "code_url": "https://github.com/xiaowu0162/LongMemEval-V2",
+      "data_license": "Apache-2.0",
+      "dataset_revision": "f152293e235517d504809563c833d7190b8c713b",
+      "dataset_url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2",
+      "key": "longmemeval_v2",
+      "license_evidence_url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2/blob/f152293e235517d504809563c833d7190b8c713b/LICENSE",
+      "origin": "Human-curated questions; agent-generated trajectories in synthetic benchmark environments, not live user histories.",
+      "paper_url": "https://arxiv.org/abs/2605.12493v1",
+      "schema_url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2/blob/f152293e235517d504809563c833d7190b8c713b/SCHEMA.md",
+      "support_labels": "Removed in public release; not sufficient for original-label retrieval evaluation.",
+      "trajectory_file": {
+        "bytes": 1195604539,
+        "fully_downloaded": false,
+        "publisher_lfs_sha256": "363cec9a8e87aa8d9101ce4e600aadbf7031d674056ebe4f969e8424abc5f3c6"
+      },
+      "ungated": true
+    },
+    {
+      "audit_counts": {
+        "S_prefix_types": {
+          "single-session-user": 15
+        },
+        "complete_S_prefix_records": 15,
+        "oracle_abstentions": 30,
+        "oracle_records": 500
+      },
+      "code_license": "MIT",
+      "code_revision": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+      "code_url": "https://github.com/xiaowu0162/LongMemEval",
+      "data_license": "MIT (dataset card declaration)",
+      "dataset_revision": "98d7416c24c778c2fee6e6f3006e7a073259d48f",
+      "dataset_url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned",
+      "key": "longmemeval_v1_cleaned",
+      "license_evidence_url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned/blob/98d7416c24c778c2fee6e6f3006e7a073259d48f/README.md",
+      "origin": "Human-curated questions and LLM-simulated/human-edited evidence; histories also contain ShareGPT and UltraChat fillers.",
+      "paper_url": "https://arxiv.org/abs/2410.10813",
+      "s_file": {
+        "bytes": 277383467,
+        "fully_downloaded": false,
+        "publisher_lfs_sha256": "d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442"
+      },
+      "support_labels": [
+        "answer_session_ids",
+        "haystack_sessions[*][*].has_answer"
+      ],
+      "ungated": true
+    },
+    {
+      "access_status": "Public metadata verified; no Parquet corpus downloaded or parsed. pyarrow not installed; no dependency added.",
+      "advertised_split_rows": {
+        "Accurate_Retrieval": 22,
+        "Conflict_Resolution": 8,
+        "Long_Range_Understanding": 110,
+        "Test_Time_Learning": 6
+      },
+      "code_license": "MIT",
+      "code_revision": "538026089d1a8a8eff05121d0db89b388f360eba",
+      "code_url": "https://github.com/HUST-AI-HYZ/MemoryAgentBench",
+      "data_license": "MIT (dataset card declaration)",
+      "dataset_revision": "7ea066982b140a19337e17e60d45d4076e042faf",
+      "dataset_url": "https://huggingface.co/datasets/ai-hyz/MemoryAgentBench",
+      "key": "memoryagentbench",
+      "license_evidence_url": "https://huggingface.co/datasets/ai-hyz/MemoryAgentBench/blob/7ea066982b140a19337e17e60d45d4076e042faf/README.md",
+      "origin": "Reformulated mixed-source benchmarks plus constructed EventQA and FactConsolidation; origin varies by task.",
+      "paper_url": "https://arxiv.org/abs/2507.05257",
+      "schema_fields": [
+        "context",
+        "questions",
+        "answers",
+        "metadata"
+      ],
+      "ungated": true,
+      "withheld_metadata_fields": [
+        "haystack_sessions[*][*].has_answer",
+        "keypoints",
+        "previous_events",
+        "qa_pair_ids",
+        "question_types"
+      ]
+    },
+    {
+      "advertised_HF_split_rows": {
+        "100K": 20,
+        "1M": 35,
+        "500K": 35
+      },
+      "audit_counts": {
+        "convenience_history_labeled_questions": 18,
+        "convenience_history_messages": 188,
+        "convenience_history_questions": 20
+      },
+      "code_license": "MIT",
+      "code_revision": "b2da22eac88bb0874c64665f13457eb99835774a",
+      "code_url": "https://github.com/mohammadtavakoli78/BEAM",
+      "data_license": "CC-BY-SA-4.0",
+      "dataset_revision": "3205395e897e7318c7b094ef4e6047b9b82dbb03",
+      "dataset_url": "https://huggingface.co/datasets/Mohammadta/BEAM",
+      "execution_sample": {
+        "candidate_paths": [
+          "chats/100K/1/chat.json",
+          "chats/100K/10/chat.json",
+          "chats/100K/11/chat.json",
+          "chats/100K/12/chat.json",
+          "chats/100K/13/chat.json",
+          "chats/100K/14/chat.json",
+          "chats/100K/15/chat.json",
+          "chats/100K/16/chat.json",
+          "chats/100K/17/chat.json",
+          "chats/100K/18/chat.json",
+          "chats/100K/19/chat.json",
+          "chats/100K/2/chat.json",
+          "chats/100K/20/chat.json",
+          "chats/100K/3/chat.json",
+          "chats/100K/4/chat.json",
+          "chats/100K/5/chat.json",
+          "chats/100K/6/chat.json",
+          "chats/100K/7/chat.json",
+          "chats/100K/8/chat.json",
+          "chats/100K/9/chat.json"
+        ],
+        "histories": 5,
+        "queries": 100,
+        "selected_paths": [
+          "chats/100K/14/chat.json",
+          "chats/100K/6/chat.json",
+          "chats/100K/7/chat.json",
+          "chats/100K/16/chat.json",
+          "chats/100K/10/chat.json"
+        ],
+        "selection_rule": "first five paths ascending SHA256(seed + full path), then path",
+        "selection_seed": "external-beam-20261013-v1:",
+        "support_labeled_queries": 90,
+        "unlabeled_abstention_queries": 10
+      },
+      "key": "beam",
+      "license_evidence_url": "https://github.com/mohammadtavakoli78/BEAM/blob/b2da22eac88bb0874c64665f13457eb99835774a/README.md#-license",
+      "modality": "Selected JSON conversation records are English text; source benchmark QA/nugget/ordering evaluators are not run.",
+      "origin": "Automatically generated synthetic long conversations and probing questions; author validation is not a representative human-history sample.",
+      "paper_url": "https://arxiv.org/abs/2510.27246",
+      "support_fields": [
+        "source_chat_ids (integer lists or named criterion-group dictionaries)"
+      ],
+      "ungated": true
+    },
+    {
+      "audit_counts": {
+        "complete_prefix_sessions": 123,
+        "complexity_levels": {
+          "L1": 237,
+          "L2": 101,
+          "L3": 17,
+          "L4": 45
+        },
+        "declared_total_sessions": 2029,
+        "qa_records": 400
+      },
+      "code_revision": "b00726940b5abbe9bd324bdd7a2cb272f5c62a29",
+      "code_url": "https://github.com/Cantaloupe-M/Mem2ActBench",
+      "data_license": "README declares MIT; no standalone LICENSE at pinned revision. Source-specific derivative obligations not independently resolved.",
+      "key": "mem2actbench",
+      "license_evidence_url": "https://github.com/Cantaloupe-M/Mem2ActBench/blob/b00726940b5abbe9bd324bdd7a2cb272f5c62a29/README.md#license",
+      "modality": "Text plus structured tool calls; no tools invoked or action-parameter scores computed.",
+      "origin": "Synthesized/stiched sessions and reverse-generated tasks from heterogeneous ToolACE/BFCL/OASST1 sources; human validation of a subset.",
+      "paper_url": "https://aclanthology.org/2026.acl-long.370/",
+      "schema_fields": [
+        "qa_id",
+        "source_conversation_ids",
+        "evolution_chain",
+        "query",
+        "tool_call",
+        "target_tool_schema",
+        "complexity_metadata"
+      ],
+      "withheld_fields": [
+        "tool_call",
+        "tool_call.grounding_info",
+        "evolution_chain",
+        "source_conversation_ids",
+        "complexity_metadata"
+      ]
+    }
+  ],
+  "state": "public_sources_and_private_bounded_artifacts_verified_no_official_scores"
+}
