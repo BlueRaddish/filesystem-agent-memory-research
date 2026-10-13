@@ -14,6 +14,8 @@ This project is a public, source-grounded research review of agent memory, retri
 
 | Document | Purpose |
 | --- | --- |
+| [Development robustness report](evaluation/study-2026-10-13/DEV-RESULTS.md) | 19,440 completed development-only perturbation and nested-packing comparisons; four figures |
+| [Fresh query-cue report](evaluation/study-2026-10-13/AGENT-QUERY-REPORT.md) | 72 scheduled calls and 2,592 completed packet comparisons, including ten fallbacks; two figures |
 | [External transfer report](evaluation/study-2026-10-13/EXTERNAL-TRANSFER.md) | 2,160 completed retrieval packets over five BEAM synthetic histories; label/byte/whole-message proxies and limits |
 | [Expanded report and 15 figures](evaluation/study-2026-10-11/REPORT.md) | Actual atomic-policy comparisons, executed local scorers, downstream controls and fresh-discovery failures |
 | [Expanded execution audit](evaluation/study-2026-10-11/AUDIT.md) | Reconstruction of all scheduled packets and actual artifacts; preserved failures and execution amendments |

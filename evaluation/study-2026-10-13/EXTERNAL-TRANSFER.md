@@ -85,6 +85,22 @@ The dense stage created **4,931 document-window vectors** across five histories 
 
 The source labels can overinclude, omit or duplicate relevant semantic evidence. Named groups are preserved conjunctively, not interpreted as minimal alternatives. Whole-message recovery is a conservative exposure proxy; passages can contain useful evidence without covering the whole message, and a whole message can contain misleading or insufficient evidence. The result does not score answers, temporal order, instruction/preference compliance, tool parameter correctness or live execution. There is no query-level uncertainty interval, population-generalization claim, or full-BEAM claim.
 
+## Scientific figures
+
+These plots use only the completed, separate external adaptation. Input tables and renderer code are hashed separately from images in the [supplementary figure registry](supplement-figure-registry.json). The five external PNGs and four separate development PNGs were all visually inspected individually; clipping/legend fixes changed presentation only. SVG metadata omits dates and host paths. Counts remain descriptive within five synthetic histories, with no confidence interval or official answer score.
+
+![External budget and complete-message recovery](supplement-figures/01-external-budget.png)
+
+![Candidate, partial-selection and original-message gap](supplement-figures/02-external-exposure-gap.png)
+
+![Five external history clusters](supplement-figures/03-external-histories.png)
+
+![External source category labels](supplement-figures/04-external-categories.png)
+
+![Paired external gains and regressions](supplement-figures/05-external-paired.png)
+
+Vector versions: [budgets](supplement-figures/01-external-budget.svg), [exposure gap](supplement-figures/02-external-exposure-gap.svg), [histories](supplement-figures/03-external-histories.svg), [categories](supplement-figures/04-external-categories.svg), [paired changes](supplement-figures/05-external-paired.svg). The [development diagnostics](DEV-RESULTS.md) remain a separate experiment.
+
 ## Further falsifiable avenues
 
 Workflow/gotcha/premise memory should be tested as conditional environment knowledge, including failed trajectories and transfer to a changed interface. V2 offers those task categories, but a text-only lane cannot test its screenshot gotchas. Distinguish remembering a rule from recognizing when its premise no longer applies.

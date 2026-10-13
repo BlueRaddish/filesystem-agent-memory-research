@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "scope": "development-only fresh query cues",
+  "source_aggregate_sha256": "58169b6085fa20bebedfde4a5d92aa1ab5c291c3d5172ed9fa6030efce822b67",
+  "figures": [
+    {
+      "id": "agent-query-coverage",
+      "title": "Exact-span evidence coverage by fixed cell",
+      "description": "All scheduled workflows, including original-query fallback; 72 development tasks per point. Budgets reuse tasks.",
+      "source_aggregate_sha256": "58169b6085fa20bebedfde4a5d92aa1ab5c291c3d5172ed9fa6030efce822b67",
+      "assets": [
+        {
+          "file": "agent-query-coverage.svg",
+          "sha256": "4c0aa76043a52cdef61922dde75dcc6d8b6d2a196a25aaef742839398f2452fd",
+          "bytes": 30228
+        },
+        {
+          "file": "agent-query-coverage.png",
+          "sha256": "6e4bf11c86b3ed211b18c550e7ee8867f1c4c8c4c5679e2fb0918e294d5c8a40",
+          "bytes": 115512
+        }
+      ]
+    },
+    {
+      "id": "agent-query-paired",
+      "title": "Matched coverage gains and regressions",
+      "description": "Net count is color; annotations separately retain improvement and regression counts. Repeated development cells are not independent samples.",
+      "source_aggregate_sha256": "58169b6085fa20bebedfde4a5d92aa1ab5c291c3d5172ed9fa6030efce822b67",
+      "assets": [
+        {
+          "file": "agent-query-paired.svg",
+          "sha256": "d03c1fc197d0db27be9aa1be0296da63910a1ed60e0e645cf67725980175c2d8",
+          "bytes": 32013
+        },
+        {
+          "file": "agent-query-paired.png",
+          "sha256": "52ce2d4ec1ce1df40db63a18ecb08ff6b4c2b129780f2928014aa9625fb123e7",
+          "bytes": 108690
+        }
+      ]
+    }
+  ]
+}
