@@ -1,0 +1,11 @@
+{
+  "original_main_freeze_sha256": "fda01f88f50dbb6e66a312ca9ab775c8603643ebe8b7f74b596a7250bc39524c",
+  "plan_scope": "Separate blinded artifact review; no primary score modification; actual extraction must pass independent audit.",
+  "root_readiness_receipt_sha256": "5066a4b97c15a54f3f34dfdcb5c4b5a9ee553c7676a19debb41c85b87d7185ca",
+  "schema_version": 1,
+  "source_pins": {
+    "SEMANTIC-REVIEW-PLAN.md": "3c06cf6c3a4ee965743a4f0ca1a515f16fd42eb292f2d3ca5cf63c59091a200a",
+    "prepare_reader_review.py": "ad4fe9cd81b00c2cb04762650fe2f60c062acf1fe3b24ecc9687de7e4504d76c"
+  },
+  "state": "prospective_before_main_reader_calls"
+}

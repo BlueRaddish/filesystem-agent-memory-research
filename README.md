@@ -16,6 +16,8 @@ This project is a public, source-grounded research review of agent memory, retri
 | --- | --- |
 | [Development robustness report](evaluation/study-2026-10-13/DEV-RESULTS.md) | 19,440 completed development-only perturbation and nested-packing comparisons; four figures |
 | [Fresh query-cue report](evaluation/study-2026-10-13/AGENT-QUERY-REPORT.md) | 72 scheduled calls and 2,592 completed packet comparisons, including ten fallbacks; two figures |
+| [Reader resource cap](evaluation/study-2026-10-13/RESOURCE-AMENDMENT.md) | 314 preserved grid checkpoints; unchanged local scoring and a prospective two-reader cap |
+| [Prospective actual-artifact review](evaluation/study-2026-10-13/SEMANTIC-REVIEW-PLAN.md) | Blinded source support review restricted to verified pre-write deliveries; not yet executed |
 | [Blind bank coherence review](evaluation/study-2026-10-13/SEMANTIC-BANK-REVIEW.md) | 288 task rederivations across 96 full-source fixtures; one LLM review, not human validation |
 | [Adaptive memory research](evaluation/study-2026-10-13/ADAPTIVE-RESEARCH.md) | Six primary-source hypotheses with controls and falsifiers; unexecuted future experiments |
 | [External transfer report](evaluation/study-2026-10-13/EXTERNAL-TRANSFER.md) | 2,160 completed retrieval packets over five BEAM synthetic histories; label/byte/whole-message proxies and limits |
