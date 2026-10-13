@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "accessed_utc": "2026-10-13",
+  "scope": "Additional primary sources for EXPANSION-RESEARCH.md, separate from historical and index/packing catalogs; overlaps do not represent extra independent studies.",
+  "review_limit": "Selected relevant full-text sections and official release documentation; no paper result reproduced or raw third-party corpus republished.",
+  "sources": [
+    {
+      "id": "XR01",
+      "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
+      "url": "https://arxiv.org/html/2605.12493v1",
+      "supporting_urls": ["https://github.com/xiaowu0162/LongMemEval-V2", "https://huggingface.co/datasets/xiaowu0162/longmemeval-v2"],
+      "review_depth": "Task categories, premise-awareness evaluation prompts, official repository overview and data card",
+      "application": "Operational knowledge and unfamiliar environment transfer rather than only conversational fact recall",
+      "limit": "Multimodal trajectories and external premises are not reproduced by a text-only fictional filesystem; dataset and official harness scores remain separate.",
+      "execution": "Source review only in the main grid; external adaptation has its own protocol/receipt"
+    },
+    {
+      "id": "XR02",
+      "title": "Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory",
+      "url": "https://arxiv.org/html/2606.10677v1",
+      "supporting_urls": ["https://github.com/infinigence/Infini-Memory"],
+      "review_depth": "Architecture, maintenance and retrieval ablations",
+      "application": "Separate document consolidation, source assembly and iterative evidence inspection",
+      "limit": "A matched structural-maintenance contrast differs from an agentic-reader contrast; our local rankers do not reproduce automatic topic consolidation.",
+      "execution": "Literature mechanism reviewed, full system not executed"
+    },
+    {
+      "id": "XR03",
+      "title": "Mem2ActBench: A Benchmark for Evaluating Long-Term Memory Utilization in Task-Oriented Autonomous Agents",
+      "url": "https://aclanthology.org/2026.acl-long.370/",
+      "supporting_urls": ["https://github.com/Cantaloupe-M/Mem2ActBench"],
+      "review_depth": "ACL publisher abstract/release identity and official pipeline README",
+      "application": "Memory-conditioned tool selection and parameter grounding",
+      "limit": "README MIT declaration is not verified root license text; source components retain their own licenses. No real external actions or official score executed.",
+      "execution": "Source/protocol review only"
+    },
+    {
+      "id": "XR04",
+      "title": "Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs",
+      "url": "https://arxiv.org/html/2510.27246v2",
+      "supporting_urls": ["https://github.com/mohammadtavakoli78/BEAM"],
+      "review_depth": "Benchmark construction, LIGHT memory components, nugget/event-order scoring and data/code release",
+      "application": "Long coherent histories, separate memory abilities and source/sequence support",
+      "limit": "Length tiers reuse histories/questions; MIT code differs from CC BY-SA 4.0 data. Publisher source labels are not our exact semantic span gold.",
+      "execution": "Full official QA/nugget/order scoring not reproduced; a separate bounded retrieval adaptation may be executed"
+    },
+    {
+      "id": "XR05",
+      "title": "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
+      "url": "https://arxiv.org/html/2507.05257v3",
+      "supporting_urls": ["https://github.com/HUST-AI-HYZ/MemoryAgentBench"],
+      "review_depth": "Incremental competencies, FactConsolidation prompts and overwrite-policy appendix",
+      "application": "Updating, long-range understanding and retention beyond static one-shot retrieval",
+      "limit": "Its serial-number priority is an explicit fixture authority rule, not general evidence that latest timestamps supersede arbitrary scoped policies.",
+      "execution": "Source/protocol review only"
+    },
+    {
+      "id": "XR06",
+      "title": "REMem: Reasoning with Episodic Memory in Language Agents",
+      "url": "https://arxiv.org/html/2602.13530v1",
+      "supporting_urls": ["https://github.com/intuit-ai-research/ReMem"],
+      "review_depth": "Time-aware gist/fact graph and lexical/semantic/component ablations",
+      "application": "Complementary episodic cues, exact fact anchors and multiple retrieval channels",
+      "limit": "F1 and judge metrics can respond differently; our explicit graph does not reproduce learned gist or synonym extraction.",
+      "execution": "Source review; transparent component-inspired heuristics implemented separately"
+    },
+    {
+      "id": "XR07",
+      "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
+      "url": "https://arxiv.org/html/2510.18866v1",
+      "supporting_urls": [],
+      "review_depth": "Staged memory construction, soft updates and offline parallel update sections",
+      "application": "Separate ingest/consolidation cost from online query latency",
+      "limit": "Sleep is a software scheduling metaphor; compressed entries and timestamp-update assumptions differ from original-preserving retrieval.",
+      "execution": "Complete LightMem system not executed"
+    },
+    {
+      "id": "XR08",
+      "title": "From Faulty Memories to Corrected Actions: Dependency-Guided Rollback Repair for Memory-Augmented Agents",
+      "url": "https://arxiv.org/html/2608.10502v1",
+      "supporting_urls": [],
+      "review_depth": "Repair architecture, controlled benchmark, diagnosed-fault inputs and ablation tradeoffs",
+      "application": "Preserve benign state and selectively repair dependent outputs after memory correction",
+      "limit": "Provided faulty-memory identifiers and single-run/trajectory-adapted tests do not establish automatic fault diagnosis or full external benchmark performance.",
+      "execution": "Engineered prescribed cache/write traces only; full model-mediated repair not reproduced"
+    }
+  ]
+}

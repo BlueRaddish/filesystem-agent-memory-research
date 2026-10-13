@@ -1,0 +1,223 @@
+{
+  "access_date_utc": "2026-10-13",
+  "license_note": "Paper access is not a software license. No paper text or third-party implementation code is redistributed here. Software, documentation and checkpoint licenses are recorded separately when inspected; otherwise marked not reviewed.",
+  "schema_version": 1,
+  "scope": "Primary source review for retrieval index experiments; infrastructure smoke is separate from benchmark evaluation.",
+  "sources": [
+    {
+      "application": "k1/b lexical baseline",
+      "execution": "Independent stdlib formula; Lucene not installed or executed",
+      "id": "IL01",
+      "review_depth": "API defaults and formula notes",
+      "software_license": "Apache-2.0 (Lucene project)",
+      "supporting_license_url": "https://github.com/apache/lucene/blob/main/LICENSE.txt",
+      "title": "Lucene BM25Similarity 9.9.1 API",
+      "type": "official API documentation",
+      "url": "https://lucene.apache.org/core/9_9_1/core/org/apache/lucene/search/similarities/BM25Similarity.html"
+    },
+    {
+      "application": "Word and character TF-IDF",
+      "execution": "Declared formulas implemented in stdlib; scikit-learn not imported",
+      "id": "IL02",
+      "review_depth": "Text/vectorization weighting and character representation sections",
+      "software_license": "BSD-3-Clause (scikit-learn project)",
+      "supporting_license_url": "https://github.com/scikit-learn/scikit-learn/blob/main/COPYING",
+      "title": "scikit-learn text feature extraction",
+      "type": "official documentation",
+      "url": "https://scikit-learn.org/stable/modules/feature_extraction.html"
+    },
+    {
+      "application": "Representation specification",
+      "execution": "Independent stdlib implementation",
+      "id": "IL03",
+      "review_depth": "Analyzer, ngram, smoothing, sublinear TF and normalization parameters",
+      "software_license": "BSD-3-Clause (scikit-learn project)",
+      "supporting_license_url": "https://github.com/scikit-learn/scikit-learn/blob/main/COPYING",
+      "title": "scikit-learn TfidfVectorizer parameters",
+      "type": "official API documentation",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html"
+    },
+    {
+      "application": "RRF k=60 baseline",
+      "execution": "Independent formula implementation",
+      "id": "IL04",
+      "paper_rights": "Author/publisher copyright; no code license inferred",
+      "review_depth": "Two-page paper, formula and fixed k discussion",
+      "title": "Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods",
+      "type": "author-hosted original research paper",
+      "url": "https://cormack.uwaterloo.ca/cormacksigir09-rrf.pdf",
+      "year": 2009
+    },
+    {
+      "application": "Fusion tuning as development-only future experiment",
+      "execution": "No learned fusion fitted",
+      "id": "IL05",
+      "paper_rights": "Not reviewed; linked only",
+      "review_depth": "Methods, parameter sensitivity, calibration and conclusion",
+      "title": "An Analysis of Fusion Functions for Hybrid Retrieval",
+      "type": "author research paper",
+      "url": "https://arxiv.org/html/2210.11934v2",
+      "year": 2022
+    },
+    {
+      "application": "Literal identity channel rationale",
+      "execution": "Local exact-boundary implementation; no OpenSearch cluster",
+      "id": "IL06",
+      "review_depth": "Exact term behavior and analyzed-field warning",
+      "software_license": "Apache-2.0 (OpenSearch project)",
+      "supporting_license_url": "https://github.com/opensearch-project/OpenSearch/blob/main/LICENSE.txt",
+      "title": "OpenSearch term query",
+      "type": "official documentation",
+      "url": "https://docs.opensearch.org/latest/query-dsl/term/term/"
+    },
+    {
+      "application": "Relevance/redundancy heuristic",
+      "execution": "Related lexical heuristic, not exact paper replication",
+      "id": "IL07",
+      "paper_rights": "Author/publisher copyright; no code license inferred",
+      "review_depth": "Two-page paper and relevance/novelty definition",
+      "title": "The Use of MMR, Diversity-Based Reranking for Reordering Documents and Producing Summaries",
+      "type": "author-hosted original paper",
+      "url": "https://www.cs.cmu.edu/~jgc/publication/The_Use_MMR_Diversity_Based_LTMIR_1998.pdf",
+      "year": 1998
+    },
+    {
+      "application": "Marginal query coverage hypothesis",
+      "execution": "Token coverage proxy only; no paper subtopic models replicated",
+      "id": "IL08",
+      "paper_rights": "Springer copyright notice; no code license inferred",
+      "review_depth": "Abstract, optimization framework and coverage section",
+      "title": "Coverage-based search result diversification",
+      "type": "author-hosted original paper",
+      "url": "https://www.eecis.udel.edu/~hfang/pubs/irj12.pdf",
+      "year": 2012
+    },
+    {
+      "application": "Graph relevance propagation",
+      "execution": "Four-round declared-edge diffusion, not original algorithm replication",
+      "id": "IL09",
+      "paper_rights": "Author/owner copyright notice; no code license inferred",
+      "review_depth": "Query-sensitive bias motivation and graph propagation mechanism",
+      "title": "Topic-Sensitive PageRank",
+      "type": "original paper hosted by research institution",
+      "url": "https://snap.stanford.edu/class/cs224w-readings/Haveliwala02Topicsenitive.pdf",
+      "year": 2002
+    },
+    {
+      "application": "Pseudo-feedback research direction",
+      "execution": "Simple six-term TF-IDF heuristic; not RM1/RM3",
+      "id": "IL10",
+      "paper_rights": "Not reviewed; linked only",
+      "review_depth": "Relevance modeling motivation and feedback setting",
+      "title": "Relevance-Based Language Models",
+      "type": "author institution original paper",
+      "url": "https://ciir-publications.cs.umass.edu/pub/web/getpdf.php?id=225",
+      "year": 2001
+    },
+    {
+      "application": "Cached dense encoder",
+      "checkpoint_license": "Apache-2.0",
+      "checkpoint_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "execution": "Pinned public ONNX artifact downloaded and fictional smoke executed",
+      "id": "IL11",
+      "review_depth": "License, pooling example, dimensions, limits and public API metadata",
+      "title": "sentence-transformers/all-MiniLM-L6-v2 model card",
+      "type": "publisher checkpoint card",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+    },
+    {
+      "application": "Weight/configuration reproducibility",
+      "checkpoint_license": "Apache-2.0",
+      "execution": "23,046,789-byte AVX2 ONNX and six pinned auxiliary files",
+      "id": "IL12",
+      "review_depth": "Revision, artifact size and publisher LFS SHA-256; local exact digest verification",
+      "title": "all-MiniLM-L6-v2 pinned ONNX files",
+      "type": "publisher artifact listing and API metadata",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/tree/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/onnx"
+    },
+    {
+      "application": "Backend execution specification",
+      "execution": "Custom numpy/onnxruntime/tokenizers adapter; no Sentence Transformers dependency",
+      "id": "IL13",
+      "review_depth": "ONNX pooling, quantization and measurement boundaries",
+      "software_license": "Apache-2.0 (Sentence Transformers project)",
+      "supporting_license_url": "https://github.com/huggingface/sentence-transformers/blob/main/LICENSE",
+      "title": "Sentence Transformers Speeding up Inference",
+      "type": "official documentation",
+      "url": "https://www.sbert.net/docs/sentence_transformer/usage/efficiency.html"
+    },
+    {
+      "application": "Temporal applicability experiments",
+      "execution": "Explicit interval/scope heuristic only",
+      "id": "IL14",
+      "paper_rights": "Not reviewed; linked only",
+      "review_depth": "Temporal intent, normalization, retrieval and changing facts overview",
+      "title": "It's High Time: A Survey of Temporal Information Retrieval and Question Answering",
+      "type": "author research survey",
+      "url": "https://arxiv.org/html/2505.20243v1",
+      "year": 2025
+    },
+    {
+      "application": "Temporal/semantic fusion as future work",
+      "execution": "Not replicated",
+      "id": "IL15",
+      "paper_rights": "Not reviewed; linked only",
+      "review_depth": "Abstract only; revised live title retained",
+      "title": "TempRetriever: Fusion-based Temporal Dense Passage Retrieval for Time-Sensitive Questions",
+      "type": "author research paper abstract/version metadata",
+      "url": "https://arxiv.org/abs/2502.21024",
+      "year": 2025
+    },
+    {
+      "application": "Neural document expansion without neural query inference",
+      "checkpoint_license": "Apache-2.0",
+      "execution": "Research only; no sparse weights downloaded or run",
+      "id": "IL16",
+      "review_depth": "License and document-only neural/query-token IDF usage example",
+      "title": "OpenSearch neural sparse encoding doc-v2-distill",
+      "type": "publisher checkpoint card",
+      "url": "https://huggingface.co/opensearch-project/opensearch-neural-sparse-encoding-doc-v2-distill"
+    },
+    {
+      "application": "Sparse expansion research comparison",
+      "checkpoint_license": "CC BY-NC-SA 4.0",
+      "execution": "Not downloaded or run; license differs from permissive execution choice",
+      "id": "IL17",
+      "review_depth": "License, sparse representation and inference example",
+      "title": "NAVER SPLADE cocondenser ensembledistil",
+      "type": "publisher checkpoint card",
+      "url": "https://huggingface.co/naver/splade-cocondenser-ensembledistil"
+    },
+    {
+      "application": "Token-level late interaction research direction",
+      "execution": "Not replicated; lexical sentence and dense-window proxies are distinct",
+      "id": "IL18",
+      "paper_rights": "ACM publication rights; no software license inferred",
+      "review_depth": "Architecture, precomputation and MaxSim mechanism",
+      "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
+      "type": "author-hosted original paper",
+      "url": "https://people.eecs.berkeley.edu/~matei/papers/2020/sigir_colbert.pdf",
+      "year": 2020
+    },
+    {
+      "application": "Possible future late-interaction adapter",
+      "execution": "No installation, indexing or inference",
+      "id": "IL19",
+      "review_depth": "README architecture and CPU/GPU workflow boundaries",
+      "software_license": "MIT; separately inspected IL20",
+      "title": "Official ColBERT repository",
+      "type": "official code repository documentation",
+      "url": "https://github.com/stanford-futuredata/ColBERT"
+    },
+    {
+      "application": "Code/checkpoint/paper license distinction",
+      "execution": "No code copied or dependency installed",
+      "id": "IL20",
+      "review_depth": "MIT license text",
+      "software_license": "MIT",
+      "title": "ColBERT code license",
+      "type": "official license file",
+      "url": "https://github.com/stanford-futuredata/ColBERT/blob/main/LICENSE"
+    }
+  ]
+}

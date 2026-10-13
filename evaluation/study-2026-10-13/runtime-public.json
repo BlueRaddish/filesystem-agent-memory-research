@@ -1,0 +1,9 @@
+{
+  "local_rootless_canary_passed": true,
+  "model": "muse-spark-1.3-contributor",
+  "pinned_binary_sha256": "5caacb02eea2734405786e50cb42aeea3eeb46b4fa9801cfa666cda225101749",
+  "private_adapter_sha256": "29354810bd0f589eb2b17e4ce55814c56a4aeedc0aaba954a7dfa8b66f0bc847",
+  "private_wrapper_sha256": "97e1676677c9540c0b22dc3cc2eca580ac81bfe5675aaf6d8b52e19aa1015db7",
+  "reasoning_effort": "high",
+  "utf8_transport_canary_passed": true
+}

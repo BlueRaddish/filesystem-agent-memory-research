@@ -2,3 +2,4 @@
 # Frozen study digests bind exact recorded bytes, including Windows newlines.
 evaluation/study-2026-10-09/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 evaluation/study-2026-10-11/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+evaluation/study-2026-10-13/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

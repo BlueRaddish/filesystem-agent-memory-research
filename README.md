@@ -8,6 +8,8 @@ This project is a public, source-grounded research review of agent memory, retri
 
 **Expanded study: October 11 Pacific; collection completed October 12 UTC.** All 18,432 packet comparisons, 4,608 rankings, 144 uncached timing observations and 144 fresh-reader trials are recorded over 48 authored family histories and 96 clustered queries. Three switches and six engines have paired comparisons; 36 families are held out. These are repeated measurements, not 18,432 independent cases. The report includes fifteen scientific figure pairs and an execution audit. Separate source catalogs extend the historical review; their entries and supporting URLs are not summed into a unique-paper count.
 
+**Intensive expansion: October 13.** A separately authored bank, 21 retrieval policies, eight source-exact packers, fresh-session navigation and mechanical maintenance tests are prospectively frozen before main scored collection. The [protocol](evaluation/study-2026-10-13/PLAN.md), [analysis specification](evaluation/study-2026-10-13/ANALYSIS-SPEC.md), [bank audit](evaluation/study-2026-10-13/BANK-AUDIT.md) and [research portfolio](evaluation/study-2026-10-13/EXPANSION-RESEARCH.md) distinguish planned comparisons from evidence. Collection is in progress.
+
 ## Start reading
 
 | Document | Purpose |

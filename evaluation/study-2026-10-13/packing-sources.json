@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "accessed_on": "2026-10-13",
+  "scope": "Primary literature and official specifications supporting evidence-packing hypotheses; these sources are not execution receipts or results from this study.",
+  "sources": [
+    {
+      "id": "PK01",
+      "title": "RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation",
+      "authors": "Fangyuan Xu, Weijia Shi, Eunsol Choi",
+      "year": 2023,
+      "url": "https://arxiv.org/html/2310.04408v1",
+      "type": "primary research paper",
+      "access": "Full HTML inspected, especially methods and faithfulness qualification.",
+      "mechanism": "Trained extractive and abstractive retrieval compressors; selective augmentation.",
+      "transfer_limit": "Untrained source-exact lexical windows do not reproduce RECOMP or inherit its outcomes. Extraction can omit necessary context."
+    },
+    {
+      "id": "PK02",
+      "title": "Late Chunking: Contextual Chunk Embeddings Using Long-Context Embedding Models",
+      "authors": "Michael Günther, Isabelle Mohr, Daniel James Williams, Bo Wang, Han Xiao",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2409.04701v3",
+      "type": "primary research paper",
+      "access": "Full HTML inspected, including method, retrieval experiments and synthetic-task limitations.",
+      "mechanism": "Embed document tokens before pooling short chunks, preserving contextual representations.",
+      "transfer_limit": "Our packer does not implement late chunking or a contextual encoder; irrelevant surrounding text may add no value."
+    },
+    {
+      "id": "PK03",
+      "title": "LongRAG: Enhancing Retrieval-Augmented Generation with Long-context LLMs",
+      "authors": "Ziyan Jiang, Xueguang Ma, Wenhu Chen",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2406.15319v2",
+      "type": "primary research paper",
+      "access": "Full HTML inspected, including related-document grouping and granularity ablations.",
+      "mechanism": "Long related-document retrieval units preserve context and support multi-document reading.",
+      "transfer_limit": "Its corpus/readers differ from fictional task memory; motivates a whole-unit counter-hypothesis rather than a guaranteed benefit."
+    },
+    {
+      "id": "PK04",
+      "title": "Summarization: (1) Using MMR for Diversity-Based Reranking and (2) Evaluating Summaries",
+      "authors": "Jade Goldstein, Jaime Carbonell",
+      "year": 1998,
+      "url": "https://aclanthology.org/X98-1025/",
+      "type": "primary research paper",
+      "access": "ACL paper metadata and publisher-indexed abstract inspected.",
+      "mechanism": "Balance relevance with novelty to reduce redundancy in document/passage selection.",
+      "transfer_limit": "The prototype's query-token and Jaccard heuristic is not an implementation of the original scoring model."
+    },
+    {
+      "id": "PK05",
+      "title": "Multi-document Summarization via Budgeted Maximization of Submodular Functions",
+      "authors": "Hui Lin, Jeff Bilmes",
+      "year": 2010,
+      "url": "https://aclanthology.org/N10-1134/",
+      "type": "primary research paper",
+      "access": "Publisher-indexed abstract/method excerpt and ACL paper identity inspected; no comprehensive full-paper review.",
+      "mechanism": "Coverage-based extractive summarization under an explicit cost budget.",
+      "transfer_limit": "Query-word coverage and our greedy grouped heuristic do not establish complete task evidence or inherit approximation guarantees."
+    },
+    {
+      "id": "PK06",
+      "title": "A Class of Submodular Functions for Document Summarization",
+      "authors": "Hui Lin, Jeff Bilmes",
+      "year": 2011,
+      "url": "https://aclanthology.org/P11-1052/",
+      "type": "primary research paper",
+      "access": "ACL identity and publisher-indexed summarization description inspected; no comprehensive full-paper review.",
+      "mechanism": "Explicit coverage/diversity objectives for extractive selection.",
+      "transfer_limit": "Task evidence can have complementary jointly necessary facts, unlike a simple diminishing-return proxy."
+    },
+    {
+      "id": "PK07",
+      "title": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models",
+      "authors": "Bernal Jiménez Gutiérrez, Yiheng Shu, Weijian Qi, Sizhe Zhou, Yu Su",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2502.14802v1",
+      "type": "primary research paper",
+      "access": "HTML paper and abstract inspected.",
+      "mechanism": "HippoRAG 2 associates passages with a knowledge graph and Personalized PageRank plus online LLM selection.",
+      "transfer_limit": "Declared-edge BFS is a control, not a reproduction of its semantic graph or biological mechanism."
+    },
+    {
+      "id": "PK08",
+      "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+      "authors": "Darren Edge and colleagues",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2404.16130",
+      "type": "primary research paper",
+      "access": "Author abstract inspected; official GraphRAG retrieval documentation checked separately.",
+      "mechanism": "Entity graphs and community summaries support global corpus questions.",
+      "transfer_limit": "Global synthesis and narrow authority/correction retrieval need different tests; summary extraction introduces its own error surface."
+    },
+    {
+      "id": "PK09",
+      "title": "Referral Augmentation for Zero-Shot Information Retrieval",
+      "authors": "Michael Tang, Shunyu Yao, John Yang, Karthik Narasimhan",
+      "year": 2023,
+      "url": "https://arxiv.org/html/2305.15098v1",
+      "type": "primary research paper",
+      "access": "HTML paper and abstract inspected.",
+      "mechanism": "Incoming referring-document text augments the target document's search representation.",
+      "transfer_limit": "Referrals supply search cues, not target endorsement or independent evidence of a referred claim."
+    },
+    {
+      "id": "PK10",
+      "title": "Sufficient Context: A New Lens on Retrieval Augmented Generation Systems",
+      "authors": "Hailey Joren, Jianyi Zhang, Chun-Sung Ferng, Da-Cheng Juan, Ankur Taly, Cyrus Rashtchian",
+      "year": 2024,
+      "publication_note": "Preprint 2024; ICLR publication 2025.",
+      "url": "https://arxiv.org/html/2411.06037v1",
+      "type": "primary research paper",
+      "access": "HTML paper and abstract inspected.",
+      "mechanism": "Separates context insufficiency from failure to use sufficient context and studies abstention.",
+      "transfer_limit": "A sufficiency judge can err; source support, packet coverage and artifact completion require separate measurements."
+    },
+    {
+      "id": "PK11",
+      "title": "Evaluating the Search Agent in a Parallel World",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2603.04751",
+      "type": "primary research preprint",
+      "access": "Author abstract inspected; full experimental tables were not independently audited.",
+      "mechanism": "Unfamiliar-world search benchmarks distinguish evidence collection, sufficiency judgment and stopping.",
+      "transfer_limit": "Web-search agents are adjacent to local filesystem memory; no quantitative result is transferred."
+    },
+    {
+      "id": "PK12",
+      "title": "Event Sourcing Pattern",
+      "organization": "Microsoft Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing",
+      "type": "official architecture documentation",
+      "access": "Official HTML documentation inspected.",
+      "mechanism": "Immutable source events, compensating changes and query-oriented materialized views.",
+      "transfer_limit": "Projection lag, schema evolution and infrastructure complexity remain costs; a small file vault does not necessarily need an event platform."
+    },
+    {
+      "id": "PK13",
+      "title": "PROV-DM: The PROV Data Model",
+      "organization": "World Wide Web Consortium",
+      "year": 2013,
+      "url": "https://www.w3.org/TR/prov-dm/",
+      "type": "official W3C Recommendation",
+      "access": "Official HTML inspected, including derivation, revision and quotation definitions.",
+      "mechanism": "Record provenance relationships between originals, quotations, revisions and derived entities.",
+      "transfer_limit": "Consistent provenance records help auditability but do not establish true content or semantic authority."
+    },
+    {
+      "id": "PK14",
+      "title": "Time in XTDB",
+      "organization": "XTDB",
+      "url": "https://docs.xtdb.com/about/time-in-xtdb.html",
+      "type": "official database documentation",
+      "access": "Official HTML inspected, distinguishing valid time and system time.",
+      "mechanism": "Track when facts apply separately from when the system learns them.",
+      "transfer_limit": "The prototype uses literal time-scope declarations, not full bitemporal SQL or interval reasoning."
+    },
+    {
+      "id": "PK15",
+      "title": "Movie-watching evokes ripple-like activity within events and at event boundaries",
+      "authors": "Marta Silva and colleagues",
+      "year": 2025,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12216404/",
+      "doi": "10.1038/s41467-025-60788-0",
+      "type": "primary human neuroscience research",
+      "access": "PMC full text inspected after the publisher website's cookie redirect blocked direct retrieval.",
+      "mechanism": "Observational intracranial measurements in ten epilepsy patients link regional ripple patterns with event boundaries and later memory.",
+      "transfer_limit": "Clinical sample and recording constraints; motivates a segmentation hypothesis, not a filesystem or consolidation prescription."
+    },
+    {
+      "id": "PK16",
+      "title": "Encoding Processes in Recognition and Recall",
+      "authors": "Barbara Tversky",
+      "year": 1973,
+      "url": "https://www.sciencedirect.com/science/article/pii/0010028573900376",
+      "doi": "10.1016/0010-0285(73)90037-6",
+      "type": "primary human behavioral research",
+      "access": "Publisher-indexed abstract inspected. Direct publisher-page retrieval failed; full article was not read.",
+      "mechanism": "Anticipated recall versus recognition tests favor different encoding relationships.",
+      "transfer_limit": "Engineering analogy only: local discrimination and cross-item relationships may suit different workloads; no biological effect size transfer."
+    },
+    {
+      "id": "PK17",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "authors": "Nelson F. Liu and colleagues",
+      "year": 2023,
+      "publication_note": "Preprint 2023; journal publication 2024.",
+      "url": "https://arxiv.org/html/2307.03172v2",
+      "type": "primary research paper",
+      "access": "HTML paper and abstract inspected.",
+      "mechanism": "Context position can affect information use in the studied retrieval/QA settings.",
+      "transfer_limit": "Current readers require new measurements; fixed-packet permutations isolate utilization from evidence retrieval."
+    }
+  ],
+  "unimplemented_hypotheses": [
+    "Long-context late chunking with frozen token-to-source offsets",
+    "Source-linked abstractive summaries with compulsory original fallback",
+    "Inbound-referral text as search-only index cues",
+    "Valid/system-time interval queries independent of import order",
+    "Adaptive passage expansion after source-support verification",
+    "Fixed-packet order permutations with identical text and byte cost",
+    "Event/topic segmentation versus session-wide capture with equal retained content",
+    "Separate global-synthesis and narrow correction workloads"
+  ]
+}
