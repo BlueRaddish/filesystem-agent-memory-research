@@ -1,0 +1,179 @@
+{
+  "checkpoint_hash_multiset_sha256": "74e43ac65d9bab8586c18a77752fb753cca6c5a9d108ae5f5f8ddf09730c95bd",
+  "cohort_source_review_receipt_sha256": "8c906dba291d6991f1645229dc73bab0919a91453650496a96c6990303c9e7c4",
+  "created_utc": "2026-10-14T04:00:17.832163+00:00",
+  "earlier_resource_freeze_sha256": "f09dda0af3483fa22658279850827586d6b0851005b360e38ebbbe8c44cd79b7",
+  "early_reader_cohort": {
+    "actual_artifact_boundary_exercised": false,
+    "actual_provider_calls": 0,
+    "block_counts": {
+      "discovery": 48,
+      "oracle": 24
+    },
+    "frozen_objects_and_relative_order_preserved": true,
+    "reader_memory_sufficiency_established": false,
+    "remaining_direct_trials": 120,
+    "selected_jobs_sha256": "45cb5042a295a41129c2008ae37f89c8c4759c4dfbb29df809e54f05c28c3c59",
+    "state": "source_reviewed_unexecuted",
+    "temporal_confound_if_used": "Block is confounded with collection time",
+    "trials": 72,
+    "workers": 2
+  },
+  "exact_binary_restoration": {
+    "actual_reader_execution_established": false,
+    "adapter_or_core_changes": false,
+    "bytes": 463368952,
+    "native_execution": false,
+    "native_or_provider_health_established": false,
+    "provider_calls": 0,
+    "read_only_hash_doctor_utc": "2026-10-14T04:01:29.764211+00:00",
+    "readiness_requires_separate_runtime_checks": true,
+    "receipt_sha256": "ff050cab35f414726f376a9a43183aac3f404a14d4a1f3017209aac74a5199d1",
+    "receipt_utc": "2026-10-14T04:00:47.946603+00:00",
+    "sha256": "5caacb02eea2734405786e50cb42aeea3eeb46b4fa9801cfa666cda225101749",
+    "state": "EXACT_FROZEN_BINARY_RESTORED_NOT_EXECUTED"
+  },
+  "failed_invocation": {
+    "allocation_diagnostic_sha256": "b88a092b33353fde026da071f5ef452a5a48f62cb6adae4f99cb5b39f7e4e339",
+    "classification": "allocation_failure_from_retained_stderr",
+    "complete_lifetime_trace_retained": false,
+    "end_utc": "2026-10-14T03:04:10.154942+00:00",
+    "exit_code": 3221226505,
+    "exit_hex": "0xC0000409",
+    "later_stages_reached": 0,
+    "later_stages_unreached": 4,
+    "library_or_allocator_attribution": null,
+    "local_workers": 1,
+    "main_reader_trials_reached": 0,
+    "main_reader_trials_scheduled": 192,
+    "reported_failed_allocation_bytes": 192,
+    "root_termination_performed": false,
+    "settled_fault_row_for_unfinished_work": false,
+    "stage": "grid",
+    "start_utc": "2026-10-14T03:02:38.101194+00:00",
+    "termination_evidence": "Supplied guard observation; native output not retained"
+  },
+  "future_execution_performed": false,
+  "hash_multiset_definition": "SHA-256 of compact sorted-key UTF-8 JSON array of sorted file-byte SHA-256 values; names omitted; multiplicity retained",
+  "integrity_census": {
+    "all_earlier_checkpoint_hashes_unchanged": true,
+    "all_earlier_worker_history_hashes_unchanged": true,
+    "checkpoint_states": {
+      "complete_query": 316
+    },
+    "complete_query_checkpoints": 316,
+    "new_complete_checkpoints": 2,
+    "new_worker_history_files": 9,
+    "packet_members": 62568,
+    "packet_members_per_checkpoint": 198,
+    "preserved_earlier_checkpoints": 314,
+    "preserved_earlier_worker_history_files": 9,
+    "ranking_members": 6636,
+    "ranking_members_per_checkpoint": 21,
+    "reader_artifact_count": 0,
+    "reader_checkpoint_count": 0,
+    "remaining_query_checkpoints": 260,
+    "scheduled_query_checkpoints": 576,
+    "settled_uncheckpointed_diagnostic_file_count": 0,
+    "worker_history_files": 18
+  },
+  "integrity_census_sha256": "7c40abea322622e406174ddf83868f9d74af42e08514c75a2247471dfc75c3cc",
+  "original_core_input_count": 32,
+  "original_main_freeze_sha256": "fda01f88f50dbb6e66a312ca9ab775c8603643ebe8b7f74b596a7250bc39524c",
+  "post_restoration_runtime_doctor": {
+    "actual_cohort_manifest": "UNREACHED",
+    "actual_reader_execution": "UNREACHED",
+    "core_anchors_checked": 33,
+    "existing_current_binaries_unchanged": true,
+    "exit_code": 0,
+    "material_hash_definition": "SHA-256 of compact sorted-key UTF-8 JSON of private material; contents remain private",
+    "material_sha256": "9d39506e8500682ee5ebb7e091754e12ecadc4dd34cb204260ee5fad1dd8b784",
+    "model_loads": 0,
+    "native_execution": false,
+    "native_provider_account_functionality": "UNREACHED",
+    "provider_calls": 0,
+    "receipt_sha256": "b74811728edbd9645d23a79a94df7e874d4af248bf66c3a1609bb113230fac47",
+    "selected_cohort_material_checked": true,
+    "source_wrapper_links_and_process_image_checked": true,
+    "state": "PASS_READONLY_MATERIAL_AND_BYTE_PREREQUISITES",
+    "utc": "2026-10-14T04:02:15.549985+00:00"
+  },
+  "preserves_original_freezes": true,
+  "privacy": "Only aggregate semantic facts and SHA-256 bindings; private names, identities, commands, paths, authentication and source/query contents omitted",
+  "prospective_grid_only_resume_gate": {
+    "automatic_retry_or_poll_loop": false,
+    "basis": "Earlier approximately 3.58 GB private commit plus margin; operational heuristic",
+    "memory_sufficiency_guaranteed": false,
+    "minimum_fresh_commit_headroom_bytes": 4500000000,
+    "requires_explicit_new_invocation": true,
+    "requires_fresh_resource_observation": true,
+    "requires_preservation_of_all_retained_checkpoints_histories_and_failure_evidence": true,
+    "requires_reviewed_separate_grid_only_guard": true,
+    "state": "proposed_not_executed",
+    "timing_maintenance_reader_and_analysis_execution_authorized_by_this_record": false,
+    "workers": 1
+  },
+  "publication_owner": "root",
+  "reader_runtime_doctor": {
+    "actual_calls": 0,
+    "permanent_absence_claim": false,
+    "reason": "exact_frozen_binary_absent_after_application_update_at_pre_restoration_check",
+    "required_binary_sha256": "5caacb02eea2734405786e50cb42aeea3eeb46b4fa9801cfa666cda225101749",
+    "separate_exact_restoration_investigation": "Later exact restoration recorded separately; historical unreachable state retained",
+    "state": "UNREACHABLE_AT_CHECK",
+    "substitution_allowed": false,
+    "utc": "2026-10-14T03:58:21.491288+00:00"
+  },
+  "report_file": "RESOURCE-RECOVERY.md",
+  "report_sha256": "7aa41c1095f36ee1047322ab1806b0133d424dabd473d85b55e884e5943a8db1",
+  "review_receipt_sha256": "ca653581a26d44b1249ff7e43ccfff4a2dd11ec311ddb20ee306b72d793efa6f",
+  "schema_version": 1,
+  "scope": "October 14 failed-resume integrity and prospective recovery record; no outcome acceptance",
+  "sources": [
+    {
+      "accessed_date": "2026-10-14",
+      "supports": "User-mode fast-fail exception 0xC0000409 uses a separate reason parameter; code alone is not a component diagnosis",
+      "title": "Microsoft __fastfail",
+      "url": "https://learn.microsoft.com/en-us/cpp/intrinsics/fastfail?view=msvc-170"
+    },
+    {
+      "accessed_date": "2026-10-14",
+      "supports": "Default std-linked allocation-error handling prints to stderr and aborts; no attribution of this invocation to a particular library",
+      "title": "Rust handle_alloc_error",
+      "url": "https://doc.rust-lang.org/std/alloc/fn.handle_alloc_error.html"
+    }
+  ],
+  "state": "retained_failed_grid_and_unexecuted_future_routes",
+  "supplied_memory_observations": {
+    "causal_interpretation": false,
+    "commit_headroom_bytes": {
+      "after": 3231870976,
+      "before": 2460291072,
+      "during": 116150272
+    },
+    "commit_limit_changed": true,
+    "other_host_activity_controlled": false,
+    "provenance": "Supplied root observations; not independently sampled by reviewer; native raw samples not retained",
+    "sample_timestamps": "Approximate before/during/after invocation, not exact instants"
+  },
+  "updated_utc": "2026-10-14T04:03:47.344669+00:00",
+  "verification": {
+    "actual_grid_invocations_attempted": 1,
+    "actual_grid_invocations_failed": 1,
+    "actual_reader_runtime_unreachable_checks": 1,
+    "cleanup": "Synthetic review fixtures removed; proof receipts retained privately",
+    "final_main_acceptance": "UNREACHABLE_WITH_INCOMPLETE_GRID_AND_UNREACHED_STAGES",
+    "integrity_doctor": {
+      "failed": 0,
+      "groups_passed": 4,
+      "read_only": true,
+      "state": "PASS"
+    },
+    "live_process_control_performed": false,
+    "main_outcome_metrics_or_gold_analyzed": false,
+    "model_loads": 0,
+    "original_core_pin_and_broad_repository_publication_checks": "Root-owned; independent source review receipts retained",
+    "provider_calls": 0
+  },
+  "worker_history_hash_multiset_sha256": "14a1bc765eee8972c67db3ae3ab5e73329fe89c9a7e4ca862195660a34853ae2"
+}

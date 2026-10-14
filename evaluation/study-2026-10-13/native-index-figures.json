@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "scope": "development-only SQLite FTS5 supplement",
+  "source_aggregate_sha256": "ebb542a096e949638b508e0adce04a252231acafe7f8460b25d38248c02d8d9b",
+  "renderer_sha256": "2c9b863688c2e3e2abbf6caaedefba07d35fbf78d1d58acbd09a7eb58d232ada",
+  "figures": [
+    {
+      "id": "native-index-coverage",
+      "title": "Source-exact evidence recovery",
+      "note": "Same development tasks recur across budget/packer cells; counts are not independent samples.",
+      "source_aggregate_sha256": "ebb542a096e949638b508e0adce04a252231acafe7f8460b25d38248c02d8d9b",
+      "assets": [
+        {
+          "file": "native-index-coverage.svg",
+          "sha256": "86402c6a92d899359c50b0c87155a20c60f7dead3dd8be93ff4a872a45b6655d",
+          "bytes": 39244
+        },
+        {
+          "file": "native-index-coverage.png",
+          "sha256": "0752a33b6b3f59386d9087c8d5ea6a2206b356cf26c7b1359a17930f108ab9ef",
+          "bytes": 107640
+        }
+      ]
+    },
+    {
+      "id": "native-index-clocks",
+      "title": "Observed serial warm ranking clocks",
+      "note": "Range is not a confidence interval. Native normalization is separate; reference normalization is inside ranking.",
+      "source_aggregate_sha256": "ebb542a096e949638b508e0adce04a252231acafe7f8460b25d38248c02d8d9b",
+      "assets": [
+        {
+          "file": "native-index-clocks.svg",
+          "sha256": "4bf0e2ca3ba7848df670702a24722d024ae93eae0825790338eada9037d914a1",
+          "bytes": 19877
+        },
+        {
+          "file": "native-index-clocks.png",
+          "sha256": "cfb6f6ca2150306f3e956171a2ad3c2f31b34b97d4d3afa0db8771d437439950",
+          "bytes": 78232
+        }
+      ]
+    }
+  ]
+}

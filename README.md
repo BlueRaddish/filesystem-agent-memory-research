@@ -8,12 +8,15 @@ This project is a public, source-grounded research review of agent memory, retri
 
 **Expanded study: October 11 Pacific; collection completed October 12 UTC.** All 18,432 packet comparisons, 4,608 rankings, 144 uncached timing observations and 144 fresh-reader trials are recorded over 48 authored family histories and 96 clustered queries. Three switches and six engines have paired comparisons; 36 families are held out. These are repeated measurements, not 18,432 independent cases. The report includes fifteen scientific figure pairs and an execution audit. Separate source catalogs extend the historical review; their entries and supporting URLs are not summed into a unique-paper count.
 
-**Intensive expansion: October 13.** A separately authored bank, 21 retrieval policies, eight source-exact packers, fresh-session navigation and mechanical maintenance tests are prospectively frozen before main scored collection. The [protocol](evaluation/study-2026-10-13/PLAN.md), [analysis specification](evaluation/study-2026-10-13/ANALYSIS-SPEC.md), [bank audit](evaluation/study-2026-10-13/BANK-AUDIT.md) and [research portfolio](evaluation/study-2026-10-13/EXPANSION-RESEARCH.md) distinguish planned comparisons from evidence. Collection is in progress.
+**Intensive expansion: October 13.** A separately authored bank, 21 retrieval policies, eight source-exact packers, fresh-session navigation and mechanical maintenance tests are prospectively frozen before main scored collection. The [protocol](evaluation/study-2026-10-13/PLAN.md), [analysis specification](evaluation/study-2026-10-13/ANALYSIS-SPEC.md), [bank audit](evaluation/study-2026-10-13/BANK-AUDIT.md) and [research portfolio](evaluation/study-2026-10-13/EXPANSION-RESEARCH.md) distinguish planned comparisons from evidence. An allocation failure interrupted the main collection after 316 complete query checkpoints; 62,568 packets remain preserved. Main readers and final analysis have not run. Separately audited supplements below are complete.
 
 ## Start reading
 
 | Document | Purpose |
 | --- | --- |
+| [Native SQLite FTS5 report](evaluation/study-2026-10-13/NATIVE-INDEX-REPORT.md) | 432 rankings and 2,592 source-exact packets, independently reconstructed; two figures and no model calls |
+| [Interrupted-run recovery](evaluation/study-2026-10-13/RESOURCE-RECOVERY.md) | 316 preserved complete checkpoints, allocation failure, fresh resource gate and exact runtime restoration |
+| [Alternative reader phase](evaluation/study-2026-10-13/READER-PHASE-AMENDMENT.md) | Reviewed but unexecuted 72-trial cohort; requires prepared-manifest review and disclosed block/time confounding |
 | [Development robustness report](evaluation/study-2026-10-13/DEV-RESULTS.md) | 19,440 completed development-only perturbation and nested-packing comparisons; four figures |
 | [Fresh query-cue report](evaluation/study-2026-10-13/AGENT-QUERY-REPORT.md) | 72 scheduled calls and 2,592 completed packet comparisons, including ten fallbacks; two figures |
 | [Reader resource cap](evaluation/study-2026-10-13/RESOURCE-AMENDMENT.md) | 314 preserved grid checkpoints; unchanged local scoring and a prospective two-reader cap |
@@ -72,6 +75,18 @@ python evaluation/study-2026-10-09/replay_maintenance.py --self-check
 ```
 
 The first command checks catalog structure, citation mappings, local links, publication hygiene, and fixture references. It does not validate every scientific claim or prove absence of sensitive information. The second stages only the fictional agent-facing memory and task prompt for a trial; it excludes evaluator materials. Read the [protocol](evaluation/protocol.md) before using it.
+
+For the October 13 source and boundary checks, run these existing consuming entrypoints from the repository root. They require no model or provider calls:
+
+```sh
+python evaluation/study-2026-10-13/bank_check.py --self-check
+python evaluation/study-2026-10-13/check_bank_semantics.py
+python evaluation/study-2026-10-13/native_index_lab.py --self-check
+python evaluation/study-2026-10-13/prepare_reader_review.py --self-check
+python evaluation/study-2026-10-13/run_resource_capped.py --self-check
+```
+
+These checks cover authored-bank consistency, the completed blind bank comparison, and synthetic query/index/transaction, extraction and resource-recovery boundaries. The native supplement's actual `--stage run` and `--stage aggregate` routes require its verified private development excerpt, manifest and clearance, as specified in its [protocol](evaluation/study-2026-10-13/NATIVE-INDEX-PLAN.md). Actual packet/source reconstruction, retained failures, figure table/hash checks and visual inspection remain separate acceptance gates. The main execution audit requires the complete frozen census and private execution evidence; it cannot pass an interrupted collection. The broad repository scan is root-owned when a blinded or development-only lane must avoid unrelated outcome files. Compile checks, discovery and fixture checks do not establish completion of the real study.
 
 ## Scope and contribution
 
