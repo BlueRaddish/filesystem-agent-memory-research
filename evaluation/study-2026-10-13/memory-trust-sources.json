@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "access_date_utc": "2026-10-14",
+  "review_date_pacific": "2026-10-13",
+  "assembled_utc": "2026-10-14T06:52:06.368093+00:00",
+  "scope": "Separate post-freeze literature lane; no frozen-input change, model/provider call, live attack, main-outcome analysis, or source-system reproduction.",
+  "execution": "NOT_EXECUTED",
+  "source_summary_budget": {
+    "maximum_article_derived_words_per_source_across_report_and_catalog": 200,
+    "direct_quotes": 0,
+    "method": "Bounded source-specific factual paragraphs and brief catalog summaries; separately authored hypotheses and conceptual boundaries are proposals."
+  },
+  "html_digest_note": "Hashes identify bytes delivered during review; arXiv version identifies manuscript. HTML rendering may change. Source text is not rehosted.",
+  "license_note": "Repository software licenses, dataset-card declarations, and manuscript metadata were checked separately. No license is inferred for other works.",
+  "deduplication": {
+    "method": "Not performed by this scoped lane; no global unique-source count claimed.",
+    "local_entry_count": 5,
+    "global_source_total_updated": false
+  },
+  "sources": [
+    {
+      "id": "MT01",
+      "title": "Memory Injection Attacks on LLM Agents via Query-Only Interaction",
+      "type": "versioned_primary_manuscript",
+      "url": "https://arxiv.org/html/2503.03704v5",
+      "arxiv_id": "2503.03704",
+      "version": "v5",
+      "version_date_utc": "2026-02-12",
+      "access_date_utc": "2026-10-14",
+      "review_depth": [
+        "primary_full_text_methods_results_and_stated_limits",
+        "selected_artifact_files_when_linked"
+      ],
+      "reviewed_sections": [
+        "sec_3",
+        "sec_5_1",
+        "sec_5_3",
+        "sec_5_4",
+        "checklist_limitations"
+      ],
+      "source_summary": "Query-only interactions become future experience demonstrations.",
+      "limits": "shared_memory_or_identity_disguise; benign_density_effects_task_dependent; not_external_document_threat_model",
+      "status": "reviewed_not_reproduced",
+      "paper_rights": {
+        "declared_license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verified_in": "versioned_arxiv_metadata",
+        "dataset_dependency_and_model_rights": "not_assessed"
+      },
+      "html_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/html/2503.03704v5",
+        "status": 200,
+        "bytes": 414156,
+        "sha256": "9c8d52a3c4731130fb45cd1d16f567ac9bf10ff2fee5e6fb7573f0feeace9454"
+      },
+      "metadata_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/abs/2503.03704v5",
+        "status": 200,
+        "bytes": 43960,
+        "sha256": "c4821178ca09dbd6c4abccb0e75b7596b89c22458e675b71db8d37253f498f18"
+      },
+      "factual_paragraph_word_count": 95,
+      "software": {
+        "url": "https://github.com/dsh3n77/MINJA",
+        "paper_link_url": "https://github.com/dsh3n77/MINJA",
+        "revision": "a3ec8da0f7740b3fe629f6706e1c14296ee6861d",
+        "revision_url": "https://github.com/dsh3n77/MINJA/tree/a3ec8da0f7740b3fe629f6706e1c14296ee6861d",
+        "software_license": "MIT",
+        "review_depth": [
+          "README",
+          "repository_tree_metadata",
+          "selected_files_listed_below"
+        ],
+        "artifacts": [
+          {
+            "path": "README.md",
+            "url": "https://raw.githubusercontent.com/dsh3n77/MINJA/a3ec8da0f7740b3fe629f6706e1c14296ee6861d/README.md",
+            "bytes": 792,
+            "sha256": "f7b91ddd8ef9f200c10a152f541c7afd79798b9c95de3c04e562f89154217dcf"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://raw.githubusercontent.com/dsh3n77/MINJA/a3ec8da0f7740b3fe629f6706e1c14296ee6861d/LICENSE",
+            "bytes": 1069,
+            "sha256": "bd5b63171eff98238372b658f0585ce83510a3f2606046a59b18f5076f993cbe"
+          }
+        ],
+        "snapshot_relation": "current_public_snapshot; not asserted to be the manuscript-time artifact",
+        "full_code_audit": false,
+        "executed": false
+      }
+    },
+    {
+      "id": "MT02",
+      "title": "From Untrusted Input to Trusted Memory: A Systematic Study of Memory Poisoning Attacks in LLM Agents",
+      "type": "versioned_primary_manuscript",
+      "url": "https://arxiv.org/html/2606.04329v2",
+      "arxiv_id": "2606.04329",
+      "version": "v2",
+      "version_date_utc": "2026-06-18",
+      "access_date_utc": "2026-10-14",
+      "review_depth": [
+        "primary_full_text_methods_results_and_stated_limits",
+        "selected_artifact_files_when_linked"
+      ],
+      "reviewed_sections": [
+        "sec_2",
+        "sec_3_1",
+        "sec_4_1",
+        "sec_4_5",
+        "sec_5"
+      ],
+      "source_summary": "Persistent write and follow-up influence are measured separately.",
+      "limits": "one_model; two_agents; labeled_context_emulation; real_inbound_tool_pipeline_unexercised",
+      "status": "reviewed_not_reproduced",
+      "paper_rights": {
+        "declared_license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verified_in": "versioned_arxiv_metadata",
+        "dataset_dependency_and_model_rights": "not_assessed"
+      },
+      "html_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/html/2606.04329v2",
+        "status": 200,
+        "bytes": 253303,
+        "sha256": "d2eb9719c483630fa0072229890c1430b42c1c44b29968019944b42a844652dd"
+      },
+      "metadata_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/abs/2606.04329v2",
+        "status": 200,
+        "bytes": 41524,
+        "sha256": "05f20fc93c594edee20e3f2fdd5ec4a4ad627ed7fbbac4fcd7937f4cc8458320"
+      },
+      "factual_paragraph_word_count": 89,
+      "software_release_status": "no_official_artifact_link_identified_in_reviewed_manuscript_links; availability_elsewhere_unassessed"
+    },
+    {
+      "id": "MT03",
+      "title": "When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents",
+      "type": "versioned_primary_manuscript",
+      "url": "https://arxiv.org/html/2607.06595v1",
+      "arxiv_id": "2607.06595",
+      "version": "v1",
+      "version_date_utc": "2026-07-06",
+      "access_date_utc": "2026-10-14",
+      "review_depth": [
+        "primary_full_text_methods_results_and_stated_limits",
+        "selected_artifact_files_when_linked"
+      ],
+      "reviewed_sections": [
+        "sec_III",
+        "sec_IV",
+        "sec_V",
+        "sec_VI",
+        "sec_VII",
+        "sec_VIII"
+      ],
+      "source_summary": "Admission and retrieval screening are paired with synthetic utility tasks.",
+      "limits": "email_calendar_only; synthetic_workweek; intuitive_weights; nonadaptive_attackers; scored_origin_not_authenticated_channel_label",
+      "status": "reviewed_not_reproduced",
+      "paper_rights": {
+        "declared_license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verified_in": "versioned_arxiv_metadata",
+        "dataset_dependency_and_model_rights": "not_assessed"
+      },
+      "html_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/html/2607.06595v1",
+        "status": 200,
+        "bytes": 302588,
+        "sha256": "3c6b9a426ac7ad4db16691e493b5d3373d089dd182243bfc93d5cd81554d3a4c"
+      },
+      "metadata_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/abs/2607.06595v1",
+        "status": 200,
+        "bytes": 42440,
+        "sha256": "68e34491ae343e4f969c7dd3e30fe58a0954687aa12efc106bb67601e968a2c2"
+      },
+      "factual_paragraph_word_count": 93,
+      "software_release_status": "no_official_artifact_link_identified_in_reviewed_manuscript_links; availability_elsewhere_unassessed"
+    },
+    {
+      "id": "MT04",
+      "title": "Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees",
+      "type": "versioned_primary_manuscript",
+      "url": "https://arxiv.org/html/2606.24322v1",
+      "arxiv_id": "2606.24322",
+      "version": "v1",
+      "version_date_utc": "2026-06-23",
+      "access_date_utc": "2026-10-14",
+      "review_depth": [
+        "primary_full_text_methods_results_and_stated_limits",
+        "selected_artifact_files_when_linked"
+      ],
+      "reviewed_sections": [
+        "sec_II_A1",
+        "sec_III",
+        "sec_IV",
+        "sec_V",
+        "sec_VI",
+        "sec_VIII",
+        "sec_IX"
+      ],
+      "source_summary": "Authority is channel-bound and preserved through derivation.",
+      "limits": "finite_TLC_not_fully_mechanized_unbounded_deductive_proof; correct_origin; independent_corroboration; answer_bias; value_attribution",
+      "status": "reviewed_not_reproduced",
+      "paper_rights": {
+        "declared_license": "arXiv-nonexclusive-distribution",
+        "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "verified_in": "versioned_arxiv_metadata",
+        "dataset_dependency_and_model_rights": "not_assessed"
+      },
+      "html_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/html/2606.24322v1",
+        "status": 200,
+        "bytes": 290531,
+        "sha256": "8e019b014b75d6d42eb8c86d659b87d4ae1bae8dfb780a1e02ccf8d03e5775fe"
+      },
+      "metadata_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/abs/2606.24322v1",
+        "status": 200,
+        "bytes": 42871,
+        "sha256": "6217e26b746dfeffb77e48eb79cb4bd9ff355bb729a4737b6964b29528008c3e"
+      },
+      "factual_paragraph_word_count": 104,
+      "software": {
+        "url": "https://github.com/yedidel/mem-inv-bench",
+        "paper_link_url": "https://github.com/yedidel/mem-inv-bench",
+        "revision": "cf3c9a4ca9f0478000d6aa26eb268b875232d34b",
+        "revision_url": "https://github.com/yedidel/mem-inv-bench/tree/cf3c9a4ca9f0478000d6aa26eb268b875232d34b",
+        "software_license": "MIT",
+        "review_depth": [
+          "README",
+          "repository_tree_metadata",
+          "selected_files_listed_below"
+        ],
+        "artifacts": [
+          {
+            "path": "README.md",
+            "url": "https://raw.githubusercontent.com/yedidel/mem-inv-bench/cf3c9a4ca9f0478000d6aa26eb268b875232d34b/README.md",
+            "bytes": 3244,
+            "sha256": "faa624d760a05d0234e652e3c2f4f01dd82257bee2ea71ceb12d16217fe0f61b"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://raw.githubusercontent.com/yedidel/mem-inv-bench/cf3c9a4ca9f0478000d6aa26eb268b875232d34b/LICENSE",
+            "bytes": 1070,
+            "sha256": "8a533b573465c7e1109de11bd92fbdddce2c3ecd86a89d6e6f5edf75b5460431"
+          },
+          {
+            "path": "REPRODUCE.md",
+            "url": "https://raw.githubusercontent.com/yedidel/mem-inv-bench/cf3c9a4ca9f0478000d6aa26eb268b875232d34b/REPRODUCE.md",
+            "bytes": 2869,
+            "sha256": "36ea013d370493d9fa193511777658a34be2975b858de8cdeaf6d5086b5cd49c"
+          },
+          {
+            "path": "THIRD_PARTY_NOTICES.md",
+            "url": "https://raw.githubusercontent.com/yedidel/mem-inv-bench/cf3c9a4ca9f0478000d6aa26eb268b875232d34b/THIRD_PARTY_NOTICES.md",
+            "bytes": 470,
+            "sha256": "f4603ce21ae00573c000b8717e5cb300deed9767fc87eddeddfb7957821eb4b8"
+          },
+          {
+            "path": "release.json",
+            "url": "https://raw.githubusercontent.com/yedidel/mem-inv-bench/cf3c9a4ca9f0478000d6aa26eb268b875232d34b/release.json",
+            "bytes": 713,
+            "sha256": "47d417277f730e74338d86d2491995f3043b9bbb7c23ff82320f1d7659d70159"
+          },
+          {
+            "path": "formal/MemAuth2.tla",
+            "url": "https://raw.githubusercontent.com/yedidel/mem-inv-bench/cf3c9a4ca9f0478000d6aa26eb268b875232d34b/formal/MemAuth2.tla",
+            "bytes": 9364,
+            "sha256": "6b45c5c3c5ff429da796be5f5b26e2356d84ae5d2a5f9daa35364e73734051f6"
+          },
+          {
+            "path": "formal/MA2_originbound.cfg",
+            "url": "https://raw.githubusercontent.com/yedidel/mem-inv-bench/cf3c9a4ca9f0478000d6aa26eb268b875232d34b/formal/MA2_originbound.cfg",
+            "bytes": 245,
+            "sha256": "8e8e7d950685adde28db753a8b83b0e568f8995e5f2841f894b1d179e46aac2a"
+          },
+          {
+            "path": "formal/verify_induction.py",
+            "url": "https://raw.githubusercontent.com/yedidel/mem-inv-bench/cf3c9a4ca9f0478000d6aa26eb268b875232d34b/formal/verify_induction.py",
+            "bytes": 629,
+            "sha256": "58830b440095418e5d10b2fe46e6ae75b51f1c604051318fd17340a4df59b37f"
+          },
+          {
+            "path": "formal/unbounded.py",
+            "url": "https://raw.githubusercontent.com/yedidel/mem-inv-bench/cf3c9a4ca9f0478000d6aa26eb268b875232d34b/formal/unbounded.py",
+            "bytes": 13872,
+            "sha256": "e4f124cbc782cfa6546bfe050e1e4f649ca9a49e12eb88893c0fa5482cedf68f"
+          }
+        ],
+        "snapshot_relation": "current_public_snapshot; not asserted to be the manuscript-time artifact",
+        "full_code_audit": false,
+        "executed": false,
+        "artifact_version": "2.1.0",
+        "packaging_date": "2026-09-25",
+        "formal_execution": {
+          "state": "UNREACHED",
+          "reason": "z3_absent_in_checked_default_Python_3.13.14",
+          "route": "formal/verify_induction.py",
+          "installs": false,
+          "source_review": "full_imported_unbounded.py_and_checker_read; sys_and_z3_only; no_network_subprocess_or_raw_data_path"
+        }
+      },
+      "dataset_metadata": {
+        "url": "https://huggingface.co/datasets/anonymos-2321135/MEM-INV-Bench",
+        "revision": "59e5bcdb3a4c20da2d378f381f129b4a45dec2dc",
+        "declared_license": "mit",
+        "review_depth": "API_metadata_only",
+        "raw_rows_read": false,
+        "benchmark_reproduced": false,
+        "metadata_sha256": "e53a9753d7b51bac6c15074b10e5414c35324c32572764c25e8320a5fc2cfa4d"
+      }
+    },
+    {
+      "id": "MT05",
+      "title": "Memory Poisoning Attack and Defense on Memory Based LLM-Agents",
+      "type": "versioned_primary_manuscript",
+      "url": "https://arxiv.org/html/2601.05504v1",
+      "arxiv_id": "2601.05504",
+      "version": "v1",
+      "version_date_utc": "2026-01-09",
+      "access_date_utc": "2026-10-14",
+      "review_depth": [
+        "primary_full_text_methods_results_and_stated_limits",
+        "selected_artifact_files_when_linked"
+      ],
+      "reviewed_sections": [
+        "sec_3",
+        "sec_5_1",
+        "sec_5_2",
+        "sec_5_3",
+        "sec_6",
+        "sec_7",
+        "sec_8",
+        "sec_9"
+      ],
+      "source_summary": "Legitimate-memory mixture and rejection costs qualify influence results.",
+      "limits": "one_identity_pair; edit_distance_retrieval; dataset_ground_truth_available; mixed_workload_utility_unestablished",
+      "status": "reviewed_not_reproduced",
+      "paper_rights": {
+        "declared_license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verified_in": "versioned_arxiv_metadata",
+        "dataset_dependency_and_model_rights": "not_assessed"
+      },
+      "html_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/html/2601.05504v1",
+        "status": 200,
+        "bytes": 199226,
+        "sha256": "35e1417f9fc1697db69a6d3e203829ca05f8ed6a9aa92c0f1197dc3f2894b019"
+      },
+      "metadata_delivery_receipt": {
+        "resolved_url": "https://arxiv.org/abs/2601.05504v1",
+        "status": 200,
+        "bytes": 43604,
+        "sha256": "bb61dd10cdc50e5d1baf15f43cab45fcb72f9921d175954e86f887607a44382d"
+      },
+      "factual_paragraph_word_count": 107,
+      "software": {
+        "url": "https://github.com/cs684-umass/proj-group-09",
+        "paper_link_url": "https://github.com/umass-CS690F/proj-group-09",
+        "revision": "c0fb695b3f75870a7fa628ccc15a9f9ff84e79a4",
+        "revision_url": "https://github.com/cs684-umass/proj-group-09/tree/c0fb695b3f75870a7fa628ccc15a9f9ff84e79a4",
+        "software_license": "not_identified; no_license_file_in_reviewed_tree",
+        "review_depth": [
+          "README",
+          "repository_tree_metadata",
+          "selected_files_listed_below"
+        ],
+        "artifacts": [
+          {
+            "path": "README.md",
+            "url": "https://raw.githubusercontent.com/umass-CS690F/proj-group-09/c0fb695b3f75870a7fa628ccc15a9f9ff84e79a4/README.md",
+            "bytes": 1964,
+            "sha256": "996658ea464eb67d826cfe5c29cc8cea4cfc099c847784535552a716db26de6e"
+          },
+          {
+            "path": "research-project-MemoryPoisoning/README.md",
+            "url": "https://raw.githubusercontent.com/umass-CS690F/proj-group-09/c0fb695b3f75870a7fa628ccc15a9f9ff84e79a4/research-project-MemoryPoisoning/README.md",
+            "bytes": 1393,
+            "sha256": "6f96de5305f73188bb4b24b705eedd97eb349456ff45d65cabc72b43cf2048dd"
+          }
+        ],
+        "snapshot_relation": "current_public_snapshot; not asserted to be the manuscript-time artifact",
+        "full_code_audit": false,
+        "executed": false
+      }
+    }
+  ]
+}
