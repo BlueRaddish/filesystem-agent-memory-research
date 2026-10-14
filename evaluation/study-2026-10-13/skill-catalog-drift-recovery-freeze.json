@@ -1,0 +1,119 @@
+{
+  "all_original_32_core_inputs_unchanged": true,
+  "catalog_repair": {
+    "actual_catalog_diagnostic_count": 0,
+    "actual_enabled_skill_count": 0,
+    "actual_native_exit_code": 0,
+    "authentication_links_created": 0,
+    "diagnosis_receipt_sha256": "431275e597dcc05840f56c4cc13c46edf5001d8f131acbab203331f1c2f40914",
+    "diagnosis_source_sha256": "893f0f831204e663be9dfcee402275dfa723b582ae2a4b4d7e7e31f1fa65deb7",
+    "model_serve_processes": 0,
+    "native_probe_attempts": 1,
+    "prepared_receipt_sha256": "57992d5495d58a754cc71f4eb7e2f476432fda054c8838bf9f68f39b9d641d76",
+    "private_receipt_sha256": "1d2ccdaae9c87b3b03eb6af63a15bf111452a1dff63d2af75e8a27dbd1eb0e6a",
+    "provider_model_calls": 0,
+    "repair_source_sha256": "53ffea5b43257ccc4a26f0236b97ee1248ca576b5889f1521110d850cee21e42",
+    "settings_transform_matches_pinned_adapter": true
+  },
+  "created_utc": "2026-10-14T11:36:36.782762+00:00",
+  "failed_catalog_check": {
+    "authentication_link_created": false,
+    "enabled_local_user_skills": 4,
+    "failed_evidence_unchanged": true,
+    "failed_health_receipt_sha256": "072ebeae55d6d991d1c91e8382be816fd2328d3f1ebada2afdf021c3b5af27a1",
+    "failure_before_auth_link_and_model_serve_bound_by_exact_adapter_source": true,
+    "installation_or_discovery_cause_for_older_local_sources_established": false,
+    "model_serve_processes": 0,
+    "provider_model_calls": 0,
+    "readonly_catalog_receipt_sha256": "431275e597dcc05840f56c4cc13c46edf5001d8f131acbab203331f1c2f40914",
+    "retry_executed": false
+  },
+  "grid_completion": {
+    "complete_query_checkpoints": 576,
+    "guard_exit_code": 0,
+    "guard_receipt_sha256": "11da163ca73da8fd35a16bad4ed58121c62e3fd8590e3857cb7e966361703443",
+    "historical_bytes_unchanged": true,
+    "metadata_completion_review_sha256": "fe9d0d2a884e8bff0d9387e14a9ec6ec94e0a7ad352c19ec3af87a5980021194",
+    "packet_members": 114048,
+    "ranking_members": 12096
+  },
+  "model_preparation": {
+    "model_runtime_or_provider_invoked_during_source_checks": false,
+    "private_receipt_sha256": "e6088fbfb8cbfb2f7b790fe9e77f45035faa95b20f85ac018b35df1f139d84a0",
+    "same_as_frozen_public_preparation_sha256": true
+  },
+  "new_private_resume_source_pins": {
+    "check_transport_after_catalog_drift.py": "b70ff5f70d87ef6aea0fd1420409602bf6b2dcb4774894d1302d351712140dc4",
+    "run_remaining_after_catalog_drift.py": "2b4b2b6b5beecf08a2dc6d665be6bc56b45285d2e10b645e416f2f01a07f5520"
+  },
+  "original_main_freeze_sha256": "fda01f88f50dbb6e66a312ca9ab775c8603643ebe8b7f74b596a7250bc39524c",
+  "original_private_resume_source_pins": {
+    "check_restored_transport.py": "97f95774a82aab6d2978bf3893208acafb434aececbe1683f9ba6d3435374020",
+    "check_transport_after_catalog.py": "bde7e91759c3845943678dc6869d42dfc8e4cb682d1a0d112c0cda97e9f3093e",
+    "preflight.py": "44150e28f05f74beb0c76d724dd3c5dc7eee5d4e5447976bc5a606f72aba18d0",
+    "run_remaining_after_catalog.py": "a877dd39584ef1835f62c1a60005fa7879d8806d92e80d4edf432b4b955f8e5b",
+    "run_remaining_original.py": "fe32f8066d69914ea583b67c56378983b96216a08f65d147933631db055a0174"
+  },
+  "previous_recovery": {
+    "actual_enabled_skill_count_at_that_probe": 0,
+    "later_catalog_drift_does_not_change_that_historical_observation": true,
+    "private_receipt_sha256": "28b0efabc7a0e2c24597dc4c9d2a50d6a644f9a4dc0251ffcb399a75fbede396",
+    "public_freeze_sha256": "5ca6e5d83ab91eb0f2fb525f06c660770c6fd9fae1e55538c123c5614ae3a01c",
+    "report_sha256": "3dba6965fb15fb19ccc6cffd41a3342917e4d284567f2e59dd0fc17b88bad9cd"
+  },
+  "privacy": "Safe aggregate facts, filenames and byte bindings; no raw private skill names, paths, authentication material or native logs",
+  "private_template": {
+    "added_user_off_entries": 4,
+    "all_other_settings_unchanged": true,
+    "archived_original_bytes_verified": true,
+    "only_four_current_observed_local_user_paths_added_off": true,
+    "ordinary_host_settings_auth_metadata_and_affected_skills_unchanged": true,
+    "original_sha256": "25ed349e15854cbf6a781729c44572eda0aced91c8a893d945ca2ecbd443369c",
+    "restored_off_entries": 9,
+    "restored_sha256": "426c3525870884a5992a496acd1a3c0453f5f247682ff6dcafa426edb50bc6fd",
+    "retained_prior_off_entries": 5
+  },
+  "prospective_resume": {
+    "actual_health_canary_executed": false,
+    "actual_main_remaining_stages_executed": false,
+    "alternative72_cohort_invoked": false,
+    "automatic_retry": false,
+    "frozen_ranking_scoring_and_core_inputs_changed": false,
+    "health_provider_call_budget": 1,
+    "memory_sufficiency_guaranteed": false,
+    "minimum_fresh_commit_headroom_bytes": 4500000000,
+    "new_isolated_health_folder": true,
+    "original_reader_jobs": 192,
+    "original_reader_relative_order": true,
+    "original_remaining_stage_order": [
+      "timing",
+      "maintenance",
+      "readers",
+      "analysis"
+    ],
+    "reader_workers": 2,
+    "requires_exact_reviewed_source_and_public_recovery_freeze": true,
+    "requires_root_source_review_and_publication": true,
+    "same_zero_enabled_native_skill_contract": true
+  },
+  "report_sha256": "d0e46ad5342d26f07d294e3d1af93da37e7fb276fdc04fe13dcd18c587e7b027",
+  "runtime_source_pins": {
+    "model": "muse-spark-1.3-contributor",
+    "native_binary_version": "1.4.4-R5419.1",
+    "pinned_binary_sha256": "5caacb02eea2734405786e50cb42aeea3eeb46b4fa9801cfa666cda225101749",
+    "private_adapter_sha256": "29354810bd0f589eb2b17e4ce55814c56a4aeedc0aaba954a7dfa8b66f0bc847",
+    "private_wrapper_sha256": "97e1676677c9540c0b22dc3cc2eca580ac81bfe5675aaf6d8b52e19aa1015db7",
+    "reasoning_effort": "high",
+    "runtime_public_sha256": "9e047928af59855cdcf34beebde8e6a1921811b774856cbccc5e52cc18a98a45"
+  },
+  "schema_version": 1,
+  "state": "verified_private_catalog_drift_recovery_before_provider_health",
+  "verification": {
+    "catalog_only_repair": "PASS",
+    "main_remaining_execution": "UNREACHED",
+    "outcome_or_gold_analysis": false,
+    "provider_calls_during_repair": 0,
+    "provider_health": "UNREACHED",
+    "public_report_reuses_existing_source_check_route": true
+  }
+}

@@ -14,7 +14,8 @@ This project is a public, source-grounded research review of agent memory, retri
 
 | Document | Purpose |
 | --- | --- |
-| [Local native catalog recovery](evaluation/study-2026-10-13/SKILL-CATALOG-RECOVERY.md) | Completed grid and verified empty benchmark catalog; prospective unchanged-runtime canary and original remaining stages |
+| [Later catalog drift recovery](evaluation/study-2026-10-13/SKILL-CATALOG-DRIFT-RECOVERY.md) | Recurrent precondition failure and four-entry private repair; separately bound canary and original remaining stages |
+| [Earlier native catalog recovery](evaluation/study-2026-10-13/SKILL-CATALOG-RECOVERY.md) | Completed grid and first empty benchmark catalog probe; preserved earlier prospective binding |
 | [Memory origin and authority research](evaluation/study-2026-10-13/MEMORY-TRUST-RESEARCH.md) | Five versioned primary manuscripts and four atomic future hypotheses; source/utility/proof boundaries, no executed experiment |
 | [Native transfer report and three figures](evaluation/study-2026-10-13/NATIVE-TRANSFER-REPORT.md) | All 6,480 scheduled packets over fifteen additional synthetic histories; full source reconstruction and explicit unscorable labels |
 | [Native transfer protocol](evaluation/study-2026-10-13/NATIVE-TRANSFER-PLAN.md) | Fifteen additional public synthetic histories, 264 usable support labels and six unscorable cases; frozen before scoring |
@@ -91,9 +92,10 @@ python evaluation/study-2026-10-13/native_transfer.py --self-check
 python evaluation/study-2026-10-13/render_native_transfer.py --self-check
 python evaluation/study-2026-10-13/prepare_reader_review.py --self-check
 python evaluation/study-2026-10-13/run_resource_capped.py --self-check
+python evaluation/study-2026-10-13/audit_results.py --self-check
 ```
 
-These checks cover authored-bank consistency, the completed blind bank comparison, and synthetic query/index/transaction, extraction and resource-recovery boundaries. The native supplement's actual `--stage run` and `--stage aggregate` routes require its verified private development excerpt, manifest and clearance, as specified in its [protocol](evaluation/study-2026-10-13/NATIVE-INDEX-PLAN.md). Actual packet/source reconstruction, retained failures, figure table/hash checks and visual inspection remain separate acceptance gates. The main execution audit requires the complete frozen census and private execution evidence; it cannot pass an interrupted collection. The broad repository scan is root-owned when a blinded or development-only lane must avoid unrelated outcome files. Compile checks, discovery and fixture checks do not establish completion of the real study.
+These checks cover authored-bank consistency, the completed blind bank comparison, and synthetic query/index/transaction, extraction, resource-recovery and verifier boundaries. The verifier's source, malformed-input and fictional write-receipt checks have passed; its actual main audit remains pending. The native supplement's actual `--stage run` and `--stage aggregate` routes require its verified private development excerpt, manifest and clearance, as specified in its [protocol](evaluation/study-2026-10-13/NATIVE-INDEX-PLAN.md). Actual packet/source reconstruction, retained failures, figure table/hash checks and visual inspection remain separate acceptance gates. The main execution audit requires the complete frozen census and private execution evidence; it cannot pass an interrupted collection. The broad repository scan is root-owned when a blinded or development-only lane must avoid unrelated outcome files. Compile checks, discovery and fixture checks do not establish completion of the real study.
 
 ## Scope and contribution
 
