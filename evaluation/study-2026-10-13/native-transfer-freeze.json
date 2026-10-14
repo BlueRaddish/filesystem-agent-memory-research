@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-10-14T05:35:37.595988+00:00",
+  "execution_at_freeze": {
+    "actual_corpus_indexes": 0,
+    "actual_corpus_rankings": 0,
+    "model_or_provider_calls": 0
+  },
+  "independent_prospective_review_receipt_sha256": "4bbacc196d2ada0dd7c33c1455126cb0cdde202f8fd30af0f836abb3e2535bf7",
+  "limits": [
+    "Publisher whole-message proxy, not minimal spans, QA or human truth.",
+    "Overall equal-history endpoint distinct from query-weighted result.",
+    "Summarization all-15-history macro is null because two histories have no valid category labels.",
+    "Valid-label retrieval faults retained as nulls with unresolved bounds; label-unscorable rows separate.",
+    "Shared-host timing and unequal retrieval work do not establish an equivalent speedup."
+  ],
+  "manifest_sha256": "fb0dc924143eccd1f3214700ff98a0cf3fa6aad480303623f0f83d413acb0b7f",
+  "private_run_clearance_required": true,
+  "scheduled": {
+    "engine_jobs": 1080,
+    "histories": 15,
+    "label_unscorable_packet_rows": 144,
+    "label_unscorable_queries": 6,
+    "nonabstention_queries": 270,
+    "packet_rows": 6480,
+    "questions_audited": 300,
+    "scorable_packet_rows": 6336,
+    "unlabeled_abstentions": 30,
+    "valid_support_queries": 264
+  },
+  "schema_version": 1,
+  "source_pins": {
+    "NATIVE-TRANSFER-PLAN.md": "3b9cd487448f3f79469773e96d16ac7c6ef94de8ce72d641cf1768323c40128b",
+    "artifact_contract.py": "208860f54a38b69539f057c0a9a993fc82e65b771555d78c79b6116e7e8dc9a6",
+    "external_eval.py": "8dd02fc85d47915e1732f80f3c012c14d99d01d086515501fd7f58fa835a67f5",
+    "external_probe.py": "cdb10212822f617fd9087701ed18a7085d75db7e14a1856f26505820c605d72b",
+    "index_lab.py": "e469b8ac206cdf24b294a15df278ae8f1e3b5f624509b72923486c5b6760f9d8",
+    "native-transfer-sources.json": "576b5852bc383edb0eaacf7921b28583c1afb28f3b08fb70119031c071d36bde",
+    "native_index_lab.py": "7382bd47522dd514468e8ff316955bac7388b9133b790d0b245c2efca60707bf",
+    "native_transfer.py": "1eda53c12dd54e59fa2c980418d8221f57525d126264f253d346afded3d95f62",
+    "packing_lab.py": "646f250eaeb5c1e453077d5666ae9afbe253c447ac092233bb05fc1eda07477c",
+    "study_common.py": "ee7d7930801aa8fbc94d5417484f0bb08ba1003e52b43982fcdae2f392cbefb2"
+  },
+  "state": "prospectively_frozen_before_native_transfer_scoring"
+}

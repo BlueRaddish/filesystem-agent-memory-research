@@ -1,0 +1,68 @@
+{
+  "checkpoint_hash_multiset_sha256": "e47c5db1e7dd2935efc98523b797b692bdfbb47ec74bbc84aa0b7e148d7b6e9f",
+  "created_utc": "2026-10-14T05:35:37.574633+00:00",
+  "historical_public_recovery_freeze_sha256": "f25c09b552b21cc3a9a60e7d7673f7618f3a2160a01818721d950bc8df7372c3",
+  "integrity_census": {
+    "all_old_checkpoint_history_bytes_unchanged": true,
+    "complete_query_checkpoints": 366,
+    "exact_frozen_query_fingerprints_recomputed": true,
+    "exact_member_key_sets": true,
+    "exact_scheduled_identity_membership": true,
+    "new_complete_checkpoints": 50,
+    "new_worker_history_files": 11,
+    "packet_members": 72468,
+    "packet_members_per_checkpoint": 198,
+    "preserved_old_checkpoints": 316,
+    "preserved_old_worker_history_files": 18,
+    "private_file_counts": {
+      "checkpoints": 366,
+      "errors": 0,
+      "reader-artifacts": 0,
+      "reader-checkpoints": 0,
+      "worker-history": 29
+    },
+    "ranking_members": 7686,
+    "ranking_members_per_checkpoint": 21,
+    "remaining_queries": 210,
+    "scheduled_queries": 576,
+    "tmp_or_pending_file_count": 0,
+    "worker_history_files": 29
+  },
+  "interrupted_guard_source_sha256": "0b3ddf4d072f146b0b1ebffe33d1f5acdc9b84476d64e6dcf4c27aee9064ae16",
+  "interruption": {
+    "cause_established": false,
+    "child_exit_code": null,
+    "final_receipt_exists": false,
+    "last_stdout_modified_utc": "2026-10-14T04:27:37.735867+00:00",
+    "settled_fault_row_invented": false,
+    "stderr_bytes": 0,
+    "subsequent_os_boot_utc": "2026-10-14T04:32:30.500000+00:00"
+  },
+  "original_main_freeze_sha256": "fda01f88f50dbb6e66a312ca9ab775c8603643ebe8b7f74b596a7250bc39524c",
+  "ownership": {
+    "old_owners_absent_at_two_checks": true,
+    "only_exact_stale_lock_archived_and_removed": true,
+    "process_termination_performed": false
+  },
+  "privacy": "Safe aggregate facts and byte bindings; no personal names, native commands, local paths or raw source text",
+  "prospective_resume": {
+    "automatic_retry": false,
+    "executed": false,
+    "memory_sufficiency_guaranteed": false,
+    "minimum_fresh_commit_headroom_bytes": 4500000000,
+    "requires_separate_reviewed_guard_and_explicit_invocation": true,
+    "timing_or_reader_or_provider_stages": 0,
+    "workers": 1
+  },
+  "report_sha256": "5585abcde9d8688079c5416af8ad839f253693d74d1b4ad3ddcc8d7919fde67b",
+  "review_receipt_sha256": "84423eed2743502e6383d31ea5f6005cded1f8b3358eb624b1753226bdb99c5f",
+  "schema_version": 1,
+  "state": "historical_unknown_exit_and_prospective_single_resume",
+  "verification": {
+    "integrity_review": "PASS",
+    "main_execution_complete": false,
+    "outcome_or_gold_analysis": false,
+    "reviewer_model_or_provider_calls": 0
+  },
+  "worker_history_hash_multiset_sha256": "81f21f570134d4d9af909435e56e6ab9ee33efbb9a23479f72f117727cbce8a8"
+}

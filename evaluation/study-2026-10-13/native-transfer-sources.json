@@ -1,0 +1,866 @@
+{
+  "accessed_date_utc": "2026-10-14",
+  "dataset": {
+    "code_license": "MIT",
+    "data_license": "CC-BY-SA-4.0",
+    "license_evidence_url": "https://github.com/mohammadtavakoli78/BEAM/blob/b2da22eac88bb0874c64665f13457eb99835774a/README.md#-license",
+    "name": "BEAM",
+    "origin": "Publisher-generated synthetic conversations/probing questions; not human histories or independently verified semantic support.",
+    "paper_url": "https://arxiv.org/abs/2510.27246v2",
+    "repository_url": "https://github.com/mohammadtavakoli78/BEAM",
+    "revision": "b2da22eac88bb0874c64665f13457eb99835774a",
+    "tree": {
+      "bytes": 724963,
+      "complete": true,
+      "http_status": 200,
+      "matches_prior_pinned_tree_entries": true,
+      "sha256": "1268b6ac40dc4ae75ac7f341936bd3a48dbd4cdc5dbcbbb9099dfdb5b30c1169",
+      "url": "https://api.github.com/repos/mohammadtavakoli78/BEAM/git/trees/b2da22eac88bb0874c64665f13457eb99835774a?recursive=1"
+    }
+  },
+  "download_receipt_sha256": "9cd203c1ed4a8e8418869d635e8bcfd15ef1b3d2f2cf7a7a0f6e7b9d7770c315",
+  "files": [
+    {
+      "bytes": 14549,
+      "git_blob_sha1": "4fcb69138bf9ce3566cc5f315b267f583fc76445",
+      "http_status": 200,
+      "local_relative": "data/README.md",
+      "prefix_only": false,
+      "sha256": "6eb38ece9322cdd96dba99a50f882187688e55e80b594068ad8827db5bc08020",
+      "upstream_path": "README.md",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/README.md"
+    },
+    {
+      "bytes": 1074,
+      "git_blob_sha1": "3f9b9d0c86435b02a9867570d765f934a01d4587",
+      "http_status": 200,
+      "local_relative": "data/LICENSE",
+      "prefix_only": false,
+      "sha256": "60c7b74ffaacaae383c3f06a48bc79d204b25bc9c1856df9711b3d290febd474",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/LICENSE"
+    },
+    {
+      "bytes": 806876,
+      "git_blob_sha1": "9a2e181f97ad6255bca422f240e6a7588ef9dff0",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/19/chat.json",
+      "prefix_only": false,
+      "sha256": "4c6dd78fa5aa6bd645eab8a3f041eac290c87564fd822582477c8e446979850f",
+      "upstream_path": "chats/100K/19/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/19/chat.json"
+    },
+    {
+      "bytes": 28691,
+      "git_blob_sha1": "b12b9d3740fa89dba78df438e1a93a327bf248d8",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/19/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "b911651b2b18e835aaac58b2bc3cb018bc782e252b9161dca8174961ca498ce2",
+      "upstream_path": "chats/100K/19/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/19/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 570827,
+      "git_blob_sha1": "7da76ae67cbb1cb7f319d5be691aa9b836acf139",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/8/chat.json",
+      "prefix_only": false,
+      "sha256": "3207b8f5aa45cd1b2d1e2f37f224831b4696d0cc2352ef514af08f2092b6c239",
+      "upstream_path": "chats/100K/8/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/8/chat.json"
+    },
+    {
+      "bytes": 30609,
+      "git_blob_sha1": "1c842a13e989fcfbf1b375c841ef87096ec31f7f",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/8/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "d279dbd8fd293692d29f0057b3dd2468ccb97c7da6df28ae2adc8481d9970148",
+      "upstream_path": "chats/100K/8/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/8/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 586847,
+      "git_blob_sha1": "7c6d49daa265c1ce15bcddc4c9fe605ac446647c",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/17/chat.json",
+      "prefix_only": false,
+      "sha256": "6eb309c34fd98025327bbe46dec8cdfbf76304c249d3f579f02f46cea06eeefe",
+      "upstream_path": "chats/100K/17/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/17/chat.json"
+    },
+    {
+      "bytes": 30779,
+      "git_blob_sha1": "2d694e44b110a1494fd26c99d3cb79842877f38b",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/17/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "7948981c2e40751bfe9ace82e53497d32229245e6012a2e5d4da2e801c929451",
+      "upstream_path": "chats/100K/17/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/17/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 476327,
+      "git_blob_sha1": "7100c6e7f5eaa3b9954cb33313d373b58b7000ef",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/15/chat.json",
+      "prefix_only": false,
+      "sha256": "e758dfbdfe6d5a6bd060c6577e6f0282eb445fd7f93150208dcd56e8f8676f43",
+      "upstream_path": "chats/100K/15/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/15/chat.json"
+    },
+    {
+      "bytes": 28314,
+      "git_blob_sha1": "c6405c320ebb977b13df55594a32ac1197e2bf8c",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/15/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "6d6ed59bd8cad87ce279c08f42137c2199502d09f198cfa880ef3ab04debd891",
+      "upstream_path": "chats/100K/15/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/15/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 630826,
+      "git_blob_sha1": "f61c13ebd9b99c4e87ccd6199b37ea1c850815ac",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/9/chat.json",
+      "prefix_only": false,
+      "sha256": "446777f3eed114c27d62030ad86cfb8ad6610fda0fc83dfe98403b8d68b74bd4",
+      "upstream_path": "chats/100K/9/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/9/chat.json"
+    },
+    {
+      "bytes": 32766,
+      "git_blob_sha1": "130ed6b7bbf722705934fccd4f2f9ba875cce306",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/9/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "b7ab1c7022c0b7ac6928f4c2efadd08e2a438dc91e1288209df066cdcd5e9573",
+      "upstream_path": "chats/100K/9/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/9/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 829083,
+      "git_blob_sha1": "6098d850aa3ab230aca42cc88b293fa327b04d8a",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/18/chat.json",
+      "prefix_only": false,
+      "sha256": "3c08576a5726fa48b9f906bc8699fab37e33cc5219f076f76374f7c1302449cb",
+      "upstream_path": "chats/100K/18/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/18/chat.json"
+    },
+    {
+      "bytes": 27006,
+      "git_blob_sha1": "7a0915100624549c50d5e268e4f900563739f21e",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/18/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "d813db9e2b416e6ac7cc22841b131ea5c80e5931e690f81bb37aa16c3b9edc3a",
+      "upstream_path": "chats/100K/18/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/18/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 535114,
+      "git_blob_sha1": "3a3109484126472237c53fee488b452b5bc1caf2",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/2/chat.json",
+      "prefix_only": false,
+      "sha256": "3a3bd796f4aa24e8f34e718dc2823ae942663349eb89054f03885051e2daf1c4",
+      "upstream_path": "chats/100K/2/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/2/chat.json"
+    },
+    {
+      "bytes": 29546,
+      "git_blob_sha1": "5c7c155923a885a4c9d6074ae35e9815d749ffed",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/2/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "d188e929644c9ef9fcd4520e7b5a3daf2c2e069b1247a324bd13d5aadd1ed96e",
+      "upstream_path": "chats/100K/2/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/2/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 568613,
+      "git_blob_sha1": "f08396767fe97c13c622b58b86c54c5196b28f7c",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/13/chat.json",
+      "prefix_only": false,
+      "sha256": "aea586c143dab53cb5a021b3fab23380d5d9628fea1c4b718f91411019166dc6",
+      "upstream_path": "chats/100K/13/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/13/chat.json"
+    },
+    {
+      "bytes": 32094,
+      "git_blob_sha1": "6a5a8c263b26a788f0d7b18560f14e1ba3dd2545",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/13/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "02dee0ba1d5576aed8ac535328a23fe4f882f6dcff3b96e039162e10d547236b",
+      "upstream_path": "chats/100K/13/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/13/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 472696,
+      "git_blob_sha1": "42a34eab03cec3df68f0ccf5998b909b662dc30a",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/5/chat.json",
+      "prefix_only": false,
+      "sha256": "13ac88e483e0d63d3830479fe17f961af1b414503b5077914865eca1c48a1ce8",
+      "upstream_path": "chats/100K/5/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/5/chat.json"
+    },
+    {
+      "bytes": 29882,
+      "git_blob_sha1": "ad98f4f3520cfecc7d19c9664b805a647c03e0d8",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/5/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "bdd0819a911e46951dbf998905b8eba96a0cdb103cd3dda79ae9c6831e5f195d",
+      "upstream_path": "chats/100K/5/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/5/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 894533,
+      "git_blob_sha1": "bf3821b7969b3f2e4464aaf4b967cf85a6460854",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/20/chat.json",
+      "prefix_only": false,
+      "sha256": "af49a279c8ca5eef5829f8155bca89b41b05fb33fef438dce0a6cac8d99a7802",
+      "upstream_path": "chats/100K/20/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/20/chat.json"
+    },
+    {
+      "bytes": 30564,
+      "git_blob_sha1": "61a655adda0bf04e140432c585988e171929fe02",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/20/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "46b679bffff904fd71ed247f5172e9a4a30ed7eb2fdaacc1d89aac0932e5f043",
+      "upstream_path": "chats/100K/20/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/20/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 552331,
+      "git_blob_sha1": "6cc7517e7a695e8b0ee579a73687cd6ecd797550",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/3/chat.json",
+      "prefix_only": false,
+      "sha256": "432d3ae5493c04a17a5b6b0ef7c012a70e70ac5cfcaef13059fca6bedb903009",
+      "upstream_path": "chats/100K/3/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/3/chat.json"
+    },
+    {
+      "bytes": 32522,
+      "git_blob_sha1": "7bde542e40cfccb83baef58dc8349dcdace1c4e8",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/3/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "f53030f3753b0e0a93b330bc62d597cb66375c0c794094d7e69b7646df46e324",
+      "upstream_path": "chats/100K/3/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/3/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 720144,
+      "git_blob_sha1": "48961f60631a4e4c3e1697f74c2b730898f19a93",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/4/chat.json",
+      "prefix_only": false,
+      "sha256": "e0ef0f74b1f7ac911e8e0518722335c422cbc1112048e9909911b208c51fc027",
+      "upstream_path": "chats/100K/4/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/4/chat.json"
+    },
+    {
+      "bytes": 34657,
+      "git_blob_sha1": "a315e8db9a28bb02ef652cfef579a538934fe3d3",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/4/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "f69eda522cd7325830c8f78b6f02a571c992b6cf43311fa96f28043fd3c18dae",
+      "upstream_path": "chats/100K/4/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/4/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 966917,
+      "git_blob_sha1": "4b2f036f69af3426960d7cd37472ae155e27af56",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/11/chat.json",
+      "prefix_only": false,
+      "sha256": "45cb4fab51042278e6a57f524fca4cd4b8941cbbd091f9ec8fb92dad4de31b12",
+      "upstream_path": "chats/100K/11/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/11/chat.json"
+    },
+    {
+      "bytes": 33044,
+      "git_blob_sha1": "ef6d49ee20bbd2e34b2f835b5512e87c76e3848e",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/11/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "3aa98a74a03be59472834422dd14004d3b432a0c800bbef8f316865834449c08",
+      "upstream_path": "chats/100K/11/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/11/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 564977,
+      "git_blob_sha1": "733b95b18190938371fc3a59be666c161a85a9e2",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/1/chat.json",
+      "prefix_only": false,
+      "sha256": "ea71efd5dcc13f7366d3737b45d532eadb3d1497f3d6f23d1fa1c4004d5ffdf2",
+      "upstream_path": "chats/100K/1/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/1/chat.json"
+    },
+    {
+      "bytes": 31547,
+      "git_blob_sha1": "5fa1ae816022693665af2c3e2f4f03a96ade370a",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/1/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "047398ff1497674b11585e7b4829c3d64d2d5e63f7f3572c826b73ca1faaf898",
+      "upstream_path": "chats/100K/1/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/1/probing_questions/probing_questions.json"
+    },
+    {
+      "bytes": 964208,
+      "git_blob_sha1": "bbabe6fcf7290e34636fe5e25c748ebefbdbbcfa",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/12/chat.json",
+      "prefix_only": false,
+      "sha256": "2654160ebfcbd8a9f7d47a0340503cb301b0f54cb472f93578fa20e78c84c430",
+      "upstream_path": "chats/100K/12/chat.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/12/chat.json"
+    },
+    {
+      "bytes": 33666,
+      "git_blob_sha1": "2497fa6913890a79504382c9ac6beda5dafb4f52",
+      "http_status": 200,
+      "local_relative": "data/chats/100K/12/probing_questions/probing_questions.json",
+      "prefix_only": false,
+      "sha256": "c36c9b1d4df0d063d1c7db81b35b5ea4743e38a804382d6e557f37ec46e1d6e3",
+      "upstream_path": "chats/100K/12/probing_questions/probing_questions.json",
+      "url": "https://raw.githubusercontent.com/mohammadtavakoli78/BEAM/b2da22eac88bb0874c64665f13457eb99835774a/chats/100K/12/probing_questions/probing_questions.json"
+    }
+  ],
+  "label_availability": {
+    "actual_scoring_started": false,
+    "empty_non_abstention_support": 5,
+    "initial_estimate_correction": "Initial 270-valid-positive /30-unlabeled estimate failed doctor. Five additional empty support lists and one empty named criterion group are retained as mechanically unscorable.",
+    "label_unscorable_packet_rows": 144,
+    "label_unscorable_ranking_jobs": 24,
+    "malformed_criterion_group": 1,
+    "nominal_non_abstention_queries": 270,
+    "nominal_packet_rows": 6480,
+    "nominal_ranking_jobs": 1080,
+    "questions": 300,
+    "unlabeled_abstention": 30,
+    "valid_label_packet_rows": 6336,
+    "valid_label_ranking_jobs": 1056,
+    "valid_positive_queries": 264
+  },
+  "label_issues": [
+    {
+      "category": "preference_following",
+      "code": "empty_non_abstention_support",
+      "history": "NT05",
+      "ordinal": 2,
+      "upstream_path": "chats/100K/9/chat.json"
+    },
+    {
+      "category": "summarization",
+      "code": "empty_non_abstention_support",
+      "history": "NT06",
+      "ordinal": 1,
+      "upstream_path": "chats/100K/18/chat.json"
+    },
+    {
+      "category": "summarization",
+      "code": "empty_non_abstention_support",
+      "history": "NT06",
+      "ordinal": 2,
+      "upstream_path": "chats/100K/18/chat.json"
+    },
+    {
+      "category": "summarization",
+      "code": "empty_non_abstention_support",
+      "history": "NT10",
+      "ordinal": 1,
+      "upstream_path": "chats/100K/20/chat.json"
+    },
+    {
+      "category": "summarization",
+      "code": "empty_non_abstention_support",
+      "history": "NT10",
+      "ordinal": 2,
+      "upstream_path": "chats/100K/20/chat.json"
+    },
+    {
+      "category": "knowledge_update",
+      "code": "empty_criterion_group",
+      "empty_group_count": 1,
+      "history": "NT15",
+      "ordinal": 1,
+      "upstream_path": "chats/100K/12/chat.json"
+    }
+  ],
+  "prior_exposure": {
+    "history1_convenience_schema_audit_previously_seen": true,
+    "no_combined_original_five_plus_fifteen_score_planned": true,
+    "prior_five_scored_histories_excluded": true,
+    "prior_scored_results_inspected_for_this_design": false
+  },
+  "privacy_boundary": "No raw chats, probing question text, answer/key/rationale/support IDs, packet text, host paths, account data or native traces published. Source file URLs/bytes/hashes, labels-availability counts and safe source projections only.",
+  "provider_calls": 0,
+  "reused_implementation_pins": {
+    "artifact_contract.py": "208860f54a38b69539f057c0a9a993fc82e65b771555d78c79b6116e7e8dc9a6",
+    "external_eval.py": "8dd02fc85d47915e1732f80f3c012c14d99d01d086515501fd7f58fa835a67f5",
+    "external_probe.py": "cdb10212822f617fd9087701ed18a7085d75db7e14a1856f26505820c605d72b",
+    "index_lab.py": "e469b8ac206cdf24b294a15df278ae8f1e3b5f624509b72923486c5b6760f9d8",
+    "native_index_lab.py": "7382bd47522dd514468e8ff316955bac7388b9133b790d0b245c2efca60707bf",
+    "packing_lab.py": "646f250eaeb5c1e453077d5666ae9afbe253c447ac092233bb05fc1eda07477c",
+    "study_common.py": "ee7d7930801aa8fbc94d5417484f0bb08ba1003e52b43982fcdae2f392cbefb2"
+  },
+  "schema_doctor_sha256": "4fae161d312a5749721d4e28e2766515a2606f8f47e0d22d1d5bac15151c9e4e",
+  "schema_version": 1,
+  "scope": "Prospective native deterministic BEAM publisher-message-ID transfer supplement; no scored outcomes",
+  "selection": {
+    "candidate_paths": [
+      "chats/100K/14/chat.json",
+      "chats/100K/6/chat.json",
+      "chats/100K/7/chat.json",
+      "chats/100K/16/chat.json",
+      "chats/100K/10/chat.json",
+      "chats/100K/19/chat.json",
+      "chats/100K/8/chat.json",
+      "chats/100K/17/chat.json",
+      "chats/100K/15/chat.json",
+      "chats/100K/9/chat.json",
+      "chats/100K/18/chat.json",
+      "chats/100K/2/chat.json",
+      "chats/100K/13/chat.json",
+      "chats/100K/5/chat.json",
+      "chats/100K/20/chat.json",
+      "chats/100K/3/chat.json",
+      "chats/100K/4/chat.json",
+      "chats/100K/11/chat.json",
+      "chats/100K/1/chat.json",
+      "chats/100K/12/chat.json"
+    ],
+    "excluded_original_five": [
+      "chats/100K/14/chat.json",
+      "chats/100K/6/chat.json",
+      "chats/100K/7/chat.json",
+      "chats/100K/16/chat.json",
+      "chats/100K/10/chat.json"
+    ],
+    "selected_paths": [
+      "chats/100K/19/chat.json",
+      "chats/100K/8/chat.json",
+      "chats/100K/17/chat.json",
+      "chats/100K/15/chat.json",
+      "chats/100K/9/chat.json",
+      "chats/100K/18/chat.json",
+      "chats/100K/2/chat.json",
+      "chats/100K/13/chat.json",
+      "chats/100K/5/chat.json",
+      "chats/100K/20/chat.json",
+      "chats/100K/3/chat.json",
+      "chats/100K/4/chat.json",
+      "chats/100K/11/chat.json",
+      "chats/100K/1/chat.json",
+      "chats/100K/12/chat.json"
+    ],
+    "selection_rule": "original twenty-path SHA256(seed+path),path order; next up to20 after excluded original first5; available15",
+    "selection_seed": "external-beam-20261013-v1:"
+  },
+  "source_audit": [
+    {
+      "all_question_query_projection_sha256": "ea7d835a1abfd632800008d0e381c169b0957175d3c64490af579833cd4a0d73",
+      "body_utf8_bytes": 759363,
+      "counts": {
+        "unlabeled_abstention": 2,
+        "valid_positive": 18
+      },
+      "criterion_groups_among_valid_positives": 24,
+      "history": "NT01",
+      "messages": 328,
+      "source_projection_sha256": "39606c4e507fd9e09821c13b4539595cd0b954f8560621dde37fdc27980a7af3",
+      "upstream_path": "chats/100K/19/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "a5bfd1a442c858a576da8a082477a2d8bcb05fa49af93673c71d37c97b39eb87",
+      "body_utf8_bytes": 532595,
+      "counts": {
+        "unlabeled_abstention": 2,
+        "valid_positive": 18
+      },
+      "criterion_groups_among_valid_positives": 24,
+      "history": "NT02",
+      "messages": 268,
+      "source_projection_sha256": "97b946709840e25344b7be48ca7a6a5c658128fb7ddbe7f38628c6f8caf25108",
+      "upstream_path": "chats/100K/8/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "70921b928ab9688650583434393fc4212f0654e67046e717a286c4cb9689ca1a",
+      "body_utf8_bytes": 546147,
+      "counts": {
+        "unlabeled_abstention": 2,
+        "valid_positive": 18
+      },
+      "criterion_groups_among_valid_positives": 24,
+      "history": "NT03",
+      "messages": 286,
+      "source_projection_sha256": "a7f98f8f71f2248cd1c86a979badd574440150f71f95f6f017b26a68aede8576",
+      "upstream_path": "chats/100K/17/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "d4d5a9232355d4bcd1eaa36bbc1158ad19a92d469cebff7bd764a999936b29d0",
+      "body_utf8_bytes": 440821,
+      "counts": {
+        "unlabeled_abstention": 2,
+        "valid_positive": 18
+      },
+      "criterion_groups_among_valid_positives": 24,
+      "history": "NT04",
+      "messages": 272,
+      "source_projection_sha256": "e3a41c3edbd4904af60a3bbd47e7631c3814da3af6c6f1f4ad77e9235a7734d6",
+      "upstream_path": "chats/100K/15/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "617a1e1a42694ebe585a97db20ebcfdbbd848ae72d5aaac0114949fbc0118657",
+      "body_utf8_bytes": 592403,
+      "counts": {
+        "missing_non_abstention_support": 1,
+        "unlabeled_abstention": 2,
+        "valid_positive": 17
+      },
+      "criterion_groups_among_valid_positives": 23,
+      "history": "NT05",
+      "messages": 270,
+      "source_projection_sha256": "680549e85e9f7c7c736bf5325bcb1ab33a49e3bfde9b4767a68ecd023231539f",
+      "upstream_path": "chats/100K/9/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 1,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "516dbb44d1dd488a2cfa17f937ecf20ff50dd1c44245f63a69ebd686e6cdae2b",
+      "body_utf8_bytes": 778175,
+      "counts": {
+        "missing_non_abstention_support": 2,
+        "unlabeled_abstention": 2,
+        "valid_positive": 16
+      },
+      "criterion_groups_among_valid_positives": 22,
+      "history": "NT06",
+      "messages": 362,
+      "source_projection_sha256": "cba886641ca26308ae436ec4b2cd3cf7d638d0415f3bf8557c529f2058371b9a",
+      "upstream_path": "chats/100K/18/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "14482e4c0a290e2a1c5519ac4dc7e429643f9aa0637b29ee016cb0e30bd65be3",
+      "body_utf8_bytes": 498510,
+      "counts": {
+        "unlabeled_abstention": 2,
+        "valid_positive": 18
+      },
+      "criterion_groups_among_valid_positives": 24,
+      "history": "NT07",
+      "messages": 200,
+      "source_projection_sha256": "661a8282f4e48f9098660150f885212be1c54dafd5b526b42709ae97cafe7282",
+      "upstream_path": "chats/100K/2/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "8d7e47a8214d69e4d9beccdae593d9c38f278be31b6bdf2769bc6dbe5c517ea1",
+      "body_utf8_bytes": 526355,
+      "counts": {
+        "unlabeled_abstention": 2,
+        "valid_positive": 18
+      },
+      "criterion_groups_among_valid_positives": 24,
+      "history": "NT08",
+      "messages": 310,
+      "source_projection_sha256": "4e558e052655a927bf09c060c583476d28fe6cde55ef28a38d4756ecda0f59b1",
+      "upstream_path": "chats/100K/13/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "140db61b91d33e187cef204b99f15207792b5dceef1de6fc2cb91d175b7d7b00",
+      "body_utf8_bytes": 407579,
+      "counts": {
+        "unlabeled_abstention": 2,
+        "valid_positive": 18
+      },
+      "criterion_groups_among_valid_positives": 24,
+      "history": "NT09",
+      "messages": 238,
+      "source_projection_sha256": "4ee23e4bd01855b51023419d184bd37c1a81b13ca89012d0529b4bf8cdda462a",
+      "upstream_path": "chats/100K/5/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "44fcff2b84ac21d16919c0177220b2c4daacea4e2c4ae29627c883aad6d2afe4",
+      "body_utf8_bytes": 841045,
+      "counts": {
+        "missing_non_abstention_support": 2,
+        "unlabeled_abstention": 2,
+        "valid_positive": 16
+      },
+      "criterion_groups_among_valid_positives": 22,
+      "history": "NT10",
+      "messages": 372,
+      "source_projection_sha256": "c2f8d44966251419f7372e4ee261f39525295567887bced206ab5add23e1207d",
+      "upstream_path": "chats/100K/20/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "b6638b34c30b7bdcaf3b772e685b3a7021100d5535baa11edf6f3c5294cf247c",
+      "body_utf8_bytes": 512934,
+      "counts": {
+        "unlabeled_abstention": 2,
+        "valid_positive": 18
+      },
+      "criterion_groups_among_valid_positives": 24,
+      "history": "NT11",
+      "messages": 194,
+      "source_projection_sha256": "e7692dc0b2f9aa695c1e97d7c8603cbabb101cf1c9de1669b46ff2cb7ba59e81",
+      "upstream_path": "chats/100K/3/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "ad1e126e730a65dca425667fa80916c945b1b77c8bb637c6ece6ea1631dfc242",
+      "body_utf8_bytes": 679541,
+      "counts": {
+        "unlabeled_abstention": 2,
+        "valid_positive": 18
+      },
+      "criterion_groups_among_valid_positives": 24,
+      "history": "NT12",
+      "messages": 212,
+      "source_projection_sha256": "53cd150ffaecf46074d402ecfa96dbe7c6373833a9de2a4fc7b2ba159e6a7255",
+      "upstream_path": "chats/100K/4/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "6ff6b48ed0aef9ff6a992719cecc916031ffec886c33923b714474e9503d3c6c",
+      "body_utf8_bytes": 911271,
+      "counts": {
+        "unlabeled_abstention": 2,
+        "valid_positive": 18
+      },
+      "criterion_groups_among_valid_positives": 24,
+      "history": "NT13",
+      "messages": 388,
+      "source_projection_sha256": "ba0d6270560f44a52550888ebfbb3627ad8576b7660aa65f8ed6f6015544f283",
+      "upstream_path": "chats/100K/11/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "fbff7ee1e98c7556136bbf762f83e434cae3a735b858bdea12a69cb497362840",
+      "body_utf8_bytes": 528036,
+      "counts": {
+        "unlabeled_abstention": 2,
+        "valid_positive": 18
+      },
+      "criterion_groups_among_valid_positives": 24,
+      "history": "NT14",
+      "messages": 188,
+      "source_projection_sha256": "eea5ab79a8b1aa96b596327a96820f279d9399588aa2b65e79782dc640e7bf32",
+      "upstream_path": "chats/100K/1/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 2,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    },
+    {
+      "all_question_query_projection_sha256": "7601eaa2328ad39922bde4542b77c24524965e9fc54858e74e732cc2e5ef5bd0",
+      "body_utf8_bytes": 910066,
+      "counts": {
+        "malformed_criterion_group": 1,
+        "unlabeled_abstention": 2,
+        "valid_positive": 17
+      },
+      "criterion_groups_among_valid_positives": 22,
+      "history": "NT15",
+      "messages": 392,
+      "source_projection_sha256": "a58dd5f4f2b14503cd99cc782f5395289dbd533bbfde74686814e49f09145416",
+      "upstream_path": "chats/100K/12/chat.json",
+      "valid_positive_categories": {
+        "contradiction_resolution": 2,
+        "event_ordering": 2,
+        "information_extraction": 2,
+        "instruction_following": 2,
+        "knowledge_update": 1,
+        "multi_session_reasoning": 2,
+        "preference_following": 2,
+        "summarization": 2,
+        "temporal_reasoning": 2
+      }
+    }
+  ],
+  "sources": [
+    {
+      "supports": "Synthetic generation; official repository data; MIT code and CC BY-SA4 data attribution.",
+      "title": "BEAM official pinned source, dataset construction and dual licensing",
+      "url": "https://github.com/mohammadtavakoli78/BEAM/blob/b2da22eac88bb0874c64665f13457eb99835774a/README.md"
+    },
+    {
+      "supports": "Source benchmark provenance only; its QA/generation/evaluation is not reproduced.",
+      "title": "BEAM paper, version2",
+      "url": "https://arxiv.org/abs/2510.27246v2"
+    },
+    {
+      "supports": "Existing native string quoting, unicode61, bm25 lower-is-better, native vocabulary extraction; no custom BM25 equivalence.",
+      "title": "SQLite FTS5 primary documentation",
+      "url": "https://www.sqlite.org/fts5.html"
+    },
+    {
+      "supports": "Unchanged MATCH query binding.",
+      "title": "SQLite bound parameters",
+      "url": "https://www.sqlite.org/lang_expr.html#parameters"
+    },
+    {
+      "supports": "Unchanged source ledger and native-view transactions.",
+      "title": "SQLite transactions",
+      "url": "https://www.sqlite.org/lang_transaction.html"
+    }
+  ]
+}
