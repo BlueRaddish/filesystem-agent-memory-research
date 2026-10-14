@@ -14,6 +14,7 @@ This project is a public, source-grounded research review of agent memory, retri
 
 | Document | Purpose |
 | --- | --- |
+| [Native transfer report and three figures](evaluation/study-2026-10-13/NATIVE-TRANSFER-REPORT.md) | All 6,480 scheduled packets over fifteen additional synthetic histories; full source reconstruction and explicit unscorable labels |
 | [Native transfer protocol](evaluation/study-2026-10-13/NATIVE-TRANSFER-PLAN.md) | Fifteen additional public synthetic histories, 264 usable support labels and six unscorable cases; frozen before scoring |
 | [Later interruption recovery](evaluation/study-2026-10-13/REBOOT-RECOVERY.md) | 366 preserved complete checkpoints and 29 histories; unknown exit and later boot, with a separately bound resume |
 | [Native SQLite FTS5 report](evaluation/study-2026-10-13/NATIVE-INDEX-REPORT.md) | 432 rankings and 2,592 source-exact packets, independently reconstructed; two figures and no model calls |
@@ -84,6 +85,8 @@ For the October 13 source and boundary checks, run these existing consuming entr
 python evaluation/study-2026-10-13/bank_check.py --self-check
 python evaluation/study-2026-10-13/check_bank_semantics.py
 python evaluation/study-2026-10-13/native_index_lab.py --self-check
+python evaluation/study-2026-10-13/native_transfer.py --self-check
+python evaluation/study-2026-10-13/render_native_transfer.py --self-check
 python evaluation/study-2026-10-13/prepare_reader_review.py --self-check
 python evaluation/study-2026-10-13/run_resource_capped.py --self-check
 ```

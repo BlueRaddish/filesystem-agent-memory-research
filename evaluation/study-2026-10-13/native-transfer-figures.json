@@ -1,0 +1,668 @@
+{
+  "schema_version": 1,
+  "scope": "Separate deterministic BEAM synthetic-history publisher-message-ID transfer; source-exposure proxies, not QA.",
+  "source_public_results_sha256": "af5c3dd256cc260ba1ec2326ab67a1307456c9259e8d09ecc5e57d3c4ab53b0c",
+  "source_private_aggregate_sha256": "f55e0cf3a781d5a67d7d48a4e36dafd58f3f1432ecfa6bef09c5a81e9588cf86",
+  "renderer_sha256": "02eff175ef077c7e9696637dbaa0445d97f8ff7630e5ba1a1dab465207cf92c7",
+  "matplotlib_version": "3.10.9",
+  "figures": [
+    {
+      "id": "native-transfer-recovery",
+      "title": "BEAM transfer: all 24 fixed recovery cells",
+      "caption": "Full-message publisher-ID bundle exposure, not answer correctness. Right labels show exact query counts and equal-history percentages.\n270 nominal / 264 valid tasks per cell; six label-unscorable tasks remain null. Valid history denominators: eleven × 18, two × 17, two × 16.\nThe same questions recur across cells; no independent-packet N, population winner or confidence interval. Independent actual execution audit accepted.",
+      "input_table": [
+        {
+          "engine": "fts_body_or",
+          "packer": "whole_record",
+          "budget": 4096,
+          "whole_bundle_verified_count": 64,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.24242424242424243,
+          "whole_bundle_macro_history_verified_rate": 0.24251089324618735
+        },
+        {
+          "engine": "fts_body_or",
+          "packer": "whole_record",
+          "budget": 8192,
+          "whole_bundle_verified_count": 77,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.2916666666666667,
+          "whole_bundle_macro_history_verified_rate": 0.29158496732026146
+        },
+        {
+          "engine": "fts_body_or",
+          "packer": "whole_record",
+          "budget": 16384,
+          "whole_bundle_verified_count": 87,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.32954545454545453,
+          "whole_bundle_macro_history_verified_rate": 0.329520697167756
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "whole_record",
+          "budget": 4096,
+          "whole_bundle_verified_count": 65,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.24621212121212122,
+          "whole_bundle_macro_history_verified_rate": 0.24621459694989106
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "whole_record",
+          "budget": 8192,
+          "whole_bundle_verified_count": 77,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.2916666666666667,
+          "whole_bundle_macro_history_verified_rate": 0.29158496732026146
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "whole_record",
+          "budget": 16384,
+          "whole_bundle_verified_count": 87,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.32954545454545453,
+          "whole_bundle_macro_history_verified_rate": 0.329520697167756
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "whole_record",
+          "budget": 4096,
+          "whole_bundle_verified_count": 64,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.24242424242424243,
+          "whole_bundle_macro_history_verified_rate": 0.24229302832244007
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "whole_record",
+          "budget": 8192,
+          "whole_bundle_verified_count": 80,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.30303030303030304,
+          "whole_bundle_macro_history_verified_rate": 0.3029411764705882
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "whole_record",
+          "budget": 16384,
+          "whole_bundle_verified_count": 86,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.32575757575757575,
+          "whole_bundle_macro_history_verified_rate": 0.32603485838779955
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "whole_record",
+          "budget": 4096,
+          "whole_bundle_verified_count": 64,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.24242424242424243,
+          "whole_bundle_macro_history_verified_rate": 0.24229302832244007
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "whole_record",
+          "budget": 8192,
+          "whole_bundle_verified_count": 80,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.30303030303030304,
+          "whole_bundle_macro_history_verified_rate": 0.3029411764705882
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "whole_record",
+          "budget": 16384,
+          "whole_bundle_verified_count": 86,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.32575757575757575,
+          "whole_bundle_macro_history_verified_rate": 0.32603485838779955
+        },
+        {
+          "engine": "fts_body_or",
+          "packer": "sentence_neighbors",
+          "budget": 4096,
+          "whole_bundle_verified_count": 70,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.26515151515151514,
+          "whole_bundle_macro_history_verified_rate": 0.26609477124183006
+        },
+        {
+          "engine": "fts_body_or",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "whole_bundle_verified_count": 81,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.3068181818181818,
+          "whole_bundle_macro_history_verified_rate": 0.3077342047930283
+        },
+        {
+          "engine": "fts_body_or",
+          "packer": "sentence_neighbors",
+          "budget": 16384,
+          "whole_bundle_verified_count": 88,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.3333333333333333,
+          "whole_bundle_macro_history_verified_rate": 0.3341230936819172
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "sentence_neighbors",
+          "budget": 4096,
+          "whole_bundle_verified_count": 70,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.26515151515151514,
+          "whole_bundle_macro_history_verified_rate": 0.26609477124183006
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "whole_bundle_verified_count": 81,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.3068181818181818,
+          "whole_bundle_macro_history_verified_rate": 0.3077342047930283
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "sentence_neighbors",
+          "budget": 16384,
+          "whole_bundle_verified_count": 88,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.3333333333333333,
+          "whole_bundle_macro_history_verified_rate": 0.3341230936819172
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 4096,
+          "whole_bundle_verified_count": 68,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.25757575757575757,
+          "whole_bundle_macro_history_verified_rate": 0.25868736383442265
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "whole_bundle_verified_count": 80,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.30303030303030304,
+          "whole_bundle_macro_history_verified_rate": 0.30495642701525055
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 16384,
+          "whole_bundle_verified_count": 84,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.3181818181818182,
+          "whole_bundle_macro_history_verified_rate": 0.3197712418300654
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 4096,
+          "whole_bundle_verified_count": 68,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.25757575757575757,
+          "whole_bundle_macro_history_verified_rate": 0.25868736383442265
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "whole_bundle_verified_count": 79,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.29924242424242425,
+          "whole_bundle_macro_history_verified_rate": 0.30103485838779953
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 16384,
+          "whole_bundle_verified_count": 84,
+          "valid_queries": 264,
+          "whole_bundle_query_weighted_verified_rate": 0.3181818181818182,
+          "whole_bundle_macro_history_verified_rate": 0.3197712418300654
+        }
+      ],
+      "input_table_sha256": "25262aadb0dd4df5a6a2179943265a49220267398fb01e11aa63507869771a92",
+      "assets": [
+        {
+          "file": "native-transfer-recovery.png",
+          "sha256": "d112874db2f6b2521d3fa4ca1a73a19a5f8f1459d278cd3476f1f61b33e90f52",
+          "bytes": 246220,
+          "width_pixels": 2260,
+          "height_pixels": 1254
+        },
+        {
+          "file": "native-transfer-recovery.svg",
+          "sha256": "660eec41122eb8dbfcd1848250f9ebfe4d6e068034c939dcb00d850f1a12a61e",
+          "bytes": 45708
+        }
+      ]
+    },
+    {
+      "id": "native-transfer-exposure",
+      "title": "BEAM at 8 KiB: candidate presence, partial selection and complete exposure",
+      "caption": "All eight fixed engine/packer cells. Bar labels are counts out of 264 valid questions; candidate presence is a separate ranking diagnostic.\nThe dashed line is necessary only: exact whole-wrapper cost on the left; optimistic single-body/lean-wrapper lower bound on the right.\nNo labeled minimal answer spans or QA evaluation; feasibility does not establish attainable or semantically sufficient recovery. Independent actual execution\naudit accepted.",
+      "input_table": [
+        {
+          "engine": "fts_body_or",
+          "packer": "whole_record",
+          "budget": 8192,
+          "valid_queries": 264,
+          "candidate_all_32_rate": 0.42803030303030304,
+          "candidate_all_32_count": 113,
+          "selected_bundle_rate": 0.2916666666666667,
+          "selected_bundle_count": 77,
+          "whole_bundle_rate": 0.2916666666666667,
+          "whole_bundle_count": 77,
+          "necessary_feasible_rate": 0.8825757575757576,
+          "necessary_feasible_count": 233
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "whole_record",
+          "budget": 8192,
+          "valid_queries": 264,
+          "candidate_all_32_rate": 0.42803030303030304,
+          "candidate_all_32_count": 113,
+          "selected_bundle_rate": 0.2916666666666667,
+          "selected_bundle_count": 77,
+          "whole_bundle_rate": 0.2916666666666667,
+          "whole_bundle_count": 77,
+          "necessary_feasible_rate": 0.8825757575757576,
+          "necessary_feasible_count": 233
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "whole_record",
+          "budget": 8192,
+          "valid_queries": 264,
+          "candidate_all_32_rate": 0.4166666666666667,
+          "candidate_all_32_count": 110,
+          "selected_bundle_rate": 0.30303030303030304,
+          "selected_bundle_count": 80,
+          "whole_bundle_rate": 0.30303030303030304,
+          "whole_bundle_count": 80,
+          "necessary_feasible_rate": 0.8825757575757576,
+          "necessary_feasible_count": 233
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "whole_record",
+          "budget": 8192,
+          "valid_queries": 264,
+          "candidate_all_32_rate": 0.4166666666666667,
+          "candidate_all_32_count": 110,
+          "selected_bundle_rate": 0.30303030303030304,
+          "selected_bundle_count": 80,
+          "whole_bundle_rate": 0.30303030303030304,
+          "whole_bundle_count": 80,
+          "necessary_feasible_rate": 0.8825757575757576,
+          "necessary_feasible_count": 233
+        },
+        {
+          "engine": "fts_body_or",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "valid_queries": 264,
+          "candidate_all_32_rate": 0.42803030303030304,
+          "candidate_all_32_count": 113,
+          "selected_bundle_rate": 0.39015151515151514,
+          "selected_bundle_count": 103,
+          "whole_bundle_rate": 0.3068181818181818,
+          "whole_bundle_count": 81,
+          "necessary_feasible_rate": 0.8825757575757576,
+          "necessary_feasible_count": 233
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "valid_queries": 264,
+          "candidate_all_32_rate": 0.42803030303030304,
+          "candidate_all_32_count": 113,
+          "selected_bundle_rate": 0.39015151515151514,
+          "selected_bundle_count": 103,
+          "whole_bundle_rate": 0.3068181818181818,
+          "whole_bundle_count": 81,
+          "necessary_feasible_rate": 0.8825757575757576,
+          "necessary_feasible_count": 233
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "valid_queries": 264,
+          "candidate_all_32_rate": 0.4166666666666667,
+          "candidate_all_32_count": 110,
+          "selected_bundle_rate": 0.3787878787878788,
+          "selected_bundle_count": 100,
+          "whole_bundle_rate": 0.30303030303030304,
+          "whole_bundle_count": 80,
+          "necessary_feasible_rate": 0.8825757575757576,
+          "necessary_feasible_count": 233
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "valid_queries": 264,
+          "candidate_all_32_rate": 0.4166666666666667,
+          "candidate_all_32_count": 110,
+          "selected_bundle_rate": 0.375,
+          "selected_bundle_count": 99,
+          "whole_bundle_rate": 0.29924242424242425,
+          "whole_bundle_count": 79,
+          "necessary_feasible_rate": 0.8825757575757576,
+          "necessary_feasible_count": 233
+        }
+      ],
+      "input_table_sha256": "6879ed4c75bb983f1798b9b6cfa58cd97ff13d909609d9fadcb4fa9641c77238",
+      "assets": [
+        {
+          "file": "native-transfer-exposure.png",
+          "sha256": "33a461b8e50348cbb9ec5181f7023b76b4ecd9aa633cac4243f7f8a3033d2db1",
+          "bytes": 129113,
+          "width_pixels": 1996,
+          "height_pixels": 1006
+        },
+        {
+          "file": "native-transfer-exposure.svg",
+          "sha256": "56a8933ce0e68ef72e86be8268f5bcfa18096bc4102febf42f0fc654eb47eacd",
+          "bytes": 25158
+        }
+      ]
+    },
+    {
+      "id": "native-transfer-paired",
+      "title": "BEAM transfer: all matched engine gains, ties and regressions",
+      "caption": "Reference: custom body BM25 at the same question, packer and budget. Each cell has 264 measured valid pairs; 270 nominal pairs include six unscorable labels.\nTies combine joint full-message recoveries and joint nonrecoveries. The body reference is shown as 264 structural ties.\nRepeated synthetic histories/questions; descriptive changes only, no population winner, significance test or confidence interval. Independent actual execution audit accepted.",
+      "input_table": [
+        {
+          "engine": "fts_body_or",
+          "packer": "whole_record",
+          "budget": 4096,
+          "measured_pairs": 264,
+          "gains": 8,
+          "ties": 248,
+          "regressions": 8,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.00021786492374727685
+        },
+        {
+          "engine": "fts_body_or",
+          "packer": "whole_record",
+          "budget": 8192,
+          "measured_pairs": 264,
+          "gains": 3,
+          "ties": 255,
+          "regressions": 6,
+          "pair_query_weighted_mean_whole_bundle_difference": -0.011363636363636364,
+          "pair_macro_history_mean_whole_bundle_difference": -0.011356209150326797
+        },
+        {
+          "engine": "fts_body_or",
+          "packer": "whole_record",
+          "budget": 16384,
+          "measured_pairs": 264,
+          "gains": 9,
+          "ties": 247,
+          "regressions": 8,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.003787878787878788,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0034858387799564265
+        },
+        {
+          "engine": "fts_body_or",
+          "packer": "sentence_neighbors",
+          "budget": 4096,
+          "measured_pairs": 264,
+          "gains": 3,
+          "ties": 260,
+          "regressions": 1,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.007575757575757576,
+          "pair_macro_history_mean_whole_bundle_difference": 0.007407407407407407
+        },
+        {
+          "engine": "fts_body_or",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "measured_pairs": 264,
+          "gains": 5,
+          "ties": 255,
+          "regressions": 4,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.003787878787878788,
+          "pair_macro_history_mean_whole_bundle_difference": 0.002777777777777777
+        },
+        {
+          "engine": "fts_body_or",
+          "packer": "sentence_neighbors",
+          "budget": 16384,
+          "measured_pairs": 264,
+          "gains": 9,
+          "ties": 250,
+          "regressions": 5,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.015151515151515152,
+          "pair_macro_history_mean_whole_bundle_difference": 0.01435185185185185
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "whole_record",
+          "budget": 4096,
+          "measured_pairs": 264,
+          "gains": 8,
+          "ties": 249,
+          "regressions": 7,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.003787878787878788,
+          "pair_macro_history_mean_whole_bundle_difference": 0.00392156862745098
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "whole_record",
+          "budget": 8192,
+          "measured_pairs": 264,
+          "gains": 3,
+          "ties": 255,
+          "regressions": 6,
+          "pair_query_weighted_mean_whole_bundle_difference": -0.011363636363636364,
+          "pair_macro_history_mean_whole_bundle_difference": -0.011356209150326797
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "whole_record",
+          "budget": 16384,
+          "measured_pairs": 264,
+          "gains": 9,
+          "ties": 247,
+          "regressions": 8,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.003787878787878788,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0034858387799564265
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "sentence_neighbors",
+          "budget": 4096,
+          "measured_pairs": 264,
+          "gains": 3,
+          "ties": 260,
+          "regressions": 1,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.007575757575757576,
+          "pair_macro_history_mean_whole_bundle_difference": 0.007407407407407407
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "measured_pairs": 264,
+          "gains": 5,
+          "ties": 255,
+          "regressions": 4,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.003787878787878788,
+          "pair_macro_history_mean_whole_bundle_difference": 0.002777777777777777
+        },
+        {
+          "engine": "fts_search_or",
+          "packer": "sentence_neighbors",
+          "budget": 16384,
+          "measured_pairs": 264,
+          "gains": 9,
+          "ties": 250,
+          "regressions": 5,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.015151515151515152,
+          "pair_macro_history_mean_whole_bundle_difference": 0.01435185185185185
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "whole_record",
+          "budget": 4096,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 264,
+          "regressions": 0,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "whole_record",
+          "budget": 8192,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 264,
+          "regressions": 0,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "whole_record",
+          "budget": 16384,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 264,
+          "regressions": 0,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 4096,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 264,
+          "regressions": 0,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 264,
+          "regressions": 0,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0
+        },
+        {
+          "engine": "body_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 16384,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 264,
+          "regressions": 0,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "whole_record",
+          "budget": 4096,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 264,
+          "regressions": 0,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "whole_record",
+          "budget": 8192,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 264,
+          "regressions": 0,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "whole_record",
+          "budget": 16384,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 264,
+          "regressions": 0,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 4096,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 264,
+          "regressions": 0,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 8192,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 263,
+          "regressions": 1,
+          "pair_query_weighted_mean_whole_bundle_difference": -0.003787878787878788,
+          "pair_macro_history_mean_whole_bundle_difference": -0.00392156862745098
+        },
+        {
+          "engine": "search_bm25",
+          "packer": "sentence_neighbors",
+          "budget": 16384,
+          "measured_pairs": 264,
+          "gains": 0,
+          "ties": 264,
+          "regressions": 0,
+          "pair_query_weighted_mean_whole_bundle_difference": 0.0,
+          "pair_macro_history_mean_whole_bundle_difference": 0.0
+        }
+      ],
+      "input_table_sha256": "04f55b51e068797d69c70c5ca94b9b3ab65225e88d10de96c40521793995b179",
+      "assets": [
+        {
+          "file": "native-transfer-paired.png",
+          "sha256": "181ef3727e9d9b048fa06fd1e26f30c60bb9a6d578a457f1eef3be7696b31f3c",
+          "bytes": 168986,
+          "width_pixels": 2244,
+          "height_pixels": 1237
+        },
+        {
+          "file": "native-transfer-paired.svg",
+          "sha256": "8ff0ec04923606328dda4f6f5419c16cb29b1936da4e51d88c0ae11bd610f197",
+          "bytes": 55766
+        }
+      ]
+    }
+  ]
+}
