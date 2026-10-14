@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "scope": "prospective SQLite FTS5 development supplement",
+  "accessed_date": "2026-10-13",
+  "source_policy": "Official SQLite primary documentation only",
+  "sources": [
+    {"title": "FTS5 Strings", "url": "https://www.sqlite.org/fts5.html#fts5_strings", "supports": "Double-quoted MATCH strings and doubled embedded quotes."},
+    {"title": "Unicode61 Tokenizer", "url": "https://www.sqlite.org/fts5.html#unicode61_tokenizer", "supports": "Native tokenizer and explicit remove_diacritics configuration."},
+    {"title": "FTS5 bm25 function", "url": "https://www.sqlite.org/fts5.html#the_bm25_function", "supports": "Smaller numeric scores rank better; no reference-algorithm equivalence."},
+    {"title": "fts5vocab virtual table", "url": "https://www.sqlite.org/fts5.html#the_fts5vocab_virtual_table_module", "supports": "Native query-token extraction through instance offsets."},
+    {"title": "SQL bound parameters", "url": "https://www.sqlite.org/lang_expr.html#parameters", "supports": "MATCH values bound separately from SQL text."},
+    {"title": "SQLite transactions", "url": "https://www.sqlite.org/lang_transaction.html", "supports": "Explicit transaction boundaries for ledger and both views."}
+  ]
+}
