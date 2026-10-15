@@ -1,0 +1,545 @@
+{
+  "computational_tables_sha256": "29062415179535a79fc563feb895ffd3f93a430956f2cfb6e064bf4125ceaccf",
+  "figures": [
+    {
+      "computational_data_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "exports": [
+        {
+          "bytes": 141966,
+          "file": "figures/01-mechanism-grid.png",
+          "sha256": "a919e4d26872ae0429e8b3a2264eee06855aebc286e39ed8f513f2c8152da62d"
+        },
+        {
+          "bytes": 39759,
+          "file": "figures/01-mechanism-grid.svg",
+          "sha256": "7b779204ba6ac8350ae65a25a7d2e515d05381f6d55e83d3eae444b1be6fa8dc"
+        }
+      ],
+      "id": "01-mechanism-grid",
+      "purpose": "Deduplicated 21-ranker × 8-packer schedule",
+      "scope": "EXPLANATORY SCHEDULE: 198 cells/query/size; 114,048 packets; darker rows are extended packer comparisons.",
+      "source_tables": []
+    },
+    {
+      "computational_data_sha256": "1ac7d901695877269e33ec7af1f0cadb1b295faec33bde54ef0dedb5a884c827",
+      "exports": [
+        {
+          "bytes": 129401,
+          "file": "figures/02-primary-ranker-facets.png",
+          "sha256": "d1b20576654050102888f1a71c2d16c9b2be24d37c14b0a529bf87a7a5511264"
+        },
+        {
+          "bytes": 43973,
+          "file": "figures/02-primary-ranker-facets.svg",
+          "sha256": "ee31ee10e7e1441f9b5afb5a9430bd248dba5fa9f07f550d6d1ea54483f49466"
+        }
+      ],
+      "id": "02-primary-ranker-facets",
+      "purpose": "Primary span exposure at 8 KB / 144 records / closure passages",
+      "scope": "Confirmation: equal template means; descriptive 2,000 whole-template bootstrap replicates.",
+      "source_tables": [
+        "packet_cells"
+      ]
+    },
+    {
+      "computational_data_sha256": "bd48043e5e1ad73540708e08622c72cb0142c95ea281ea15a0ec3c219267d8bc",
+      "exports": [
+        {
+          "bytes": 110680,
+          "file": "figures/03-candidate-ceilings.png",
+          "sha256": "97a735cb0acc441c1176fcfbaa9c7f33a2360a04ecfd5a4bfdf1d5ddf5b43748"
+        },
+        {
+          "bytes": 32693,
+          "file": "figures/03-candidate-ceilings.svg",
+          "sha256": "f6c3bdab3cbfab3a54831e5e8487b55fb7aedce32b23e1d801bb8bbbdd7e2cab"
+        }
+      ],
+      "id": "03-candidate-ceilings",
+      "purpose": "Candidate set recovery at four fixed cutoffs",
+      "scope": "Confirmation: equal template means; descriptive 2,000 whole-template bootstrap replicates.",
+      "source_tables": [
+        "candidate_cells"
+      ]
+    },
+    {
+      "computational_data_sha256": "1ac7d901695877269e33ec7af1f0cadb1b295faec33bde54ef0dedb5a884c827",
+      "exports": [
+        {
+          "bytes": 77403,
+          "file": "figures/04-span-id-whole.png",
+          "sha256": "0da62c18d77d3b1c1f17905f0362d7defec4c251f6e327eefeb3222b22325191"
+        },
+        {
+          "bytes": 15549,
+          "file": "figures/04-span-id-whole.svg",
+          "sha256": "add430b273a9b50c77f1ee73a1db3d23f1be867d9dfcbad1fdf6997399b26c21"
+        }
+      ],
+      "id": "04-span-id-whole",
+      "purpose": "Span, ID and whole-original proxies remain distinct",
+      "scope": "Confirmation: equal template means; descriptive 2,000 whole-template bootstrap replicates.",
+      "source_tables": [
+        "packet_cells"
+      ]
+    },
+    {
+      "computational_data_sha256": "1ac7d901695877269e33ec7af1f0cadb1b295faec33bde54ef0dedb5a884c827",
+      "exports": [
+        {
+          "bytes": 89627,
+          "file": "figures/05-budget-corpus-response.png",
+          "sha256": "fd06465b5e6cfefac89cf8f92d30a697944fece017645d45fd89754114fcf5ff"
+        },
+        {
+          "bytes": 30264,
+          "file": "figures/05-budget-corpus-response.svg",
+          "sha256": "dcca7e2eb163d6f444deba8396ce6e8516004cbee1616321573d9acb7b5ec23a"
+        }
+      ],
+      "id": "05-budget-corpus-response",
+      "purpose": "Bytes and distractor corpus response",
+      "scope": "Confirmation: equal template means; descriptive 2,000 whole-template bootstrap replicates.",
+      "source_tables": [
+        "packet_cells"
+      ]
+    },
+    {
+      "computational_data_sha256": "b20ab799dad0d39aa07a8a1bfe1ec68dacf7c4cf20054f123a2d7a1c75c878d8",
+      "exports": [
+        {
+          "bytes": 60910,
+          "file": "figures/06-corpus-expansion-pairs.png",
+          "sha256": "6ccc29aa221dd08750b56cc44bd9b0255d9c348f361828be91ba81f4aff6c2a7"
+        },
+        {
+          "bytes": 15512,
+          "file": "figures/06-corpus-expansion-pairs.svg",
+          "sha256": "a679a42947890d270d75346092365d7420a076f58bb760474fe3e068bce83c35"
+        }
+      ],
+      "id": "06-corpus-expansion-pairs",
+      "purpose": "Matched-query corpus expansion contrast",
+      "scope": "Confirmation: equal template means; descriptive 2,000 whole-template bootstrap replicates.",
+      "source_tables": [
+        "corpus_contrasts"
+      ]
+    },
+    {
+      "computational_data_sha256": "c4b24f9b0377109f5bbcf3821f87bf98878ac36417c5f8350fdccaca65dae996",
+      "exports": [
+        {
+          "bytes": 162774,
+          "file": "figures/07-atomic-packing-contrasts.png",
+          "sha256": "f6905adfa53b0fc40837c98ea716510e926521424de5ce9de2511ed29e0a6d20"
+        },
+        {
+          "bytes": 71549,
+          "file": "figures/07-atomic-packing-contrasts.svg",
+          "sha256": "0e178d71c2db83b3aabc585827d6ab4e84b34567f7bfd244d84a92f56efb4d1c"
+        }
+      ],
+      "id": "07-atomic-packing-contrasts",
+      "purpose": "Eight packing mechanisms compared within four fixed rankers",
+      "scope": "Confirmation: equal template means; descriptive 2,000 whole-template bootstrap replicates.",
+      "source_tables": [
+        "packer_contrasts"
+      ]
+    },
+    {
+      "computational_data_sha256": "1ac7d901695877269e33ec7af1f0cadb1b295faec33bde54ef0dedb5a884c827",
+      "exports": [
+        {
+          "bytes": 114480,
+          "file": "figures/08-template-heterogeneity.png",
+          "sha256": "ae5bb4b84c3a5e84eb23e6c0d5c6276d63f14d2bd24ba824878ace5b49926b0d"
+        },
+        {
+          "bytes": 32187,
+          "file": "figures/08-template-heterogeneity.svg",
+          "sha256": "0bc52004c0187d69b2399c24a70063b0688ec9b05eab4dfd73bddc681ce82ab5"
+        }
+      ],
+      "id": "08-template-heterogeneity",
+      "purpose": "Individual cluster means rather than an independent-query illusion",
+      "scope": "Confirmation: equal template means; descriptive 2,000 whole-template bootstrap replicates.",
+      "source_tables": [
+        "packet_cells"
+      ]
+    },
+    {
+      "computational_data_sha256": "84e1dcccef9d097896c31721296627e58183d6e493c3c006d9e249003c0d9eb8",
+      "exports": [
+        {
+          "bytes": 137786,
+          "file": "figures/09-paired-regressions.png",
+          "sha256": "9b85cf36eff87ddc42addc77780b10e7fbbf765661693a514018213a747e5993"
+        },
+        {
+          "bytes": 57717,
+          "file": "figures/09-paired-regressions.svg",
+          "sha256": "9032e415bf197ba4c397ebcd14985b38ce1f4e9f5cc7fcbd9e4aff79623b1dc9"
+        }
+      ],
+      "id": "09-paired-regressions",
+      "purpose": "All matched ties and regressions remain visible",
+      "scope": "Counts describe 216 confirmation queries; clustering applies to estimates, not these raw census counts.",
+      "source_tables": [
+        "ranker_contrasts"
+      ]
+    },
+    {
+      "computational_data_sha256": "390f96824ff5fa776bba97990914065c1d33c6037f0b57e8a3d091dcea0d9461",
+      "exports": [
+        {
+          "bytes": 53160,
+          "file": "figures/10-pipeline-failure-types.png",
+          "sha256": "f6e0b2387d158958fd1e6c89006a8a6f8d50fc31a80ed4ea22df35637a5bb0bf"
+        },
+        {
+          "bytes": 9029,
+          "file": "figures/10-pipeline-failure-types.svg",
+          "sha256": "a8bbb66b4cd92419c915fe3aeaed097e136ef62a15053b85335ca116f080f288"
+        }
+      ],
+      "id": "10-pipeline-failure-types",
+      "purpose": "Infrastructure faults are outcomes, never discarded rows",
+      "scope": "Ranking and propagated packet faults are separate census units; no sum is presented as unique incidents.",
+      "source_tables": [
+        "pipeline_failures"
+      ]
+    },
+    {
+      "computational_data_sha256": "1ac7d901695877269e33ec7af1f0cadb1b295faec33bde54ef0dedb5a884c827",
+      "exports": [
+        {
+          "bytes": 88862,
+          "file": "figures/11-byte-support-frontier.png",
+          "sha256": "3ca593fc35cecbe0a64da263b6cb12a35cfcc88d32a61cb0e8bc17c4ab41910d"
+        },
+        {
+          "bytes": 18535,
+          "file": "figures/11-byte-support-frontier.svg",
+          "sha256": "0b27427f978d89952a6c53afcb0908b88c59130e94f778ce03f0cff89bdaae4c"
+        }
+      ],
+      "id": "11-byte-support-frontier",
+      "purpose": "Actual packed bytes versus partial source recovery",
+      "scope": "Confirmation: equal template means; descriptive 2,000 whole-template bootstrap replicates.",
+      "source_tables": [
+        "packet_cells"
+      ]
+    },
+    {
+      "computational_data_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "exports": [
+        {
+          "bytes": 79009,
+          "file": "figures/12-window-tail-mechanism.png",
+          "sha256": "2c5abbb2faa9fc64c7145a41c57eacd33ef5073d3d91a142088d00dbad8ee8bb"
+        },
+        {
+          "bytes": 11017,
+          "file": "figures/12-window-tail-mechanism.svg",
+          "sha256": "7c87e09969bd4801f45b5f410f48fc9b34020d02e66b68a8841cfe6eb7416852"
+        }
+      ],
+      "id": "12-window-tail-mechanism",
+      "purpose": "Explanatory tail-fact and source-window mechanism",
+      "scope": "EXPLANATORY FICTIONAL DIAGRAM: positions are illustrative, not observed tokenizer boundaries or measured accuracy.",
+      "source_tables": []
+    },
+    {
+      "computational_data_sha256": "f9bd4c0e8886ebbc4866e5e615ca87d8e4154fdcdfea77fcf769b2202c2a59d5",
+      "exports": [
+        {
+          "bytes": 59967,
+          "file": "figures/13-budget-omissions.png",
+          "sha256": "7706e219c02653493cd3a416ae2146b4b63f2a1d2a0debbf9655c55dce9cf618"
+        },
+        {
+          "bytes": 12416,
+          "file": "figures/13-budget-omissions.svg",
+          "sha256": "93840c872169175f5759e5d3be5963ed1eec061f9ba63db9f58c7cb4e2cc75c6"
+        }
+      ],
+      "id": "13-budget-omissions",
+      "purpose": "Oversized windows/bundles and other packing omissions",
+      "scope": "Grid-wide mechanical diagnostic counts; one omitted unit is not necessarily one missing gold span.",
+      "source_tables": [
+        "budget_skip_reasons"
+      ]
+    },
+    {
+      "computational_data_sha256": "54860f012f5e5e6787bd17d39e2b5e157ff324f3b1bff23dd1c64c5fe50064c8",
+      "exports": [
+        {
+          "bytes": 93252,
+          "file": "figures/14-reader-gates.png",
+          "sha256": "43ce7772df5c35fe566f86c2858522daa57f65d23cbebb63b4a8d38d47f49143"
+        },
+        {
+          "bytes": 28295,
+          "file": "figures/14-reader-gates.svg",
+          "sha256": "22ed415dc7369f5ead0bc58a3b73b69d74cab8e8b6d7d181324a62bf47ea41ec"
+        }
+      ],
+      "id": "14-reader-gates",
+      "purpose": "Artifact, syntax, typed answer, support and citation gates",
+      "scope": "24 matched histories, two per template; oracle sufficient originals are outside byte-budget comparisons. Citation IDs do not prove entailment.",
+      "source_tables": [
+        "reader_arms"
+      ]
+    },
+    {
+      "computational_data_sha256": "54860f012f5e5e6787bd17d39e2b5e157ff324f3b1bff23dd1c64c5fe50064c8",
+      "exports": [
+        {
+          "bytes": 79565,
+          "file": "figures/15-reader-holds.png",
+          "sha256": "24e7d644429db5e64e0bff93d06f676f4f355eb98d86bcd2c7e98c4072376b2f"
+        },
+        {
+          "bytes": 23073,
+          "file": "figures/15-reader-holds.svg",
+          "sha256": "c2c3d7f130a2b784f36ca223c85dc6c48668479ce5e46b9ab43ae793a74e89e4"
+        }
+      ],
+      "id": "15-reader-holds",
+      "purpose": "Readiness versus evidence insufficiency",
+      "scope": "Absent outputs and unsupported ready decisions on hold tasks are separate columns in the computational table.",
+      "source_tables": [
+        "reader_arms"
+      ]
+    },
+    {
+      "computational_data_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "exports": [
+        {
+          "bytes": 110675,
+          "file": "figures/16-exact-typed-conventions.png",
+          "sha256": "2df5f5e9c1fed280eb91c7765b15659484e3ef0ec57f8a328939ae048b7a2cab"
+        },
+        {
+          "bytes": 10312,
+          "file": "figures/16-exact-typed-conventions.svg",
+          "sha256": "ffc6658e40133e53d2a9c9d3c69a176c403539bf9d8722128d43491a9573d7e1"
+        }
+      ],
+      "id": "16-exact-typed-conventions",
+      "purpose": "Exact typed scoring and separately planned source review",
+      "scope": "EXPLANATORY PROTOCOL TABLE; not a semantic answer-quality validation result.",
+      "source_tables": []
+    },
+    {
+      "computational_data_sha256": "a0b09b8af6f481dfd6cc1cfc6b3ada41a493309c4ad42d10d063700e08647c79",
+      "exports": [
+        {
+          "bytes": 83127,
+          "file": "figures/17-onboarding-factorial.png",
+          "sha256": "7f9be1c8b3050e1d9bea2ef4af002b1bb31c895f402a8ff9accc7b79b5986aab"
+        },
+        {
+          "bytes": 26540,
+          "file": "figures/17-onboarding-factorial.svg",
+          "sha256": "cccbe44b309a0ace37701e4480492512dc67915dd5e580d599eef31c36762577"
+        }
+      ],
+      "id": "17-onboarding-factorial",
+      "purpose": "Four matched onboarding arms and declared interaction",
+      "scope": "12 matched cases / 12 template groups; interaction is difference-in-differences, not a natural-vault usability claim.",
+      "source_tables": [
+        "reader_arms",
+        "discovery_interaction"
+      ]
+    },
+    {
+      "computational_data_sha256": "24d378ba52e641b30f79f36d78a6c14db9bbcc7dead3d9b0e58cb16ead323312",
+      "exports": [
+        {
+          "bytes": 86869,
+          "file": "figures/18-navigation-costs.png",
+          "sha256": "680e410d09f72b8e53d8e5e7b8c2a29af857c97cd329f1a27e2bcdea5a79f188"
+        },
+        {
+          "bytes": 33593,
+          "file": "figures/18-navigation-costs.svg",
+          "sha256": "faec2b2dedcfcc6d1a801907715d1b399d8f62addff3aa161670d2ad064a371c"
+        }
+      ],
+      "id": "18-navigation-costs",
+      "purpose": "Actions and exact returned-tool UTF-8 bytes",
+      "scope": "Observed costs retain missing counts; 32-action / 32,768-byte caps. Prompt/model usage is a separate receipted table field.",
+      "source_tables": [
+        "reader_trials"
+      ]
+    },
+    {
+      "computational_data_sha256": "94cb8a0fc65c22df715df1ae4eb2b8e8823e0c6ff0947efc86f4a37aa67277d1",
+      "exports": [
+        {
+          "bytes": 148130,
+          "file": "figures/19-first-support-submission.png",
+          "sha256": "3ca3a439fb038f9507363e97924c84bc136a4dd6d111fc85abc9d590840c6862"
+        },
+        {
+          "bytes": 37071,
+          "file": "figures/19-first-support-submission.svg",
+          "sha256": "9df87ed5033bbe97de88beee38dbf1f436ccf61fd17e0a390e292c0d0984a240"
+        }
+      ],
+      "id": "19-first-support-submission",
+      "purpose": "Verified support exposure delivery proxy and non-reached cases",
+      "scope": "Host submission is not comprehension/provider intake. Reused-call exclusions and unavailable clocks are separate from cases that never reached support.",
+      "source_tables": [
+        "reader_trials",
+        "reader_arms"
+      ]
+    },
+    {
+      "computational_data_sha256": "b168a22c458c91afeccc900bf6dfab8ad47ec7dfaffe8a3eb5aa49d0fcd79551",
+      "exports": [
+        {
+          "bytes": 135018,
+          "file": "figures/20-uncached-warm-timing.png",
+          "sha256": "a925777e93a1b6226b9c7b62fa40751e63dcbfbe4c8843a9724816773f21fb88"
+        },
+        {
+          "bytes": 42903,
+          "file": "figures/20-uncached-warm-timing.svg",
+          "sha256": "5f5175a1021fd28bb4edf5f5bdc7039b0e917cec1921b4c2d991ddaa981225c4"
+        }
+      ],
+      "id": "20-uncached-warm-timing",
+      "purpose": "18 serial development timing observations per engine",
+      "scope": "6 fixed development queries × 3 repeats; 2 CPU threads; uncontrolled desktop activity; no population interval or isolated hardware claim.",
+      "source_tables": [
+        "timing"
+      ]
+    },
+    {
+      "computational_data_sha256": "80c1452163a043b36bf45ae6ed04932b3f3a4bf597c3964ee71cc31008a0d27f",
+      "exports": [
+        {
+          "bytes": 119304,
+          "file": "figures/21-index-loading-storage.png",
+          "sha256": "b54242629d30c900b150ff52533c4f7193902fd9971b0a91e7bdd63fbac3d191"
+        },
+        {
+          "bytes": 27567,
+          "file": "figures/21-index-loading-storage.svg",
+          "sha256": "6612ddd9b72b4ed4f9370f8027e7cf23bc423cb8cca8c959cde030c407f59ddd"
+        }
+      ],
+      "id": "21-index-loading-storage",
+      "purpose": "Model load, index operation and storage with missing reload explicit",
+      "scope": "Bound private preparation receipt, numeric allowlist only; no host paths. These costs are outside warm query timing.",
+      "source_tables": [
+        "preprocessing"
+      ]
+    },
+    {
+      "computational_data_sha256": "71e12790940e8006f7bc3a9dae1d64476e3125699e87d82c0ce7a1efd261ce2c",
+      "exports": [
+        {
+          "bytes": 136211,
+          "file": "figures/22-classifier-structure.png",
+          "sha256": "fbb6a0bfd28651109f028e70ab2d51c74e2bb5ef68766716f2ac40b10067caad"
+        },
+        {
+          "bytes": 21004,
+          "file": "figures/22-classifier-structure.svg",
+          "sha256": "b52c8a0393613c816a875221fbb73dc597251ff82c3b016a0e7c72a88993bddc"
+        }
+      ],
+      "id": "22-classifier-structure",
+      "purpose": "Frozen depth-three development-only relevance rules",
+      "scope": "DEVELOPMENT TRAINING STRUCTURE: balanced relevance labels; score is uncalibrated and does not detect factual authority.",
+      "source_tables": [
+        "classifier"
+      ]
+    },
+    {
+      "computational_data_sha256": "2a7942d3f761ed3d411905ab8eb5be85b72c2942b343ec5c164ba301a8276eac",
+      "exports": [
+        {
+          "bytes": 110832,
+          "file": "figures/23-invalidation-tradeoffs.png",
+          "sha256": "7140d230ded6c247e710e061ba296a4d289d4714e99b3d9fec19922da77c1aed"
+        },
+        {
+          "bytes": 35764,
+          "file": "figures/23-invalidation-tradeoffs.svg",
+          "sha256": "5cd8ce0d7c1ee0893cb0289c7a1e5eeb1df9909a2ad1c3a2ac0d168ec8d0bd6f"
+        }
+      ],
+      "id": "23-invalidation-tradeoffs",
+      "purpose": "Mechanical invalidation with complete and incomplete ledgers",
+      "scope": "ENGINEERED REPLAY: zero stale reuse here is not LLM-validated semantic maintenance; true dependencies are prescribed by the fixture.",
+      "source_tables": [
+        "maintenance"
+      ]
+    },
+    {
+      "computational_data_sha256": "028f9d24d86599d73497d31a271e1f6d94c79d6bdb966b7a359f0b9ee04bbbb4",
+      "exports": [
+        {
+          "bytes": 99457,
+          "file": "figures/24-ledger-truth-boundary.png",
+          "sha256": "edec30f8cd80c0b0e1d9e1f3eefc15b6d5f205a40019fc73fc52d07e783d88d8"
+        },
+        {
+          "bytes": 4346,
+          "file": "figures/24-ledger-truth-boundary.svg",
+          "sha256": "ae42f127c55e8c4a50755fa3482d32c4bfa0c2e5bb68fb5e3e1f274e3ff0e712"
+        }
+      ],
+      "id": "24-ledger-truth-boundary",
+      "purpose": "Fixity/dependency ledgers cannot certify semantic correctness",
+      "scope": "ENGINEERED COUNTEREXAMPLE from maintenance_lab.py; no LLM truth evaluator or general semantic correctness guarantee.",
+      "source_tables": [
+        "maintenance_checks"
+      ]
+    },
+    {
+      "computational_data_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "exports": [
+        {
+          "bytes": 68538,
+          "file": "figures/25-fictional-timeline.png",
+          "sha256": "1397bc106e7cde2cac515d07cd64242745887f07cd539832fd229548a09e57e1"
+        },
+        {
+          "bytes": 12923,
+          "file": "figures/25-fictional-timeline.svg",
+          "sha256": "655a462bc6b7f003a82ecb38772e4a59334d31a067506c0a34702df7c527d1b5"
+        }
+      ],
+      "id": "25-fictional-timeline",
+      "purpose": "Explanatory source chronology and applicability",
+      "scope": "EXPLANATORY FICTIONAL EXAMPLE: the newly authored future rule does not govern the earlier query date.",
+      "source_tables": []
+    },
+    {
+      "computational_data_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "exports": [
+        {
+          "bytes": 86955,
+          "file": "figures/26-fictional-dependency-graph.png",
+          "sha256": "90d7421c9b931010b1bf2f8fee9fd41587b30619e290d532246a2784c5880054"
+        },
+        {
+          "bytes": 7874,
+          "file": "figures/26-fictional-dependency-graph.svg",
+          "sha256": "ad3cff8ae0a6d768d4d33c0a033971f568ae71a6038d6abdf99f409a71cc537e"
+        }
+      ],
+      "id": "26-fictional-dependency-graph",
+      "purpose": "Prescribed transitive dependency mechanism and incomplete-ledger limit",
+      "scope": "EXPLANATORY FICTIONAL GRAPH from the maintenance fixture; edges are prescribed, not learned or automatically recovered.",
+      "source_tables": []
+    }
+  ],
+  "generated_utc": "2026-10-15T00:33:15+00:00",
+  "schema_version": 1
+}

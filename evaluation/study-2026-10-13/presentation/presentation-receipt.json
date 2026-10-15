@@ -1,0 +1,101 @@
+{
+  "analysis_sha256": "4602743218ea56d28c83d1307c9b1e3a6c36118f695018c14dbc0b0badfa10d6",
+  "exports": {
+    "23-invalidation-tradeoffs-readable.png": {
+      "bytes": 172348,
+      "sha256": "b6b19fd80dc41a9a19552ca4c43775134f378ce148c68e892a163551566735c8"
+    },
+    "23-invalidation-tradeoffs-readable.svg": {
+      "bytes": 40676,
+      "sha256": "3fc7838888048cde852da6eaf4a851cc7e6438ab21c13d42a3a0300582ed7c71"
+    }
+  },
+  "frozen_registry_sha256": "016d73ee963a6254e7315de5e6225203e2051cc206324c519769bc8b017c8391",
+  "maintenance_table": [
+    {
+      "events": 1280,
+      "missing_declared_edge": false,
+      "policy": "no_invalidation",
+      "rebuilds": 0,
+      "stale_reuses": 1197,
+      "unnecessary_rebuild_queries": 0
+    },
+    {
+      "events": 1280,
+      "missing_declared_edge": true,
+      "policy": "no_invalidation",
+      "rebuilds": 0,
+      "stale_reuses": 1197,
+      "unnecessary_rebuild_queries": 0
+    },
+    {
+      "events": 1280,
+      "missing_declared_edge": false,
+      "policy": "ttl_5",
+      "rebuilds": 512,
+      "stale_reuses": 751,
+      "unnecessary_rebuild_queries": 256
+    },
+    {
+      "events": 1280,
+      "missing_declared_edge": true,
+      "policy": "ttl_5",
+      "rebuilds": 512,
+      "stale_reuses": 751,
+      "unnecessary_rebuild_queries": 256
+    },
+    {
+      "events": 1280,
+      "missing_declared_edge": false,
+      "policy": "global",
+      "rebuilds": 2048,
+      "stale_reuses": 0,
+      "unnecessary_rebuild_queries": 540
+    },
+    {
+      "events": 1280,
+      "missing_declared_edge": true,
+      "policy": "global",
+      "rebuilds": 2048,
+      "stale_reuses": 0,
+      "unnecessary_rebuild_queries": 540
+    },
+    {
+      "events": 1280,
+      "missing_declared_edge": false,
+      "policy": "direct_dependencies",
+      "rebuilds": 0,
+      "stale_reuses": 1197,
+      "unnecessary_rebuild_queries": 0
+    },
+    {
+      "events": 1280,
+      "missing_declared_edge": true,
+      "policy": "direct_dependencies",
+      "rebuilds": 0,
+      "stale_reuses": 1197,
+      "unnecessary_rebuild_queries": 0
+    },
+    {
+      "events": 1280,
+      "missing_declared_edge": false,
+      "policy": "transitive_dependencies",
+      "rebuilds": 968,
+      "stale_reuses": 0,
+      "unnecessary_rebuild_queries": 0
+    },
+    {
+      "events": 1280,
+      "missing_declared_edge": true,
+      "policy": "transitive_dependencies",
+      "rebuilds": 458,
+      "stale_reuses": 604,
+      "unnecessary_rebuild_queries": 0
+    }
+  ],
+  "original_52_exports_unchanged": true,
+  "reason": "Frozen figure23 has coincident policy labels. Separate rows display the same ten table entries.",
+  "scoring_or_statistics_reexecuted": false,
+  "source_sha256": "3f1305c7ba07236a347435712a93b887319a2e80e813f07fd204f183b01bc93b",
+  "state": "presentation_derivative_requires_visual_review"
+}

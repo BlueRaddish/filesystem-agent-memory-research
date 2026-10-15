@@ -1,0 +1,23 @@
+{
+  "accepted_raw_audit_sha256": "474cad80ed8f3286f11555fc945516735f6a7cec406bf13bc6112e98f0d9ee72",
+  "analysis_child_exit_code": 0,
+  "analysis_invocations_after_review": 1,
+  "analysis_sha256": "4602743218ea56d28c83d1307c9b1e3a6c36118f695018c14dbc0b0badfa10d6",
+  "finished_utc": "2026-10-15T00:33:16.353703+00:00",
+  "frozen_scoring_and_statistics_changed": false,
+  "generated_utc": "2026-10-15T02:42:08.193862+00:00",
+  "input_postfixity_all_passed": true,
+  "limit": "Safe execution projection; private commands, native logs, account data and host paths are deliberately withheld.",
+  "main_freeze_sha256": "fda01f88f50dbb6e66a312ca9ab775c8603643ebe8b7f74b596a7250bc39524c",
+  "model_calls": 0,
+  "original_failed_receipt_sha256": "ae0eec80725e8fe6ffc189bd24992501205560dd3d1e5cde6fa03ff0ff77b1b9",
+  "private_launcher_receipt_sha256": "fbc8634d7edda2fd61c42de21b3b59a1c3711260e2fa13e46ef9bad6ab0af0de",
+  "private_wrapper_receipt_sha256": "d6747082978a52afc96b06b53524d27d6b72d77b2727f4d9606e5b7c7247907d",
+  "readability_presentation_pairs": 1,
+  "registry_sha256": "016d73ee963a6254e7315de5e6225203e2051cc206324c519769bc8b017c8391",
+  "retained_original_figures": 26,
+  "schema_version": 1,
+  "started_utc": "2026-10-15T00:31:28.868350+00:00",
+  "state": "completed_explicit_compatibility_analysis",
+  "wrapper_sha256": "9cab6cb9f3a55a68db2015855005d24de51c80ab8d85e25f7abbf003f6b3ad12"
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="936pt" height="432pt" viewBox="0 0 936 432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Prescribed transitive dependency mechanism and incomplete-ledger limit</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Prescribed transitive dependency mechanism and incomplete-ledger limit</dc:title>
+    <dc:date>2026-10-15T00:32:52+00:00</dc:date>
+    <dc:description>EXPLANATORY FICTIONAL GRAPH from the maintenance fixture; edges are prescribed, not learned or automatically recovered.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 432 
+L 936 432 
+L 936 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <g id="patch_2">
+     <path d="M 98.686406 177.476953 
+L 154.753594 177.476953 
+Q 163.753594 177.476953 163.753594 168.476953 
+L 163.753594 137.163047 
+Q 163.753594 128.163047 154.753594 128.163047 
+L 98.686406 128.163047 
+Q 89.686406 128.163047 89.686406 137.163047 
+L 89.686406 168.476953 
+Q 89.686406 177.476953 98.686406 177.476953 
+z
+" style="fill: #ffffff; stroke: #24648c; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(117.186797 148.560703)">S1</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(98.686406 165.357422)">original</text>
+   </g>
+   <g id="text_2">
+    <g id="patch_3">
+     <path d="M 98.686406 336.236953 
+L 154.753594 336.236953 
+Q 163.753594 336.236953 163.753594 327.236953 
+L 163.753594 295.923047 
+Q 163.753594 286.923047 154.753594 286.923047 
+L 98.686406 286.923047 
+Q 89.686406 286.923047 89.686406 295.923047 
+L 89.686406 327.236953 
+Q 89.686406 336.236953 98.686406 336.236953 
+z
+" style="fill: #ffffff; stroke: #24648c; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(117.186797 307.320703)">S2</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(98.686406 324.117422)">original</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_4">
+     <path d="M 439.641797 256.856953 
+L 496.358203 256.856953 
+Q 505.358203 256.856953 505.358203 247.856953 
+L 505.358203 216.543047 
+Q 505.358203 207.543047 496.358203 207.543047 
+L 439.641797 207.543047 
+Q 430.641797 207.543047 430.641797 216.543047 
+L 430.641797 247.856953 
+Q 430.641797 256.856953 439.641797 256.856953 
+z
+" style="fill: #ffffff; stroke: #24648c; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(458.097656 227.940703)">V1</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(439.641797 244.737422)">derived</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_5">
+     <path d="M 780.921797 256.856953 
+L 837.638203 256.856953 
+Q 846.638203 256.856953 846.638203 247.856953 
+L 846.638203 216.543047 
+Q 846.638203 207.543047 837.638203 207.543047 
+L 780.921797 207.543047 
+Q 771.921797 207.543047 771.921797 216.543047 
+L 771.921797 247.856953 
+Q 771.921797 256.856953 780.921797 256.856953 
+z
+" style="fill: #ffffff; stroke: #24648c; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(799.377656 227.940703)">V2</text>
+    <text style="font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(780.921797 244.737422)">derived</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 174.129605 153.42441 
+Q 297.359675 192.509897 418.458319 230.919349 
+" style="fill: none; stroke: #24648c; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 414.608543 227.180469 
+L 418.458319 230.919349 
+L 413.15735 231.755842 
+" style="fill: none; stroke: #24648c; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 174.129605 310.97559 
+Q 297.359675 271.890103 418.458319 233.480651 
+" style="fill: none; stroke-dasharray: 7.4,3.2; stroke-dashoffset: 0; stroke: #ba4d35; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 413.15735 232.644158 
+L 418.458319 233.480651 
+L 414.608543 237.219531 
+" style="fill: none; stroke-dasharray: 7.4,3.2; stroke-dashoffset: 0; stroke: #ba4d35; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 515.501257 232.2 
+Q 638.640393 232.2 759.54346 232.2 
+" style="fill: none; stroke: #24648c; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 754.74346 229.8 
+L 759.54346 232.2 
+L 754.74346 234.6 
+" style="fill: none; stroke: #24648c; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ba4d35" x="263.232" y="351.27" transform="rotate(-0 263.232 351.27)">Dashed edge: real requirement absent from declared ledger</text>
+   </g>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="468" y="22.317187" transform="rotate(-0 468 22.317187)">Transitive evidence dependencies and missing-edge limits</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="14.04" y="423.440313" transform="rotate(-0 14.04 423.440313)">EXPLANATORY FICTIONAL GRAPH from the maintenance fixture; edges are prescribed, not learned or automatically recovered.</text>
+  </g>
+ </g>
+</svg>

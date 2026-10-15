@@ -1,0 +1,297 @@
+{
+  "all_packers": [
+    "whole_record",
+    "ranked_body",
+    "sentence_neighbors",
+    "closure_passages",
+    "original_first",
+    "diversity_passages",
+    "coverage_bundles",
+    "authority_pairs"
+  ],
+  "bank_sha256": "280e6be3f7380ed9c0bc1dbe3ec75dfba136113f230d08751e0f316b67cf9760",
+  "base_packers": [
+    "whole_record",
+    "closure_passages"
+  ],
+  "budgets": [
+    4096,
+    8192,
+    16384
+  ],
+  "candidate_endpoint": "Source-ID candidate coverage, not source-span exposure or reader success.",
+  "counts": {
+    "packet_faults": 0,
+    "packets": 114048,
+    "ranking_faults": 0,
+    "rankings": 12096
+  },
+  "extended_rankers": [
+    "body_bm25",
+    "entity_rrf",
+    "dense_window_rrf",
+    "minilm_passages"
+  ],
+  "families": 96,
+  "freeze_sha256": "fda01f88f50dbb6e66a312ca9ab775c8603643ebe8b7f74b596a7250bc39524c",
+  "offset_unit": "Python Unicode character offsets into unchanged body, half-open",
+  "packet_hash_definition": "SHA-256 of exact wrapper/separator/source-slice packet encoded as UTF-8",
+  "queries": 288,
+  "rankers": [
+    "body_bm25",
+    "search_bm25",
+    "word_tfidf",
+    "char_tfidf",
+    "field_bm25",
+    "rrf_word_char",
+    "entity_rrf",
+    "clause_rrf",
+    "sentence_maxsim",
+    "coverage_mmr",
+    "scope_temporal",
+    "graph_diffusion",
+    "pseudo_feedback",
+    "dense_body",
+    "dense_search",
+    "dense_windows",
+    "dense_window_rrf",
+    "minilm_body",
+    "mixedbread_body",
+    "minilm_passages",
+    "shallow_tree"
+  ],
+  "ranking_hash_definition": "SHA-256 of full ID list in compact ensure_ascii=False JSON",
+  "schema_version": 1,
+  "selection_statement": "All scheduled cells retained; no winning policy selected here.",
+  "shards": [
+    {
+      "bytes": 2501084,
+      "file": "results/codec-alias-rankings-01.json",
+      "rows": 756,
+      "sha256": "831b31a41332d75fa6357297544a0682a87e023583ffb229d0614077cffd562f"
+    },
+    {
+      "bytes": 45413267,
+      "file": "results/codec-alias-packets-01.json",
+      "rows": 7128,
+      "sha256": "b7a18eb39d8d75f770a595d836e876db2b9f90b34622cf8009049db0d213c299"
+    },
+    {
+      "bytes": 2499951,
+      "file": "results/custody-chain-rankings-01.json",
+      "rows": 756,
+      "sha256": "0649446ea078c0a249391f08bfa15f4e49d8e435486ae6f852b74e656d5eaa99"
+    },
+    {
+      "bytes": 48001586,
+      "file": "results/custody-chain-packets-01.json",
+      "rows": 7128,
+      "sha256": "ebca02d5b01f0f719d6de33012d60ea711ee7105c9af7ec68de9308f86bfc0ee"
+    },
+    {
+      "bytes": 2509780,
+      "file": "results/dependency-closure-rankings-01.json",
+      "rows": 756,
+      "sha256": "0272a0d4df148a1bd1bc288120401b1ef5684b60e9afc710f30e7dec3a69761c"
+    },
+    {
+      "bytes": 46566058,
+      "file": "results/dependency-closure-packets-01.json",
+      "rows": 7128,
+      "sha256": "91d3255eaf43c32e5969c40ceed979fcc838b87eaa1222af12243367bc357828"
+    },
+    {
+      "bytes": 2498611,
+      "file": "results/full-digest-rankings-01.json",
+      "rows": 756,
+      "sha256": "bc9566b34a4ab2c4362ed64941a641fa8673f4880942b0622fcebb7e2595a927"
+    },
+    {
+      "bytes": 45905025,
+      "file": "results/full-digest-packets-01.json",
+      "rows": 7128,
+      "sha256": "df6494f98f432b6102bea1fd399aa4fd0d2de4ee294d05470754acf2041cb6d9"
+    },
+    {
+      "bytes": 2499638,
+      "file": "results/map-page-chain-rankings-01.json",
+      "rows": 756,
+      "sha256": "7da1a7caa0bb169b5365a0363f47cb3421e4ebba8af6bea9f2307f887e22c256"
+    },
+    {
+      "bytes": 47482023,
+      "file": "results/map-page-chain-packets-01.json",
+      "rows": 7128,
+      "sha256": "63cac43d7a47d85eeaf2d97a38d41d356897b86d7d31ae14eabb62dedfc4a1fc"
+    },
+    {
+      "bytes": 2504836,
+      "file": "results/metric-denominator-rankings-01.json",
+      "rows": 756,
+      "sha256": "42f001836053df2d1d6bf642a03ab7e33b700d6e948d8c9791773099b1176b0c"
+    },
+    {
+      "bytes": 47136879,
+      "file": "results/metric-denominator-packets-01.json",
+      "rows": 7128,
+      "sha256": "c2366baec0be9f5a236d3443b30f1b57586e5c7a8fedc7f1cb17673e213c8418"
+    },
+    {
+      "bytes": 2504114,
+      "file": "results/procedure-order-rankings-01.json",
+      "rows": 756,
+      "sha256": "d9ad7c4b4fba29a2b3afed13306b095d88cc7efaeb7737080916a7a9f31a4d82"
+    },
+    {
+      "bytes": 47530509,
+      "file": "results/procedure-order-packets-01.json",
+      "rows": 7128,
+      "sha256": "10a33ef77ee949934baec3ee8c2636628d1df8ef51d28092742b4c994a2a9398"
+    },
+    {
+      "bytes": 2506177,
+      "file": "results/purchase-authority-rankings-01.json",
+      "rows": 756,
+      "sha256": "c3981c19073e5c118e0bde177b5e4d425d9fc700c04d3c3f5ecfdf72164ed8ac"
+    },
+    {
+      "bytes": 45191323,
+      "file": "results/purchase-authority-packets-01.json",
+      "rows": 7128,
+      "sha256": "71cfd5d613dc121f76bec894b2bed9437d7ef7371ccf7e033dafa4f958d94c15"
+    },
+    {
+      "bytes": 2499549,
+      "file": "results/queue-limits-rankings-01.json",
+      "rows": 756,
+      "sha256": "130e6b744382beef9eec9e6c73a0dc406eb5ff681ff6a0a51c3e74b79bdfcd97"
+    },
+    {
+      "bytes": 45309547,
+      "file": "results/queue-limits-packets-01.json",
+      "rows": 7128,
+      "sha256": "5e75e8488f8d00a4e68793cc5da3608be1b1586aabe8bc107d1f7204b6fe522f"
+    },
+    {
+      "bytes": 2498284,
+      "file": "results/release-gates-rankings-01.json",
+      "rows": 756,
+      "sha256": "d78e9cd6a479a7f8830cbd5ea1d39427a792ec1a7ed2111ba044db7bc4875da8"
+    },
+    {
+      "bytes": 47427736,
+      "file": "results/release-gates-packets-01.json",
+      "rows": 7128,
+      "sha256": "9b6f61a22ef0c699db45e71aa03e7e31ffa84d03052a00e7bd84b89aa70a8c46"
+    },
+    {
+      "bytes": 2505167,
+      "file": "results/release-rights-rankings-01.json",
+      "rows": 756,
+      "sha256": "1f8569c27dde5b2dfbebb0800468998d3d94b315c826d77d8c51cf3cf076a1b0"
+    },
+    {
+      "bytes": 45364151,
+      "file": "results/release-rights-packets-01.json",
+      "rows": 7128,
+      "sha256": "dc9a764aed678a747b25a0752c7b1034a8e2859f5934fbfb0334a9321b90aaf8"
+    },
+    {
+      "bytes": 2506673,
+      "file": "results/retention-intervals-rankings-01.json",
+      "rows": 756,
+      "sha256": "208c6ba5a8b618477903295227f886600cb56b9d100ca102c0404a62a21cc57d"
+    },
+    {
+      "bytes": 45089172,
+      "file": "results/retention-intervals-packets-01.json",
+      "rows": 7128,
+      "sha256": "ba94f583527ea39aae850e625c587fe051d6da446c57817bf3f90edc340149e0"
+    },
+    {
+      "bytes": 2506161,
+      "file": "results/rollback-window-rankings-01.json",
+      "rows": 756,
+      "sha256": "37cfa8bde9094d42fec19516102ab9e7f845f94f4f1eb301f9aabb25278bdc68"
+    },
+    {
+      "bytes": 46622301,
+      "file": "results/rollback-window-packets-01.json",
+      "rows": 7128,
+      "sha256": "1574ecf993baa5a15a420482775eb824f9089d57006c313457b357fe2000fffa"
+    },
+    {
+      "bytes": 2507909,
+      "file": "results/room-arbitration-rankings-01.json",
+      "rows": 756,
+      "sha256": "4aa7fb23d5aee69811d8e54dcfc4108253970480fb58c236ad293cc968d1d779"
+    },
+    {
+      "bytes": 45104499,
+      "file": "results/room-arbitration-packets-01.json",
+      "rows": 7128,
+      "sha256": "364b931b3473d0a7421b7964f2bc8899fef9037dbe7cbcac25d7fc44a1e8300a"
+    },
+    {
+      "bytes": 2501004,
+      "file": "results/service-alias-rankings-01.json",
+      "rows": 756,
+      "sha256": "085a39f9d41df6858cc44e62d3bd0071a13180dc53b75c902bc4ab30475d9f59"
+    },
+    {
+      "bytes": 46468436,
+      "file": "results/service-alias-packets-01.json",
+      "rows": 7128,
+      "sha256": "0af087c76453d9139098738a25c5a6eee4f3d5a366623eab137da090a4fdb713"
+    },
+    {
+      "bytes": 2509827,
+      "file": "results/stock-reconciliation-rankings-01.json",
+      "rows": 756,
+      "sha256": "845424db9db0979dc1c3bf99de3418dc5bc6a8c47650b21c79c8887028317a22"
+    },
+    {
+      "bytes": 46076952,
+      "file": "results/stock-reconciliation-packets-01.json",
+      "rows": 7128,
+      "sha256": "dc12d0bdaf61c30caec31ec5ad1aaa2f7830c0b066aafb5754f3c15c7dacb0ea"
+    }
+  ],
+  "sizes": [
+    144,
+    "all"
+  ],
+  "source_hash_definition": "SHA-256 of unchanged body encoded as UTF-8",
+  "source_text_omitted": "Intervals/hash point to unchanged bank bodies; packet reconstruction is deterministic.",
+  "state": "complete_grid_collection",
+  "workers": [
+    {
+      "counts": {
+        "executed_queries": 210,
+        "packets": 114048,
+        "rankings": 12096,
+        "reused_queries": 366
+      },
+      "receipt_sha256": "d25d128fa63ca8a705235ea7164a1cb13210de8eae31676a99f8b43807cdaa87",
+      "templates": [
+        "codec-alias",
+        "custody-chain",
+        "dependency-closure",
+        "full-digest",
+        "map-page-chain",
+        "metric-denominator",
+        "procedure-order",
+        "purchase-authority",
+        "queue-limits",
+        "release-gates",
+        "release-rights",
+        "retention-intervals",
+        "rollback-window",
+        "room-arbitration",
+        "service-alias",
+        "stock-reconciliation"
+      ],
+      "worker": 0
+    }
+  ]
+}
