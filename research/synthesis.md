@@ -1,5 +1,7 @@
 # Synthesis: organize for recoverable decisions and successful continuation
 
+> Scope update — 2026-10-15: This synthesis preserves the original research agenda and its historical repository-status statements. Executed evidence now also appears in the [October 9 pilot](../evaluation/study-2026-10-09/REPORT.md), [October 13 primary study](../evaluation/study-2026-10-13/REPORT.md), and [October 15 mechanism sprint](../evaluation/sprint-2026-10-15/README.md). The sprint separates [context exposure](../evaluation/sprint-2026-10-15/packing/REPORT.md), [engineered state and proof](../evaluation/sprint-2026-10-15/state/REPORT.md), and [bounded onboarding checks](../evaluation/sprint-2026-10-15/onboarding/REPORT.md). Read those dated reports for current results and limitations; the closing paragraph below describes the earlier synthesis stage.
+
 ## The research question
 
 The useful question is whether a new agent can discover and apply the important context needed for its next action. A filing system helps only to the extent that it improves this outcome. Human readability, maintenance effort, storage integrity, and retrieval cost matter, but none alone establishes accurate memory.

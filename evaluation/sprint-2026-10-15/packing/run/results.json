@@ -1,0 +1,3354 @@
+{
+  "cells": [
+    {
+      "budget": 4096,
+      "gains_vs_two_windows": 104,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 3990.421296296296,
+      "mean_source_bytes": 3273.837962962963,
+      "mean_unused_bytes": 105.57870370370371,
+      "mean_wrapper_separator_bytes": 716.5833333333334,
+      "method": "radius3",
+      "n": 216,
+      "original_id_complete": 214,
+      "ranker": "body_bm25",
+      "span_complete": 163,
+      "whole_complete": 144
+    },
+    {
+      "budget": 8192,
+      "gains_vs_two_windows": 104,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 8071.99537037037,
+      "mean_source_bytes": 6679.708333333333,
+      "mean_unused_bytes": 120.00462962962963,
+      "mean_wrapper_separator_bytes": 1392.287037037037,
+      "method": "radius3",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "body_bm25",
+      "span_complete": 164,
+      "whole_complete": 144
+    },
+    {
+      "budget": 16384,
+      "gains_vs_two_windows": 104,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 15349.564814814816,
+      "mean_source_bytes": 12845.689814814816,
+      "mean_unused_bytes": 1034.4351851851852,
+      "mean_wrapper_separator_bytes": 2503.875,
+      "method": "radius3",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "body_bm25",
+      "span_complete": 164,
+      "whole_complete": 144
+    },
+    {
+      "budget": 4096,
+      "gains_vs_two_windows": 151,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 3966.462962962963,
+      "mean_source_bytes": 3356.537037037037,
+      "mean_unused_bytes": 129.53703703703704,
+      "mean_wrapper_separator_bytes": 609.925925925926,
+      "method": "radius8",
+      "n": 216,
+      "original_id_complete": 211,
+      "ranker": "body_bm25",
+      "span_complete": 210,
+      "whole_complete": 188
+    },
+    {
+      "budget": 8192,
+      "gains_vs_two_windows": 155,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 8043.574074074074,
+      "mean_source_bytes": 6858.4212962962965,
+      "mean_unused_bytes": 148.42592592592592,
+      "mean_wrapper_separator_bytes": 1185.1527777777778,
+      "method": "radius8",
+      "n": 216,
+      "original_id_complete": 215,
+      "ranker": "body_bm25",
+      "span_complete": 215,
+      "whole_complete": 191
+    },
+    {
+      "budget": 16384,
+      "gains_vs_two_windows": 156,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 15880.398148148148,
+      "mean_source_bytes": 13675.62037037037,
+      "mean_unused_bytes": 503.60185185185185,
+      "mean_wrapper_separator_bytes": 2204.777777777778,
+      "method": "radius8",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "body_bm25",
+      "span_complete": 216,
+      "whole_complete": 192
+    },
+    {
+      "budget": 4096,
+      "gains_vs_two_windows": 3,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 4046.199074074074,
+      "mean_source_bytes": 3102.412037037037,
+      "mean_unused_bytes": 49.800925925925924,
+      "mean_wrapper_separator_bytes": 943.7870370370371,
+      "method": "residual_gaps",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "body_bm25",
+      "span_complete": 62,
+      "whole_complete": 53
+    },
+    {
+      "budget": 8192,
+      "gains_vs_two_windows": 8,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 8144.662037037037,
+      "mean_source_bytes": 6306.027777777777,
+      "mean_unused_bytes": 47.33796296296296,
+      "mean_wrapper_separator_bytes": 1838.6342592592594,
+      "method": "residual_gaps",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "body_bm25",
+      "span_complete": 68,
+      "whole_complete": 53
+    },
+    {
+      "budget": 16384,
+      "gains_vs_two_windows": 127,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 16277.310185185184,
+      "mean_source_bytes": 12493.921296296296,
+      "mean_unused_bytes": 106.68981481481481,
+      "mean_wrapper_separator_bytes": 3783.3888888888887,
+      "method": "residual_gaps",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "body_bm25",
+      "span_complete": 187,
+      "whole_complete": 53
+    },
+    {
+      "budget": 4096,
+      "gains_vs_two_windows": 0,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 4030.7453703703704,
+      "mean_source_bytes": 3095.5694444444443,
+      "mean_unused_bytes": 65.25462962962963,
+      "mean_wrapper_separator_bytes": 935.175925925926,
+      "method": "two_windows",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "body_bm25",
+      "span_complete": 59,
+      "whole_complete": 53
+    },
+    {
+      "budget": 8192,
+      "gains_vs_two_windows": 0,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 8121.476851851852,
+      "mean_source_bytes": 6295.574074074074,
+      "mean_unused_bytes": 70.52314814814815,
+      "mean_wrapper_separator_bytes": 1825.9027777777778,
+      "method": "two_windows",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "body_bm25",
+      "span_complete": 60,
+      "whole_complete": 53
+    },
+    {
+      "budget": 16384,
+      "gains_vs_two_windows": 0,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 13348.319444444445,
+      "mean_source_bytes": 10261.162037037036,
+      "mean_unused_bytes": 3035.6805555555557,
+      "mean_wrapper_separator_bytes": 3087.1574074074074,
+      "method": "two_windows",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "body_bm25",
+      "span_complete": 60,
+      "whole_complete": 53
+    },
+    {
+      "budget": 4096,
+      "gains_vs_two_windows": 144,
+      "losses_vs_two_windows": 2,
+      "mean_bytes": 3966.2916666666665,
+      "mean_source_bytes": 3391.3981481481483,
+      "mean_unused_bytes": 129.70833333333334,
+      "mean_wrapper_separator_bytes": 574.8935185185185,
+      "method": "whole_body",
+      "n": 216,
+      "original_id_complete": 201,
+      "ranker": "body_bm25",
+      "span_complete": 201,
+      "whole_complete": 201
+    },
+    {
+      "budget": 8192,
+      "gains_vs_two_windows": 155,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 8052.837962962963,
+      "mean_source_bytes": 7068.902777777777,
+      "mean_unused_bytes": 139.16203703703704,
+      "mean_wrapper_separator_bytes": 983.9351851851852,
+      "method": "whole_body",
+      "n": 216,
+      "original_id_complete": 215,
+      "ranker": "body_bm25",
+      "span_complete": 215,
+      "whole_complete": 215
+    },
+    {
+      "budget": 16384,
+      "gains_vs_two_windows": 156,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 16045.976851851852,
+      "mean_source_bytes": 14226.74537037037,
+      "mean_unused_bytes": 338.02314814814815,
+      "mean_wrapper_separator_bytes": 1819.2314814814815,
+      "method": "whole_body",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "body_bm25",
+      "span_complete": 216,
+      "whole_complete": 216
+    },
+    {
+      "budget": 4096,
+      "gains_vs_two_windows": 104,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 3995.6574074074074,
+      "mean_source_bytes": 3268.1203703703704,
+      "mean_unused_bytes": 100.3425925925926,
+      "mean_wrapper_separator_bytes": 727.5370370370371,
+      "method": "radius3",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 163,
+      "whole_complete": 143
+    },
+    {
+      "budget": 8192,
+      "gains_vs_two_windows": 104,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 8063.611111111111,
+      "mean_source_bytes": 6621.148148148148,
+      "mean_unused_bytes": 128.38888888888889,
+      "mean_wrapper_separator_bytes": 1442.462962962963,
+      "method": "radius3",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 164,
+      "whole_complete": 144
+    },
+    {
+      "budget": 16384,
+      "gains_vs_two_windows": 104,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 15236.055555555555,
+      "mean_source_bytes": 12718.222222222223,
+      "mean_unused_bytes": 1147.9444444444443,
+      "mean_wrapper_separator_bytes": 2517.8333333333335,
+      "method": "radius3",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 164,
+      "whole_complete": 144
+    },
+    {
+      "budget": 4096,
+      "gains_vs_two_windows": 156,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 3949.625,
+      "mean_source_bytes": 3329.712962962963,
+      "mean_unused_bytes": 146.375,
+      "mean_wrapper_separator_bytes": 619.9120370370371,
+      "method": "radius8",
+      "n": 216,
+      "original_id_complete": 215,
+      "ranker": "entity_rrf",
+      "span_complete": 215,
+      "whole_complete": 191
+    },
+    {
+      "budget": 8192,
+      "gains_vs_two_windows": 156,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 8060.138888888889,
+      "mean_source_bytes": 6810.027777777777,
+      "mean_unused_bytes": 131.86111111111111,
+      "mean_wrapper_separator_bytes": 1250.111111111111,
+      "method": "radius8",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 216,
+      "whole_complete": 192
+    },
+    {
+      "budget": 16384,
+      "gains_vs_two_windows": 156,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 15809.791666666666,
+      "mean_source_bytes": 13600.074074074075,
+      "mean_unused_bytes": 574.2083333333334,
+      "mean_wrapper_separator_bytes": 2209.7175925925926,
+      "method": "radius8",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 216,
+      "whole_complete": 192
+    },
+    {
+      "budget": 4096,
+      "gains_vs_two_windows": 2,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 4045.199074074074,
+      "mean_source_bytes": 3079.625,
+      "mean_unused_bytes": 50.800925925925924,
+      "mean_wrapper_separator_bytes": 965.574074074074,
+      "method": "residual_gaps",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 61,
+      "whole_complete": 53
+    },
+    {
+      "budget": 8192,
+      "gains_vs_two_windows": 6,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 8145.111111111111,
+      "mean_source_bytes": 6268.712962962963,
+      "mean_unused_bytes": 46.888888888888886,
+      "mean_wrapper_separator_bytes": 1876.398148148148,
+      "method": "residual_gaps",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 66,
+      "whole_complete": 53
+    },
+    {
+      "budget": 16384,
+      "gains_vs_two_windows": 146,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 16269.925925925925,
+      "mean_source_bytes": 12445.833333333334,
+      "mean_unused_bytes": 114.07407407407408,
+      "mean_wrapper_separator_bytes": 3824.0925925925926,
+      "method": "residual_gaps",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 206,
+      "whole_complete": 53
+    },
+    {
+      "budget": 4096,
+      "gains_vs_two_windows": 0,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 4028.087962962963,
+      "mean_source_bytes": 3072.837962962963,
+      "mean_unused_bytes": 67.91203703703704,
+      "mean_wrapper_separator_bytes": 955.25,
+      "method": "two_windows",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 59,
+      "whole_complete": 53
+    },
+    {
+      "budget": 8192,
+      "gains_vs_two_windows": 0,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 8114.162037037037,
+      "mean_source_bytes": 6253.99537037037,
+      "mean_unused_bytes": 77.83796296296296,
+      "mean_wrapper_separator_bytes": 1860.1666666666667,
+      "method": "two_windows",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 60,
+      "whole_complete": 53
+    },
+    {
+      "budget": 16384,
+      "gains_vs_two_windows": 0,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 12772.819444444445,
+      "mean_source_bytes": 9797.486111111111,
+      "mean_unused_bytes": 3611.1805555555557,
+      "mean_wrapper_separator_bytes": 2975.3333333333335,
+      "method": "two_windows",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 60,
+      "whole_complete": 53
+    },
+    {
+      "budget": 4096,
+      "gains_vs_two_windows": 143,
+      "losses_vs_two_windows": 5,
+      "mean_bytes": 3954.962962962963,
+      "mean_source_bytes": 3366.847222222222,
+      "mean_unused_bytes": 141.03703703703704,
+      "mean_wrapper_separator_bytes": 588.1157407407408,
+      "method": "whole_body",
+      "n": 216,
+      "original_id_complete": 197,
+      "ranker": "entity_rrf",
+      "span_complete": 197,
+      "whole_complete": 197
+    },
+    {
+      "budget": 8192,
+      "gains_vs_two_windows": 156,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 8063.027777777777,
+      "mean_source_bytes": 6995.824074074074,
+      "mean_unused_bytes": 128.97222222222223,
+      "mean_wrapper_separator_bytes": 1067.2037037037037,
+      "method": "whole_body",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 216,
+      "whole_complete": 216
+    },
+    {
+      "budget": 16384,
+      "gains_vs_two_windows": 156,
+      "losses_vs_two_windows": 0,
+      "mean_bytes": 16005.097222222223,
+      "mean_source_bytes": 14142.958333333334,
+      "mean_unused_bytes": 378.90277777777777,
+      "mean_wrapper_separator_bytes": 1862.138888888889,
+      "method": "whole_body",
+      "n": 216,
+      "original_id_complete": 216,
+      "ranker": "entity_rrf",
+      "span_complete": 216,
+      "whole_complete": 216
+    }
+  ],
+  "completed_utc": "2026-10-15T06:15:07.220754+00:00",
+  "counts": {
+    "failures": 0,
+    "histories": 72,
+    "packets": 6480,
+    "queries": 216,
+    "template_groups": 12
+  },
+  "dependence": "Repeated packets over the same 216 queries, 72 histories and 12 related templates.",
+  "elapsed_seconds": 81.37652920000255,
+  "endpoint": "Containment of any complete authored sufficient-span alternative; not answer accuracy.",
+  "packets_closed_before_evaluation_utc": "2026-10-15T06:15:04.376193+00:00",
+  "packets_sha256": "e6bda2766a7d944738f85658003a0e37aa8fc3bff4e37bddb16fadf813520d54",
+  "ranking_inputs_sha256": "03f0eacbe3cb8ab9e83b6169a23f906c9ae145618157f7503a77b3370220d913",
+  "scored_sha256": "2f5e64e61d73f1f1fdf1b22efc2a5d33daaac53ce898c65434b453b58637409b",
+  "seal_sha256": "3205376794d040271ebb0818a25e39c98e76c0989d8cb925d5e2f356dbec6d22",
+  "started_utc": "2026-10-15T06:13:45.843848+00:00",
+  "state": "COMPLETED_EXPLORATORY_CENSUS",
+  "template_cells": [
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 13,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 14,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 13,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 13,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 13,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 13,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 12,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 13,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 14,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 17,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 17,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 17,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 9,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 14,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 1,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 7,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 1,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 9,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 3,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 2,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 7,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 1,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 7,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 16,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 16,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 13,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 14,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 13,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 16,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 16,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 17,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 9,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 14,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 9,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 9,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 0,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 6,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 17,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 16,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 15,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 17,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 16,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 17,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 16,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 16,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 17,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 17,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "body_bm25",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 13,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 14,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 4096,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 13,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 13,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 8192,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 13,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 13,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 12,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 16384,
+      "method": "radius3",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 13,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 17,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 4096,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 8192,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 16384,
+      "method": "radius8",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 9,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 14,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 7,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 1,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 4096,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 9,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 1,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 8,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 8,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 7,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 8192,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 17,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 16,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 16,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 16,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 16384,
+      "method": "residual_gaps",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 9,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 14,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 4096,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 9,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 8192,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 9,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 0,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 16384,
+      "method": "two_windows",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 6,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 17,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 16,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 17,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 16,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 16,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 17,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 16,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 15,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 16,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 4096,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 8192,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "codec-alias"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "custody-chain"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "full-digest"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "metric-denominator"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "procedure-order"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "purchase-authority"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "release-gates"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "release-rights"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "retention-intervals"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "rollback-window"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "room-arbitration"
+    },
+    {
+      "budget": 16384,
+      "method": "whole_body",
+      "n": 18,
+      "ranker": "entity_rrf",
+      "span_complete": 18,
+      "template_family": "stock-reconciliation"
+    }
+  ]
+}

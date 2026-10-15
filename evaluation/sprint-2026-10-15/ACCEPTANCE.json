@@ -1,0 +1,32 @@
+{
+  "state": "RESEARCH_AND_VISUAL_REVIEW_ACCEPTED",
+  "accepted_parent": "30d6d8daced45a675fbd76ce1c40426e59e3b0a0",
+  "packing": {
+    "packets": 6480,
+    "queries": 216,
+    "histories": 72,
+    "related_templates": 12,
+    "review": "verification/packing-review.json",
+    "presentation_review": "verification/packing-presentation-review.json"
+  },
+  "onboarding": {
+    "initial_commands": 17,
+    "additional_recount": 1,
+    "known_nested_symlink_skip": 1,
+    "broad_scan_executed": false
+  },
+  "visuals": {
+    "pngs_individually_reviewed_by_root": 6,
+    "svg_pairs": 6,
+    "presentation_fix": "Packing legends moved outside axes; source data and scientific outcomes unchanged."
+  },
+  "frozen_experiment_inputs_changed": false,
+  "byte_preservation": "A scoped .gitattributes rule preserves exact new sprint bytes including recorded Windows newlines.",
+  "limits": [
+    "No new LLM reader trial on sprint packets",
+    "No natural-vault validation",
+    "No independent human semantic adjudication",
+    "No learned decision controller executed",
+    "Independent review means separate agent and implementations, not independent populations"
+  ]
+}

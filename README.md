@@ -14,6 +14,10 @@ This project is a public, source-grounded research review of agent memory, retri
 
 | Document | Purpose |
 | --- | --- |
+| [October 15 mechanism sprint](evaluation/sprint-2026-10-15/README.md) | Context-width comparison, engineered state/proof controls, six scientific figure pairs and bounded fresh-context checks; no new reader study |
+| [Context expansion report](evaluation/sprint-2026-10-15/packing/REPORT.md) | 6,480 packets over 216 existing queries; rendered-byte accounting, tight-budget regressions and all-template results |
+| [State and authorization report](evaluation/sprint-2026-10-15/state/REPORT.md) | Twelve deterministic arms over 96 parameterizations of one topology; correct values, complete proof and safe-grant utility measured separately |
+| [Fresh-context onboarding check](evaluation/sprint-2026-10-15/onboarding/REPORT.md) | Seventeen initial commands, a separate semantic recount and a preservation-safe maintenance replay wrapper; explicit skips and scope |
 | [Blinded semantic supplement and four figures](evaluation/study-2026-10-13/SEMANTIC-REVIEW.md) | All 192 actual artifacts; distinct value/status, full-query, citation and frozen-score measures, with public checks |
 | [Evidence completion and retention extension](evaluation/study-2026-10-13/EVIDENCE-COMPLETION-RESEARCH.md) | Four newly reviewed preprints, pinned repository inspection, budget/cohort qualifications and four unexecuted atomic follow-ups |
 | [Main primary report and 26 figures](evaluation/study-2026-10-13/REPORT.md) | Completed grid, reader, timing and maintenance results, with all denominators and negative results |
@@ -68,6 +72,8 @@ The literature does not establish a universally best folder structure or memory 
 
 The project distinguishes evidence preservation from retrieval, retrieval from interpretation, and interpretation from action success. Its proposed improvements are hypotheses with failure cases and measurements, rather than an architecture ranking.
 
+The [October 15 mechanism sprint](evaluation/sprint-2026-10-15/README.md) tests two specific gaps. On the existing October 13 bank, widening source context while keeping saved candidate rankings, closure and rendered budgets fixed raises complete authored-span exposure at 8 KiB from 60/216 to 215/216 under body BM25 and 216/216 under entity RRF. Both radius 8 and compact whole bodies reach those counts. Whole bodies also cause two and five regressions at 4 KiB, respectively: context width and fit decisions matter together. No reader answered these new packets. In a separate twelve-arm engineered state demonstration, correct current values can coexist with incomplete proof; proof gating avoids false authorization but withholds every true grant in incomplete arms. The successful arm safely grants all 48 eligible cases. Its 96 parameterizations share one authored topology and do not establish natural-history or learned-model performance. The sprint reports evidence exposure, decisions, proof and utility separately, without treating either prototype as production-ready.
+
 The October 13 bank sharpens the distinction between selecting records and preserving their governing text. At closure passages / 8 KiB / 144 records, all 21 rankers tie at 60/216 complete-span recoveries; observed original-ID coverage is 216/216. At whole records / 8 KiB / all records, body BM25 recovers 181/216 and authored-ID/alias-assisted entity RRF 213/216; the small classifier recovers 138/216. These are scaffolded source-exposure results, not answer accuracy or a universal winner. The five direct reader arms complete 9, 9, 2, 2 and 1 of 24 tasks; oracle originals complete 11/24. Interactive discovery completes 46/48 but only 9/48 clean protocol completions, in a separate block that cannot be causally compared with direct reading. Full counts, related-template uncertainty and implementation limits are in the main report.
 
 In the October 11 expanded bank, dependency expansion has the most consistently positive atomic recovery effect. At 144 documents and 8,192 bytes, MiniLM plus expansion/version gating without added headers (`011`) recovers 69/72 authored evidence bundles; all switches enabled recover 61/72. This observed configuration was not separately confirmed on a new bank or in downstream reader trials. At 4,096 bytes, headers reduce the authored-bundle feasibility ceiling from 49/72 to 32/72. Learned branch routing adds computation and establishes no general speed or quality advantage. Main exact value-and-source task completion is 0, 1, 0 and 0 of 24; 21/24 fresh-discovery trials produce no artifact. These outcomes expose packing, reading and completion limits, not a universally best filing system or semantic accuracy estimate.
@@ -86,10 +92,12 @@ Python 3.10 or later; repository checks and reader/maintenance runners use the s
 python scripts/check_repository.py
 python scripts/make_fixture.py /path/to/new-empty-trial-directory
 python evaluation/study-2026-10-09/run_study.py selfcheck
-python evaluation/study-2026-10-09/replay_maintenance.py --self-check
+python scripts/check_maintenance_replay.py --self-check
 ```
 
 The first command checks catalog structure, citation mappings, local links, publication hygiene, and fixture references. It does not validate every scientific claim or prove absence of sensitive information. The second stages only the fictional agent-facing memory and task prompt for a trial; it excludes evaluator materials. Read the [protocol](evaluation/protocol.md) before using it.
+
+The maintenance wrapper copies the exact frozen pilot runner and fixture to a temporary directory, compares generated output with the retained result byte for byte, and verifies that the originals remain unchanged. Its self-check also rejects wrong expected output and a missing fixture. The older command in the pilot report and runner docstring, `python evaluation/study-2026-10-09/replay_maintenance.py --self-check`, is a generation route: it replaces `maintenance-results.json` even with that flag. Those historical files remain frozen; use the wrapper for a preservation check. The [October 15 onboarding report](evaluation/sprint-2026-10-15/onboarding/REPORT.md) records its executed checks and distinguishes a fresh research context from proven OS isolation or an independent replication.
 
 For the October 13 source and boundary checks, run these existing consuming entrypoints from the repository root. They require no model or provider calls:
 

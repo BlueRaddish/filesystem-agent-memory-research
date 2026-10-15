@@ -1,0 +1,15 @@
+{
+  "command": "python -B scripts/check_maintenance_replay.py --self-check",
+  "exit_code": 0,
+  "result": {
+    "state": "PASS_ISOLATED_FROZEN_REPLAY",
+    "original_files_unchanged": true,
+    "result_sha256": "f3e351690b02455ef0ac5cddbcaea63027a85a5eb3a28e2abdd87503c449083b",
+    "scope": "Engineered deterministic traces; no model or provider calls.",
+    "known_bad_rejections": [
+      "wrong_expected_output",
+      "missing_fixture"
+    ]
+  },
+  "wrapper_sha256": "972a464c80b4a48469a1b12bc865d974749927294fbe12e5da3ede0a5d350945"
+}

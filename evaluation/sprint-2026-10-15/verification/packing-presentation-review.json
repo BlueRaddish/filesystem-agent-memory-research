@@ -1,0 +1,29 @@
+{
+  "state": "PASS_PRESENTATION_REFRESH",
+  "numeric_reanalysis": "Not repeated; packet/source/table values unchanged from accepted review.",
+  "visual_inspection": "Reopened both updated PNGs: legends outside plotting axes, labels legible, no data obstruction. Figure3 unchanged.",
+  "files": {
+    "audit-receipt.json": "078d7f28d7447219d685201198d7e8676ae6836d61a5280806eec9bbb0d14a3f",
+    "audit.py": "72b5f0b9383ce4218735f8d4c4290967a90f9cb866eb12a29bf5077daeeee6f4",
+    "figure-manifest.json": "0994050bb97089010193c74968aec081691885778a31bc20e1d5969d29dffd73",
+    "figures/01-span-recovery.png": "fce23667b27e23af30c39ced225e52a03a20cddefcd04fb8956df6a9b327fb1e",
+    "figures/01-span-recovery.svg": "d939adb38230357a885737dc0e8011d4c6874b8b0e1490265044e8027b5c1a76",
+    "figures/02-budget-composition.png": "cddfb9e93919dbd7bccc0a470a843ab82e82ad0a46202eb787ca1d50fe0e6aea",
+    "figures/02-budget-composition.svg": "31f6bba24f4d1908c05e35e1b42af3682ebfa35fb5bb4b1039fb1593a739209a",
+    "figures/03-template-dependence.png": "2305e9c54edffaa7d5776628d5d2836c1a055b7ea10600a519f27d6486adc7b0",
+    "figures/03-template-dependence.svg": "6e673eabfa772c758aec9bb110b9ea65fb7b908a83525710f63734d871ce03a0",
+    "figures/cells.json": "322ff4f586e1b56dc657ea63b3bcaaf3332a88cb0b01eb738c8aebed16cce754",
+    "figures/templates.json": "6bcbf1c9f35886d67cd3d6953e293f7e0708b4838dcf497c841028349502ee58",
+    "mechanisms.py": "7300764744297c72289bf89fbc379ea770af965fe8481aba4560c5defc381cf3",
+    "PLAN.md": "197e3dd486874c3281fba7f2362b9ccb45d83585924d7026a246bc56ef641e74",
+    "presentation-change.json": "59e560ac7b41021353d1e5147b8df057067d535c93355590967fff1752233132",
+    "render.py": "ee55445b7cb39ae465c487faadbc383ff19d5ea74c32530d2797672f7ae2fa6d",
+    "REPORT.md": "7b19af7e0157702682ce2aa4c111c19f064d28711aa2188680dae17b28b6bc91",
+    "run/packets.json": "e6bda2766a7d944738f85658003a0e37aa8fc3bff4e37bddb16fadf813520d54",
+    "run/ranking-inputs.json": "03f0eacbe3cb8ab9e83b6169a23f906c9ae145618157f7503a77b3370220d913",
+    "run/results.json": "e1e6bd14b06a7a1fa3e465d627b659827c663048c83abe20ea3f4e696b0a93b3",
+    "run/scored.json": "2f5e64e61d73f1f1fdf1b22efc2a5d33daaac53ce898c65434b453b58637409b",
+    "run_experiment.py": "4983642018e19b9a3ebb2a27a489bb29201c47bed73b1f80a1256cc7bc6ae8b0",
+    "seal.json": "3205376794d040271ebb0818a25e39c98e76c0989d8cb925d5e2f356dbec6d22"
+  }
+}

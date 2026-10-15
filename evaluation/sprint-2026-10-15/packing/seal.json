@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-10-15T06:13:33.435858+00:00",
+  "expected": {
+    "budgets": [
+      4096,
+      8192,
+      16384
+    ],
+    "histories": 72,
+    "methods": [
+      "two_windows",
+      "radius3",
+      "radius8",
+      "whole_body",
+      "residual_gaps"
+    ],
+    "packets": 6480,
+    "queries": 216,
+    "rankers": [
+      "body_bm25",
+      "entity_rrf"
+    ],
+    "template_groups": 12
+  },
+  "exploratory_existing_bank": true,
+  "fixture_check": {
+    "demonstrated_mechanism": "Two lexical windows omit a distant qualifier; residual gaps restore it at sufficient budget.",
+    "known_bad_rejections": 3,
+    "positive_groups": 7,
+    "state": "PASS"
+  },
+  "frozen_inputs": {
+    "challenge-bank.json": "280e6be3f7380ed9c0bc1dbe3ec75dfba136113f230d08751e0f316b67cf9760",
+    "grid-manifest.json": "bc5d79c31211f5d66597df28b3eb5c1c1d1669e8cca0e284ed4eccf1853ecc9f",
+    "packing_lab.py": "646f250eaeb5c1e453077d5666ae9afbe253c447ac092233bb05fc1eda07477c",
+    "study_common.py": "ee7d7930801aa8fbc94d5417484f0bb08ba1003e52b43982fcdae2f392cbefb2"
+  },
+  "ranking_shards": {
+    "results/codec-alias-rankings-01.json": "831b31a41332d75fa6357297544a0682a87e023583ffb229d0614077cffd562f",
+    "results/custody-chain-rankings-01.json": "0649446ea078c0a249391f08bfa15f4e49d8e435486ae6f852b74e656d5eaa99",
+    "results/dependency-closure-rankings-01.json": "0272a0d4df148a1bd1bc288120401b1ef5684b60e9afc710f30e7dec3a69761c",
+    "results/full-digest-rankings-01.json": "bc9566b34a4ab2c4362ed64941a641fa8673f4880942b0622fcebb7e2595a927",
+    "results/map-page-chain-rankings-01.json": "7da1a7caa0bb169b5365a0363f47cb3421e4ebba8af6bea9f2307f887e22c256",
+    "results/metric-denominator-rankings-01.json": "42f001836053df2d1d6bf642a03ab7e33b700d6e948d8c9791773099b1176b0c",
+    "results/procedure-order-rankings-01.json": "d9ad7c4b4fba29a2b3afed13306b095d88cc7efaeb7737080916a7a9f31a4d82",
+    "results/purchase-authority-rankings-01.json": "c3981c19073e5c118e0bde177b5e4d425d9fc700c04d3c3f5ecfdf72164ed8ac",
+    "results/queue-limits-rankings-01.json": "130e6b744382beef9eec9e6c73a0dc406eb5ff681ff6a0a51c3e74b79bdfcd97",
+    "results/release-gates-rankings-01.json": "d78e9cd6a479a7f8830cbd5ea1d39427a792ec1a7ed2111ba044db7bc4875da8",
+    "results/release-rights-rankings-01.json": "1f8569c27dde5b2dfbebb0800468998d3d94b315c826d77d8c51cf3cf076a1b0",
+    "results/retention-intervals-rankings-01.json": "208c6ba5a8b618477903295227f886600cb56b9d100ca102c0404a62a21cc57d",
+    "results/rollback-window-rankings-01.json": "37cfa8bde9094d42fec19516102ab9e7f845f94f4f1eb301f9aabb25278bdc68",
+    "results/room-arbitration-rankings-01.json": "4aa7fb23d5aee69811d8e54dcfc4108253970480fb58c236ad293cc968d1d779",
+    "results/service-alias-rankings-01.json": "085a39f9d41df6858cc44e62d3bd0071a13180dc53b75c902bc4ab30475d9f59",
+    "results/stock-reconciliation-rankings-01.json": "845424db9db0979dc1c3bf99de3418dc5bc6a8c47650b21c79c8887028317a22"
+  },
+  "sources": {
+    "PLAN.md": "197e3dd486874c3281fba7f2362b9ccb45d83585924d7026a246bc56ef641e74",
+    "mechanisms.py": "7300764744297c72289bf89fbc379ea770af965fe8481aba4560c5defc381cf3",
+    "run_experiment.py": "4983642018e19b9a3ebb2a27a489bb29201c47bed73b1f80a1256cc7bc6ae8b0"
+  },
+  "state": "SEALED_BEFORE_NEW_PACKETS_AND_GOLD_EVALUATION"
+}

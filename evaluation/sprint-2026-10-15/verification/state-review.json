@@ -1,0 +1,204 @@
+{
+  "state": "PASS_WITH_SCOPE_LIMITS",
+  "trials": 1152,
+  "source_records": 2304,
+  "independently_replayed_trial_endpoints": 1152,
+  "tables_checked": 36,
+  "bootstrap_effects_checked": 18,
+  "selfcheck": {
+    "checks": [
+      "currentness",
+      "unseen-auditor-exception",
+      "unauthorized-actor",
+      "missing-edge",
+      "wrong-edge",
+      "false-sufficiency",
+      "source-exact-bytes",
+      "selector-field-boundary",
+      "hidden-answer-invariance",
+      "independent-authorization-rejection"
+    ],
+    "passed": 10
+  },
+  "hashes": {
+    "PLAN.md": "f66ffca3bc993937303d90ca78159cbc5da22fb8f4719b2a0dbd4aca39cfc920",
+    "state_lab.py": "4803ad88c3539251e1063e68561bd240f0c707ae8261f15a0d0dab2ff576e62e",
+    "seal.json": "55f5aed871bb780be9fbf9e51ff9aa466f6881b4029193e05e334dd7008b8cc9",
+    "sources.json": "e9788c047383f2946d95a4006ccb803d6a8e9542d36df5bb23e87a23eb04099a",
+    "results.json": "b76a975cd802f653c7e5f889415e74398b3e2bdc973f2dc5eff15b2070e2e4a1",
+    "tables.json": "3bef6848b1ff375c929abbb2301cb78cc441e668ae4c257bbdcb15ad1d860125",
+    "paired-effects.json": "2335740fc37da489edddc89367d5ce3e22a162006caf82e6641b8ccaf89f3c09",
+    "REPORT.md": "86f4256f3fbc828993fbf7d08c6dedeb471b69e397e424df6c4e3ff77ae9f2f9",
+    "independent_check.py": "7af0ee25113ade75b9195876dee501911fb3f2f2a395f25489ccdb380b435148",
+    "utility-table.json": "2eadccb3297ff544e7867d69509e07edf22b6002739165a6890263447a9baada",
+    "figure-1.png": "64981de6ffb22c7de57b18ab33d84d6706deeffa16403270f2799643233dd098",
+    "figure-1.svg": "1290cb96a1375bae37a9504c38019084016250aa78f07ecba8b9a7a49efd033a",
+    "figure-2.png": "7f7d0736b2332dc1fdbf63c6133668ba8997da30147d0155e4a0487cdcc818b3",
+    "figure-2.svg": "b2315cf922779667727a99bce2aec57aa5ddac285ab2d7adc64dea2107370249",
+    "figure-3.png": "5cb614900fdc419c7d8df4095c2835e2ad7f1d56fc4859e78f335cca205a33fb",
+    "figure-3.svg": "3e9286b35e4e764760ab38d89ae5a64a8cd27a69c6c8b42a5e7f2b27e7f0ec26",
+    "artifact-manifest.json": "34240a28f990c7d732f984f11ffb26e54834bb2d82d7d56ccb391d2e108b3d95",
+    "EXECUTION.md": "29445bfafcc91d8b51d5b90d16de8b97e8b11c9ab980dafb2f8dd846f83d5b93"
+  },
+  "findings": [
+    "No evaluator truth or answer fields enter SourceView; rank/facet/kind/links are authored scaffolding and policy/seal get privileged fixed ranks.",
+    "All 96 seeds share one fixed rank/link topology; varying names, timestamps, shuffled row order and event strings do not create independent mechanisms.",
+    "Every arm returns exactly 6144 source bytes; duplicate policy/seal re-fetches intentionally consume no-ledger budgets.",
+    "Independent full-source authority/currentness replay and false-authorization flags matched all stored rows.",
+    "The proof gate has zero false authorizations by construction; shuffled ledger+facet has 96 correct decisions but zero proofs, suppressing 48 correct grants.",
+    "Shuffled-edge control is one deterministic target rotation, not a seed-varied permutation; its utility generalization is narrow.",
+    "Bootstrap intervals reproduce but zero-width intervals reflect deterministic template mechanics; they are not natural-history uncertainty.",
+    "No-ledger arms deliberately restart top ranks each call; no stateful fixed-ranking paging comparator was tested, as final narrative discloses."
+  ],
+  "unverified": [],
+  "census_set_equality": "Exact96seeds x12arms, 1152unique rows",
+  "safe_authorization_by_arm": [
+    {
+      "arm": [
+        0,
+        0,
+        "real"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 0,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 48
+    },
+    {
+      "arm": [
+        0,
+        0,
+        "absent"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 0,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 48
+    },
+    {
+      "arm": [
+        0,
+        0,
+        "shuffled"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 0,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 48
+    },
+    {
+      "arm": [
+        0,
+        1,
+        "real"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 0,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 48
+    },
+    {
+      "arm": [
+        0,
+        1,
+        "absent"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 0,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 48
+    },
+    {
+      "arm": [
+        0,
+        1,
+        "shuffled"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 0,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 48
+    },
+    {
+      "arm": [
+        1,
+        0,
+        "real"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 0,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 48
+    },
+    {
+      "arm": [
+        1,
+        0,
+        "absent"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 0,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 48
+    },
+    {
+      "arm": [
+        1,
+        0,
+        "shuffled"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 0,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 48
+    },
+    {
+      "arm": [
+        1,
+        1,
+        "real"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 48,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 0
+    },
+    {
+      "arm": [
+        1,
+        1,
+        "absent"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 0,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 48
+    },
+    {
+      "arm": [
+        1,
+        1,
+        "shuffled"
+      ],
+      "n": 96,
+      "correct_safe_authorizations": 0,
+      "false_safe_authorizations": 0,
+      "suppressed_correct_grants": 48
+    }
+  ],
+  "invented_safe_authorization_mutation_rejected": true,
+  "utility_table_independently_checked": 12,
+  "final_report_review": "All12 outcome rows/partition counts match independently replayed tables. Final narrative includes fixed topology/derangement, source-only bytes, deliberately weak restart baseline versus untested paging, safe grant utility loss, and scaffold-specific bootstrap limits.",
+  "visual_review": "All3PNGs individually inspected: arm mapping and values match tables; readable labels, legends and no clipping.",
+  "author_final_identity_confirmation": "Final checker-only hardening reviewed and executed; final author report/manifest hashes confirmed.",
+  "execution_record_review": "4608 calls,9216 slots,7077888 source bytes match independently checked census; report/verification routes distinguish write stages from read-only checks.",
+  "final_checker_hardening": {
+    "state": "PASS",
+    "default_read_only_route_executed": true,
+    "trials": 1152,
+    "public_mutations_rejected": 5,
+    "exact_cartesian_set_equality": true,
+    "source_results_tables_effects_utility_and_figures_unchanged": true,
+    "scope": "Checker and narrative verification only; no new experiments or scientific changes."
+  }
+}

@@ -1,0 +1,1 @@
+{"stage":"selfcheck","result":{"checks":["currentness","unseen-auditor-exception","unauthorized-actor","missing-edge","wrong-edge","false-sufficiency","source-exact-bytes","selector-field-boundary","hidden-answer-invariance","independent-authorization-rejection"],"passed":10}}

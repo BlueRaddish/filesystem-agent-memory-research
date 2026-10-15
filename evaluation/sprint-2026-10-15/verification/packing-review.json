@@ -1,0 +1,52 @@
+{
+  "state": "PASS_INDEPENDENT_RETAINED_PACKET_REVIEW",
+  "packets": 6480,
+  "cells": 30,
+  "template_cells": 360,
+  "known_bad_rejections": [
+    "wrong_byte_charge",
+    "wrong_packet_digest",
+    "boolean_offset"
+  ],
+  "consuming_audit_exit": 0,
+  "consuming_audit_result": {
+    "histories": 72,
+    "independence": "Independent render and interval/endpoint implementation; shared bank loader and aggregate formatter.",
+    "independent_endpoint_checks": 6480,
+    "packets": 6480,
+    "queries": 216,
+    "rendered_budget_checks": 6480,
+    "residual_baseline_prefixes": 1296,
+    "run_sha256": "e1e6bd14b06a7a1fa3e465d627b659827c663048c83abe20ea3f4e696b0a93b3",
+    "saved_rankings": 432,
+    "source_and_seal_hashes": "PASS",
+    "state": "PASS"
+  },
+  "reviewer": "Separate Sol agent from packing implementer; not independent human validation.",
+  "scope": "Independent JSON source loading, UTF8 reconstruction, interval coverage and every aggregate/table field; no packet generation rerun.",
+  "files": {
+    "audit-receipt.json": "078d7f28d7447219d685201198d7e8676ae6836d61a5280806eec9bbb0d14a3f",
+    "audit.py": "72b5f0b9383ce4218735f8d4c4290967a90f9cb866eb12a29bf5077daeeee6f4",
+    "figure-manifest.json": "7dece09dae2b34a0c7d1d4012caa167cec5a77e36fad638336f2672d753db186",
+    "figures/01-span-recovery.png": "90914e21ef8135b71d54aa6e1ff833e0dfaa8cd8ee2a4ac6ed4d15adace95b1f",
+    "figures/01-span-recovery.svg": "f8e5f50f1d2d9aec9072895e0a6d4ce5ec1add8f10491e69b368b9662ea03c21",
+    "figures/02-budget-composition.png": "c6af3e5e2e06f249fc970747f914d16cc14d8c52ac4e36e610f93e9435f04760",
+    "figures/02-budget-composition.svg": "9d0849fd89c081027699291af90777fe8d444279460049603423d162ba2b14b5",
+    "figures/03-template-dependence.png": "2305e9c54edffaa7d5776628d5d2836c1a055b7ea10600a519f27d6486adc7b0",
+    "figures/03-template-dependence.svg": "6e673eabfa772c758aec9bb110b9ea65fb7b908a83525710f63734d871ce03a0",
+    "figures/cells.json": "322ff4f586e1b56dc657ea63b3bcaaf3332a88cb0b01eb738c8aebed16cce754",
+    "figures/templates.json": "6bcbf1c9f35886d67cd3d6953e293f7e0708b4838dcf497c841028349502ee58",
+    "mechanisms.py": "7300764744297c72289bf89fbc379ea770af965fe8481aba4560c5defc381cf3",
+    "PLAN.md": "197e3dd486874c3281fba7f2362b9ccb45d83585924d7026a246bc56ef641e74",
+    "render.py": "c6faf2997fa8c4f5cc4b463a0058e0b89cf540e05f3908642f40a21b3dbcddef",
+    "REPORT.md": "7b19af7e0157702682ce2aa4c111c19f064d28711aa2188680dae17b28b6bc91",
+    "run/packets.json": "e6bda2766a7d944738f85658003a0e37aa8fc3bff4e37bddb16fadf813520d54",
+    "run/ranking-inputs.json": "03f0eacbe3cb8ab9e83b6169a23f906c9ae145618157f7503a77b3370220d913",
+    "run/results.json": "e1e6bd14b06a7a1fa3e465d627b659827c663048c83abe20ea3f4e696b0a93b3",
+    "run/scored.json": "2f5e64e61d73f1f1fdf1b22efc2a5d33daaac53ce898c65434b453b58637409b",
+    "run_experiment.py": "4983642018e19b9a3ebb2a27a489bb29201c47bed73b1f80a1256cc7bc6ae8b0",
+    "seal.json": "3205376794d040271ebb0818a25e39c98e76c0989d8cb925d5e2f356dbec6d22"
+  },
+  "independent_checker_sha256": "81f4869d41e8bd9ca5bad1e7e2d5b58213607f66b76cb6062a37f716d381090a",
+  "visual_review": "All three PNG exports inspected; readable axes, labels and template counts."
+}

@@ -1,0 +1,17 @@
+{
+  "state": "RENDERED_AND_THREE_PNGS_VISUALLY_INSPECTED",
+  "tables": {
+    "cells": 30,
+    "templates": 360
+  },
+  "files": {
+    "figures/01-span-recovery.png": "fce23667b27e23af30c39ced225e52a03a20cddefcd04fb8956df6a9b327fb1e",
+    "figures/01-span-recovery.svg": "d939adb38230357a885737dc0e8011d4c6874b8b0e1490265044e8027b5c1a76",
+    "figures/02-budget-composition.png": "cddfb9e93919dbd7bccc0a470a843ab82e82ad0a46202eb787ca1d50fe0e6aea",
+    "figures/02-budget-composition.svg": "31f6bba24f4d1908c05e35e1b42af3682ebfa35fb5bb4b1039fb1593a739209a",
+    "figures/03-template-dependence.png": "2305e9c54edffaa7d5776628d5d2836c1a055b7ea10600a519f27d6486adc7b0",
+    "figures/03-template-dependence.svg": "6e673eabfa772c758aec9bb110b9ea65fb7b908a83525710f63734d871ce03a0",
+    "figures/cells.json": "322ff4f586e1b56dc657ea63b3bcaaf3332a88cb0b01eb738c8aebed16cce754",
+    "figures/templates.json": "6bcbf1c9f35886d67cd3d6953e293f7e0708b4838dcf497c841028349502ee58"
+  }
+}

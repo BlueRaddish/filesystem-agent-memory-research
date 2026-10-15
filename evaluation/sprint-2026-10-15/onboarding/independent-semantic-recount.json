@@ -1,0 +1,679 @@
+{
+  "accepted_validator_sha256": "16107e4e83ddb623c404e667024c460605bfda67fcd8133e32e49f94cf8cecf5",
+  "analysis_sha256": "4602743218ea56d28c83d1307c9b1e3a6c36118f695018c14dbc0b0badfa10d6",
+  "by_block": [
+    {
+      "block": "direct",
+      "counts": {
+        "all_value_status": 110,
+        "all_values": 110,
+        "answer": {
+          "contradicted": 7,
+          "not_established": 7,
+          "supported": 281
+        },
+        "answer_fields": 295,
+        "cases": 120,
+        "citation": {
+          "contradicted": 4,
+          "not_established": 11,
+          "supported": 105
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 120,
+          "clean_complete_task": 23,
+          "complete_task": 23,
+          "contract_valid": 55,
+          "declared_original_citation_set": 61,
+          "declared_span_bundle_recovered": 57,
+          "typed_answer_status_match": 98
+        },
+        "intersection": {
+          "all_supported__typed_match": 94,
+          "all_supported__typed_mismatch": 16,
+          "not_all_supported__typed_match": 4,
+          "not_all_supported__typed_mismatch": 6
+        },
+        "mismatch_ids": [
+          "CASE-017",
+          "CASE-018",
+          "CASE-019",
+          "CASE-020",
+          "CASE-034",
+          "CASE-064",
+          "CASE-071",
+          "CASE-073",
+          "CASE-086",
+          "CASE-095",
+          "CASE-097",
+          "CASE-131",
+          "CASE-132",
+          "CASE-143",
+          "CASE-154",
+          "CASE-184"
+        ],
+        "presence": {
+          "contradicted": 5,
+          "not_established": 6,
+          "supported": 118
+        },
+        "query": {
+          "contradicted": 5,
+          "not_established": 33,
+          "supported": 82
+        },
+        "status": {
+          "contradicted": 1,
+          "not_established": 4,
+          "supported": 115
+        }
+      }
+    },
+    {
+      "block": "discovery",
+      "counts": {
+        "all_value_status": 47,
+        "all_values": 47,
+        "answer": {
+          "not_auditable": 3,
+          "supported": 113
+        },
+        "answer_fields": 116,
+        "cases": 48,
+        "citation": {
+          "not_auditable": 1,
+          "supported": 47
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 48,
+          "clean_complete_task": 9,
+          "complete_task": 46,
+          "contract_valid": 46,
+          "declared_original_citation_set": 48,
+          "declared_span_bundle_recovered": 48,
+          "typed_answer_status_match": 48
+        },
+        "intersection": {
+          "all_supported__typed_match": 47,
+          "not_all_supported__typed_match": 1
+        },
+        "mismatch_ids": [],
+        "presence": {
+          "not_auditable": 1,
+          "supported": 47
+        },
+        "query": {
+          "not_auditable": 1,
+          "not_established": 4,
+          "supported": 43
+        },
+        "status": {
+          "not_auditable": 1,
+          "supported": 47
+        }
+      }
+    },
+    {
+      "block": "oracle",
+      "counts": {
+        "all_value_status": 23,
+        "all_values": 23,
+        "answer": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 57
+        },
+        "answer_fields": 59,
+        "cases": 24,
+        "citation": {
+          "contradicted": 1,
+          "supported": 23
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 24,
+          "clean_complete_task": 11,
+          "complete_task": 11,
+          "contract_valid": 12,
+          "declared_original_citation_set": 12,
+          "declared_span_bundle_recovered": 24,
+          "typed_answer_status_match": 21
+        },
+        "intersection": {
+          "all_supported__typed_match": 21,
+          "all_supported__typed_mismatch": 2,
+          "not_all_supported__typed_mismatch": 1
+        },
+        "mismatch_ids": [
+          "CASE-060",
+          "CASE-109"
+        ],
+        "presence": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 24
+        },
+        "query": {
+          "contradicted": 1,
+          "not_established": 4,
+          "supported": 19
+        },
+        "status": {
+          "supported": 24
+        }
+      }
+    }
+  ],
+  "by_block_arm": [
+    {
+      "arm": "body_whole",
+      "block": "direct",
+      "counts": {
+        "all_value_status": 22,
+        "all_values": 22,
+        "answer": {
+          "contradicted": 1,
+          "not_established": 2,
+          "supported": 56
+        },
+        "answer_fields": 59,
+        "cases": 24,
+        "citation": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 22
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 24,
+          "clean_complete_task": 9,
+          "complete_task": 9,
+          "contract_valid": 12,
+          "declared_original_citation_set": 11,
+          "declared_span_bundle_recovered": 22,
+          "typed_answer_status_match": 20
+        },
+        "intersection": {
+          "all_supported__typed_match": 20,
+          "all_supported__typed_mismatch": 2,
+          "not_all_supported__typed_mismatch": 2
+        },
+        "mismatch_ids": [
+          "CASE-019",
+          "CASE-086"
+        ],
+        "presence": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 23
+        },
+        "query": {
+          "contradicted": 1,
+          "not_established": 5,
+          "supported": 18
+        },
+        "status": {
+          "not_established": 1,
+          "supported": 23
+        }
+      }
+    },
+    {
+      "arm": "dense_closure",
+      "block": "direct",
+      "counts": {
+        "all_value_status": 22,
+        "all_values": 22,
+        "answer": {
+          "contradicted": 2,
+          "not_established": 2,
+          "supported": 55
+        },
+        "answer_fields": 59,
+        "cases": 24,
+        "citation": {
+          "contradicted": 1,
+          "not_established": 2,
+          "supported": 21
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 24,
+          "clean_complete_task": 2,
+          "complete_task": 2,
+          "contract_valid": 11,
+          "declared_original_citation_set": 13,
+          "declared_span_bundle_recovered": 4,
+          "typed_answer_status_match": 19
+        },
+        "intersection": {
+          "all_supported__typed_match": 18,
+          "all_supported__typed_mismatch": 4,
+          "not_all_supported__typed_match": 1,
+          "not_all_supported__typed_mismatch": 1
+        },
+        "mismatch_ids": [
+          "CASE-020",
+          "CASE-097",
+          "CASE-131",
+          "CASE-154"
+        ],
+        "presence": {
+          "contradicted": 1,
+          "not_established": 2,
+          "supported": 23
+        },
+        "query": {
+          "contradicted": 1,
+          "not_established": 9,
+          "supported": 14
+        },
+        "status": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 22
+        }
+      }
+    },
+    {
+      "arm": "entity_closure",
+      "block": "direct",
+      "counts": {
+        "all_value_status": 22,
+        "all_values": 22,
+        "answer": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 57
+        },
+        "answer_fields": 59,
+        "cases": 24,
+        "citation": {
+          "contradicted": 1,
+          "not_established": 3,
+          "supported": 20
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 24,
+          "clean_complete_task": 2,
+          "complete_task": 2,
+          "contract_valid": 11,
+          "declared_original_citation_set": 14,
+          "declared_span_bundle_recovered": 4,
+          "typed_answer_status_match": 19
+        },
+        "intersection": {
+          "all_supported__typed_match": 18,
+          "all_supported__typed_mismatch": 4,
+          "not_all_supported__typed_match": 1,
+          "not_all_supported__typed_mismatch": 1
+        },
+        "mismatch_ids": [
+          "CASE-071",
+          "CASE-095",
+          "CASE-143",
+          "CASE-184"
+        ],
+        "presence": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 24
+        },
+        "query": {
+          "contradicted": 1,
+          "not_established": 7,
+          "supported": 16
+        },
+        "status": {
+          "not_established": 1,
+          "supported": 23
+        }
+      }
+    },
+    {
+      "arm": "minilm_closure",
+      "block": "direct",
+      "counts": {
+        "all_value_status": 22,
+        "all_values": 22,
+        "answer": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 57
+        },
+        "answer_fields": 59,
+        "cases": 24,
+        "citation": {
+          "contradicted": 1,
+          "not_established": 3,
+          "supported": 20
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 24,
+          "clean_complete_task": 1,
+          "complete_task": 1,
+          "contract_valid": 11,
+          "declared_original_citation_set": 11,
+          "declared_span_bundle_recovered": 4,
+          "typed_answer_status_match": 19
+        },
+        "intersection": {
+          "all_supported__typed_match": 18,
+          "all_supported__typed_mismatch": 4,
+          "not_all_supported__typed_match": 1,
+          "not_all_supported__typed_mismatch": 1
+        },
+        "mismatch_ids": [
+          "CASE-017",
+          "CASE-064",
+          "CASE-073",
+          "CASE-132"
+        ],
+        "presence": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 24
+        },
+        "query": {
+          "contradicted": 1,
+          "not_established": 7,
+          "supported": 16
+        },
+        "status": {
+          "not_established": 1,
+          "supported": 23
+        }
+      }
+    },
+    {
+      "arm": "search_body",
+      "block": "direct",
+      "counts": {
+        "all_value_status": 22,
+        "all_values": 22,
+        "answer": {
+          "contradicted": 2,
+          "not_established": 1,
+          "supported": 56
+        },
+        "answer_fields": 59,
+        "cases": 24,
+        "citation": {
+          "not_established": 2,
+          "supported": 22
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 24,
+          "clean_complete_task": 9,
+          "complete_task": 9,
+          "contract_valid": 10,
+          "declared_original_citation_set": 12,
+          "declared_span_bundle_recovered": 23,
+          "typed_answer_status_match": 21
+        },
+        "intersection": {
+          "all_supported__typed_match": 20,
+          "all_supported__typed_mismatch": 2,
+          "not_all_supported__typed_match": 1,
+          "not_all_supported__typed_mismatch": 1
+        },
+        "mismatch_ids": [
+          "CASE-018",
+          "CASE-034"
+        ],
+        "presence": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 24
+        },
+        "query": {
+          "contradicted": 1,
+          "not_established": 5,
+          "supported": 18
+        },
+        "status": {
+          "supported": 24
+        }
+      }
+    },
+    {
+      "arm": "entry0_helper0",
+      "block": "discovery",
+      "counts": {
+        "all_value_status": 12,
+        "all_values": 12,
+        "answer": {
+          "supported": 29
+        },
+        "answer_fields": 29,
+        "cases": 12,
+        "citation": {
+          "supported": 12
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 12,
+          "clean_complete_task": 4,
+          "complete_task": 12,
+          "contract_valid": 12,
+          "declared_original_citation_set": 12,
+          "declared_span_bundle_recovered": 12,
+          "typed_answer_status_match": 12
+        },
+        "intersection": {
+          "all_supported__typed_match": 12
+        },
+        "mismatch_ids": [],
+        "presence": {
+          "supported": 12
+        },
+        "query": {
+          "not_established": 1,
+          "supported": 11
+        },
+        "status": {
+          "supported": 12
+        }
+      }
+    },
+    {
+      "arm": "entry0_helper1",
+      "block": "discovery",
+      "counts": {
+        "all_value_status": 12,
+        "all_values": 12,
+        "answer": {
+          "supported": 29
+        },
+        "answer_fields": 29,
+        "cases": 12,
+        "citation": {
+          "supported": 12
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 12,
+          "clean_complete_task": 1,
+          "complete_task": 12,
+          "contract_valid": 12,
+          "declared_original_citation_set": 12,
+          "declared_span_bundle_recovered": 12,
+          "typed_answer_status_match": 12
+        },
+        "intersection": {
+          "all_supported__typed_match": 12
+        },
+        "mismatch_ids": [],
+        "presence": {
+          "supported": 12
+        },
+        "query": {
+          "not_established": 1,
+          "supported": 11
+        },
+        "status": {
+          "supported": 12
+        }
+      }
+    },
+    {
+      "arm": "entry1_helper0",
+      "block": "discovery",
+      "counts": {
+        "all_value_status": 11,
+        "all_values": 11,
+        "answer": {
+          "not_auditable": 3,
+          "supported": 26
+        },
+        "answer_fields": 29,
+        "cases": 12,
+        "citation": {
+          "not_auditable": 1,
+          "supported": 11
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 12,
+          "clean_complete_task": 2,
+          "complete_task": 12,
+          "contract_valid": 12,
+          "declared_original_citation_set": 12,
+          "declared_span_bundle_recovered": 12,
+          "typed_answer_status_match": 12
+        },
+        "intersection": {
+          "all_supported__typed_match": 11,
+          "not_all_supported__typed_match": 1
+        },
+        "mismatch_ids": [],
+        "presence": {
+          "not_auditable": 1,
+          "supported": 11
+        },
+        "query": {
+          "not_auditable": 1,
+          "not_established": 1,
+          "supported": 10
+        },
+        "status": {
+          "not_auditable": 1,
+          "supported": 11
+        }
+      }
+    },
+    {
+      "arm": "entry1_helper1",
+      "block": "discovery",
+      "counts": {
+        "all_value_status": 12,
+        "all_values": 12,
+        "answer": {
+          "supported": 29
+        },
+        "answer_fields": 29,
+        "cases": 12,
+        "citation": {
+          "supported": 12
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 12,
+          "clean_complete_task": 2,
+          "complete_task": 10,
+          "contract_valid": 10,
+          "declared_original_citation_set": 12,
+          "declared_span_bundle_recovered": 12,
+          "typed_answer_status_match": 12
+        },
+        "intersection": {
+          "all_supported__typed_match": 12
+        },
+        "mismatch_ids": [],
+        "presence": {
+          "supported": 12
+        },
+        "query": {
+          "not_established": 1,
+          "supported": 11
+        },
+        "status": {
+          "supported": 12
+        }
+      }
+    },
+    {
+      "arm": "oracle_originals",
+      "block": "oracle",
+      "counts": {
+        "all_value_status": 23,
+        "all_values": 23,
+        "answer": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 57
+        },
+        "answer_fields": 59,
+        "cases": 24,
+        "citation": {
+          "contradicted": 1,
+          "supported": 23
+        },
+        "consistency_ids": [],
+        "frozen": {
+          "artifact_written": 24,
+          "clean_complete_task": 11,
+          "complete_task": 11,
+          "contract_valid": 12,
+          "declared_original_citation_set": 12,
+          "declared_span_bundle_recovered": 24,
+          "typed_answer_status_match": 21
+        },
+        "intersection": {
+          "all_supported__typed_match": 21,
+          "all_supported__typed_mismatch": 2,
+          "not_all_supported__typed_mismatch": 1
+        },
+        "mismatch_ids": [
+          "CASE-060",
+          "CASE-109"
+        ],
+        "presence": {
+          "contradicted": 1,
+          "not_established": 1,
+          "supported": 24
+        },
+        "query": {
+          "contradicted": 1,
+          "not_established": 4,
+          "supported": 19
+        },
+        "status": {
+          "supported": 24
+        }
+      }
+    }
+  ],
+  "candidate_sha256": "6b82a624297354c491b66e7390880c435364027f2fff84509a634acae12819ad",
+  "case_count": 192,
+  "independent_checker_sha256": "980ac0400dfd054a594c0fe0f4a41b281ddb4ebe62401f8ca92d21d93a36ffcb",
+  "labels_regraded": 0,
+  "limits": [
+    "Private extraction/condition mapping/native delivery remain root-accepted evidence, not independently replayed here.",
+    "Bounded sensitive-shape scans do not prove absence of sensitive data; positive shapes require private root review.",
+    "Counts/coordinates do not determine entailment; contexts are not independent model replications."
+  ],
+  "model_calls": 0,
+  "privacy_match_records": 0,
+  "privacy_shape_findings": [],
+  "root_acceptance_sha256": "f8fe3dfc3785f27cb52d74b9b3ed7e2fe4a1b9956e6255d7742c691ef8f3ab11",
+  "state": "PASS_INDEPENDENT_COUNTS_BYTES_BOUNDS",
+  "zero_evidence_case_ids": [
+    "CASE-123"
+  ]
+}
