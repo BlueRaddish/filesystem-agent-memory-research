@@ -1,0 +1,64 @@
+{
+  "analysis_sha256": "4602743218ea56d28c83d1307c9b1e3a6c36118f695018c14dbc0b0badfa10d6",
+  "candidate_sha256": "6b82a624297354c491b66e7390880c435364027f2fff84509a634acae12819ad",
+  "compilation_model_calls": 0,
+  "compiler_invocations": 1,
+  "freeze_sha256": "fda01f88f50dbb6e66a312ca9ab775c8603643ebe8b7f74b596a7250bc39524c",
+  "independent_count_byte_bound_checks": {
+    "acceptance_receipt_sha256": "79c5bbc1e268714054ffc572d2aa76ef4d766eb091c0b96c39d78fa1dc816fbd",
+    "advisory_consistency_diagnostic_cases": 0,
+    "check_groups_passed": 11,
+    "checker_sha256": "c13d68fa32ac1e5502f2a2dbfa041ea084938a9f28746f47c883603093f21f6f",
+    "failed": 0,
+    "privacy_shape_matches": 0,
+    "result_sha256": "02b79a2d5401e1a1b02560f5e56b213372b143ab224a8e602d52b6ffe7a17768"
+  },
+  "limits": [
+    "One LLM judgment per artifact; no human adjudication, duplicate ratings or reliability estimate.",
+    "Frozen primary scores, original artifacts and all saved judgments remain unchanged.",
+    "Private extraction/native delivery and original withheld mapping are separately root-accepted evidence, not authenticated by public count checks.",
+    "Bounded sensitive-pattern scans are hygiene, not proof of absence of personal information. Public data derive from the fictional study bank.",
+    "Original execution deviations, event-binding corrections and incidental diagnostic exposures remain in the execution disclosure.",
+    "Compilation-time candidate and registry warnings remain unchanged; this record describes later acceptance of their exact bytes.",
+    "Four supplementary figure pairs are descriptive additions; the original 26 primary pairs are unchanged.",
+    "Python 3.10 grammar was checked but no Python 3.10 runtime was executed; the original validator retains a native directory-symlink fixture skip."
+  ],
+  "literature_extension": {
+    "experimental_reproductions": 0,
+    "files": {
+      "EVIDENCE-COMPLETION-RESEARCH.md": "2d63e6f8220239c41bf512f4c136b79b13932e08a13d3392ee8414fb76b7bbce",
+      "evidence-completion-sources.json": "15ff61e7b713a6a6798333928b32aa2fdd54af8033bc80192db35314e1d05b34"
+    },
+    "independent_review_receipt_sha256": "d3005da8d887cb3fb477dcbfcd97c5468fb8d8edc6e0ec9a9dec57dfef634a85",
+    "reviewed_preprints": 4,
+    "unreviewed_nature_candidates": 2
+  },
+  "no_write_trials": 0,
+  "primary_scores_changed": 0,
+  "public_independent_checker": {
+    "fix_receipt_sha256": "e7e78cfe0ce658dc0a696291b9d210f39710063481bda5934720bee3a187f8b0",
+    "fixed_result_sha256": "9f0849f94cbbba390a1c021a45196ddc5dbc913c6598b725ec29e7ea8949a6b5",
+    "historical_count_checker_sha256": "c13d68fa32ac1e5502f2a2dbfa041ea084938a9f28746f47c883603093f21f6f",
+    "numeric_privacy_results_identical_except_checker_identity": true,
+    "portability_fix": "Resolve study at shared loader entry; relative-path IndexError retained. No count, label or scoring change.",
+    "relative_full_check_exit": 0,
+    "relative_self_check_exit": 0,
+    "source_sha256": "980ac0400dfd054a594c0fe0f4a41b281ddb4ebe62401f8ca92d21d93a36ffcb"
+  },
+  "reviewed_artifacts": 192,
+  "root_acceptance_sha256": "f8fe3dfc3785f27cb52d74b9b3ed7e2fe4a1b9956e6255d7742c691ef8f3ab11",
+  "schema_version": "oct13-public-semantic-acceptance-v1",
+  "source_auditable": 191,
+  "source_not_auditable": 1,
+  "state": "ACCEPTED_FOR_PUBLIC_DESCRIPTIVE_SUPPLEMENT",
+  "visual_review": {
+    "export_hashes_checked": 8,
+    "figure_tables_sha256": "2300052da459d6ebb63b08141c791f9b6f72f8163355ff3662bf94f640538457",
+    "overlap_or_clipping_observed": false,
+    "pngs_individually_inspected": 4,
+    "private_receipt_sha256": "2077879262899bd16ea575d0c3fa5908a2845996f06265cb5e2590444bbead1a",
+    "registry_sha256": "af3ddb96343222e31f55492dd31643cd5b8b3ac921a9710ef3c4d47b2aaa2974",
+    "renderer_sha256": "2ef71887abfb99e3a906c1198c5b71ec4c231f59a2c79adcccae45840c2672d8",
+    "svg_xml_files_checked": 4
+  }
+}

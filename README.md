@@ -8,17 +8,19 @@ This project is a public, source-grounded research review of agent memory, retri
 
 **Expanded study: October 11 Pacific; collection completed October 12 UTC.** All 18,432 packet comparisons, 4,608 rankings, 144 uncached timing observations and 144 fresh-reader trials are recorded over 48 authored family histories and 96 clustered queries. Three switches and six engines have paired comparisons; 36 families are held out. These are repeated measurements, not 18,432 independent cases. The report includes fifteen scientific figure pairs and an execution audit. Separate source catalogs extend the historical review; their entries and supporting URLs are not summed into a unique-paper count.
 
-**Intensive expansion: October 13; primary analysis completed October 15 UTC.** The [primary report and 26 figure pairs](evaluation/study-2026-10-13/REPORT.md) cover 96 fictional histories, 288 queries, 21 rankers and eight scheduled packers. All 12,096 rankings, 114,048 packets, 192 reader trials, 378 warm timings and 12,800 engineered maintenance rows are collected; one reader failure remains included. The [execution and numeric audit](evaluation/study-2026-10-13/AUDIT.md) passed, including all packet reconstructions and independent numeric/export checks. The original compact-observation analysis failure is preserved; a disclosed [compatibility entrypoint](evaluation/study-2026-10-13/ANALYSIS-COMPATIBILITY.md) ran once with unchanged frozen scoring/statistics. All 26 PNGs were individually inspected; a separately labelled readability pair supplements original Figure 23. Three fresh source-review tasks have been launched, with no semantic ratings yet accepted. Earlier allocation/interruption and catalog recoveries remain separate records. Completed supplements and unexecuted protocols are distinguished below.
+**Intensive expansion: October 13; primary analysis completed October 15 UTC.** The [primary report and 26 figure pairs](evaluation/study-2026-10-13/REPORT.md) cover 96 fictional histories, 288 queries, 21 rankers and eight scheduled packers. All 12,096 rankings, 114,048 packets, 192 reader trials, 378 warm timings and 12,800 engineered maintenance rows are collected; one reader failure remains included. The [execution and numeric audit](evaluation/study-2026-10-13/AUDIT.md) passed, including all packet reconstructions and independent numeric/export checks. The original compact-observation analysis failure is preserved; a disclosed [compatibility entrypoint](evaluation/study-2026-10-13/ANALYSIS-COMPATIBILITY.md) ran once with unchanged frozen scoring/statistics. All 26 PNGs were individually inspected; a separately labelled readability pair supplements original Figure 23. The separately reported [blinded review and four supplement figures](evaluation/study-2026-10-13/SEMANTIC-REVIEW.md) now cover all 192 artifacts. Every direct arm has 22/24 responses labelled supported for all requested values/status; this does not replace the differing strict completion scores or full-query judgments. Earlier allocation/interruption and catalog recoveries remain separate records. Completed supplements and unexecuted protocols are distinguished below.
 
 ## Start reading
 
 | Document | Purpose |
 | --- | --- |
+| [Blinded semantic supplement and four figures](evaluation/study-2026-10-13/SEMANTIC-REVIEW.md) | All 192 actual artifacts; distinct value/status, full-query, citation and frozen-score measures, with public checks |
+| [Evidence completion and retention extension](evaluation/study-2026-10-13/EVIDENCE-COMPLETION-RESEARCH.md) | Four newly reviewed preprints, pinned repository inspection, budget/cohort qualifications and four unexecuted atomic follow-ups |
 | [Main primary report and 26 figures](evaluation/study-2026-10-13/REPORT.md) | Completed grid, reader, timing and maintenance results, with all denominators and negative results |
 | [Main execution and numeric audit](evaluation/study-2026-10-13/AUDIT.md) | Source reconstruction, one disclosed analysis recovery, independent tables and all 52 original exports |
-| [Fresh reviewer execution](evaluation/study-2026-10-13/SEMANTIC-REVIEW-EXECUTION.md) | Three launched source-review tasks; condition key withheld and no semantic ratings accepted yet |
+| [Original fresh reviewer execution](evaluation/study-2026-10-13/SEMANTIC-REVIEW-EXECUTION.md) | Historical three-context launch protocol; completed recovery and accepted judgments are reported separately |
 | [Postcollection analysis compatibility](evaluation/study-2026-10-13/ANALYSIS-COMPATIBILITY.md) | Passed raw execution audit, retained original format failure and reviewed compatibility entrypoint; one completed analysis-only invocation with original frozen scores |
-| [Mechanical reader-review checker](evaluation/study-2026-10-13/check_reader_review.py) | Accepted source and fictional boundary self-check; actual blinded judgments remain a separate supplement, not yet accepted |
+| [Mechanical reader-review checker](evaluation/study-2026-10-13/check_reader_review.py) | Original source; complete 192-case validation passed before unblinding, separately from semantic validity |
 | [Later catalog drift recovery](evaluation/study-2026-10-13/SKILL-CATALOG-DRIFT-RECOVERY.md) | Recurrent precondition failure and four-entry private repair; separately bound canary and original remaining stages |
 | [Earlier native catalog recovery](evaluation/study-2026-10-13/SKILL-CATALOG-RECOVERY.md) | Completed grid and first empty benchmark catalog probe; preserved earlier prospective binding |
 | [Memory origin and authority research](evaluation/study-2026-10-13/MEMORY-TRUST-RESEARCH.md) | Five versioned primary manuscripts and four atomic future hypotheses; source/utility/proof boundaries, no executed experiment |
@@ -31,7 +33,7 @@ This project is a public, source-grounded research review of agent memory, retri
 | [Development robustness report](evaluation/study-2026-10-13/DEV-RESULTS.md) | 19,440 completed development-only perturbation and nested-packing comparisons; four figures |
 | [Fresh query-cue report](evaluation/study-2026-10-13/AGENT-QUERY-REPORT.md) | 72 scheduled calls and 2,592 completed packet comparisons, including ten fallbacks; two figures |
 | [Reader resource cap](evaluation/study-2026-10-13/RESOURCE-AMENDMENT.md) | 314 preserved grid checkpoints; unchanged local scoring and a prospective two-reader cap |
-| [Prospective actual-artifact review](evaluation/study-2026-10-13/SEMANTIC-REVIEW-PLAN.md) | Blinded source support review restricted to verified pre-write deliveries; three tasks launched, no accepted ratings |
+| [Original actual-artifact review plan](evaluation/study-2026-10-13/SEMANTIC-REVIEW-PLAN.md) | Frozen source-bounded rubric; original and recovered execution is disclosed in the completed supplement |
 | [Blind bank coherence review](evaluation/study-2026-10-13/SEMANTIC-BANK-REVIEW.md) | 288 task rederivations across 96 full-source fixtures; one LLM review, not human validation |
 | [Adaptive memory research](evaluation/study-2026-10-13/ADAPTIVE-RESEARCH.md) | Six primary-source hypotheses with controls and falsifiers; unexecuted future experiments |
 | [External transfer report](evaluation/study-2026-10-13/EXTERNAL-TRANSFER.md) | 2,160 completed retrieval packets over five BEAM synthetic histories; label/byte/whole-message proxies and limits |
@@ -110,13 +112,13 @@ These checks cover authored-bank consistency, the completed blind bank compariso
 
 Public primary sources are linked rather than mirrored. The original prose, examples, and scripts use the [MIT license](LICENSE); third-party works retain their own rights. See [methodology](research/methodology.md), [privacy](PRIVACY.md), and [contribution guidance](CONTRIBUTING.md). Public corrections and extensions are welcome, especially matched experiments, negative results, and research that tests unfamiliar readers and changing evidence.
 
-## Supplemental reviewer recovery checkpoint (October 15 UTC)
+## Historical reviewer recovery checkpoint (before recovery, October 15 UTC)
 
 The original three source-review contexts stopped before completing their full
-partitions. Structural audits retain 85 saved judgments (10, 38 and 37); their
-semantic correctness and descriptive aggregation remain pending. The remaining
-107 cases have no retained judgment. The prospective [execution recovery
-amendment](evaluation/study-2026-10-13/SEMANTIC-REVIEW-CAPACITY-RECOVERY.md) proposes
+partitions. At that checkpoint, structural audits retained 85 saved judgments
+(10, 38 and 37); descriptive aggregation had not run and the remaining 107 cases
+had no retained judgment. The prospective [execution recovery
+amendment](evaluation/study-2026-10-13/SEMANTIC-REVIEW-CAPACITY-RECOVERY.md) proposed
 eight smaller fresh contexts, preserving every retained judgment and all original
 inputs. No recovery task is created by this publication. Byte/count caps do not
 establish context capacity, independence or reliability. The unchanged rubric and
@@ -127,3 +129,8 @@ provides fictional `--self-check`, metadata-only `--plan`, and an explicitly gat
 create-new `--stage` route. It makes no model/task calls and does not read saved
 judgment contents. Root must accept the exact staged manifest and audit actual
 complete case delivery and saved bytes before accepting new judgments.
+
+Recovery and full-cohort acceptance subsequently completed. The [192-artifact
+semantic report](evaluation/study-2026-10-13/SEMANTIC-REVIEW.md) preserves all original
+judgments, all disclosed errors and all frozen primary scores. LLM semantic
+judgments remain distinct from independently established factual truth.

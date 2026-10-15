@@ -1,10 +1,12 @@
 # October 13 study: primary results
 
-Collection and the computational execution audit are complete. The separately planned blinded semantic review is **pending**. These results concern an authored fictional bank and the frozen implementations tested here.
+Collection, computational execution audit and the separately reported [blinded semantic review](SEMANTIC-REVIEW.md) are complete. The latter retains all 192 artifacts and adds four descriptive figure pairs without changing any primary score. These results concern an authored fictional bank and the frozen implementations tested here.
 
 At the selected 8 KiB / 144-record passage cell, all 21 rankers exposed a complete authored original-span alternative in **60/216 confirmation queries (27.78%)**. Changing the packer within fixed rankers produced much larger differences at that cell: whole-record and declared-authority packing often preserved spans that the narrow passage pipeline missed. This is a result about these implementations, supplied metadata and related fictional scaffolds; it does not identify a universal retrieval winner.
 
 The reader experiment also separates exposure from task completion. The body-whole, search-body, entity-closure, dense-closure and MiniLM-closure direct arms completed 9, 9, 2, 2 and 1 of 24 tasks under the frozen five-gate conjunction. Oracle originals completed 11/24 outside the budget comparisons. Interactive discovery completed 46/48 tasks across four arms, but only 9/48 were clean protocol completions. Those blocks use different tasks and interaction protocols and do not support an across-block causal comparison.
+
+The later source-bounded LLM review materially qualifies that reader comparison: every direct arm has 22/24 responses labelled supported for all requested values and status, while full-query support varies from 14 to 18/24. Supported holds, full-query resolution, exact typed agreement and strict completion are distinct. The primary completion counts above are not factual-answer accuracy. The supplement preserves all labels and strict-score intersections, with no human-validation or universal-winner claim.
 
 ## Design and endpoint
 
@@ -77,7 +79,7 @@ The five direct arms use 24 matched cases each: 19 authored-ready and five autho
 | `search_body` | 24 | 24 | 10 | 21 | 23 | 12 | 9 | 9 | [16.67%, 58.33%] |
 | `oracle_originals` | 24 | 24 | 12 | 21 | 24 | 12 | 11 | 11 | [29.17%, 62.50%] |
 
-Artifact production, schema/citation contract validity, exact typed agreement, support-span exposure and citation-set coverage remain distinct. A citation ID does not prove cited-span entailment. Exact number/type/null/list conventions are frozen; a later blinded supplement will be reported separately and will not replace these primary scores.
+Artifact production, schema/citation contract validity, exact typed agreement, support-span exposure and citation-set coverage remain distinct. A citation ID does not prove cited-span entailment. Exact number/type/null/list conventions are frozen; the [separate blinded supplement](SEMANTIC-REVIEW.md) preserves these primary scores.
 
 ![Five reader gates plus complete and clean endpoints](figures/14-reader-gates.png)
 
@@ -102,7 +104,7 @@ Figure 17 displays arm-level complete-task and span-exposure estimates. The nume
 
 Across discovery, complete task is 46/48 but clean protocol completion is 9/48. Rejected actions or other frozen protocol violations can make a completed task unclean; this score is not a measured fatal-harm or real-world safety rate. All 48 discovery trials have verified support reached and fresh observed submission clocks, with zero reuse exclusions or unavailable clocks. Those clocks are host-delivery proxies, not measured comprehension or provider intake. Actions and returned UTF-8 tool bytes are observed for all 48; prompt-input byte counts are unavailable for all 48 and are not imputed as zero. Direct/oracle null action clocks are outside this measured discovery route.
 
-The 192 scheduled reader rows include one retained `response_round_cap` failure, with observed artifact and gate values preserved. Preparation for the separate semantic review mechanically reconciled 192 cases: 191 auditable and one not auditable with zero extracted evidence. **No actual semantic ratings have been accepted. Three fresh, disjoint reviewer tasks have been launched**, under [the semantic review plan](SEMANTIC-REVIEW-PLAN.md) and [execution disclosure](SEMANTIC-REVIEW-EXECUTION.md). Their complete input traces, case census, bindings and citation coordinates remain subject to acceptance checks. Preparation and validator checks are not judging.
+The 192 scheduled reader rows include one retained `response_round_cap` failure, with observed artifact and gate values preserved. Preparation for the separate semantic review mechanically reconciled 192 cases: 191 auditable and one not auditable with zero extracted evidence. At primary release, three fresh, disjoint reviewer tasks had been launched under [the original semantic plan](SEMANTIC-REVIEW-PLAN.md) and [launch disclosure](SEMANTIC-REVIEW-EXECUTION.md). The later [completed semantic supplement](SEMANTIC-REVIEW.md) retains their 85 saved judgments and reviews the remaining 107 in eight disclosed recovery contexts. Complete native delivery, saved-byte and full-192 schema/citation checks passed before unblinding. Mechanical checks establish neither entailment nor human validation.
 
 ## Timing and mechanical maintenance
 
@@ -163,4 +165,4 @@ Figure 23 readability supplement: [PNG](presentation/23-invalidation-tradeoffs-r
 
 Use these results as bounded implementation evidence and hypotheses for source-preserving, scope-aware memory systems. Supplied aliases, applicability labels, source hashes and dependency graphs make this a scaffolded test. The study does not establish automatic personal-memory extraction, hidden-prefix erasure, human validation, source authority, citation entailment or a production safety guarantee. The separately reported [native-transfer study](NATIVE-TRANSFER-REPORT.md) has different data and denominators and is not pooled into the main fictional-bank scores.
 
-The next scientific step is the separately scoped blinded semantic review, retaining nonauditable cases and reporting disagreements without overwriting frozen primary scores. Full public reproduction also has an access boundary: the numeric artifacts and public sources can be checked, but authenticated reader generation and the exact bound worker reload receipt remain private. The hash-bound preparation receipt is published as `preparation.json`. [AUDIT.md](AUDIT.md) lists required files, identities and commands, and distinguishes completed checks from that unexecuted supplement.
+The separately scoped blinded semantic review is complete, retaining the nonauditable case and all disagreements without overwriting primary scores. The next scientific step is independent-history replication, stronger human adjudication and matched evidence-completion interventions. Full public reproduction also has an access boundary: the numeric artifacts and public sources can be checked, but authenticated reader generation and the exact bound worker reload receipt remain private. The hash-bound preparation receipt is published as `preparation.json`. [AUDIT.md](AUDIT.md) lists required files, identities and commands, and distinguishes primary checks from the separately completed supplement.

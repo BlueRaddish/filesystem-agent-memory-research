@@ -1,0 +1,27 @@
+{
+  "analysis_sha256": "4602743218ea56d28c83d1307c9b1e3a6c36118f695018c14dbc0b0badfa10d6",
+  "compiler_sha256": "dfa64e53b49d2dcc68b8d49725f591adfe642c4273d02a240463ba5832be5ec5",
+  "complete_model_visible_delivery_checked": true,
+  "condition_mapping_sha256": "8648a372b1d0bc03de8b6dc8383b57b47f055a5b45c5055271732e41591279c6",
+  "explicit_unblind_authorized": true,
+  "judgment_index_sha256": "908a7c887c9a4f86e4e05d23fa39c7d55fc3b9d2c32481acfac95ce53cef1857",
+  "limits": [
+    "The original cohort retains three capacity stops, an unauthorized mkdir retry and two compaction stops; no clean-execution or independence claim.",
+    "Eight original saves shared a sequential outer call; actual exclusive-write completion precedes the next helper child start. The stricter failed gate is retained.",
+    "Context5 late frame-event binding and context11 late write-event binding are evidence corrections with earlier failed checks preserved; context11 result timestamp precedes recorded completion by10ms.",
+    "Two prior incidental diagnostic exposures are retained in the scope notes: one label literal/citation coordinates and one partial opaque source/query payload. No key, semantic comparison or rerating.",
+    "Mechanical transport/schema/citation coordinates do not establish semantic correctness, human truth, OS confinement, empty inherited memory or independent model draws.",
+    "Source/task prompts used inherited model selection; recovery byte/case caps are a scheduling heuristic, not a capacity guarantee.",
+    "This index does not authorize unblinding. Root must perform full192 validation and separately authorize one semantic compilation."
+  ],
+  "mechanical_validation_checked": true,
+  "preparation_sha256": "46d910d5a96046d333de5760d63a637ee3268ac3c365ec3e0a07131612cb861c",
+  "primary_scores_modified": false,
+  "reviewed_cases": 192,
+  "saved_judgment_bytes_checked": true,
+  "schema_version": "oct13-semantic-unblind-acceptance-v1",
+  "state": "ROOT_ACCEPTED_192_REVIEW_FOR_DESCRIPTIVE_UNBLINDING",
+  "transport_acceptance_sha256": "d3e53d8fb703815ba4c43d5f00f8d5b7c3eca25d5dd00144bf26ae9004648bf5",
+  "utc": "2026-10-15T04:10:08.495691+00:00",
+  "validator_result_sha256": "21a6dff7ebab52d3b8c98f0b5a093e442805aa66f2802d95d99b9d20bec157e5"
+}

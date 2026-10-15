@@ -1,0 +1,71 @@
+{
+  "scope": "Post-analysis discovery on 2026-10-15 UTC; separate from the historical 125-record catalog and all frozen study methods. No reproduction.",
+  "reviewed_sources": [
+    {
+      "id": "EC01",
+      "title": "Relevance Is Not Sufficiency: What Actually Closes the Evidence Gap in Long-Term Memory QA",
+      "url": "https://arxiv.org/html/2610.09348v1",
+      "version": "v1",
+      "accessed": "2026-10-15",
+      "status": "preprint",
+      "reviewed_sections": "Methods, main results, appendices L-P; selected HTML sections, not full code audit.",
+      "official_repository": "https://github.com/LYF199903/BFR-An-Agent-Memory-Framework-for-Evidence-Reconstruction",
+      "repository_commit": "b55139dc1e4ea0e8aa817992af74d11955ecbfa8",
+      "repository_review": "Anonymous public API tree (69 blobs, not truncated), full README and LICENSE inspected on 2026-10-15 UTC. MIT software license; README describes retrieval code and a synthetic example, not released benchmark caches/data/weights. No implementation execution or checkpoint validation.",
+      "repository_readme_sha256": "df9e04f9bfe25f1fe9f8a4e64df9f69678212d8304cba65e840572b0d6e6e26b",
+      "repository_license_sha256": "6bc55921e754b43366e7876b9efa319c6e57fabf7e2457493821ee43b28a1ba2"
+    },
+    {
+      "id": "EC02",
+      "title": "The Missing Complement: State-Conditioned Minimal Sufficient Evidence for Coding Agents",
+      "url": "https://arxiv.org/html/2609.20050v1",
+      "version": "v1",
+      "accessed": "2026-10-15",
+      "status": "preprint",
+      "reviewed_sections": "Methods/results 6.1-6.5, budget and overlap appendices, release statement; selected HTML sections.",
+      "official_repository": "https://github.com/LordTARN1SHED/SERBench",
+      "repository_commit": "8c27a88e48dcbcd4a5745573c95937a4740f4406",
+      "repository_review": "Anonymous public API tree (58 blobs, not truncated), full README, LICENSE, DATA_LICENSE and THIRD_PARTY_NOTICES inspected on 2026-10-15 UTC. Original software: MIT; original annotations/state cards: scoped CC BY 4.0; upstream excerpts retain original rights. Benchmark interface/starter release; Test500 certificates private. No implementation or service execution.",
+      "repository_readme_sha256": "3c09da77ff1b70486b46cf79d24ab678563ecc0b41a513e1faaca5838a584db2",
+      "repository_license_sha256": "c1b0f5d77bf1795c549d34b5406c45351f0e07fbf2f7bce2d235bc55459a798e"
+    },
+    {
+      "id": "EC03",
+      "title": "When Does Execution Provenance Help Agent Memory Retrieval?",
+      "url": "https://arxiv.org/html/2609.25913v1",
+      "version": "v1",
+      "accessed": "2026-10-15",
+      "status": "preprint",
+      "reviewed_sections": "Protocol, query audit, results 8.1-8.5 and limitations; selected HTML sections.",
+      "official_repository": "https://github.com/xiaoqi-7/GraphMemory",
+      "repository_commit": "df29287116fa1565b3fd6b485022cd6090dc0b27",
+      "repository_review": "Anonymous public API tree (273 blobs, not truncated) and full README inspected on 2026-10-15 UTC. No tree path contained license, copying or notice; API license metadata was null. README supplies reproduction commands with separate data/model downloads. This is an inspection boundary, not a legal determination or an executed reproduction.",
+      "repository_readme_sha256": "9e4bd66b023e4317dff62c5faeac82e2390f08a2223d5f08ccacd6203bdeb0c7"
+    },
+    {
+      "id": "EC04",
+      "title": "Learning What to Remember: A Cognitively Grounded Multi-Factor Value Model for Agentic Memory",
+      "url": "https://arxiv.org/html/2606.12945v1",
+      "version": "v1",
+      "accessed": "2026-10-15",
+      "status": "preprint",
+      "reviewed_sections": "Blind/oracle retention experiment, live factors, limitations and conclusion; selected HTML sections.",
+      "official_repository": "https://github.com/zhibao-dev/BorgeAgent",
+      "repository_review": "Anonymous public GitHub API request returned HTTP 404 on 2026-10-15 UTC. No contents, license or checkpoint inspected; cause of unavailability not established."
+    }
+  ],
+  "unreviewed_access_candidates": [
+    {
+      "url": "https://www.nature.com/articles/s41586-025-09910-2",
+      "title": "Distinct neuronal populations in the human brain combine content and context",
+      "accessed": "2026-10-15",
+      "boundary": "Search discovery; full-page open returned an internal error. No new biological finding synthesized."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41562-025-02379-z",
+      "title": "Spatial contexts with reliable neural representations support reinstatement of subsequently placed objects",
+      "accessed": "2026-10-15",
+      "boundary": "Search discovery; HTML cookie redirect and subsequent reader errors blocked dependable section review. No new biological finding synthesized."
+    }
+  ]
+}

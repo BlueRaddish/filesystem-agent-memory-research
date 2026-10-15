@@ -1,0 +1,74 @@
+{
+  "schema_version": "oct13-semantic-figure-registry-v1",
+  "input_sha256": "6b82a624297354c491b66e7390880c435364027f2fff84509a634acae12819ad",
+  "renderer_sha256": "2ef71887abfb99e3a906c1198c5b71ec4c231f59a2c79adcccae45840c2672d8",
+  "figure_tables_sha256": "2300052da459d6ebb63b08141c791f9b6f72f8163355ff3662bf94f640538457",
+  "figures": [
+    {
+      "id": "S1-label-marginals",
+      "description": "Four exclusive labels within each dimension; blocks and units remain separate.",
+      "exports": {
+        "png": {
+          "file": "S1-label-marginals.png",
+          "sha256": "1427e865dab0cecaa62028538d00f55bff38f10bad4a4a6bd4a712b25b9eab00",
+          "bytes": 95720
+        },
+        "svg": {
+          "file": "S1-label-marginals.svg",
+          "sha256": "cbe139769e9cde745c75b0f8b9027a231c41c8ec29d1fe5002d2bbef9715b752",
+          "bytes": 98661
+        }
+      }
+    },
+    {
+      "id": "S2-arm-measures",
+      "description": "Per-arm support and two unchanged primary gates; direct/oracle/discovery are separate.",
+      "exports": {
+        "png": {
+          "file": "S2-arm-measures.png",
+          "sha256": "0d82242520c9a95e7da0edf5daab5196e1cfcf253c52eb44cbcd5979aa5d36c7",
+          "bytes": 150688
+        },
+        "svg": {
+          "file": "S2-arm-measures.svg",
+          "sha256": "b14c36bf04abbf5d961b5a701e98ebe5cd5b7e22d89e94541b5c0e1007b6e45f",
+          "bytes": 93522
+        }
+      }
+    },
+    {
+      "id": "S3-support-typed-intersections",
+      "description": "Disjoint 2x2 case counts within each block; no scores changed.",
+      "exports": {
+        "png": {
+          "file": "S3-support-typed-intersections.png",
+          "sha256": "d1a0f5b87bf72f1a7215f5d8180a9dde783a9deab8f08da17a3279c48d1f174c",
+          "bytes": 82084
+        },
+        "svg": {
+          "file": "S3-support-typed-intersections.svg",
+          "sha256": "0fdd80ee209fac0b71895fd0e6312a9f8ac9c84a95ed081f63825d67254e4751",
+          "bytes": 78031
+        }
+      }
+    },
+    {
+      "id": "S4-review-execution-cohorts",
+      "description": "Accepted original/recovery case counts; no duration or independence claim.",
+      "exports": {
+        "png": {
+          "file": "S4-review-execution-cohorts.png",
+          "sha256": "1fc23a5617051455fcf8764ca3f1744b1fa9ec565cc75eb62d1d851e74698019",
+          "bytes": 101992
+        },
+        "svg": {
+          "file": "S4-review-execution-cohorts.svg",
+          "sha256": "10b6f3db93e0dd38050b27dfc1daee98034bce3708ef42e17aba405752a2a83d",
+          "bytes": 71557
+        }
+      }
+    }
+  ],
+  "primary_figures_modified": 0,
+  "visual_review": "pending"
+}

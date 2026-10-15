@@ -1,0 +1,163 @@
+{
+  "boundaries": [
+    "Authentication and transport health are separate from source extraction and semantic judgments; no authentication status is asserted here.",
+    "All 192 written artifacts have judgments; 191 have auditable extracted source visibility and one does not. No-write count is zero.",
+    "Public hashes bind retained private records; hashes or prose alone do not prove execution. Private native traces and source exposure audits remain withheld.",
+    "Mechanical byte/schema/citation checks do not establish semantic entailment, human truth, OS confinement, empty inherited memory or independent model draws.",
+    "Opaque assignments can still be cued by visible content, aliases, task identifiers, policy strings and source volume; concealment is not guaranteed.",
+    "Descriptive LLM review uses one saved judgment per artifact, no human adjudication or duplicate ratings, and no reliability estimate. Frozen primary scores remain unchanged."
+  ],
+  "contexts": [
+    {
+      "cohort": "initial",
+      "context": 1,
+      "original_partition": 1,
+      "saved_judgments": 10,
+      "trace_prefix_sha256": "7d35f6a28dce0895720e5fe7608efa2774b2e35609af71df866ec7e5637821bf",
+      "transport_proof_sha256": "fcbe27d813f564833a97a78b3b95c5c7a79b7ecb6b6dc6857e52a2982c7f36f3"
+    },
+    {
+      "cohort": "initial",
+      "context": 2,
+      "original_partition": 2,
+      "saved_judgments": 38,
+      "trace_prefix_sha256": "6ad4c7e7ec9702cdeb45345711c175ec51b12812190cc9f5bbd2bfdf726959b5",
+      "transport_proof_sha256": "86766adc5af0ea48385d539023a13742ca694f25867a41ee6a0e38bd74d6cf9d"
+    },
+    {
+      "cohort": "initial",
+      "context": 3,
+      "original_partition": 3,
+      "saved_judgments": 37,
+      "trace_prefix_sha256": "54c67c6d1781536d82d5b10841386df217fa217154ace1e032dcd0b6e9147c0a",
+      "transport_proof_sha256": "a2fdc979664ce4fc813955fec23cfad04d4c27cecd8c22c00ada2ab34b90f068"
+    },
+    {
+      "cohort": "recovery",
+      "context": 4,
+      "original_partition": 1,
+      "saved_judgments": 12,
+      "trace_prefix_sha256": "b92fb13db067ae87b709a13afb984f2df7df4e381a9d9551b981a862cd69a45a",
+      "transport_proof_sha256": "c7ca0f0d83db1140a543ba7e7e83455d34c518ba62caf0f860f0b7ff78d118fc"
+    },
+    {
+      "cohort": "recovery",
+      "context": 5,
+      "original_partition": 1,
+      "saved_judgments": 14,
+      "trace_prefix_sha256": "e5d21215a53451471593715d4a41da3fca8fa0c455f2f084ecdfeae7d6a5a50a",
+      "transport_proof_sha256": "b3c9e3f0c86569d9167a081287431f197f009ae99f744f0a24b91dcc7a642566"
+    },
+    {
+      "cohort": "recovery",
+      "context": 6,
+      "original_partition": 1,
+      "saved_judgments": 14,
+      "trace_prefix_sha256": "fdc48eee1cbd98d9db150e20ce28b3996bb2bba82dfe93ba6885c93a3c569f1b",
+      "transport_proof_sha256": "42b910a8b3d3e37c2bfa934529273679e4dd4d24311a28cb2546f2374500fcf1"
+    },
+    {
+      "cohort": "recovery",
+      "context": 7,
+      "original_partition": 1,
+      "saved_judgments": 14,
+      "trace_prefix_sha256": "c43190e4229a95c395a09be38ecc5b847ca7871dad8e75869700f06acf1a5242",
+      "transport_proof_sha256": "47c5632150709bf27c4d3fb74d4eef935656829a2c0c9d11a8e13c5f3297f9bd"
+    },
+    {
+      "cohort": "recovery",
+      "context": 8,
+      "original_partition": 2,
+      "saved_judgments": 13,
+      "trace_prefix_sha256": "8ec551b881a7f859b29c4e6d2cb81364cd94fc9f6acf2f0728345cc69380d623",
+      "transport_proof_sha256": "4b5cce2953f2fc5503f94b8663a6cff6b42928a646137e4dbb8f7bc874971606"
+    },
+    {
+      "cohort": "recovery",
+      "context": 9,
+      "original_partition": 2,
+      "saved_judgments": 12,
+      "trace_prefix_sha256": "12c4e35517ece917724010bc662f83013a259e159aae6407a37a77398a8bd440",
+      "transport_proof_sha256": "de94d420dc8003bb2e0e6470c0d8bc65310e9966535c62d49bdb7cd1a4cd1382"
+    },
+    {
+      "cohort": "recovery",
+      "context": 10,
+      "original_partition": 3,
+      "saved_judgments": 14,
+      "trace_prefix_sha256": "4affa18a53fb081c49099f484a6c484c51bc8f62fcf2c212486bcd4abeaa1683",
+      "transport_proof_sha256": "06f7d1d1f8043df01f462d60b0f9a2b75af0a2b8825297a314d76fd2e0d5acd5"
+    },
+    {
+      "cohort": "recovery",
+      "context": 11,
+      "original_partition": 3,
+      "saved_judgments": 14,
+      "trace_prefix_sha256": "a4b18646399d5f1d1fabae50f97ed2884fe1550d421970a6faf3a8661bd1e8e8",
+      "transport_proof_sha256": "e8baba514132c7859c36adf286c861cb864ffb21d706fc0df059dcc6cd7dd56c"
+    }
+  ],
+  "evidence_corrections": {
+    "complete_case_before_save_and_save_before_next_read_checked": 192,
+    "late_frame_event_binding_context": 5,
+    "late_write_event_binding_context": 11,
+    "original_shared_outer_call_writes": 8,
+    "stricter_failed_gates_preserved": true,
+    "visible_result_before_recorded_write_completion_ms": 10
+  },
+  "evidence_sha256": {
+    "combined_transport_acceptance": "d3e53d8fb703815ba4c43d5f00f8d5b7c3eca25d5dd00144bf26ae9004648bf5",
+    "compile_once_command_receipt": "d993e06f84f1d7a8ccc2ad8345027299c58b03f447541f749a0505a5aa8ab42a",
+    "compiled_candidate": "6b82a624297354c491b66e7390880c435364027f2fff84509a634acae12819ad",
+    "compiler_source": "dfa64e53b49d2dcc68b8d49725f591adfe642c4273d02a240463ba5832be5ec5",
+    "context11_corrected_binding": "a1ac60e89956642429854da2eb4ebbafb0c843cfa8225b83d78bb5b189c32cbb",
+    "delivery_seal": "4d37cb04eec56d9479e425ea2a0a20f8ebb57fa9007ee3be131bef8b14dc807e",
+    "full192_validator_command_receipt": "665cfdf1f1565aab4baebf9a0743647f519e7c418eea153b8ce95e2ef4c2f429",
+    "mechanical_validator_source": "16107e4e83ddb623c404e667024c460605bfda67fcd8133e32e49f94cf8cecf5",
+    "opaque_reader_source": "cfb1864f1a22e17ada4048b3b2cfab73801c75a8b1da9c50a58f95acdac3ecb9",
+    "original85_corrected_order": "72f08c4b546d8e803977bcb5a139843bdb15a574b41bdf51c46d7daa6519adee",
+    "public_consuming_command_receipt": "ee2fe61e70bd4566018729ee133c19bb69cb6a72056d1216bc53bb80c58ac7fa",
+    "root_execution_receipt": "ab7ac4d98c0f4bfc5bad27f62927244bfe16fd984edbdc63816525a07b4e0427",
+    "root_unblind_acceptance": "f8fe3dfc3785f27cb52d74b9b3ed7e2fe4a1b9956e6255d7742c691ef8f3ab11",
+    "saved_judgment_index": "908a7c887c9a4f86e4e05d23fa39c7d55fc3b9d2c32481acfac95ce53cef1857",
+    "unchanged_rubric": "3c06cf6c3a4ee965743a4f0ca1a515f16fd42eb292f2d3ca5cf63c59091a200a"
+  },
+  "execution": {
+    "auditor_reviewer_contacts": 0,
+    "compilation_model_calls": 0,
+    "compiler_exit": 0,
+    "compiler_invocations": 1,
+    "explicit_unblind_authorized_and_completed": true,
+    "full192_validator_exit": 0,
+    "judgments_rerated": 0,
+    "model_overrides": 0,
+    "model_selection": "inherited",
+    "primary_scores_modified": false,
+    "public_consuming_check_exit": 0
+  },
+  "incidental_diagnostic_exposures": [
+    "judgment_literal_and_citation_coordinates",
+    "partial_opaque_source_query_payload"
+  ],
+  "retained_events": {
+    "explicit_same_context_resumes": 2,
+    "original_capacity_stops": 3,
+    "original_compaction_stops": 2,
+    "original_failed_records_preserved": true,
+    "recovery_context_stops": 0,
+    "unauthorized_mkdir_retry": 1
+  },
+  "schema_version": "oct13-public-semantic-execution-v1",
+  "scope_counts": {
+    "initial_saved": 85,
+    "no_write_trials": 0,
+    "ordinal_contexts": 11,
+    "recovery_saved": 107,
+    "reviewed_cases": 192,
+    "scheduled_trials": 192,
+    "source_auditable": 191,
+    "source_not_auditable": 1,
+    "written_artifacts": 192
+  },
+  "state": "completed_mechanical_validation_and_single_descriptive_compilation"
+}

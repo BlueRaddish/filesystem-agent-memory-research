@@ -1,0 +1,292 @@
+{
+  "by_block": {
+    "direct": {
+      "arms": {
+        "body_whole": {
+          "complete": 9,
+          "n": 24,
+          "supported": 22,
+          "typed": 20
+        },
+        "dense_closure": {
+          "complete": 2,
+          "n": 24,
+          "supported": 22,
+          "typed": 19
+        },
+        "entity_closure": {
+          "complete": 2,
+          "n": 24,
+          "supported": 22,
+          "typed": 19
+        },
+        "minilm_closure": {
+          "complete": 1,
+          "n": 24,
+          "supported": 22,
+          "typed": 19
+        },
+        "search_body": {
+          "complete": 9,
+          "n": 24,
+          "supported": 22,
+          "typed": 21
+        }
+      },
+      "marginals": {
+        "answer_field": {
+          "counts": [
+            281,
+            7,
+            7,
+            0
+          ],
+          "n": 295
+        },
+        "citation": {
+          "counts": [
+            105,
+            4,
+            11,
+            0
+          ],
+          "n": 120
+        },
+        "full_query": {
+          "counts": [
+            82,
+            5,
+            33,
+            0
+          ],
+          "n": 120
+        },
+        "status": {
+          "counts": [
+            115,
+            1,
+            4,
+            0
+          ],
+          "n": 120
+        }
+      },
+      "matrix": [
+        [
+          94,
+          16
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "n": 120
+    },
+    "discovery": {
+      "arms": {
+        "entry0_helper0": {
+          "complete": 12,
+          "n": 12,
+          "supported": 12,
+          "typed": 12
+        },
+        "entry0_helper1": {
+          "complete": 12,
+          "n": 12,
+          "supported": 12,
+          "typed": 12
+        },
+        "entry1_helper0": {
+          "complete": 12,
+          "n": 12,
+          "supported": 11,
+          "typed": 12
+        },
+        "entry1_helper1": {
+          "complete": 10,
+          "n": 12,
+          "supported": 12,
+          "typed": 12
+        }
+      },
+      "marginals": {
+        "answer_field": {
+          "counts": [
+            113,
+            0,
+            0,
+            3
+          ],
+          "n": 116
+        },
+        "citation": {
+          "counts": [
+            47,
+            0,
+            0,
+            1
+          ],
+          "n": 48
+        },
+        "full_query": {
+          "counts": [
+            43,
+            0,
+            4,
+            1
+          ],
+          "n": 48
+        },
+        "status": {
+          "counts": [
+            47,
+            0,
+            0,
+            1
+          ],
+          "n": 48
+        }
+      },
+      "matrix": [
+        [
+          47,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "n": 48
+    },
+    "oracle": {
+      "arms": {
+        "oracle_originals": {
+          "complete": 11,
+          "n": 24,
+          "supported": 23,
+          "typed": 21
+        }
+      },
+      "marginals": {
+        "answer_field": {
+          "counts": [
+            57,
+            1,
+            1,
+            0
+          ],
+          "n": 59
+        },
+        "citation": {
+          "counts": [
+            23,
+            1,
+            0,
+            0
+          ],
+          "n": 24
+        },
+        "full_query": {
+          "counts": [
+            19,
+            1,
+            4,
+            0
+          ],
+          "n": 24
+        },
+        "status": {
+          "counts": [
+            24,
+            0,
+            0,
+            0
+          ],
+          "n": 24
+        }
+      },
+      "matrix": [
+        [
+          21,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n": 24
+    }
+  },
+  "execution_contexts": [
+    {
+      "cohort": "initial",
+      "context_id": 1,
+      "original_partition": 1,
+      "reviewed_cases": 10
+    },
+    {
+      "cohort": "initial",
+      "context_id": 2,
+      "original_partition": 2,
+      "reviewed_cases": 38
+    },
+    {
+      "cohort": "initial",
+      "context_id": 3,
+      "original_partition": 3,
+      "reviewed_cases": 37
+    },
+    {
+      "cohort": "recovery",
+      "context_id": 4,
+      "original_partition": 1,
+      "reviewed_cases": 12
+    },
+    {
+      "cohort": "recovery",
+      "context_id": 5,
+      "original_partition": 1,
+      "reviewed_cases": 14
+    },
+    {
+      "cohort": "recovery",
+      "context_id": 6,
+      "original_partition": 1,
+      "reviewed_cases": 14
+    },
+    {
+      "cohort": "recovery",
+      "context_id": 7,
+      "original_partition": 1,
+      "reviewed_cases": 14
+    },
+    {
+      "cohort": "recovery",
+      "context_id": 8,
+      "original_partition": 2,
+      "reviewed_cases": 13
+    },
+    {
+      "cohort": "recovery",
+      "context_id": 9,
+      "original_partition": 2,
+      "reviewed_cases": 12
+    },
+    {
+      "cohort": "recovery",
+      "context_id": 10,
+      "original_partition": 3,
+      "reviewed_cases": 14
+    },
+    {
+      "cohort": "recovery",
+      "context_id": 11,
+      "original_partition": 3,
+      "reviewed_cases": 14
+    }
+  ],
+  "input_sha256": "6b82a624297354c491b66e7390880c435364027f2fff84509a634acae12819ad"
+}

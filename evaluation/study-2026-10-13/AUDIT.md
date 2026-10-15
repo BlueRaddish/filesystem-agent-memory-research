@@ -1,6 +1,6 @@
 # Execution, numeric and presentation audit
 
-The October 13 main collection and raw execution audit are complete for the retained byte identities below. The postcollection compatibility analysis ran once and exited zero. Independent numeric/export checks passed within their stated scope. Three disjoint blinded reviewer tasks have now been launched, but **no semantic ratings have been accepted**; preparing cases and checking a validator do not establish semantic judgments.
+The October 13 main collection and raw execution audit are complete for the retained byte identities below. The postcollection compatibility analysis ran once and exited zero. Independent numeric/export checks passed within their stated scope. The separately completed [blinded semantic supplement](SEMANTIC-REVIEW.md) covers all 192 artifacts, after full delivery/saved-byte checks and the original full-cohort validator passed before unblinding. Its one-LLM judgments do not establish human truth or replace frozen scores.
 
 This record accompanies [the primary report](REPORT.md). The prospective plan, research, specification and 32 frozen inputs remain unchanged historical artifacts. The analysis-recovery wrapper and readable maintenance presentation are disclosed additions outside that original frozen core.
 
@@ -17,7 +17,9 @@ This record accompanies [the primary report](REPORT.md). The prospective plan, r
 | Main figure files | All 26 source-defined IDs and 52 PNG/SVG identities, bytes, table hashes and source-table bindings matched | File/schema checks do not establish visual readability |
 | PNG visual review | All 26 PNGs individually viewed in two review groups (13 plus 13) | Original Figure 23 has coincident labels; a separate readable derivative is accepted |
 | Readability supplement | Same ten maintenance rows, new two-export layout, original 52 unchanged; PNG individually viewed and default-open request succeeded | Not a new endpoint; foreground display was not independently confirmed |
-| Semantic preparation | 192 extracted cases reconciled: 191 auditable, one not auditable with zero evidence | Three fresh, disjoint semantic reviewer tasks launched; no ratings accepted |
+| Semantic preparation | 192 extracted cases reconciled: 191 auditable, one not auditable with zero evidence | Extraction is distinct from entailment |
+| Semantic supplement | 192 saved judgments; original 85 retained plus 107 recovery cases; full-192 validation before one compilation; independent count/byte/bounds review passed | One judgment per artifact; original execution deviations and private-audit access boundaries retained |
+| Supplement figures | Four additional PNG/SVG pairs; all four PNGs individually inspected with exact tables/export hashes | New descriptive figures, not primary endpoints or human validation |
 
 The full execution audit also verified frozen/historical source bindings and publication hygiene. Generic hygiene scans may stream public result-file bytes; they are not semantic grading. No private native transcript, account log, host path or exact private execution argv is included here.
 
@@ -90,3 +92,18 @@ The template is one command line; substitute real new directory arguments. `prep
 Repeating the raw execution audit or collecting readers requires additional private execution evidence, pinned model/cache material and the installed local authenticated transport. The public runtime file binds those identities but does not supply access. Its model is `muse-spark-1.3-contributor` at reasoning effort `high`. The published bank is fictional; private native trace/session material is deliberately not a public reproduction input.
 
 Actual consuming checks ran under Python 3.13.14. Python 3.10 grammar was checked for the added portable sources, but a Python 3.10 runtime was not executed. The semantic-validator source review retains a known native directory-symlink skip; that limitation is not converted into an actual semantic-review pass. No new source fixture check establishes a human usability, factual entailment, production safety or distributed-concurrency guarantee.
+
+## Completed semantic consuming route
+
+The [semantic report](SEMANTIC-REVIEW.md), [safe execution disclosure](SEMANTIC-REVIEW-EXECUTION-RESULTS.md) and [acceptance record](semantic-acceptance.json) distinguish original stops, recovery, actual validation and independent review. Raw fictional cases/judgments are in `semantic-review.json`; original native logs, account details and host paths remain private. Compilation-time candidate/visual-warning fields remain unchanged, with completed acceptance recorded separately.
+
+From this study directory, without model calls or private preparation/key access:
+
+```text
+python compile_reader_semantics.py --check --candidate semantic-review.json --analysis analysis.json
+python compile_reader_semantics.py --self-check
+python check_semantic_candidate.py --self-check --study .
+python render_reader_semantics.py --self-check
+```
+
+The separately authored independent checker's full route is documented in the semantic report. Public checks reproduce supplied UTF-8 identities, original citation bounds, frozen joins and counts. They do not independently authenticate historical extraction, private condition mapping, native delivery or entailment. The [post-analysis evidence-completion extension](EVIDENCE-COMPLETION-RESEARCH.md) is primary-source review with explicit version/release/access boundaries; its four proposed interventions are unexecuted.
