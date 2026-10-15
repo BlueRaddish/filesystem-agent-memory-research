@@ -109,3 +109,21 @@ These checks cover authored-bank consistency, the completed blind bank compariso
 ## Scope and contribution
 
 Public primary sources are linked rather than mirrored. The original prose, examples, and scripts use the [MIT license](LICENSE); third-party works retain their own rights. See [methodology](research/methodology.md), [privacy](PRIVACY.md), and [contribution guidance](CONTRIBUTING.md). Public corrections and extensions are welcome, especially matched experiments, negative results, and research that tests unfamiliar readers and changing evidence.
+
+## Supplemental reviewer recovery checkpoint (October 15 UTC)
+
+The original three source-review contexts stopped before completing their full
+partitions. Structural audits retain 85 saved judgments (10, 38 and 37); their
+semantic correctness and descriptive aggregation remain pending. The remaining
+107 cases have no retained judgment. The prospective [execution recovery
+amendment](evaluation/study-2026-10-13/SEMANTIC-REVIEW-CAPACITY-RECOVERY.md) proposes
+eight smaller fresh contexts, preserving every retained judgment and all original
+inputs. No recovery task is created by this publication. Byte/count caps do not
+establish context capacity, independence or reliability. The unchanged rubric and
+primary endpoints remain authoritative.
+
+The [portable recovery stager](evaluation/study-2026-10-13/stage_reader_semantic_recovery.py)
+provides fictional `--self-check`, metadata-only `--plan`, and an explicitly gated
+create-new `--stage` route. It makes no model/task calls and does not read saved
+judgment contents. Root must accept the exact staged manifest and audit actual
+complete case delivery and saved bytes before accepting new judgments.
