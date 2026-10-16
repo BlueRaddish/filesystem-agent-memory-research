@@ -1,0 +1,8 @@
+{
+  "results_sha256": "d874e3780f219050c1e727f2ed00deb07578000c15f0035f9067e886d35b48bb",
+  "renderer_sha256": "d4ed9a3a299eced02ef18ec6ee05bfdd24a9d47d3a8e6c71af9741db2f3d368f",
+  "exports": {
+    "01-reader-packets.png": "e3d4d875a149b1f0adf8c0c499fa246f8e9cbdd118a36f7ad5a80354e1ff8752",
+    "01-reader-packets.svg": "4ac91c0668c4c0cfd714d49702483bbcf51782c8feb838b14fad3f98bf2632f2"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "state": "RESEARCH_AND_VISUAL_REVIEW_ACCEPTED",
+  "utc": "2026-10-16T01:53:34.910148+00:00",
+  "main": {
+    "trials": 64512,
+    "worlds": 32,
+    "queries": 1024,
+    "shared_backbone_scenarios": 8,
+    "original_source_instances": 6024,
+    "arms": 63,
+    "epochs": 32,
+    "source_only_calls": 258048,
+    "maintenance_rows": 64512,
+    "active_snapshots": 16128
+  },
+  "readers": {
+    "planned": 48,
+    "staged": 48,
+    "valid": 48,
+    "contexts": 8,
+    "fixed_queries": 12,
+    "requested_model": "gpt-6.1-sol",
+    "fork_turns": "none",
+    "output_retries": 0,
+    "complete_gold_support_packets": 35,
+    "value_and_gold_citation_agreement": 35,
+    "abstentions": 10,
+    "other_full_history_disagreements": 3,
+    "outside_packet_citations": 0
+  },
+  "verification_receipts_sha256": {
+    "verification/precollection.json": "fa51c6d50f50916f24194ebd0e4e6b9cf732aaf0fb42fe8bc6efed981afe5ab7",
+    "verification/trajectories.json": "bb679d53c0b9904f37734d0722e4ce46a491ccbed043d6f8483a89f8e2eaa3cc",
+    "verification/tables.json": "0b1d96516616984236b74eda727447193da7705d411804b0f9106825d69881cf",
+    "verification/main-figures.json": "d89d45bedbc981429644d68b059686e248145945552a546f13f43e0e56a0517b",
+    "verification/readers.json": "b983ef019cea62c6f38d2e50c51718821681782bf256e75d700980a53bd29508",
+    "verification/presentation.json": "55f33aa587d23f241c8d6abb61202092dca4827bc00df40bb2dc0c9d94304020"
+  },
+  "root_visually_inspected_pngs": {
+    "figures/01-longitudinal-success.png": "2ae0ea27538117d3e353025bfe417718bd7420fbc12a47ca5e645900fa91736f",
+    "figures/02-final-factorial.png": "27fdef0968283705c5f4173f3f5777f4881048f60de4bd7a39963536e9167b39",
+    "figures/03-storage-utility.png": "adb7a7b6d16cf62134c72072d9f1f4df86d416872c14056604602823a82b67c6",
+    "figures/04-scenario-outcomes.png": "9b181a7787c4ca11d3d25e8837c0c3d20d526cf62804437faf68d9c144e9ea12",
+    "figures/05-archive-effects.png": "5f830446d1426b09fe65910d25ce0224c87500cc2df1b574d4aef10ffec1eaca",
+    "figures/06-work-and-growth.png": "a8a82643ff9c0742b3f56aed553198f2899b521f592ad8269ef089a7c95273ec",
+    "reader-figures/01-reader-packets.png": "e3d4d875a149b1f0adf8c0c499fa246f8e9cbdd118a36f7ad5a80354e1ff8752"
+  },
+  "figure_pairs": 7,
+  "literature_source_records": 18,
+  "limits": [
+    "No natural PARA collection or production deletion.",
+    "Eight scenarios share a backbone; seeded worlds and repeated queries are not independent mechanisms.",
+    "Supplied structured metadata and ASSERT claims; no extraction or authority-discovery comparison.",
+    "Dependency-guard contrast is unactivated; latest policies coincide in the actual collection.",
+    "Archive contrasts include endogenous promotion/access feedback and reserve calls without reserving bytes.",
+    "Active source bytes and candidate work exclude metadata, indexing and multiple runtime costs; no latency advantage established.",
+    "Reader context parity is confounded with task; repeated values permit cross-case transfer.",
+    "Requested model/context identity is collector-recorded, not independent backend or OS-isolation attestation.",
+    "Mechanical gold/citation matching is not semantic entailment or independent human truth."
+  ]
+}

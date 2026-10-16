@@ -1,0 +1,7426 @@
+{
+  "cross_project-s0-high-e04-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e04-dependency": {
+    "governing": "cros0-bundle-01-00",
+    "required": [
+      "cros0-bundle-01-00",
+      "cros0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "cross_project-s0-high-e04-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e04-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-high-e08-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e08-dependency": {
+    "governing": "cros0-bundle-08-01",
+    "required": [
+      "cros0-bundle-08-01",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_8_0"
+  },
+  "cross_project-s0-high-e08-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e08-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-high-e12-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e12-dependency": {
+    "governing": "cros0-bundle-08-01",
+    "required": [
+      "cros0-bundle-08-01",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_8_0"
+  },
+  "cross_project-s0-high-e12-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e12-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-high-e16-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e16-dependency": {
+    "governing": "cros0-bundle-16-02",
+    "required": [
+      "cros0-bundle-16-02",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_16_0"
+  },
+  "cross_project-s0-high-e16-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e16-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-high-e20-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e20-dependency": {
+    "governing": "cros0-bundle-16-02",
+    "required": [
+      "cros0-bundle-16-02",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_16_0"
+  },
+  "cross_project-s0-high-e20-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e20-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-high-e24-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e24-dependency": {
+    "governing": "cros0-bundle-24-03",
+    "required": [
+      "cros0-bundle-24-03",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_24_0"
+  },
+  "cross_project-s0-high-e24-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e24-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-high-e28-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e28-dependency": {
+    "governing": "cros0-bundle-24-03",
+    "required": [
+      "cros0-bundle-24-03",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_24_0"
+  },
+  "cross_project-s0-high-e28-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e28-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-high-e32-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e32-dependency": {
+    "governing": "cros0-bundle-32-04",
+    "required": [
+      "cros0-bundle-32-04",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_32_0"
+  },
+  "cross_project-s0-high-e32-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-high-e32-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-low-e04-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e04-dependency": {
+    "governing": "cros0-bundle-01-00",
+    "required": [
+      "cros0-bundle-01-00",
+      "cros0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "cross_project-s0-low-e04-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e04-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-low-e08-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e08-dependency": {
+    "governing": "cros0-bundle-08-01",
+    "required": [
+      "cros0-bundle-08-01",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_8_0"
+  },
+  "cross_project-s0-low-e08-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e08-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-low-e12-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e12-dependency": {
+    "governing": "cros0-bundle-08-01",
+    "required": [
+      "cros0-bundle-08-01",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_8_0"
+  },
+  "cross_project-s0-low-e12-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e12-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-low-e16-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e16-dependency": {
+    "governing": "cros0-bundle-16-02",
+    "required": [
+      "cros0-bundle-16-02",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_16_0"
+  },
+  "cross_project-s0-low-e16-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e16-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-low-e20-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e20-dependency": {
+    "governing": "cros0-bundle-16-02",
+    "required": [
+      "cros0-bundle-16-02",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_16_0"
+  },
+  "cross_project-s0-low-e20-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e20-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-low-e24-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e24-dependency": {
+    "governing": "cros0-bundle-24-03",
+    "required": [
+      "cros0-bundle-24-03",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_24_0"
+  },
+  "cross_project-s0-low-e24-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e24-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-low-e28-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e28-dependency": {
+    "governing": "cros0-bundle-24-03",
+    "required": [
+      "cros0-bundle-24-03",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_24_0"
+  },
+  "cross_project-s0-low-e28-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e28-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s0-low-e32-current": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e32-dependency": {
+    "governing": "cros0-bundle-32-04",
+    "required": [
+      "cros0-bundle-32-04",
+      "cros0-license-01-00"
+    ],
+    "value": "linked_bundle_32_0"
+  },
+  "cross_project-s0-low-e32-historical": {
+    "governing": "cros0-setting-01-00",
+    "required": [
+      "cros0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "cross_project-s0-low-e32-standing": {
+    "governing": "cros0-guard-01-00",
+    "required": [
+      "cros0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "cross_project-s1-high-e04-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e04-dependency": {
+    "governing": "cros1-bundle-01-00",
+    "required": [
+      "cros1-bundle-01-00",
+      "cros1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "cross_project-s1-high-e04-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e04-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-high-e08-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e08-dependency": {
+    "governing": "cros1-bundle-08-01",
+    "required": [
+      "cros1-bundle-08-01",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_8_1"
+  },
+  "cross_project-s1-high-e08-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e08-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-high-e12-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e12-dependency": {
+    "governing": "cros1-bundle-08-01",
+    "required": [
+      "cros1-bundle-08-01",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_8_1"
+  },
+  "cross_project-s1-high-e12-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e12-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-high-e16-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e16-dependency": {
+    "governing": "cros1-bundle-16-02",
+    "required": [
+      "cros1-bundle-16-02",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_16_1"
+  },
+  "cross_project-s1-high-e16-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e16-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-high-e20-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e20-dependency": {
+    "governing": "cros1-bundle-16-02",
+    "required": [
+      "cros1-bundle-16-02",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_16_1"
+  },
+  "cross_project-s1-high-e20-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e20-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-high-e24-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e24-dependency": {
+    "governing": "cros1-bundle-24-03",
+    "required": [
+      "cros1-bundle-24-03",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_24_1"
+  },
+  "cross_project-s1-high-e24-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e24-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-high-e28-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e28-dependency": {
+    "governing": "cros1-bundle-24-03",
+    "required": [
+      "cros1-bundle-24-03",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_24_1"
+  },
+  "cross_project-s1-high-e28-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e28-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-high-e32-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e32-dependency": {
+    "governing": "cros1-bundle-32-04",
+    "required": [
+      "cros1-bundle-32-04",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_32_1"
+  },
+  "cross_project-s1-high-e32-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-high-e32-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-low-e04-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e04-dependency": {
+    "governing": "cros1-bundle-01-00",
+    "required": [
+      "cros1-bundle-01-00",
+      "cros1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "cross_project-s1-low-e04-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e04-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-low-e08-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e08-dependency": {
+    "governing": "cros1-bundle-08-01",
+    "required": [
+      "cros1-bundle-08-01",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_8_1"
+  },
+  "cross_project-s1-low-e08-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e08-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-low-e12-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e12-dependency": {
+    "governing": "cros1-bundle-08-01",
+    "required": [
+      "cros1-bundle-08-01",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_8_1"
+  },
+  "cross_project-s1-low-e12-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e12-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-low-e16-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e16-dependency": {
+    "governing": "cros1-bundle-16-02",
+    "required": [
+      "cros1-bundle-16-02",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_16_1"
+  },
+  "cross_project-s1-low-e16-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e16-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-low-e20-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e20-dependency": {
+    "governing": "cros1-bundle-16-02",
+    "required": [
+      "cros1-bundle-16-02",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_16_1"
+  },
+  "cross_project-s1-low-e20-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e20-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-low-e24-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e24-dependency": {
+    "governing": "cros1-bundle-24-03",
+    "required": [
+      "cros1-bundle-24-03",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_24_1"
+  },
+  "cross_project-s1-low-e24-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e24-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-low-e28-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e28-dependency": {
+    "governing": "cros1-bundle-24-03",
+    "required": [
+      "cros1-bundle-24-03",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_24_1"
+  },
+  "cross_project-s1-low-e28-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e28-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "cross_project-s1-low-e32-current": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e32-dependency": {
+    "governing": "cros1-bundle-32-04",
+    "required": [
+      "cros1-bundle-32-04",
+      "cros1-license-01-00"
+    ],
+    "value": "linked_bundle_32_1"
+  },
+  "cross_project-s1-low-e32-historical": {
+    "governing": "cros1-setting-01-00",
+    "required": [
+      "cros1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "cross_project-s1-low-e32-standing": {
+    "governing": "cros1-guard-01-00",
+    "required": [
+      "cros1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s0-high-e04-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e04-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-high-e04-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e04-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-high-e08-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e08-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-high-e08-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e08-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-high-e12-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e12-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-high-e12-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e12-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-high-e16-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e16-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-high-e16-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e16-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-high-e20-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e20-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-high-e20-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e20-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-high-e24-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e24-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-high-e24-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e24-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-high-e28-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e28-dependency": {
+    "governing": "dorm0-bundle-25-01",
+    "required": [
+      "dorm0-bundle-25-01",
+      "dorm0-dormant-01-00"
+    ],
+    "value": "reactivated_0"
+  },
+  "dormant_reactivation-s0-high-e28-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e28-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-high-e32-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e32-dependency": {
+    "governing": "dorm0-bundle-25-01",
+    "required": [
+      "dorm0-bundle-25-01",
+      "dorm0-dormant-01-00"
+    ],
+    "value": "reactivated_0"
+  },
+  "dormant_reactivation-s0-high-e32-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-high-e32-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-low-e04-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e04-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-low-e04-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e04-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-low-e08-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e08-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-low-e08-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e08-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-low-e12-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e12-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-low-e12-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e12-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-low-e16-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e16-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-low-e16-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e16-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-low-e20-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e20-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-low-e20-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e20-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-low-e24-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e24-dependency": {
+    "governing": "dorm0-bundle-01-00",
+    "required": [
+      "dorm0-bundle-01-00",
+      "dorm0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "dormant_reactivation-s0-low-e24-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e24-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-low-e28-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e28-dependency": {
+    "governing": "dorm0-bundle-25-01",
+    "required": [
+      "dorm0-bundle-25-01",
+      "dorm0-dormant-01-00"
+    ],
+    "value": "reactivated_0"
+  },
+  "dormant_reactivation-s0-low-e28-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e28-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s0-low-e32-current": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e32-dependency": {
+    "governing": "dorm0-bundle-25-01",
+    "required": [
+      "dorm0-bundle-25-01",
+      "dorm0-dormant-01-00"
+    ],
+    "value": "reactivated_0"
+  },
+  "dormant_reactivation-s0-low-e32-historical": {
+    "governing": "dorm0-setting-01-00",
+    "required": [
+      "dorm0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "dormant_reactivation-s0-low-e32-standing": {
+    "governing": "dorm0-guard-01-00",
+    "required": [
+      "dorm0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "dormant_reactivation-s1-high-e04-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e04-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-high-e04-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e04-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-high-e08-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e08-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-high-e08-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e08-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-high-e12-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e12-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-high-e12-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e12-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-high-e16-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e16-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-high-e16-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e16-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-high-e20-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e20-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-high-e20-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e20-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-high-e24-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e24-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-high-e24-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e24-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-high-e28-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e28-dependency": {
+    "governing": "dorm1-bundle-25-01",
+    "required": [
+      "dorm1-bundle-25-01",
+      "dorm1-dormant-01-00"
+    ],
+    "value": "reactivated_1"
+  },
+  "dormant_reactivation-s1-high-e28-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e28-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-high-e32-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e32-dependency": {
+    "governing": "dorm1-bundle-25-01",
+    "required": [
+      "dorm1-bundle-25-01",
+      "dorm1-dormant-01-00"
+    ],
+    "value": "reactivated_1"
+  },
+  "dormant_reactivation-s1-high-e32-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-high-e32-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-low-e04-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e04-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-low-e04-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e04-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-low-e08-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e08-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-low-e08-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e08-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-low-e12-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e12-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-low-e12-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e12-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-low-e16-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e16-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-low-e16-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e16-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-low-e20-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e20-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-low-e20-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e20-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-low-e24-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e24-dependency": {
+    "governing": "dorm1-bundle-01-00",
+    "required": [
+      "dorm1-bundle-01-00",
+      "dorm1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "dormant_reactivation-s1-low-e24-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e24-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-low-e28-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e28-dependency": {
+    "governing": "dorm1-bundle-25-01",
+    "required": [
+      "dorm1-bundle-25-01",
+      "dorm1-dormant-01-00"
+    ],
+    "value": "reactivated_1"
+  },
+  "dormant_reactivation-s1-low-e28-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e28-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "dormant_reactivation-s1-low-e32-current": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e32-dependency": {
+    "governing": "dorm1-bundle-25-01",
+    "required": [
+      "dorm1-bundle-25-01",
+      "dorm1-dormant-01-00"
+    ],
+    "value": "reactivated_1"
+  },
+  "dormant_reactivation-s1-low-e32-historical": {
+    "governing": "dorm1-setting-01-00",
+    "required": [
+      "dorm1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "dormant_reactivation-s1-low-e32-standing": {
+    "governing": "dorm1-guard-01-00",
+    "required": [
+      "dorm1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s0-high-e04-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e04-dependency": {
+    "governing": "expi0-bundle-01-00",
+    "required": [
+      "expi0-bundle-01-00",
+      "expi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "expiring_exception-s0-high-e04-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e04-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-high-e08-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e08-dependency": {
+    "governing": "expi0-bundle-01-00",
+    "required": [
+      "expi0-bundle-01-00",
+      "expi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "expiring_exception-s0-high-e08-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e08-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-high-e12-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e12-dependency": {
+    "governing": "expi0-bundle-12-01",
+    "required": [
+      "expi0-bundle-12-01",
+      "expi0-license-01-00"
+    ],
+    "value": "temporary_0"
+  },
+  "expiring_exception-s0-high-e12-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e12-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-high-e16-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e16-dependency": {
+    "governing": "expi0-bundle-12-01",
+    "required": [
+      "expi0-bundle-12-01",
+      "expi0-license-01-00"
+    ],
+    "value": "temporary_0"
+  },
+  "expiring_exception-s0-high-e16-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e16-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-high-e20-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e20-dependency": {
+    "governing": "expi0-bundle-12-01",
+    "required": [
+      "expi0-bundle-12-01",
+      "expi0-license-01-00"
+    ],
+    "value": "temporary_0"
+  },
+  "expiring_exception-s0-high-e20-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e20-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-high-e24-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e24-dependency": {
+    "governing": "expi0-bundle-12-01",
+    "required": [
+      "expi0-bundle-12-01",
+      "expi0-license-01-00"
+    ],
+    "value": "temporary_0"
+  },
+  "expiring_exception-s0-high-e24-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e24-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-high-e28-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e28-dependency": {
+    "governing": "expi0-bundle-01-00",
+    "required": [
+      "expi0-bundle-01-00",
+      "expi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "expiring_exception-s0-high-e28-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e28-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-high-e32-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e32-dependency": {
+    "governing": "expi0-bundle-01-00",
+    "required": [
+      "expi0-bundle-01-00",
+      "expi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "expiring_exception-s0-high-e32-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-high-e32-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-low-e04-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e04-dependency": {
+    "governing": "expi0-bundle-01-00",
+    "required": [
+      "expi0-bundle-01-00",
+      "expi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "expiring_exception-s0-low-e04-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e04-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-low-e08-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e08-dependency": {
+    "governing": "expi0-bundle-01-00",
+    "required": [
+      "expi0-bundle-01-00",
+      "expi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "expiring_exception-s0-low-e08-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e08-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-low-e12-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e12-dependency": {
+    "governing": "expi0-bundle-12-01",
+    "required": [
+      "expi0-bundle-12-01",
+      "expi0-license-01-00"
+    ],
+    "value": "temporary_0"
+  },
+  "expiring_exception-s0-low-e12-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e12-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-low-e16-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e16-dependency": {
+    "governing": "expi0-bundle-12-01",
+    "required": [
+      "expi0-bundle-12-01",
+      "expi0-license-01-00"
+    ],
+    "value": "temporary_0"
+  },
+  "expiring_exception-s0-low-e16-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e16-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-low-e20-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e20-dependency": {
+    "governing": "expi0-bundle-12-01",
+    "required": [
+      "expi0-bundle-12-01",
+      "expi0-license-01-00"
+    ],
+    "value": "temporary_0"
+  },
+  "expiring_exception-s0-low-e20-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e20-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-low-e24-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e24-dependency": {
+    "governing": "expi0-bundle-12-01",
+    "required": [
+      "expi0-bundle-12-01",
+      "expi0-license-01-00"
+    ],
+    "value": "temporary_0"
+  },
+  "expiring_exception-s0-low-e24-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e24-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-low-e28-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e28-dependency": {
+    "governing": "expi0-bundle-01-00",
+    "required": [
+      "expi0-bundle-01-00",
+      "expi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "expiring_exception-s0-low-e28-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e28-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s0-low-e32-current": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e32-dependency": {
+    "governing": "expi0-bundle-01-00",
+    "required": [
+      "expi0-bundle-01-00",
+      "expi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "expiring_exception-s0-low-e32-historical": {
+    "governing": "expi0-setting-01-00",
+    "required": [
+      "expi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "expiring_exception-s0-low-e32-standing": {
+    "governing": "expi0-guard-01-00",
+    "required": [
+      "expi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "expiring_exception-s1-high-e04-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e04-dependency": {
+    "governing": "expi1-bundle-01-00",
+    "required": [
+      "expi1-bundle-01-00",
+      "expi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "expiring_exception-s1-high-e04-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e04-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-high-e08-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e08-dependency": {
+    "governing": "expi1-bundle-01-00",
+    "required": [
+      "expi1-bundle-01-00",
+      "expi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "expiring_exception-s1-high-e08-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e08-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-high-e12-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e12-dependency": {
+    "governing": "expi1-bundle-12-01",
+    "required": [
+      "expi1-bundle-12-01",
+      "expi1-license-01-00"
+    ],
+    "value": "temporary_1"
+  },
+  "expiring_exception-s1-high-e12-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e12-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-high-e16-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e16-dependency": {
+    "governing": "expi1-bundle-12-01",
+    "required": [
+      "expi1-bundle-12-01",
+      "expi1-license-01-00"
+    ],
+    "value": "temporary_1"
+  },
+  "expiring_exception-s1-high-e16-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e16-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-high-e20-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e20-dependency": {
+    "governing": "expi1-bundle-12-01",
+    "required": [
+      "expi1-bundle-12-01",
+      "expi1-license-01-00"
+    ],
+    "value": "temporary_1"
+  },
+  "expiring_exception-s1-high-e20-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e20-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-high-e24-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e24-dependency": {
+    "governing": "expi1-bundle-12-01",
+    "required": [
+      "expi1-bundle-12-01",
+      "expi1-license-01-00"
+    ],
+    "value": "temporary_1"
+  },
+  "expiring_exception-s1-high-e24-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e24-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-high-e28-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e28-dependency": {
+    "governing": "expi1-bundle-01-00",
+    "required": [
+      "expi1-bundle-01-00",
+      "expi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "expiring_exception-s1-high-e28-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e28-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-high-e32-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e32-dependency": {
+    "governing": "expi1-bundle-01-00",
+    "required": [
+      "expi1-bundle-01-00",
+      "expi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "expiring_exception-s1-high-e32-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-high-e32-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-low-e04-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e04-dependency": {
+    "governing": "expi1-bundle-01-00",
+    "required": [
+      "expi1-bundle-01-00",
+      "expi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "expiring_exception-s1-low-e04-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e04-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-low-e08-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e08-dependency": {
+    "governing": "expi1-bundle-01-00",
+    "required": [
+      "expi1-bundle-01-00",
+      "expi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "expiring_exception-s1-low-e08-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e08-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-low-e12-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e12-dependency": {
+    "governing": "expi1-bundle-12-01",
+    "required": [
+      "expi1-bundle-12-01",
+      "expi1-license-01-00"
+    ],
+    "value": "temporary_1"
+  },
+  "expiring_exception-s1-low-e12-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e12-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-low-e16-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e16-dependency": {
+    "governing": "expi1-bundle-12-01",
+    "required": [
+      "expi1-bundle-12-01",
+      "expi1-license-01-00"
+    ],
+    "value": "temporary_1"
+  },
+  "expiring_exception-s1-low-e16-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e16-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-low-e20-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e20-dependency": {
+    "governing": "expi1-bundle-12-01",
+    "required": [
+      "expi1-bundle-12-01",
+      "expi1-license-01-00"
+    ],
+    "value": "temporary_1"
+  },
+  "expiring_exception-s1-low-e20-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e20-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-low-e24-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e24-dependency": {
+    "governing": "expi1-bundle-12-01",
+    "required": [
+      "expi1-bundle-12-01",
+      "expi1-license-01-00"
+    ],
+    "value": "temporary_1"
+  },
+  "expiring_exception-s1-low-e24-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e24-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-low-e28-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e28-dependency": {
+    "governing": "expi1-bundle-01-00",
+    "required": [
+      "expi1-bundle-01-00",
+      "expi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "expiring_exception-s1-low-e28-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e28-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "expiring_exception-s1-low-e32-current": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e32-dependency": {
+    "governing": "expi1-bundle-01-00",
+    "required": [
+      "expi1-bundle-01-00",
+      "expi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "expiring_exception-s1-low-e32-historical": {
+    "governing": "expi1-setting-01-00",
+    "required": [
+      "expi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "expiring_exception-s1-low-e32-standing": {
+    "governing": "expi1-guard-01-00",
+    "required": [
+      "expi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s0-high-e04-current": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-high-e04-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-high-e04-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-high-e04-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-high-e08-current": {
+    "governing": "hist0-setting-08-02",
+    "required": [
+      "hist0-setting-08-02"
+    ],
+    "value": "revision_8_0"
+  },
+  "historical_rollback-s0-high-e08-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-high-e08-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-high-e08-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-high-e12-current": {
+    "governing": "hist0-setting-12-03",
+    "required": [
+      "hist0-setting-12-03"
+    ],
+    "value": "revision_12_0"
+  },
+  "historical_rollback-s0-high-e12-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-high-e12-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-high-e12-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-high-e16-current": {
+    "governing": "hist0-setting-16-04",
+    "required": [
+      "hist0-setting-16-04"
+    ],
+    "value": "revision_16_0"
+  },
+  "historical_rollback-s0-high-e16-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-high-e16-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-high-e16-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-high-e20-current": {
+    "governing": "hist0-setting-20-05",
+    "required": [
+      "hist0-setting-20-05"
+    ],
+    "value": "revision_20_0"
+  },
+  "historical_rollback-s0-high-e20-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-high-e20-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-high-e20-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-high-e24-current": {
+    "governing": "hist0-setting-24-06",
+    "required": [
+      "hist0-setting-24-06"
+    ],
+    "value": "revision_24_0"
+  },
+  "historical_rollback-s0-high-e24-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-high-e24-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-high-e24-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-high-e28-current": {
+    "governing": "hist0-setting-28-07",
+    "required": [
+      "hist0-setting-28-07"
+    ],
+    "value": "revision_28_0"
+  },
+  "historical_rollback-s0-high-e28-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-high-e28-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-high-e28-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-high-e32-current": {
+    "governing": "hist0-setting-32-08",
+    "required": [
+      "hist0-setting-32-08"
+    ],
+    "value": "revision_32_0"
+  },
+  "historical_rollback-s0-high-e32-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-high-e32-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-high-e32-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-low-e04-current": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-low-e04-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-low-e04-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-low-e04-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-low-e08-current": {
+    "governing": "hist0-setting-08-02",
+    "required": [
+      "hist0-setting-08-02"
+    ],
+    "value": "revision_8_0"
+  },
+  "historical_rollback-s0-low-e08-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-low-e08-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-low-e08-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-low-e12-current": {
+    "governing": "hist0-setting-12-03",
+    "required": [
+      "hist0-setting-12-03"
+    ],
+    "value": "revision_12_0"
+  },
+  "historical_rollback-s0-low-e12-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-low-e12-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-low-e12-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-low-e16-current": {
+    "governing": "hist0-setting-16-04",
+    "required": [
+      "hist0-setting-16-04"
+    ],
+    "value": "revision_16_0"
+  },
+  "historical_rollback-s0-low-e16-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-low-e16-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-low-e16-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-low-e20-current": {
+    "governing": "hist0-setting-20-05",
+    "required": [
+      "hist0-setting-20-05"
+    ],
+    "value": "revision_20_0"
+  },
+  "historical_rollback-s0-low-e20-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-low-e20-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-low-e20-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-low-e24-current": {
+    "governing": "hist0-setting-24-06",
+    "required": [
+      "hist0-setting-24-06"
+    ],
+    "value": "revision_24_0"
+  },
+  "historical_rollback-s0-low-e24-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-low-e24-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-low-e24-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-low-e28-current": {
+    "governing": "hist0-setting-28-07",
+    "required": [
+      "hist0-setting-28-07"
+    ],
+    "value": "revision_28_0"
+  },
+  "historical_rollback-s0-low-e28-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-low-e28-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-low-e28-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s0-low-e32-current": {
+    "governing": "hist0-setting-32-08",
+    "required": [
+      "hist0-setting-32-08"
+    ],
+    "value": "revision_32_0"
+  },
+  "historical_rollback-s0-low-e32-dependency": {
+    "governing": "hist0-bundle-01-00",
+    "required": [
+      "hist0-bundle-01-00",
+      "hist0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "historical_rollback-s0-low-e32-historical": {
+    "governing": "hist0-setting-04-01",
+    "required": [
+      "hist0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "historical_rollback-s0-low-e32-standing": {
+    "governing": "hist0-guard-01-00",
+    "required": [
+      "hist0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "historical_rollback-s1-high-e04-current": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-high-e04-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-high-e04-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-high-e04-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-high-e08-current": {
+    "governing": "hist1-setting-08-02",
+    "required": [
+      "hist1-setting-08-02"
+    ],
+    "value": "revision_8_1"
+  },
+  "historical_rollback-s1-high-e08-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-high-e08-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-high-e08-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-high-e12-current": {
+    "governing": "hist1-setting-12-03",
+    "required": [
+      "hist1-setting-12-03"
+    ],
+    "value": "revision_12_1"
+  },
+  "historical_rollback-s1-high-e12-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-high-e12-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-high-e12-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-high-e16-current": {
+    "governing": "hist1-setting-16-04",
+    "required": [
+      "hist1-setting-16-04"
+    ],
+    "value": "revision_16_1"
+  },
+  "historical_rollback-s1-high-e16-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-high-e16-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-high-e16-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-high-e20-current": {
+    "governing": "hist1-setting-20-05",
+    "required": [
+      "hist1-setting-20-05"
+    ],
+    "value": "revision_20_1"
+  },
+  "historical_rollback-s1-high-e20-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-high-e20-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-high-e20-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-high-e24-current": {
+    "governing": "hist1-setting-24-06",
+    "required": [
+      "hist1-setting-24-06"
+    ],
+    "value": "revision_24_1"
+  },
+  "historical_rollback-s1-high-e24-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-high-e24-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-high-e24-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-high-e28-current": {
+    "governing": "hist1-setting-28-07",
+    "required": [
+      "hist1-setting-28-07"
+    ],
+    "value": "revision_28_1"
+  },
+  "historical_rollback-s1-high-e28-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-high-e28-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-high-e28-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-high-e32-current": {
+    "governing": "hist1-setting-32-08",
+    "required": [
+      "hist1-setting-32-08"
+    ],
+    "value": "revision_32_1"
+  },
+  "historical_rollback-s1-high-e32-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-high-e32-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-high-e32-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-low-e04-current": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-low-e04-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-low-e04-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-low-e04-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-low-e08-current": {
+    "governing": "hist1-setting-08-02",
+    "required": [
+      "hist1-setting-08-02"
+    ],
+    "value": "revision_8_1"
+  },
+  "historical_rollback-s1-low-e08-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-low-e08-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-low-e08-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-low-e12-current": {
+    "governing": "hist1-setting-12-03",
+    "required": [
+      "hist1-setting-12-03"
+    ],
+    "value": "revision_12_1"
+  },
+  "historical_rollback-s1-low-e12-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-low-e12-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-low-e12-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-low-e16-current": {
+    "governing": "hist1-setting-16-04",
+    "required": [
+      "hist1-setting-16-04"
+    ],
+    "value": "revision_16_1"
+  },
+  "historical_rollback-s1-low-e16-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-low-e16-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-low-e16-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-low-e20-current": {
+    "governing": "hist1-setting-20-05",
+    "required": [
+      "hist1-setting-20-05"
+    ],
+    "value": "revision_20_1"
+  },
+  "historical_rollback-s1-low-e20-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-low-e20-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-low-e20-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-low-e24-current": {
+    "governing": "hist1-setting-24-06",
+    "required": [
+      "hist1-setting-24-06"
+    ],
+    "value": "revision_24_1"
+  },
+  "historical_rollback-s1-low-e24-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-low-e24-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-low-e24-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-low-e28-current": {
+    "governing": "hist1-setting-28-07",
+    "required": [
+      "hist1-setting-28-07"
+    ],
+    "value": "revision_28_1"
+  },
+  "historical_rollback-s1-low-e28-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-low-e28-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-low-e28-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "historical_rollback-s1-low-e32-current": {
+    "governing": "hist1-setting-32-08",
+    "required": [
+      "hist1-setting-32-08"
+    ],
+    "value": "revision_32_1"
+  },
+  "historical_rollback-s1-low-e32-dependency": {
+    "governing": "hist1-bundle-01-00",
+    "required": [
+      "hist1-bundle-01-00",
+      "hist1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "historical_rollback-s1-low-e32-historical": {
+    "governing": "hist1-setting-04-01",
+    "required": [
+      "hist1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "historical_rollback-s1-low-e32-standing": {
+    "governing": "hist1-guard-01-00",
+    "required": [
+      "hist1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s0-high-e04-current": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-high-e04-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-high-e04-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-high-e04-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-high-e08-current": {
+    "governing": "lexi0-setting-08-02",
+    "required": [
+      "lexi0-setting-08-02"
+    ],
+    "value": "revision_8_0"
+  },
+  "lexical_clutter-s0-high-e08-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-high-e08-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-high-e08-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-high-e12-current": {
+    "governing": "lexi0-setting-12-03",
+    "required": [
+      "lexi0-setting-12-03"
+    ],
+    "value": "revision_12_0"
+  },
+  "lexical_clutter-s0-high-e12-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-high-e12-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-high-e12-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-high-e16-current": {
+    "governing": "lexi0-setting-16-04",
+    "required": [
+      "lexi0-setting-16-04"
+    ],
+    "value": "revision_16_0"
+  },
+  "lexical_clutter-s0-high-e16-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-high-e16-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-high-e16-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-high-e20-current": {
+    "governing": "lexi0-setting-20-05",
+    "required": [
+      "lexi0-setting-20-05"
+    ],
+    "value": "revision_20_0"
+  },
+  "lexical_clutter-s0-high-e20-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-high-e20-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-high-e20-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-high-e24-current": {
+    "governing": "lexi0-setting-24-06",
+    "required": [
+      "lexi0-setting-24-06"
+    ],
+    "value": "revision_24_0"
+  },
+  "lexical_clutter-s0-high-e24-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-high-e24-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-high-e24-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-high-e28-current": {
+    "governing": "lexi0-setting-28-07",
+    "required": [
+      "lexi0-setting-28-07"
+    ],
+    "value": "revision_28_0"
+  },
+  "lexical_clutter-s0-high-e28-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-high-e28-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-high-e28-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-high-e32-current": {
+    "governing": "lexi0-setting-32-08",
+    "required": [
+      "lexi0-setting-32-08"
+    ],
+    "value": "revision_32_0"
+  },
+  "lexical_clutter-s0-high-e32-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-high-e32-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-high-e32-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-low-e04-current": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-low-e04-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-low-e04-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-low-e04-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-low-e08-current": {
+    "governing": "lexi0-setting-08-02",
+    "required": [
+      "lexi0-setting-08-02"
+    ],
+    "value": "revision_8_0"
+  },
+  "lexical_clutter-s0-low-e08-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-low-e08-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-low-e08-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-low-e12-current": {
+    "governing": "lexi0-setting-12-03",
+    "required": [
+      "lexi0-setting-12-03"
+    ],
+    "value": "revision_12_0"
+  },
+  "lexical_clutter-s0-low-e12-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-low-e12-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-low-e12-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-low-e16-current": {
+    "governing": "lexi0-setting-16-04",
+    "required": [
+      "lexi0-setting-16-04"
+    ],
+    "value": "revision_16_0"
+  },
+  "lexical_clutter-s0-low-e16-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-low-e16-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-low-e16-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-low-e20-current": {
+    "governing": "lexi0-setting-20-05",
+    "required": [
+      "lexi0-setting-20-05"
+    ],
+    "value": "revision_20_0"
+  },
+  "lexical_clutter-s0-low-e20-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-low-e20-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-low-e20-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-low-e24-current": {
+    "governing": "lexi0-setting-24-06",
+    "required": [
+      "lexi0-setting-24-06"
+    ],
+    "value": "revision_24_0"
+  },
+  "lexical_clutter-s0-low-e24-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-low-e24-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-low-e24-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-low-e28-current": {
+    "governing": "lexi0-setting-28-07",
+    "required": [
+      "lexi0-setting-28-07"
+    ],
+    "value": "revision_28_0"
+  },
+  "lexical_clutter-s0-low-e28-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-low-e28-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-low-e28-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s0-low-e32-current": {
+    "governing": "lexi0-setting-32-08",
+    "required": [
+      "lexi0-setting-32-08"
+    ],
+    "value": "revision_32_0"
+  },
+  "lexical_clutter-s0-low-e32-dependency": {
+    "governing": "lexi0-bundle-01-00",
+    "required": [
+      "lexi0-bundle-01-00",
+      "lexi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "lexical_clutter-s0-low-e32-historical": {
+    "governing": "lexi0-setting-04-01",
+    "required": [
+      "lexi0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "lexical_clutter-s0-low-e32-standing": {
+    "governing": "lexi0-guard-01-00",
+    "required": [
+      "lexi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "lexical_clutter-s1-high-e04-current": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-high-e04-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-high-e04-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-high-e04-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-high-e08-current": {
+    "governing": "lexi1-setting-08-02",
+    "required": [
+      "lexi1-setting-08-02"
+    ],
+    "value": "revision_8_1"
+  },
+  "lexical_clutter-s1-high-e08-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-high-e08-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-high-e08-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-high-e12-current": {
+    "governing": "lexi1-setting-12-03",
+    "required": [
+      "lexi1-setting-12-03"
+    ],
+    "value": "revision_12_1"
+  },
+  "lexical_clutter-s1-high-e12-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-high-e12-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-high-e12-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-high-e16-current": {
+    "governing": "lexi1-setting-16-04",
+    "required": [
+      "lexi1-setting-16-04"
+    ],
+    "value": "revision_16_1"
+  },
+  "lexical_clutter-s1-high-e16-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-high-e16-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-high-e16-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-high-e20-current": {
+    "governing": "lexi1-setting-20-05",
+    "required": [
+      "lexi1-setting-20-05"
+    ],
+    "value": "revision_20_1"
+  },
+  "lexical_clutter-s1-high-e20-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-high-e20-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-high-e20-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-high-e24-current": {
+    "governing": "lexi1-setting-24-06",
+    "required": [
+      "lexi1-setting-24-06"
+    ],
+    "value": "revision_24_1"
+  },
+  "lexical_clutter-s1-high-e24-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-high-e24-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-high-e24-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-high-e28-current": {
+    "governing": "lexi1-setting-28-07",
+    "required": [
+      "lexi1-setting-28-07"
+    ],
+    "value": "revision_28_1"
+  },
+  "lexical_clutter-s1-high-e28-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-high-e28-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-high-e28-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-high-e32-current": {
+    "governing": "lexi1-setting-32-08",
+    "required": [
+      "lexi1-setting-32-08"
+    ],
+    "value": "revision_32_1"
+  },
+  "lexical_clutter-s1-high-e32-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-high-e32-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-high-e32-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-low-e04-current": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-low-e04-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-low-e04-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-low-e04-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-low-e08-current": {
+    "governing": "lexi1-setting-08-02",
+    "required": [
+      "lexi1-setting-08-02"
+    ],
+    "value": "revision_8_1"
+  },
+  "lexical_clutter-s1-low-e08-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-low-e08-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-low-e08-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-low-e12-current": {
+    "governing": "lexi1-setting-12-03",
+    "required": [
+      "lexi1-setting-12-03"
+    ],
+    "value": "revision_12_1"
+  },
+  "lexical_clutter-s1-low-e12-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-low-e12-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-low-e12-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-low-e16-current": {
+    "governing": "lexi1-setting-16-04",
+    "required": [
+      "lexi1-setting-16-04"
+    ],
+    "value": "revision_16_1"
+  },
+  "lexical_clutter-s1-low-e16-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-low-e16-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-low-e16-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-low-e20-current": {
+    "governing": "lexi1-setting-20-05",
+    "required": [
+      "lexi1-setting-20-05"
+    ],
+    "value": "revision_20_1"
+  },
+  "lexical_clutter-s1-low-e20-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-low-e20-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-low-e20-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-low-e24-current": {
+    "governing": "lexi1-setting-24-06",
+    "required": [
+      "lexi1-setting-24-06"
+    ],
+    "value": "revision_24_1"
+  },
+  "lexical_clutter-s1-low-e24-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-low-e24-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-low-e24-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-low-e28-current": {
+    "governing": "lexi1-setting-28-07",
+    "required": [
+      "lexi1-setting-28-07"
+    ],
+    "value": "revision_28_1"
+  },
+  "lexical_clutter-s1-low-e28-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-low-e28-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-low-e28-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "lexical_clutter-s1-low-e32-current": {
+    "governing": "lexi1-setting-32-08",
+    "required": [
+      "lexi1-setting-32-08"
+    ],
+    "value": "revision_32_1"
+  },
+  "lexical_clutter-s1-low-e32-dependency": {
+    "governing": "lexi1-bundle-01-00",
+    "required": [
+      "lexi1-bundle-01-00",
+      "lexi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "lexical_clutter-s1-low-e32-historical": {
+    "governing": "lexi1-setting-04-01",
+    "required": [
+      "lexi1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "lexical_clutter-s1-low-e32-standing": {
+    "governing": "lexi1-guard-01-00",
+    "required": [
+      "lexi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s0-high-e04-current": {
+    "governing": "peri0-setting-04-01",
+    "required": [
+      "peri0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "periodic_corrections-s0-high-e04-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-high-e04-historical": {
+    "governing": "peri0-setting-04-01",
+    "required": [
+      "peri0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "periodic_corrections-s0-high-e04-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-high-e08-current": {
+    "governing": "peri0-setting-08-02",
+    "required": [
+      "peri0-setting-08-02"
+    ],
+    "value": "revision_8_0"
+  },
+  "periodic_corrections-s0-high-e08-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-high-e08-historical": {
+    "governing": "peri0-setting-04-01",
+    "required": [
+      "peri0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "periodic_corrections-s0-high-e08-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-high-e12-current": {
+    "governing": "peri0-setting-12-03",
+    "required": [
+      "peri0-setting-12-03"
+    ],
+    "value": "revision_12_0"
+  },
+  "periodic_corrections-s0-high-e12-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-high-e12-historical": {
+    "governing": "peri0-setting-04-01",
+    "required": [
+      "peri0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "periodic_corrections-s0-high-e12-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-high-e16-current": {
+    "governing": "peri0-setting-16-04",
+    "required": [
+      "peri0-setting-16-04"
+    ],
+    "value": "revision_16_0"
+  },
+  "periodic_corrections-s0-high-e16-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-high-e16-historical": {
+    "governing": "peri0-setting-04-01",
+    "required": [
+      "peri0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "periodic_corrections-s0-high-e16-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-high-e20-current": {
+    "governing": "peri0-setting-20-05",
+    "required": [
+      "peri0-setting-20-05"
+    ],
+    "value": "revision_20_0"
+  },
+  "periodic_corrections-s0-high-e20-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-high-e20-historical": {
+    "governing": "peri0-setting-20-06",
+    "required": [
+      "peri0-setting-20-06"
+    ],
+    "value": "corrected_four_0"
+  },
+  "periodic_corrections-s0-high-e20-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-high-e24-current": {
+    "governing": "peri0-setting-24-07",
+    "required": [
+      "peri0-setting-24-07"
+    ],
+    "value": "revision_24_0"
+  },
+  "periodic_corrections-s0-high-e24-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-high-e24-historical": {
+    "governing": "peri0-setting-20-06",
+    "required": [
+      "peri0-setting-20-06"
+    ],
+    "value": "corrected_four_0"
+  },
+  "periodic_corrections-s0-high-e24-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-high-e28-current": {
+    "governing": "peri0-setting-28-08",
+    "required": [
+      "peri0-setting-28-08"
+    ],
+    "value": "revision_28_0"
+  },
+  "periodic_corrections-s0-high-e28-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-high-e28-historical": {
+    "governing": "peri0-setting-20-06",
+    "required": [
+      "peri0-setting-20-06"
+    ],
+    "value": "corrected_four_0"
+  },
+  "periodic_corrections-s0-high-e28-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-high-e32-current": {
+    "governing": "peri0-setting-32-09",
+    "required": [
+      "peri0-setting-32-09"
+    ],
+    "value": "revision_32_0"
+  },
+  "periodic_corrections-s0-high-e32-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-high-e32-historical": {
+    "governing": "peri0-setting-20-06",
+    "required": [
+      "peri0-setting-20-06"
+    ],
+    "value": "corrected_four_0"
+  },
+  "periodic_corrections-s0-high-e32-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-low-e04-current": {
+    "governing": "peri0-setting-04-01",
+    "required": [
+      "peri0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "periodic_corrections-s0-low-e04-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-low-e04-historical": {
+    "governing": "peri0-setting-04-01",
+    "required": [
+      "peri0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "periodic_corrections-s0-low-e04-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-low-e08-current": {
+    "governing": "peri0-setting-08-02",
+    "required": [
+      "peri0-setting-08-02"
+    ],
+    "value": "revision_8_0"
+  },
+  "periodic_corrections-s0-low-e08-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-low-e08-historical": {
+    "governing": "peri0-setting-04-01",
+    "required": [
+      "peri0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "periodic_corrections-s0-low-e08-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-low-e12-current": {
+    "governing": "peri0-setting-12-03",
+    "required": [
+      "peri0-setting-12-03"
+    ],
+    "value": "revision_12_0"
+  },
+  "periodic_corrections-s0-low-e12-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-low-e12-historical": {
+    "governing": "peri0-setting-04-01",
+    "required": [
+      "peri0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "periodic_corrections-s0-low-e12-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-low-e16-current": {
+    "governing": "peri0-setting-16-04",
+    "required": [
+      "peri0-setting-16-04"
+    ],
+    "value": "revision_16_0"
+  },
+  "periodic_corrections-s0-low-e16-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-low-e16-historical": {
+    "governing": "peri0-setting-04-01",
+    "required": [
+      "peri0-setting-04-01"
+    ],
+    "value": "revision_4_0"
+  },
+  "periodic_corrections-s0-low-e16-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-low-e20-current": {
+    "governing": "peri0-setting-20-05",
+    "required": [
+      "peri0-setting-20-05"
+    ],
+    "value": "revision_20_0"
+  },
+  "periodic_corrections-s0-low-e20-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-low-e20-historical": {
+    "governing": "peri0-setting-20-06",
+    "required": [
+      "peri0-setting-20-06"
+    ],
+    "value": "corrected_four_0"
+  },
+  "periodic_corrections-s0-low-e20-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-low-e24-current": {
+    "governing": "peri0-setting-24-07",
+    "required": [
+      "peri0-setting-24-07"
+    ],
+    "value": "revision_24_0"
+  },
+  "periodic_corrections-s0-low-e24-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-low-e24-historical": {
+    "governing": "peri0-setting-20-06",
+    "required": [
+      "peri0-setting-20-06"
+    ],
+    "value": "corrected_four_0"
+  },
+  "periodic_corrections-s0-low-e24-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-low-e28-current": {
+    "governing": "peri0-setting-28-08",
+    "required": [
+      "peri0-setting-28-08"
+    ],
+    "value": "revision_28_0"
+  },
+  "periodic_corrections-s0-low-e28-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-low-e28-historical": {
+    "governing": "peri0-setting-20-06",
+    "required": [
+      "peri0-setting-20-06"
+    ],
+    "value": "corrected_four_0"
+  },
+  "periodic_corrections-s0-low-e28-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s0-low-e32-current": {
+    "governing": "peri0-setting-32-09",
+    "required": [
+      "peri0-setting-32-09"
+    ],
+    "value": "revision_32_0"
+  },
+  "periodic_corrections-s0-low-e32-dependency": {
+    "governing": "peri0-bundle-01-00",
+    "required": [
+      "peri0-bundle-01-00",
+      "peri0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "periodic_corrections-s0-low-e32-historical": {
+    "governing": "peri0-setting-20-06",
+    "required": [
+      "peri0-setting-20-06"
+    ],
+    "value": "corrected_four_0"
+  },
+  "periodic_corrections-s0-low-e32-standing": {
+    "governing": "peri0-guard-01-00",
+    "required": [
+      "peri0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "periodic_corrections-s1-high-e04-current": {
+    "governing": "peri1-setting-04-01",
+    "required": [
+      "peri1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "periodic_corrections-s1-high-e04-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-high-e04-historical": {
+    "governing": "peri1-setting-04-01",
+    "required": [
+      "peri1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "periodic_corrections-s1-high-e04-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-high-e08-current": {
+    "governing": "peri1-setting-08-02",
+    "required": [
+      "peri1-setting-08-02"
+    ],
+    "value": "revision_8_1"
+  },
+  "periodic_corrections-s1-high-e08-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-high-e08-historical": {
+    "governing": "peri1-setting-04-01",
+    "required": [
+      "peri1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "periodic_corrections-s1-high-e08-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-high-e12-current": {
+    "governing": "peri1-setting-12-03",
+    "required": [
+      "peri1-setting-12-03"
+    ],
+    "value": "revision_12_1"
+  },
+  "periodic_corrections-s1-high-e12-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-high-e12-historical": {
+    "governing": "peri1-setting-04-01",
+    "required": [
+      "peri1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "periodic_corrections-s1-high-e12-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-high-e16-current": {
+    "governing": "peri1-setting-16-04",
+    "required": [
+      "peri1-setting-16-04"
+    ],
+    "value": "revision_16_1"
+  },
+  "periodic_corrections-s1-high-e16-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-high-e16-historical": {
+    "governing": "peri1-setting-04-01",
+    "required": [
+      "peri1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "periodic_corrections-s1-high-e16-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-high-e20-current": {
+    "governing": "peri1-setting-20-05",
+    "required": [
+      "peri1-setting-20-05"
+    ],
+    "value": "revision_20_1"
+  },
+  "periodic_corrections-s1-high-e20-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-high-e20-historical": {
+    "governing": "peri1-setting-20-06",
+    "required": [
+      "peri1-setting-20-06"
+    ],
+    "value": "corrected_four_1"
+  },
+  "periodic_corrections-s1-high-e20-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-high-e24-current": {
+    "governing": "peri1-setting-24-07",
+    "required": [
+      "peri1-setting-24-07"
+    ],
+    "value": "revision_24_1"
+  },
+  "periodic_corrections-s1-high-e24-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-high-e24-historical": {
+    "governing": "peri1-setting-20-06",
+    "required": [
+      "peri1-setting-20-06"
+    ],
+    "value": "corrected_four_1"
+  },
+  "periodic_corrections-s1-high-e24-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-high-e28-current": {
+    "governing": "peri1-setting-28-08",
+    "required": [
+      "peri1-setting-28-08"
+    ],
+    "value": "revision_28_1"
+  },
+  "periodic_corrections-s1-high-e28-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-high-e28-historical": {
+    "governing": "peri1-setting-20-06",
+    "required": [
+      "peri1-setting-20-06"
+    ],
+    "value": "corrected_four_1"
+  },
+  "periodic_corrections-s1-high-e28-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-high-e32-current": {
+    "governing": "peri1-setting-32-09",
+    "required": [
+      "peri1-setting-32-09"
+    ],
+    "value": "revision_32_1"
+  },
+  "periodic_corrections-s1-high-e32-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-high-e32-historical": {
+    "governing": "peri1-setting-20-06",
+    "required": [
+      "peri1-setting-20-06"
+    ],
+    "value": "corrected_four_1"
+  },
+  "periodic_corrections-s1-high-e32-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-low-e04-current": {
+    "governing": "peri1-setting-04-01",
+    "required": [
+      "peri1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "periodic_corrections-s1-low-e04-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-low-e04-historical": {
+    "governing": "peri1-setting-04-01",
+    "required": [
+      "peri1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "periodic_corrections-s1-low-e04-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-low-e08-current": {
+    "governing": "peri1-setting-08-02",
+    "required": [
+      "peri1-setting-08-02"
+    ],
+    "value": "revision_8_1"
+  },
+  "periodic_corrections-s1-low-e08-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-low-e08-historical": {
+    "governing": "peri1-setting-04-01",
+    "required": [
+      "peri1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "periodic_corrections-s1-low-e08-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-low-e12-current": {
+    "governing": "peri1-setting-12-03",
+    "required": [
+      "peri1-setting-12-03"
+    ],
+    "value": "revision_12_1"
+  },
+  "periodic_corrections-s1-low-e12-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-low-e12-historical": {
+    "governing": "peri1-setting-04-01",
+    "required": [
+      "peri1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "periodic_corrections-s1-low-e12-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-low-e16-current": {
+    "governing": "peri1-setting-16-04",
+    "required": [
+      "peri1-setting-16-04"
+    ],
+    "value": "revision_16_1"
+  },
+  "periodic_corrections-s1-low-e16-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-low-e16-historical": {
+    "governing": "peri1-setting-04-01",
+    "required": [
+      "peri1-setting-04-01"
+    ],
+    "value": "revision_4_1"
+  },
+  "periodic_corrections-s1-low-e16-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-low-e20-current": {
+    "governing": "peri1-setting-20-05",
+    "required": [
+      "peri1-setting-20-05"
+    ],
+    "value": "revision_20_1"
+  },
+  "periodic_corrections-s1-low-e20-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-low-e20-historical": {
+    "governing": "peri1-setting-20-06",
+    "required": [
+      "peri1-setting-20-06"
+    ],
+    "value": "corrected_four_1"
+  },
+  "periodic_corrections-s1-low-e20-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-low-e24-current": {
+    "governing": "peri1-setting-24-07",
+    "required": [
+      "peri1-setting-24-07"
+    ],
+    "value": "revision_24_1"
+  },
+  "periodic_corrections-s1-low-e24-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-low-e24-historical": {
+    "governing": "peri1-setting-20-06",
+    "required": [
+      "peri1-setting-20-06"
+    ],
+    "value": "corrected_four_1"
+  },
+  "periodic_corrections-s1-low-e24-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-low-e28-current": {
+    "governing": "peri1-setting-28-08",
+    "required": [
+      "peri1-setting-28-08"
+    ],
+    "value": "revision_28_1"
+  },
+  "periodic_corrections-s1-low-e28-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-low-e28-historical": {
+    "governing": "peri1-setting-20-06",
+    "required": [
+      "peri1-setting-20-06"
+    ],
+    "value": "corrected_four_1"
+  },
+  "periodic_corrections-s1-low-e28-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "periodic_corrections-s1-low-e32-current": {
+    "governing": "peri1-setting-32-09",
+    "required": [
+      "peri1-setting-32-09"
+    ],
+    "value": "revision_32_1"
+  },
+  "periodic_corrections-s1-low-e32-dependency": {
+    "governing": "peri1-bundle-01-00",
+    "required": [
+      "peri1-bundle-01-00",
+      "peri1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "periodic_corrections-s1-low-e32-historical": {
+    "governing": "peri1-setting-20-06",
+    "required": [
+      "peri1-setting-20-06"
+    ],
+    "value": "corrected_four_1"
+  },
+  "periodic_corrections-s1-low-e32-standing": {
+    "governing": "peri1-guard-01-00",
+    "required": [
+      "peri1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s0-high-e04-current": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-high-e04-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-high-e04-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-high-e04-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-high-e08-current": {
+    "governing": "stan0-setting-08-01",
+    "required": [
+      "stan0-setting-08-01"
+    ],
+    "value": "workstream_8_0"
+  },
+  "standing_constraint-s0-high-e08-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-high-e08-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-high-e08-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-high-e12-current": {
+    "governing": "stan0-setting-08-01",
+    "required": [
+      "stan0-setting-08-01"
+    ],
+    "value": "workstream_8_0"
+  },
+  "standing_constraint-s0-high-e12-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-high-e12-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-high-e12-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-high-e16-current": {
+    "governing": "stan0-setting-16-02",
+    "required": [
+      "stan0-setting-16-02"
+    ],
+    "value": "workstream_16_0"
+  },
+  "standing_constraint-s0-high-e16-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-high-e16-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-high-e16-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-high-e20-current": {
+    "governing": "stan0-setting-16-02",
+    "required": [
+      "stan0-setting-16-02"
+    ],
+    "value": "workstream_16_0"
+  },
+  "standing_constraint-s0-high-e20-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-high-e20-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-high-e20-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-high-e24-current": {
+    "governing": "stan0-setting-24-03",
+    "required": [
+      "stan0-setting-24-03"
+    ],
+    "value": "workstream_24_0"
+  },
+  "standing_constraint-s0-high-e24-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-high-e24-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-high-e24-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-high-e28-current": {
+    "governing": "stan0-setting-24-03",
+    "required": [
+      "stan0-setting-24-03"
+    ],
+    "value": "workstream_24_0"
+  },
+  "standing_constraint-s0-high-e28-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-high-e28-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-high-e28-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-high-e32-current": {
+    "governing": "stan0-setting-32-04",
+    "required": [
+      "stan0-setting-32-04"
+    ],
+    "value": "workstream_32_0"
+  },
+  "standing_constraint-s0-high-e32-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-high-e32-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-high-e32-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-low-e04-current": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-low-e04-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-low-e04-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-low-e04-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-low-e08-current": {
+    "governing": "stan0-setting-08-01",
+    "required": [
+      "stan0-setting-08-01"
+    ],
+    "value": "workstream_8_0"
+  },
+  "standing_constraint-s0-low-e08-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-low-e08-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-low-e08-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-low-e12-current": {
+    "governing": "stan0-setting-08-01",
+    "required": [
+      "stan0-setting-08-01"
+    ],
+    "value": "workstream_8_0"
+  },
+  "standing_constraint-s0-low-e12-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-low-e12-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-low-e12-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-low-e16-current": {
+    "governing": "stan0-setting-16-02",
+    "required": [
+      "stan0-setting-16-02"
+    ],
+    "value": "workstream_16_0"
+  },
+  "standing_constraint-s0-low-e16-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-low-e16-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-low-e16-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-low-e20-current": {
+    "governing": "stan0-setting-16-02",
+    "required": [
+      "stan0-setting-16-02"
+    ],
+    "value": "workstream_16_0"
+  },
+  "standing_constraint-s0-low-e20-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-low-e20-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-low-e20-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-low-e24-current": {
+    "governing": "stan0-setting-24-03",
+    "required": [
+      "stan0-setting-24-03"
+    ],
+    "value": "workstream_24_0"
+  },
+  "standing_constraint-s0-low-e24-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-low-e24-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-low-e24-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-low-e28-current": {
+    "governing": "stan0-setting-24-03",
+    "required": [
+      "stan0-setting-24-03"
+    ],
+    "value": "workstream_24_0"
+  },
+  "standing_constraint-s0-low-e28-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-low-e28-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-low-e28-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s0-low-e32-current": {
+    "governing": "stan0-setting-32-04",
+    "required": [
+      "stan0-setting-32-04"
+    ],
+    "value": "workstream_32_0"
+  },
+  "standing_constraint-s0-low-e32-dependency": {
+    "governing": "stan0-bundle-01-00",
+    "required": [
+      "stan0-bundle-01-00",
+      "stan0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "standing_constraint-s0-low-e32-historical": {
+    "governing": "stan0-setting-01-00",
+    "required": [
+      "stan0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "standing_constraint-s0-low-e32-standing": {
+    "governing": "stan0-guard-01-00",
+    "required": [
+      "stan0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "standing_constraint-s1-high-e04-current": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-high-e04-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-high-e04-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-high-e04-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-high-e08-current": {
+    "governing": "stan1-setting-08-01",
+    "required": [
+      "stan1-setting-08-01"
+    ],
+    "value": "workstream_8_1"
+  },
+  "standing_constraint-s1-high-e08-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-high-e08-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-high-e08-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-high-e12-current": {
+    "governing": "stan1-setting-08-01",
+    "required": [
+      "stan1-setting-08-01"
+    ],
+    "value": "workstream_8_1"
+  },
+  "standing_constraint-s1-high-e12-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-high-e12-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-high-e12-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-high-e16-current": {
+    "governing": "stan1-setting-16-02",
+    "required": [
+      "stan1-setting-16-02"
+    ],
+    "value": "workstream_16_1"
+  },
+  "standing_constraint-s1-high-e16-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-high-e16-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-high-e16-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-high-e20-current": {
+    "governing": "stan1-setting-16-02",
+    "required": [
+      "stan1-setting-16-02"
+    ],
+    "value": "workstream_16_1"
+  },
+  "standing_constraint-s1-high-e20-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-high-e20-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-high-e20-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-high-e24-current": {
+    "governing": "stan1-setting-24-03",
+    "required": [
+      "stan1-setting-24-03"
+    ],
+    "value": "workstream_24_1"
+  },
+  "standing_constraint-s1-high-e24-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-high-e24-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-high-e24-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-high-e28-current": {
+    "governing": "stan1-setting-24-03",
+    "required": [
+      "stan1-setting-24-03"
+    ],
+    "value": "workstream_24_1"
+  },
+  "standing_constraint-s1-high-e28-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-high-e28-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-high-e28-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-high-e32-current": {
+    "governing": "stan1-setting-32-04",
+    "required": [
+      "stan1-setting-32-04"
+    ],
+    "value": "workstream_32_1"
+  },
+  "standing_constraint-s1-high-e32-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-high-e32-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-high-e32-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-low-e04-current": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-low-e04-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-low-e04-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-low-e04-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-low-e08-current": {
+    "governing": "stan1-setting-08-01",
+    "required": [
+      "stan1-setting-08-01"
+    ],
+    "value": "workstream_8_1"
+  },
+  "standing_constraint-s1-low-e08-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-low-e08-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-low-e08-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-low-e12-current": {
+    "governing": "stan1-setting-08-01",
+    "required": [
+      "stan1-setting-08-01"
+    ],
+    "value": "workstream_8_1"
+  },
+  "standing_constraint-s1-low-e12-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-low-e12-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-low-e12-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-low-e16-current": {
+    "governing": "stan1-setting-16-02",
+    "required": [
+      "stan1-setting-16-02"
+    ],
+    "value": "workstream_16_1"
+  },
+  "standing_constraint-s1-low-e16-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-low-e16-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-low-e16-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-low-e20-current": {
+    "governing": "stan1-setting-16-02",
+    "required": [
+      "stan1-setting-16-02"
+    ],
+    "value": "workstream_16_1"
+  },
+  "standing_constraint-s1-low-e20-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-low-e20-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-low-e20-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-low-e24-current": {
+    "governing": "stan1-setting-24-03",
+    "required": [
+      "stan1-setting-24-03"
+    ],
+    "value": "workstream_24_1"
+  },
+  "standing_constraint-s1-low-e24-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-low-e24-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-low-e24-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-low-e28-current": {
+    "governing": "stan1-setting-24-03",
+    "required": [
+      "stan1-setting-24-03"
+    ],
+    "value": "workstream_24_1"
+  },
+  "standing_constraint-s1-low-e28-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-low-e28-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-low-e28-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "standing_constraint-s1-low-e32-current": {
+    "governing": "stan1-setting-32-04",
+    "required": [
+      "stan1-setting-32-04"
+    ],
+    "value": "workstream_32_1"
+  },
+  "standing_constraint-s1-low-e32-dependency": {
+    "governing": "stan1-bundle-01-00",
+    "required": [
+      "stan1-bundle-01-00",
+      "stan1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "standing_constraint-s1-low-e32-historical": {
+    "governing": "stan1-setting-01-00",
+    "required": [
+      "stan1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "standing_constraint-s1-low-e32-standing": {
+    "governing": "stan1-guard-01-00",
+    "required": [
+      "stan1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "topic_shift-s0-high-e04-current": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-high-e04-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-high-e04-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-high-e04-standing": {
+    "governing": "topi0-guard-01-00",
+    "required": [
+      "topi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "topic_shift-s0-high-e08-current": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-high-e08-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-high-e08-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-high-e08-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-high-e12-current": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-high-e12-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-high-e12-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-high-e12-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-high-e16-current": {
+    "governing": "topi0-topic_new-16-03",
+    "required": [
+      "topi0-topic_new-16-03"
+    ],
+    "value": "migrated_16_0"
+  },
+  "topic_shift-s0-high-e16-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-high-e16-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-high-e16-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-high-e20-current": {
+    "governing": "topi0-topic_new-20-04",
+    "required": [
+      "topi0-topic_new-20-04"
+    ],
+    "value": "migrated_20_0"
+  },
+  "topic_shift-s0-high-e20-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-high-e20-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-high-e20-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-high-e24-current": {
+    "governing": "topi0-topic_new-24-05",
+    "required": [
+      "topi0-topic_new-24-05"
+    ],
+    "value": "migrated_24_0"
+  },
+  "topic_shift-s0-high-e24-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-high-e24-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-high-e24-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-high-e28-current": {
+    "governing": "topi0-topic_new-28-06",
+    "required": [
+      "topi0-topic_new-28-06"
+    ],
+    "value": "migrated_28_0"
+  },
+  "topic_shift-s0-high-e28-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-high-e28-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-high-e28-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-high-e32-current": {
+    "governing": "topi0-topic_new-32-07",
+    "required": [
+      "topi0-topic_new-32-07"
+    ],
+    "value": "migrated_32_0"
+  },
+  "topic_shift-s0-high-e32-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-high-e32-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-high-e32-standing": {
+    "governing": "topi0-guard-01-00",
+    "required": [
+      "topi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "topic_shift-s0-low-e04-current": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-low-e04-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-low-e04-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-low-e04-standing": {
+    "governing": "topi0-guard-01-00",
+    "required": [
+      "topi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "topic_shift-s0-low-e08-current": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-low-e08-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-low-e08-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-low-e08-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-low-e12-current": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-low-e12-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-low-e12-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-low-e12-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-low-e16-current": {
+    "governing": "topi0-topic_new-16-03",
+    "required": [
+      "topi0-topic_new-16-03"
+    ],
+    "value": "migrated_16_0"
+  },
+  "topic_shift-s0-low-e16-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-low-e16-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-low-e16-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-low-e20-current": {
+    "governing": "topi0-topic_new-20-04",
+    "required": [
+      "topi0-topic_new-20-04"
+    ],
+    "value": "migrated_20_0"
+  },
+  "topic_shift-s0-low-e20-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-low-e20-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-low-e20-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-low-e24-current": {
+    "governing": "topi0-topic_new-24-05",
+    "required": [
+      "topi0-topic_new-24-05"
+    ],
+    "value": "migrated_24_0"
+  },
+  "topic_shift-s0-low-e24-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-low-e24-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-low-e24-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-low-e28-current": {
+    "governing": "topi0-topic_new-28-06",
+    "required": [
+      "topi0-topic_new-28-06"
+    ],
+    "value": "migrated_28_0"
+  },
+  "topic_shift-s0-low-e28-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-low-e28-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-low-e28-standing": {
+    "governing": "topi0-guard_new-01-00",
+    "required": [
+      "topi0-guard_new-01-00"
+    ],
+    "value": "internal_only_0"
+  },
+  "topic_shift-s0-low-e32-current": {
+    "governing": "topi0-topic_new-32-07",
+    "required": [
+      "topi0-topic_new-32-07"
+    ],
+    "value": "migrated_32_0"
+  },
+  "topic_shift-s0-low-e32-dependency": {
+    "governing": "topi0-bundle-01-00",
+    "required": [
+      "topi0-bundle-01-00",
+      "topi0-license-01-00"
+    ],
+    "value": "base_bundle_0"
+  },
+  "topic_shift-s0-low-e32-historical": {
+    "governing": "topi0-setting-01-00",
+    "required": [
+      "topi0-setting-01-00"
+    ],
+    "value": "initial_0"
+  },
+  "topic_shift-s0-low-e32-standing": {
+    "governing": "topi0-guard-01-00",
+    "required": [
+      "topi0-guard-01-00"
+    ],
+    "value": "no_export_0"
+  },
+  "topic_shift-s1-high-e04-current": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-high-e04-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-high-e04-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-high-e04-standing": {
+    "governing": "topi1-guard-01-00",
+    "required": [
+      "topi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "topic_shift-s1-high-e08-current": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-high-e08-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-high-e08-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-high-e08-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-high-e12-current": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-high-e12-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-high-e12-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-high-e12-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-high-e16-current": {
+    "governing": "topi1-topic_new-16-03",
+    "required": [
+      "topi1-topic_new-16-03"
+    ],
+    "value": "migrated_16_1"
+  },
+  "topic_shift-s1-high-e16-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-high-e16-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-high-e16-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-high-e20-current": {
+    "governing": "topi1-topic_new-20-04",
+    "required": [
+      "topi1-topic_new-20-04"
+    ],
+    "value": "migrated_20_1"
+  },
+  "topic_shift-s1-high-e20-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-high-e20-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-high-e20-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-high-e24-current": {
+    "governing": "topi1-topic_new-24-05",
+    "required": [
+      "topi1-topic_new-24-05"
+    ],
+    "value": "migrated_24_1"
+  },
+  "topic_shift-s1-high-e24-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-high-e24-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-high-e24-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-high-e28-current": {
+    "governing": "topi1-topic_new-28-06",
+    "required": [
+      "topi1-topic_new-28-06"
+    ],
+    "value": "migrated_28_1"
+  },
+  "topic_shift-s1-high-e28-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-high-e28-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-high-e28-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-high-e32-current": {
+    "governing": "topi1-topic_new-32-07",
+    "required": [
+      "topi1-topic_new-32-07"
+    ],
+    "value": "migrated_32_1"
+  },
+  "topic_shift-s1-high-e32-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-high-e32-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-high-e32-standing": {
+    "governing": "topi1-guard-01-00",
+    "required": [
+      "topi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "topic_shift-s1-low-e04-current": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-low-e04-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-low-e04-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-low-e04-standing": {
+    "governing": "topi1-guard-01-00",
+    "required": [
+      "topi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  },
+  "topic_shift-s1-low-e08-current": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-low-e08-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-low-e08-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-low-e08-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-low-e12-current": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-low-e12-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-low-e12-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-low-e12-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-low-e16-current": {
+    "governing": "topi1-topic_new-16-03",
+    "required": [
+      "topi1-topic_new-16-03"
+    ],
+    "value": "migrated_16_1"
+  },
+  "topic_shift-s1-low-e16-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-low-e16-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-low-e16-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-low-e20-current": {
+    "governing": "topi1-topic_new-20-04",
+    "required": [
+      "topi1-topic_new-20-04"
+    ],
+    "value": "migrated_20_1"
+  },
+  "topic_shift-s1-low-e20-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-low-e20-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-low-e20-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-low-e24-current": {
+    "governing": "topi1-topic_new-24-05",
+    "required": [
+      "topi1-topic_new-24-05"
+    ],
+    "value": "migrated_24_1"
+  },
+  "topic_shift-s1-low-e24-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-low-e24-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-low-e24-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-low-e28-current": {
+    "governing": "topi1-topic_new-28-06",
+    "required": [
+      "topi1-topic_new-28-06"
+    ],
+    "value": "migrated_28_1"
+  },
+  "topic_shift-s1-low-e28-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-low-e28-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-low-e28-standing": {
+    "governing": "topi1-guard_new-01-00",
+    "required": [
+      "topi1-guard_new-01-00"
+    ],
+    "value": "internal_only_1"
+  },
+  "topic_shift-s1-low-e32-current": {
+    "governing": "topi1-topic_new-32-07",
+    "required": [
+      "topi1-topic_new-32-07"
+    ],
+    "value": "migrated_32_1"
+  },
+  "topic_shift-s1-low-e32-dependency": {
+    "governing": "topi1-bundle-01-00",
+    "required": [
+      "topi1-bundle-01-00",
+      "topi1-license-01-00"
+    ],
+    "value": "base_bundle_1"
+  },
+  "topic_shift-s1-low-e32-historical": {
+    "governing": "topi1-setting-01-00",
+    "required": [
+      "topi1-setting-01-00"
+    ],
+    "value": "initial_1"
+  },
+  "topic_shift-s1-low-e32-standing": {
+    "governing": "topi1-guard-01-00",
+    "required": [
+      "topi1-guard-01-00"
+    ],
+    "value": "no_export_1"
+  }
+}

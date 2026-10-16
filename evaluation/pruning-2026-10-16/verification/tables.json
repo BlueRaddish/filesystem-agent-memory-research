@@ -1,0 +1,25 @@
+{
+  "cells": {
+    "arm": 63,
+    "density": 126,
+    "epoch": 504,
+    "epoch_storage": 2016,
+    "maintenance": 63,
+    "paired": 63,
+    "scenario": 504,
+    "task": 252
+  },
+  "checker_sha256": "6f0bdd8d0d3f501adf5be8f9d503128abbfb519cf81ce7c12cee3fc83f669729",
+  "mutation_controls_rejected": [
+    "wrong aggregate count",
+    "wrong paired gain",
+    "missing epoch cell",
+    "wrong source fingerprint",
+    "nonfinite numeric aggregate"
+  ],
+  "numeric_fields_verified": 54896,
+  "scope": "Independent aggregate and paired-count derivation; no tested modules imported. Requires companion trajectory audit for source/causal correctness. CPU observations are summed, not independently timed.",
+  "state": "INDEPENDENT_NUMERIC_TABLE_REPLAY_PASSED",
+  "tables_sha256": "b5845e6a418430ac4968e13591b5cf4ed84151b2ab66a6afe3921aa21d43d3ab",
+  "wall_seconds": 8.460616700001992
+}

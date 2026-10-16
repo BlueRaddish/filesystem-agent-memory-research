@@ -1,5 +1,7 @@
 # Synthesis: organize for recoverable decisions and successful continuation
 
+> Scope update — 2026-10-16: The [pruning review](pruning-and-longitudinal-memory.md) adds eighteen scoped source records. The [longitudinal experiment](../evaluation/pruning-2026-10-16/REPORT.md) compares active-set pruning, archive recovery and discovery over 32 abstract ingestion epochs, with independently replayed source/decision outcomes. Its eight scenarios share a backbone, and source-byte reduction, candidate work and task correctness remain separate. Read that report before interpreting pruning as safe deletion or an observed speedup.
+
 > Scope update — 2026-10-15: This synthesis preserves the original research agenda and its historical repository-status statements. Executed evidence now also appears in the [October 9 pilot](../evaluation/study-2026-10-09/REPORT.md), [October 13 primary study](../evaluation/study-2026-10-13/REPORT.md), and [October 15 mechanism sprint](../evaluation/sprint-2026-10-15/README.md). The sprint separates [context exposure](../evaluation/sprint-2026-10-15/packing/REPORT.md), [engineered state and proof](../evaluation/sprint-2026-10-15/state/REPORT.md), and [bounded onboarding checks](../evaluation/sprint-2026-10-15/onboarding/REPORT.md). Read those dated reports for current results and limitations; the closing paragraph below describes the earlier synthesis stage.
 
 ## The research question

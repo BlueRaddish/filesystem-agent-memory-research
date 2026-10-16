@@ -3,8 +3,10 @@
 import argparse
 from collections import Counter
 from datetime import date
+import gzip
 import importlib.util
 import json
+import math
 from pathlib import Path
 import re
 from tempfile import TemporaryDirectory
@@ -35,6 +37,8 @@ LEAK_PATTERNS = (
     re.compile(r"\bgithub_pat_[A-Za-z0-9_]{20,}\b"),
     re.compile(r"\bsk-[A-Za-z0-9_-]{24,}\b"),
 )
+COMPRESSED_JSONL_MAX_LINE_BYTES = 2 * 1024 * 1024
+COMPRESSED_JSONL_MAX_TOTAL_BYTES = 512 * 1024 * 1024
 
 
 def require(condition, message):
@@ -45,6 +49,68 @@ def require(condition, message):
 def https_url(value):
     parts = urlsplit(value)
     return parts.scheme == "https" and bool(parts.netloc) and not parts.username and not parts.password
+
+
+def compressed_jsonl_lines(path, *, max_line_bytes=COMPRESSED_JSONL_MAX_LINE_BYTES,
+                           max_total_bytes=COMPRESSED_JSONL_MAX_TOTAL_BYTES):
+    """Yield (raw line text, parsed JSON) with bounded decompression and hygiene.
+
+    Blank lines count toward the decoded byte limit but produce no records.
+    Consumers must exhaust the iterator to check gzip trailers and the full file.
+    Schema checks beyond valid JSON belong to the caller.
+    """
+    path = Path(path)
+    require(path.name.endswith(".jsonl.gz"), "Compressed input must end in .jsonl.gz")
+    require(type(max_line_bytes) is int and max_line_bytes > 0,
+            "Compressed JSONL line limit must be a positive integer")
+    require(type(max_total_bytes) is int and max_total_bytes > 0,
+            "Compressed JSONL total limit must be a positive integer")
+
+    def unique_pairs(pairs):
+        result = {}
+        for key, value in pairs:
+            require(key not in result, "Duplicate key in compressed JSONL")
+            result[key] = value
+        return result
+
+    def finite_float(token):
+        value = float(token)
+        require(math.isfinite(value), "Nonfinite number in compressed JSONL")
+        return value
+
+    def reject_constant(token):
+        raise ValueError("Nonfinite constant in compressed JSONL")
+
+    total = 0
+    line_number = 0
+    with gzip.open(path, "rb") as stream:
+        while True:
+            raw = stream.readline(min(max_line_bytes + 1, max_total_bytes - total + 1))
+            if not raw:
+                break
+            total += len(raw)
+            line_number += 1
+            require(total <= max_total_bytes,
+                    f"Compressed JSONL decoded byte limit exceeded: {path.name}")
+            require(len(raw) <= max_line_bytes,
+                    f"Compressed JSONL line byte limit exceeded: {path.name}:{line_number}")
+            text = raw.decode("utf-8", errors="strict")
+            if not text.strip():
+                continue
+            record = json.loads(text, object_pairs_hook=unique_pairs,
+                                parse_float=finite_float, parse_constant=reject_constant)
+            pending = [record]
+            while pending:
+                value = pending.pop()
+                if isinstance(value, str):
+                    require(not any(pattern.search(value) for pattern in LEAK_PATTERNS),
+                            f"Potential sensitive pattern in compressed JSONL: {path.name}:{line_number}")
+                elif isinstance(value, dict):
+                    pending.extend(value.keys())
+                    pending.extend(value.values())
+                elif isinstance(value, list):
+                    pending.extend(value)
+            yield text, record
 
 
 def records():
@@ -105,9 +171,13 @@ def check_documents(rows):
         if not path.is_file() or ".git" in path.parts or "__pycache__" in path.parts:
             continue
         require(not path.is_symlink(), f"Symlink in public tree: {path.relative_to(ROOT)}")
-        require(path.suffix in {".md", ".json", ".py", ".html", ".svg", ".png", ""}
+        require(path.suffix in {".md", ".json", ".py", ".html", ".svg", ".png", ".gz", ""}
                 or path.name in {".gitignore", ".gitattributes"},
                 f"Unexpected public file type: {path.relative_to(ROOT)}")
+        if path.suffix == ".gz":
+            for _ in compressed_jsonl_lines(path):
+                pass
+            continue
         if path.suffix == ".png":
             raw = path.read_bytes()
             require(raw.startswith(b"\x89PNG\r\n\x1a\n"), f"Invalid PNG: {path.relative_to(ROOT)}")

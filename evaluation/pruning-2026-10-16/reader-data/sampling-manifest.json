@@ -1,0 +1,116 @@
+{
+  "arms": [
+    "all|off|global",
+    "ttl8|off|global",
+    "ttl8|scheduled_cold|global",
+    "latest_dependencies|off|linked"
+  ],
+  "cases_per_context": 6,
+  "collection_contract": "Missing or invalid batches remain in the planned denominator; no output overwrite or retry.",
+  "contexts": 8,
+  "density": "high",
+  "epoch": 32,
+  "input_hashes": {
+    "inbox-00.json": "0a6cc4abf30c187835389413111721977f3a9f5c0a08986e7329c4e2e237b73d",
+    "inbox-01.json": "45043c08953203e064cf8b8e0a4327aa9a00189260c13ecf2feafb846f59a8b2",
+    "inbox-02.json": "f343288e8c27a482f9915c51bc2c4303e9cbb8cda5ad6d34baafa173e94409b1",
+    "inbox-03.json": "db2e59257a19c73fa792fc5b982bb13f85c55a786c7ddb592de4d7d0b056cb9c",
+    "inbox-04.json": "f125ebdae5191ec1d0bca2b3317d7bf3d7e834bdeb232c3bd5c3ae6482161aea",
+    "inbox-05.json": "fda2581cda56ef0c2fe8bf7d2bc26a5c769d842047a695df389fd0e72e4f1fb5",
+    "inbox-06.json": "7675ed4074077c8da1f78bd9d5fd6dec9ba6db914af4639f22fcf7f80d05f2f7",
+    "inbox-07.json": "13fb5435c5a2965d5d30600901f2dbb2f44e33ccca9df588a182d6dc15d79968",
+    "mapping.json": "c5ae6842836875f4590ddc76bf633ba75b12c82dae4dbb6e4cfb3b5368b30d3f"
+  },
+  "planned_cases": 48,
+  "prompt_bytes": {
+    "inbox-00.json": {
+      "common_instruction_bytes": 1291,
+      "output_schema_bytes": 221,
+      "packet_bytes": 47451,
+      "question_bytes": 688,
+      "serialized_input": 54167
+    },
+    "inbox-01.json": {
+      "common_instruction_bytes": 1291,
+      "output_schema_bytes": 221,
+      "packet_bytes": 47568,
+      "question_bytes": 618,
+      "serialized_input": 54264
+    },
+    "inbox-02.json": {
+      "common_instruction_bytes": 1291,
+      "output_schema_bytes": 221,
+      "packet_bytes": 48143,
+      "question_bytes": 688,
+      "serialized_input": 54715
+    },
+    "inbox-03.json": {
+      "common_instruction_bytes": 1291,
+      "output_schema_bytes": 221,
+      "packet_bytes": 47768,
+      "question_bytes": 618,
+      "serialized_input": 54464
+    },
+    "inbox-04.json": {
+      "common_instruction_bytes": 1291,
+      "output_schema_bytes": 221,
+      "packet_bytes": 47779,
+      "question_bytes": 688,
+      "serialized_input": 54437
+    },
+    "inbox-05.json": {
+      "common_instruction_bytes": 1291,
+      "output_schema_bytes": 221,
+      "packet_bytes": 47853,
+      "question_bytes": 618,
+      "serialized_input": 54549
+    },
+    "inbox-06.json": {
+      "common_instruction_bytes": 1291,
+      "output_schema_bytes": 221,
+      "packet_bytes": 47796,
+      "question_bytes": 688,
+      "serialized_input": 54452
+    },
+    "inbox-07.json": {
+      "common_instruction_bytes": 1291,
+      "output_schema_bytes": 221,
+      "packet_bytes": 47718,
+      "question_bytes": 618,
+      "serialized_input": 54414
+    }
+  },
+  "requested_model": "gpt-6.1-sol",
+  "seed": 0,
+  "selected_families": [
+    "dormant_reactivation",
+    "historical_rollback",
+    "cross_project",
+    "lexical_clutter",
+    "topic_shift",
+    "expiring_exception"
+  ],
+  "source_bindings": {
+    "PLAN.md": "10ce93197fa97437a3b511e34b5cabfefd760666ba2f584f6f63f9e4be002b77",
+    "READER-PLAN.md": "4a89ccd2ef5ce465f5418f2b7de1a05fdff1b97c68e8f58619f92e167a94843c",
+    "pruning_core.py": "09415169c94bcdd28c04f9b4036373e4af1d988e26f6785969bb2d4159032d6d",
+    "pruning_lab.py": "007ba66f8b9847a4a61ffffa836ae50e50a7dcf8c26939c81c5dd32e22b9d131",
+    "reader_followup.py": "da7f1044d745c79d55d8d02b7040330a0e68be47c0c03d3566c94e55d90b3c65",
+    "run/execution.json": "03eac0dd324fdbc01175635a44c70a7c73693b59473b646cf7c1fd05bb4fddde",
+    "run/gold.json": "e89f3575d8bc5fc92e13ec5d207fc31fba6a19ff2172d0d26730b828353f2498",
+    "run/maintenance.jsonl.gz": "a87d9ecbedc445f95fb180b69976efbaaaedf6491d0f9411ba5364a028cafa83",
+    "run/manifest.json": "93a223c474b82201b7be22992e7acb7c0fbb9169bf1f62b468ba1ea19a18a69e",
+    "run/scored.jsonl.gz": "00fb1bb0aa952488f3502b72de1572a1db17765adc96d04553b8fb85b429d10b",
+    "run/self-check.json": "353151b6ab36da6b3c48df496500b795c7804011a2e0e488ccdd0a9b88d87da4",
+    "run/snapshots.jsonl.gz": "a4d284e225eaeb06b92b43c4038deb2170968005102141e87e5f171277cd16bf",
+    "run/source-bank.json": "5794e02dd4eeb06941a6e9990a146b3e0035986be0731e150af48426ad8b57f8",
+    "run/trials.jsonl.gz": "b7c222ca970ee23b215c438644c4cb1c90940007712f705ae81c3063c77a79ab",
+    "seal.json": "b5bddbda9073ad9ef8961c5c6ab3e5d964a3c5e5c7b61a5cc0002320cf70458b"
+  },
+  "staged_cases": 48,
+  "state": "STAGED_FIXED_READER_SAMPLE",
+  "tasks": [
+    "current",
+    "standing"
+  ]
+}

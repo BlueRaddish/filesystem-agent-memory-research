@@ -1,0 +1,65 @@
+{
+  "state": "EIGHT_FRESH_CONTEXTS_COMPLETED",
+  "utc": "2026-10-16T01:47:39.403371+00:00",
+  "requested_model": "gpt-6.1-sol",
+  "fork_turns": "none",
+  "contexts": [
+    {
+      "task": "/root/pruning_reader_00",
+      "input": "inbox-00.json",
+      "output": "out-00.json",
+      "planned_cases": 6,
+      "completion_message_received": true
+    },
+    {
+      "task": "/root/pruning_reader_01",
+      "input": "inbox-01.json",
+      "output": "out-01.json",
+      "planned_cases": 6,
+      "completion_message_received": true
+    },
+    {
+      "task": "/root/pruning_reader_02",
+      "input": "inbox-02.json",
+      "output": "out-02.json",
+      "planned_cases": 6,
+      "completion_message_received": true
+    },
+    {
+      "task": "/root/pruning_reader_03",
+      "input": "inbox-03.json",
+      "output": "out-03.json",
+      "planned_cases": 6,
+      "completion_message_received": true
+    },
+    {
+      "task": "/root/pruning_reader_04",
+      "input": "inbox-04.json",
+      "output": "out-04.json",
+      "planned_cases": 6,
+      "completion_message_received": true
+    },
+    {
+      "task": "/root/pruning_reader_05",
+      "input": "inbox-05.json",
+      "output": "out-05.json",
+      "planned_cases": 6,
+      "completion_message_received": true
+    },
+    {
+      "task": "/root/pruning_reader_06",
+      "input": "inbox-06.json",
+      "output": "out-06.json",
+      "planned_cases": 6,
+      "completion_message_received": true
+    },
+    {
+      "task": "/root/pruning_reader_07",
+      "input": "inbox-07.json",
+      "output": "out-07.json",
+      "planned_cases": 6,
+      "completion_message_received": true
+    }
+  ],
+  "scope": "Requested model/tool context identities, not independent backend attestation. Logical per-inbox boundary, not OS confinement."
+}

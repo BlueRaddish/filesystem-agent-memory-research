@@ -1,0 +1,68 @@
+{
+  "answers": [
+    {
+      "case_id": "0b8f5c895fb2887eda539a4e",
+      "citations": [
+        "dorm0-guard-01-00"
+      ],
+      "explanation": "The sole orchard guard assertion is effective at 32, has no expiry and has no prerequisites.",
+      "governing": "dorm0-guard-01-00",
+      "missing_refs": [],
+      "supported": true,
+      "value": "no_export_0"
+    },
+    {
+      "case_id": "af18b113d109ff80c0c4e926",
+      "citations": [
+        "hist0-guard-01-00"
+      ],
+      "explanation": "The sole orchard guard assertion is effective at 32, has no expiry and has no prerequisites. Setting assertions concern another key.",
+      "governing": "hist0-guard-01-00",
+      "missing_refs": [],
+      "supported": true,
+      "value": "no_export_0"
+    },
+    {
+      "case_id": "a1dbd34e8f1d69337c57bcf2",
+      "citations": [],
+      "explanation": "The packet contains no assertion for orchard guard, so its value and governing source cannot be determined.",
+      "governing": null,
+      "missing_refs": [],
+      "supported": false,
+      "value": null
+    },
+    {
+      "case_id": "fc5e9eecda9bbbf70a546603",
+      "citations": [
+        "lexi0-guard-01-00"
+      ],
+      "explanation": "The sole orchard guard assertion is effective at 32, has no expiry and has no prerequisites. Other keys and supplementary narrative do not replace it.",
+      "governing": "lexi0-guard-01-00",
+      "missing_refs": [],
+      "supported": true,
+      "value": "no_export_0"
+    },
+    {
+      "case_id": "3db8bde506870207f652f784",
+      "citations": [
+        "topi0-guard-01-00"
+      ],
+      "explanation": "The sole orchard guard assertion is effective at 32, has no expiry and has no prerequisites. The newer topic_new assertion concerns another key.",
+      "governing": "topi0-guard-01-00",
+      "missing_refs": [],
+      "supported": true,
+      "value": "no_export_0"
+    },
+    {
+      "case_id": "18a214b17375cf1c0ac85275",
+      "citations": [
+        "expi0-guard-01-00"
+      ],
+      "explanation": "The sole orchard guard assertion is effective at 32, has no expiry and has no prerequisites.",
+      "governing": "expi0-guard-01-00",
+      "missing_refs": [],
+      "supported": true,
+      "value": "no_export_0"
+    }
+  ]
+}

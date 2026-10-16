@@ -1,0 +1,33 @@
+{
+  "state": "ACCEPTED_FOR_COLLECTION_WITH_LIMITS",
+  "reviewed_utc_date": "2026-10-16",
+  "seal_sha256": "b5bddbda9073ad9ef8961c5c6ab3e5d964a3c5e5c7b61a5cc0002320cf70458b",
+  "sources": {
+    "PLAN.md": "10ce93197fa97437a3b511e34b5cabfefd760666ba2f584f6f63f9e4be002b77",
+    "pruning_core.py": "09415169c94bcdd28c04f9b4036373e4af1d988e26f6785969bb2d4159032d6d",
+    "pruning_lab.py": "007ba66f8b9847a4a61ffffa836ae50e50a7dcf8c26939c81c5dd32e22b9d131"
+  },
+  "executed": {
+    "seal_source_hash_verification": "passed",
+    "pruning_lab_self_check": {"exit_code": 0, "passed": 19},
+    "pre_fix_hash_seed_diagnostic": {"query_packets": 1024, "seeds": [0, 1], "different_orders": 0}
+  },
+  "source_review": [
+    "RetentionSource interface excludes value, text, query and gold capabilities.",
+    "Retention receives only previous active metadata, causal actual cold-hit admissions, new arrivals, past actual read ledger, epoch and seed.",
+    "Each arm has a separate access ledger; pending cold hits are admitted only at the next epoch for quota policies.",
+    "Future full-bank search indexing is present; visible-pool scoring and the executed future perturbation check bound its observed use.",
+    "Gold is not passed to retention, retrieval or packet reader; scoring starts after closing the complete source-only trial stream.",
+    "Four-call fallback is based on source-only reader status or a fixed scheduled cold allocation, with shared rendered-byte budget.",
+    "Global search pages unseen source IDs; renamed path metadata and future body perturbations are separately constructed fixtures.",
+    "Final BM25 terms are sorted before floating accumulation to remove hash-seed iteration ambiguity."
+  ],
+  "scope_limits": [
+    "Eight engineered workload overlays share a common backbone and are not independent causal mechanisms or structurally held-out data.",
+    "All sources, clean metadata, project/key scopes and dependency links are supplied; downstream reader interprets structured ASSERT records.",
+    "Latest policies intentionally ignore expiry during retention and can lose an older base or historical version.",
+    "Indexing is built from the full bank; this is logical temporal selection, not OS-isolated incremental index construction.",
+    "Candidate and term counters omit multiple maintenance/indexing/runtime operations and cannot establish end-to-end speed.",
+    "No actual full collection, output audit, figure validation, natural-history replication or LLM-reader success was accepted by this precollection review."
+  ]
+}

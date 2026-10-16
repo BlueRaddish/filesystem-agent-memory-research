@@ -1,0 +1,422 @@
+[
+  {
+    "id": "PL01",
+    "title": "ARC: A Self-Tuning, Low Overhead Replacement Cache",
+    "year": 2003,
+    "url": "https://www.usenix.org/legacy/events/fast03/tech/full_papers/megiddo/megiddo.pdf",
+    "kind": "peer_reviewed_research",
+    "venue_or_status": "FAST 2003; official conference PDF",
+    "topics": [
+      "recency",
+      "frequency",
+      "ghost metadata",
+      "adaptive replacement"
+    ],
+    "evidence_note": "Balances recent and repeated page use with metadata for evicted pages; evaluates cache behavior under varied traces.",
+    "limitation": "Uniform-page cache experiments do not measure document authority, complete supporting evidence or agent task accuracy.",
+    "review_level": "Selected full-text problem definition, ghost-cache discussion, replacement mechanism and evaluation setup.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "additional_primary_urls": [
+      "https://research.ibm.com/publications/arc-a-self-tuning-low-overhead-replacement-cache"
+    ]
+  },
+  {
+    "id": "PL02",
+    "title": "TinyLFU: A Highly Efficient Cache Admission Policy",
+    "year": 2015,
+    "url": "https://arxiv.org/pdf/1512.00727v2",
+    "kind": "preprint",
+    "venue_or_status": "arXiv v2, December 3, 2015; reviewed version, without inferring later publication status",
+    "topics": [
+      "admission",
+      "approximate frequency",
+      "aging",
+      "W-TinyLFU",
+      "LRU and LFU controls"
+    ],
+    "evidence_note": "Separates admission from replacement using recent approximate frequency; reset aging and a recency window handle changing demand.",
+    "limitation": "Cache hit-ratio evaluations do not establish retention of rare constraints or downstream factual sufficiency.",
+    "review_level": "Selected full-text introduction, freshness/reset mechanism, doorkeeper, W-TinyLFU design and trace setup.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "additional_primary_urls": [
+      "https://arxiv.org/abs/1512.00727v2"
+    ]
+  },
+  {
+    "id": "PL03",
+    "title": "SIEVE is Simpler than LRU: an Efficient Turn-Key Eviction Algorithm for Web Caches",
+    "year": 2024,
+    "url": "https://www.usenix.org/system/files/nsdi24-zhang-yazhuo.pdf",
+    "kind": "peer_reviewed_research",
+    "venue_or_status": "NSDI 2024; official proceedings PDF",
+    "topics": [
+      "lazy promotion",
+      "quick demotion",
+      "access bit",
+      "cache implementation overhead"
+    ],
+    "evidence_note": "Uses a queue, visited bit and moving hand; evaluates efficiency and scalability on web/object-cache traces and implementations.",
+    "limitation": "Object reuse and throughput do not measure agent evidence completeness; access patterns and capacities bound transfer.",
+    "review_level": "Selected full-text algorithm, lazy-promotion/quick-demotion explanation, implementation and workload sections.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "additional_primary_urls": [
+      "https://www.usenix.org/conference/nsdi24/presentation/zhang-yazhuo"
+    ]
+  },
+  {
+    "id": "PL04",
+    "title": "When Fancy Eviction Fails: Rethinking Cache Replacement For LLM Prefix Reuse",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.28870v1",
+    "kind": "preprint",
+    "venue_or_status": "arXiv v1, September 24, 2026; recent unreplicated preprint",
+    "topics": [
+      "prefix caches",
+      "recency",
+      "nonuniform miss cost",
+      "session footprints",
+      "workload dependence"
+    ],
+    "evidence_note": "Studies prefix-cache eviction with production traces and a serving-aware simulator; proposes compute-aware evaluation beyond ordinary hit ratio.",
+    "limitation": "KV-prefix computation reuse is distinct from selecting semantic evidence; trace and simulator findings do not establish a filesystem-memory winner.",
+    "review_level": "Selected full-text introduction, workload/design implications and prefix-cache background.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "additional_primary_urls": [
+      "https://arxiv.org/abs/2609.28870"
+    ]
+  },
+  {
+    "id": "PL05",
+    "title": "Apache Kafka 4.1 Design: Log Compaction",
+    "year": 2025,
+    "url": "https://kafka.apache.org/41/design/design/",
+    "kind": "official_documentation",
+    "venue_or_status": "Versioned Kafka 4.1 design documentation; page last modified December 19, 2025; older version intentionally identified",
+    "topics": [
+      "keyed compaction",
+      "current-state reconstruction",
+      "event history",
+      "tombstones",
+      "consumer lag"
+    ],
+    "evidence_note": "Specifies last-value-per-key retention, stable offsets, background compaction and conditions under which consumers observe deletion markers.",
+    "limitation": "Keyed mutable-state semantics do not preserve every historical explanation; this is documentation, not an agent experiment.",
+    "review_level": "Full log-compaction section including basics, guarantees, deletion-marker retention and configuration.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "reviewed_sections": [
+      "Log Compaction",
+      "Log Compaction Basics",
+      "What guarantees does log compaction provide?",
+      "Log Compaction Details"
+    ]
+  },
+  {
+    "id": "PL06",
+    "title": "Apache Cassandra: Compaction Overview",
+    "year": 2026,
+    "url": "https://cassandra.apache.org/doc/stable/cassandra/managing/operating/compaction/overview.html",
+    "kind": "official_documentation",
+    "venue_or_status": "Live stable documentation accessed in 2026; year denotes access, not an established publication date",
+    "topics": [
+      "tombstones",
+      "replica resurrection",
+      "garbage collection",
+      "repair",
+      "TTL"
+    ],
+    "evidence_note": "Explains tombstones, purge conditions and how missing deletion information can allow old replica data to reappear.",
+    "limitation": "Distributed database rules and grace intervals are system-specific; no interval or accuracy benefit transfers automatically to agent files.",
+    "review_level": "Selected documentation sections on deletion, tombstones, grace periods and fully expired SSTables.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "reviewed_sections": [
+      "Deletion",
+      "Deletes without tombstones",
+      "Deletes with tombstones",
+      "Fully expired SSTables"
+    ]
+  },
+  {
+    "id": "PL07",
+    "title": "RocksDB deletion semantics: DeleteRange and Compaction Filter",
+    "year": 2018,
+    "url": "https://rocksdb.org/blog/2018/11/21/delete-range.html",
+    "kind": "official_engineering_documentation",
+    "venue_or_status": "DeleteRange engineering post, November 21, 2018; related official Compaction Filter wiki last edited January 26, 2022",
+    "topics": [
+      "logical deletion",
+      "space reclamation",
+      "older-version resurrection",
+      "snapshots",
+      "compaction filters"
+    ],
+    "evidence_note": "Separates deletion visibility from compaction/reclamation; the related wiki documents skipped-key resurrection and snapshot-repeatability exceptions.",
+    "limitation": "Two related official documents grouped in one record; historical implementation statements are not a current deployment test or agent-memory benchmark.",
+    "review_level": "Selected DeleteRange motivation, write/read paths, snapshot/compaction discussion; Compaction Filter core behavior and caveats.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "additional_primary_urls": [
+      "https://github.com/facebook/rocksdb/wiki/Compaction-Filter"
+    ]
+  },
+  {
+    "id": "PL08",
+    "title": "Git: git-gc Documentation",
+    "year": 2026,
+    "url": "https://git-scm.com/docs/git-gc",
+    "kind": "official_documentation",
+    "venue_or_status": "Live official manual accessed in 2026; year denotes access, not an established publication date",
+    "topics": [
+      "reachability",
+      "retention roots",
+      "reflogs",
+      "grace periods",
+      "concurrent garbage collection"
+    ],
+    "evidence_note": "Documents object retention through references, the index and reflogs, and limitations of protection during concurrent object creation.",
+    "limitation": "Syntactic reachability differs from semantic value; incomplete dependency roots can make useful evidence appear dead.",
+    "review_level": "Selected description, pruning options and NOTES sections; no command executed against the project or vault.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "reviewed_sections": [
+      "DESCRIPTION",
+      "OPTIONS",
+      "NOTES"
+    ]
+  },
+  {
+    "id": "PL09",
+    "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+    "year": 2023,
+    "url": "https://arxiv.org/html/2305.10250v3",
+    "kind": "peer_reviewed_research",
+    "venue_or_status": "First preprint 2023; AAAI 2024; arXiv v3 reviewed",
+    "topics": [
+      "optional decay",
+      "recall reinforcement",
+      "conversation records",
+      "hierarchical summaries"
+    ],
+    "evidence_note": "Adds a time-and-recall-dependent memory-strength mechanism alongside conversations, event summaries and user portraits.",
+    "limitation": "Companion and generated-dialogue evaluation does not establish a universal forgetting rate or sustained project-continuation performance.",
+    "review_level": "Selected full-text storage, retrieval, forgetting/update mechanism and quantitative evaluation setup.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "cross_catalog_note": "Revisits AM02; not an additional unique study."
+  },
+  {
+    "id": "PL10",
+    "title": "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2507.05257v4",
+    "kind": "peer_reviewed_benchmark",
+    "venue_or_status": "MemoryAgentBench; author repository identifies ICLR 2026 acceptance; arXiv v4, June 28, 2026 reviewed",
+    "topics": [
+      "incremental ingestion",
+      "selective forgetting",
+      "FactConsolidation",
+      "counterfactual updates"
+    ],
+    "evidence_note": "Feeds reconstructed contexts incrementally and includes ordered counterfactual edits with current-state questions.",
+    "limitation": "Constructed edits and supplied overwrite rules simplify authority; temporal consistency is not the same as physical deletion or open-ended project continuity.",
+    "review_level": "Selected v4 full-text benchmark formulation, dataset preparation and selective-forgetting design; earlier v2 description also inspected.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "additional_primary_urls": [
+      "https://github.com/HUST-AI-HYZ/MemoryAgentBench"
+    ],
+    "cross_catalog_note": "Revisits RE01 with a newer inspected version; not an additional unique study."
+  },
+  {
+    "id": "PL11",
+    "title": "From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2604.20006v1",
+    "kind": "preprint_benchmark",
+    "venue_or_status": "Memora; arXiv v1, April 21, 2026",
+    "topics": [
+      "memory mutation",
+      "longitudinal simulation",
+      "invalid-memory use",
+      "FAMA",
+      "session integration"
+    ],
+    "evidence_note": "Generates conversations from evolving state traces and evaluates valid-memory presence and invalid-memory absence over simulated durations.",
+    "limitation": "Generated personas/dialogue and judge-based criteria bound validity; simulated calendar duration is not observed deployment time.",
+    "review_level": "Selected full-text session simulation, conversation generation, evaluation criteria, FAMA definition and experiment settings.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "additional_primary_urls": [
+      "https://github.com/geniesinc/Memora"
+    ]
+  },
+  {
+    "id": "PL12",
+    "title": "Useful Memories Become Faulty When Continuously Updated by LLMs",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2605.12978v1",
+    "kind": "preprint",
+    "venue_or_status": "arXiv v1, May 13, 2026; unreplicated in this review",
+    "topics": [
+      "streaming consolidation",
+      "episodic evidence",
+      "rewrite drift",
+      "regression",
+      "retain-delete-consolidate controls"
+    ],
+    "evidence_note": "Compares update schedules and episodic/abstract stores; reports deterioration under repeated textual consolidation in tested tasks.",
+    "limitation": "Contemporary tested models/tasks and consolidation loops bound transfer; does not establish that every abstraction is harmful or raw retention is optimal.",
+    "review_level": "Selected full-text experiment setup, stream consolidation, ARC-AGI Stream controls, interference and limitations.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "reviewed_sections": [
+      "3 Experiment Set-up",
+      "4 Useful Memories Become Faulty When Continuously Updated by LLMs",
+      "5",
+      "6.2 Interference",
+      "8 Limitations"
+    ]
+  },
+  {
+    "id": "PL13",
+    "title": "Deployment-Time Memorization in Foundation-Model Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2606.10062v1",
+    "kind": "preprint",
+    "venue_or_status": "arXiv v1, June 8, 2026",
+    "topics": [
+      "derived-copy residue",
+      "raw and summary tiers",
+      "canary probes",
+      "deletion fidelity",
+      "tombstone redaction"
+    ],
+    "evidence_note": "Tests retention/extraction tradeoffs and deletion modes on synthetic canaries in 50 sampled LongMemEval-oracle instances.",
+    "limitation": "Bounded canary attacks, sampled histories and proxy utility do not certify universal erasure or naturalistic task accuracy.",
+    "review_level": "Selected full-text pipeline, deletion ladder, forgetting-residue definition and experimental setup/results.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "reviewed_sections": [
+      "2.1 Agent-Memory Pipeline",
+      "2.4 Forgetting Residue",
+      "3.1 Experimental Setup",
+      "3.3"
+    ]
+  },
+  {
+    "id": "PL14",
+    "title": "FSFM: A Biologically-Inspired Framework for Selective Forgetting of Agent Memory",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2604.20300v1",
+    "kind": "preprint",
+    "venue_or_status": "arXiv v1, April 22, 2026; framework claims require independent validation",
+    "topics": [
+      "decay",
+      "active deletion",
+      "importance weighting",
+      "capacity confounding",
+      "retention tradeoffs"
+    ],
+    "evidence_note": "Provides a forgetting taxonomy and capacity-triggered priority policy with a reported capped-versus-unlimited comparison.",
+    "limitation": "Resource conditions differ; reported important-record loss and labeled-content elimination do not establish universal fidelity or security.",
+    "review_level": "Selected full-text taxonomy and methods, capacity constraints, scoring/tuning protocol and Tables 2-3.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC"
+  },
+  {
+    "id": "PL15",
+    "title": "Learning What to Remember: A Cognitively Grounded Multi-Factor Value Model for Agentic Memory",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2606.12945v2",
+    "kind": "preprint",
+    "venue_or_status": "arXiv v2, June 20, 2026",
+    "topics": [
+      "query-blind retention",
+      "future-query leakage",
+      "learned value",
+      "gold-evidence proxy",
+      "held-out fitting"
+    ],
+    "evidence_note": "Separates oracle future-query scoring from blind retention and fits weights to a budgeted gold-retention objective.",
+    "limitation": "Downstream QA is untested, only four of seven factors are active, and one benchmark/annotation scheme limits transfer.",
+    "review_level": "Selected full-text factor design, weight learning, oracle/blind protocol, held-out evaluation description and explicit limitations.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "additional_primary_urls": [
+      "https://github.com/zhibao-dev/Learning-Multi-Factor-Memory"
+    ]
+  },
+  {
+    "id": "PL16",
+    "title": "It's Not That Important: Demoting Personal Information of Low Subjective Importance Using GrayArea",
+    "year": 2009,
+    "url": "https://www.microsoft.com/en-us/research/publication/its-not-that-important-demoting-personal-information-of-low-subjective-importance-using-grayarea/",
+    "kind": "peer_reviewed_hci_research",
+    "venue_or_status": "CHI 2009; author-organization primary record",
+    "topics": [
+      "reversible demotion",
+      "folder context",
+      "subjective importance",
+      "clutter"
+    ],
+    "evidence_note": "Evaluates an interface that demotes files within their folder instead of requiring deletion.",
+    "limitation": "Primary abstract only; folder-cleaning study does not measure agent accuracy or extended reactivation.",
+    "review_level": "Primary abstract and publication metadata only; full paper not reviewed in this round.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "cross_catalog_note": "Revisits OR06; not an additional unique study."
+  },
+  {
+    "id": "PL17",
+    "title": "Reflections of the Environment in Memory",
+    "year": 1991,
+    "url": "https://journals.sagepub.com/doi/abs/10.1111/j.1467-9280.1991.tb00174.x",
+    "kind": "peer_reviewed_cognitive_research",
+    "venue_or_status": "Psychological Science 2(6), 396-408; publisher primary abstract",
+    "topics": [
+      "adaptive need",
+      "recency",
+      "frequency",
+      "exposure pattern",
+      "transfer limits"
+    ],
+    "evidence_note": "Relates future need in examined environments to recency, frequency and exposure patterns as an account of human memory.",
+    "limitation": "Abstract-level review cannot validate detailed controls; human/environmental relationships do not prescribe a filesystem TTL.",
+    "review_level": "Publisher primary abstract and metadata only; attempted academic-hosted PDF access failed.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "access_limits": [
+      "Selected full-text PDF access attempt returned an internal error."
+    ]
+  },
+  {
+    "id": "PL18",
+    "title": "The Persistence and Transience of Memory",
+    "year": 2017,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28641107/",
+    "kind": "scholarly_perspective",
+    "venue_or_status": "Neuron 94(6), 1071-1084; PubMed primary abstract; a perspective, not one new experiment",
+    "topics": [
+      "adaptive forgetting",
+      "flexibility",
+      "generalization",
+      "biological analogy"
+    ],
+    "evidence_note": "Argues that interactions of persistence and transience can support flexible decisions in dynamic and noisy environments.",
+    "limitation": "Primary abstract only and a conceptual synthesis; does not establish a deletion mechanism or optimal horizon for agent files.",
+    "review_level": "Indexed primary abstract and metadata only; attempted academic-hosted full-text PDF access failed.",
+    "accessed": "2026-10-16",
+    "access_timezone": "UTC",
+    "additional_primary_urls": [
+      "https://doi.org/10.1016/j.neuron.2017.04.037"
+    ],
+    "access_limits": [
+      "Selected full-text PDF access attempt returned an internal error."
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "reason": "Move Figure 5 colorbar outside data cells after visual inspection",
+  "raw_data_changed": false,
+  "changed": [
+    {
+      "path": "05-archive-effects.png",
+      "old_sha256": "7d9a1ee908f07203ea665190ffacd547434e19b8a7218b59af9ef9788e99ce58",
+      "new_sha256": "5f830446d1426b09fe65910d25ce0224c87500cc2df1b574d4aef10ffec1eaca"
+    },
+    {
+      "path": "05-archive-effects.svg",
+      "old_sha256": "e0b674a72fef5735b841a041eaa0178a012081609491afb4d00c93c7d575df4b",
+      "new_sha256": "5daf8f31240736a6fe5f2ff122960c5bcaf5d4491a05623f168392ad16bf0f09"
+    }
+  ],
+  "other_ten_exports_identical": true
+}

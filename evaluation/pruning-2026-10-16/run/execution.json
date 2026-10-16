@@ -1,0 +1,10 @@
+{
+  "cpu_seconds": 182.484375,
+  "queries": 1024,
+  "seal_hash": "584fd178e9090807d99e7911a1ce84ff3b2d3d0e9679f191ce5b43799ce4a6fd",
+  "snapshots": 16128,
+  "state": "COLLECTED_NOT_INDEPENDENTLY_AUDITED",
+  "trials": 64512,
+  "wall_seconds": 187.5109630000079,
+  "worlds": 32
+}

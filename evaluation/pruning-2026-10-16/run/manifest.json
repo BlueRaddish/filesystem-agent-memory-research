@@ -1,0 +1,46 @@
+{
+  "sha256": {
+    "execution.json": "03eac0dd324fdbc01175635a44c70a7c73693b59473b646cf7c1fd05bb4fddde",
+    "gold.json": "e89f3575d8bc5fc92e13ec5d207fc31fba6a19ff2172d0d26730b828353f2498",
+    "maintenance.jsonl.gz": "a87d9ecbedc445f95fb180b69976efbaaaedf6491d0f9411ba5364a028cafa83",
+    "scored.jsonl.gz": "00fb1bb0aa952488f3502b72de1572a1db17765adc96d04553b8fb85b429d10b",
+    "self-check.json": "353151b6ab36da6b3c48df496500b795c7804011a2e0e488ccdd0a9b88d87da4",
+    "snapshots.jsonl.gz": "a4d284e225eaeb06b92b43c4038deb2170968005102141e87e5f171277cd16bf",
+    "source-bank.json": "5794e02dd4eeb06941a6e9990a146b3e0035986be0731e150af48426ad8b57f8",
+    "trials.jsonl.gz": "b7c222ca970ee23b215c438644c4cb1c90940007712f705ae81c3063c77a79ab"
+  },
+  "sizes": {
+    "execution.json": {
+      "stored_bytes": 288,
+      "uncompressed_bytes": 288
+    },
+    "gold.json": {
+      "stored_bytes": 189457,
+      "uncompressed_bytes": 189457
+    },
+    "maintenance.jsonl.gz": {
+      "stored_bytes": 413393,
+      "uncompressed_bytes": 15103458
+    },
+    "scored.jsonl.gz": {
+      "stored_bytes": 583210,
+      "uncompressed_bytes": 23369687
+    },
+    "self-check.json": {
+      "stored_bytes": 842,
+      "uncompressed_bytes": 842
+    },
+    "snapshots.jsonl.gz": {
+      "stored_bytes": 1135929,
+      "uncompressed_bytes": 37864344
+    },
+    "source-bank.json": {
+      "stored_bytes": 6634525,
+      "uncompressed_bytes": 6634525
+    },
+    "trials.jsonl.gz": {
+      "stored_bytes": 10847112,
+      "uncompressed_bytes": 173486997
+    }
+  }
+}

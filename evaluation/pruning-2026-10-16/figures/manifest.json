@@ -1,0 +1,65 @@
+{
+  "figures": [
+    {
+      "caption": "Epoch support-complete success, global retrieval; repeated queries within shared-backbone worlds.",
+      "path": "01-longitudinal-success.png",
+      "sha256": "2ae0ea27538117d3e353025bfe417718bd7420fbc12a47ca5e645900fa91736f"
+    },
+    {
+      "caption": "Epoch support-complete success, global retrieval; repeated queries within shared-backbone worlds.",
+      "path": "01-longitudinal-success.svg",
+      "sha256": "79d360d98ede881f26cbe7fa7d9937efdad81809e0f44ed4ba596e049bfb1344"
+    },
+    {
+      "caption": "Final checkpoint counts for every policy \u00d7 archive mode \u00d7 retrieval method.",
+      "path": "02-final-factorial.png",
+      "sha256": "27fdef0968283705c5f4173f3f5777f4881048f60de4bd7a39963536e9167b39"
+    },
+    {
+      "caption": "Final checkpoint counts for every policy \u00d7 archive mode \u00d7 retrieval method.",
+      "path": "02-final-factorial.svg",
+      "sha256": "ac112b2f51c706057e247d8b8ee0efe841140ec9ab03d8c656d49350a6043b7e"
+    },
+    {
+      "caption": "Final active versus retained original bytes; archive tiers preserve total originals.",
+      "path": "03-storage-utility.png",
+      "sha256": "adb7a7b6d16cf62134c72072d9f1f4df86d416872c14056604602823a82b67c6"
+    },
+    {
+      "caption": "Final active versus retained original bytes; archive tiers preserve total originals.",
+      "path": "03-storage-utility.svg",
+      "sha256": "b060a64f5edff8495a9f9e6b9fcacf6884035030a0311d051d3d7b8966c8db0e"
+    },
+    {
+      "caption": "Scenario counts; eight overlays share an authored backbone and are not independent mechanisms.",
+      "path": "04-scenario-outcomes.png",
+      "sha256": "9b181a7787c4ca11d3d25e8837c0c3d20d526cf62804437faf68d9c144e9ea12"
+    },
+    {
+      "caption": "Scenario counts; eight overlays share an authored backbone and are not independent mechanisms.",
+      "path": "04-scenario-outcomes.svg",
+      "sha256": "61a86616844c319d54b6572243b59ebef36c15664fb969a78da862ddfc70af40"
+    },
+    {
+      "caption": "Paired archive-mode success differences; scheduled cold also tests confident stale-answer blind spots.",
+      "path": "05-archive-effects.png",
+      "sha256": "5f830446d1426b09fe65910d25ce0224c87500cc2df1b574d4aef10ffec1eaca"
+    },
+    {
+      "caption": "Paired archive-mode success differences; scheduled cold also tests confident stale-answer blind spots.",
+      "path": "05-archive-effects.svg",
+      "sha256": "5daf8f31240736a6fe5f2ff122960c5bcaf5d4491a05623f168392ad16bf0f09"
+    },
+    {
+      "caption": "Candidate examinations and active original bytes over epochs; indexing, sorting and parsing costs excluded.",
+      "path": "06-work-and-growth.png",
+      "sha256": "a8a82643ff9c0742b3f56aed553198f2899b521f592ad8269ef089a7c95273ec"
+    },
+    {
+      "caption": "Candidate examinations and active original bytes over epochs; indexing, sorting and parsing costs excluded.",
+      "path": "06-work-and-growth.svg",
+      "sha256": "1fbc46cd19a76999676c48d799483a325efddde03bc330c1a95ed4dd42c41470"
+    }
+  ],
+  "tables_sha256": "b5845e6a418430ac4968e13591b5cf4ed84151b2ab66a6afe3921aa21d43d3ab"
+}

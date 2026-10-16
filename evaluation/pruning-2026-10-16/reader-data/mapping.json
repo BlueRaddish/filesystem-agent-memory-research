@@ -1,0 +1,1682 @@
+{
+  "cases": {
+    "0b8f5c895fb2887eda539a4e": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 7,
+      "family": "dormant_reactivation",
+      "gold": {
+        "governing": "dorm0-guard-01-00",
+        "required": [
+          "dorm0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "8fb4b37db7926c79532a797fed51f08fb7a893468f77c674b609992444463d0d",
+      "query": "dormant_reactivation-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "dorm0-guard-01-00",
+        "dorm0-guard_new-01-00",
+        "dorm0-setting-01-00",
+        "dorm0-topic_new-01-00",
+        "dorm0-noise_01_1-01-00",
+        "dorm0-noise_01_2-01-00",
+        "dorm0-noise_01_5-01-00",
+        "dorm0-noise_01_7-01-00",
+        "dorm0-noise_02_1-02-00",
+        "dorm0-noise_02_2-02-00",
+        "dorm0-noise_02_4-02-00",
+        "dorm0-noise_02_5-02-00",
+        "dorm0-noise_02_7-02-00",
+        "dorm0-noise_03_1-03-00",
+        "dorm0-noise_03_4-03-00",
+        "dorm0-noise_03_5-03-00"
+      ],
+      "task": "standing",
+      "world": "dormant_reactivation-s0-high"
+    },
+    "0d520d247c22c0a8ca693bc2": {
+      "arm": "all|off|global",
+      "context": 4,
+      "family": "cross_project",
+      "gold": {
+        "governing": "cros0-setting-01-00",
+        "required": [
+          "cros0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "69d0c9fd4d2813853948f81fab20d4ac05bf44419cd77b0a095fdfc7cca847eb",
+      "query": "cross_project-s0-high-e32-current",
+      "referenced": [
+        "cros0-license-01-00"
+      ],
+      "selected": [
+        "cros0-setting-01-00",
+        "cros0-topic_new-01-00",
+        "cros0-guard_new-01-00",
+        "cros0-bundle-01-00",
+        "cros0-guard-01-00",
+        "cros0-noise_01_1-01-00",
+        "cros0-noise_01_2-01-00",
+        "cros0-noise_01_5-01-00",
+        "cros0-noise_01_7-01-00",
+        "cros0-noise_02_1-02-00",
+        "cros0-noise_02_2-02-00",
+        "cros0-noise_02_4-02-00",
+        "cros0-noise_02_5-02-00",
+        "cros0-noise_02_7-02-00",
+        "cros0-noise_03_1-03-00",
+        "cros0-noise_03_4-03-00"
+      ],
+      "task": "current",
+      "world": "cross_project-s0-high"
+    },
+    "16baa2978a0de3548bd4e4d4": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 2,
+      "family": "lexical_clutter",
+      "gold": {
+        "governing": "lexi0-setting-32-08",
+        "required": [
+          "lexi0-setting-32-08"
+        ],
+        "value": "revision_32_0"
+      },
+      "packet_sha256": "888bbb2b2edfbc01dee7c9cccbef6e727fcdc7dc53ba08c893f91abf22f5ab14",
+      "query": "lexical_clutter-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "lexi0-setting-28-07",
+        "lexi0-noise_24_2-24-00",
+        "lexi0-noise_24_4-24-00",
+        "lexi0-noise_24_5-24-00",
+        "lexi0-noise_24_7-24-00",
+        "lexi0-noise_25_1-25-00",
+        "lexi0-noise_25_2-25-00",
+        "lexi0-noise_25_4-25-00",
+        "lexi0-noise_25_7-25-00",
+        "lexi0-noise_26_1-26-00",
+        "lexi0-noise_26_2-26-00",
+        "lexi0-noise_26_5-26-00",
+        "lexi0-setting-04-01",
+        "lexi0-setting-12-03",
+        "lexi0-setting-20-05",
+        "lexi0-noise_01_1-01-00"
+      ],
+      "task": "current",
+      "world": "lexical_clutter-s0-high"
+    },
+    "18a214b17375cf1c0ac85275": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 7,
+      "family": "expiring_exception",
+      "gold": {
+        "governing": "expi0-guard-01-00",
+        "required": [
+          "expi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "8c8f5bac598e5b774270f32d444679cbdf0c4fa72fa5107e31aa91d2f0db11df",
+      "query": "expiring_exception-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "expi0-noise_24_2-24-00",
+        "expi0-noise_24_4-24-00",
+        "expi0-noise_24_5-24-00",
+        "expi0-noise_24_7-24-00",
+        "expi0-noise_25_1-25-00",
+        "expi0-noise_25_2-25-00",
+        "expi0-noise_25_4-25-00",
+        "expi0-noise_25_7-25-00",
+        "expi0-noise_26_1-26-00",
+        "expi0-noise_26_2-26-00",
+        "expi0-noise_26_5-26-00",
+        "expi0-noise_26_7-26-00",
+        "expi0-guard-01-00",
+        "expi0-guard_new-01-00",
+        "expi0-setting-01-00",
+        "expi0-topic_new-01-00"
+      ],
+      "task": "standing",
+      "world": "expiring_exception-s0-high"
+    },
+    "197383f85bfa7bd5a1d1a95e": {
+      "arm": "ttl8|off|global",
+      "context": 3,
+      "family": "topic_shift",
+      "gold": {
+        "governing": "topi0-guard-01-00",
+        "required": [
+          "topi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "db0bc75394c956a404294de8a4f342f0f8ed059948bb1aeb424b2ae7b250f677",
+      "query": "topic_shift-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "topi0-topic_new-24-05",
+        "topi0-topic_new-28-06",
+        "topi0-topic_new-32-07",
+        "topi0-noise_24_2-24-00",
+        "topi0-noise_24_4-24-00",
+        "topi0-noise_24_5-24-00",
+        "topi0-noise_24_7-24-00",
+        "topi0-noise_25_1-25-00",
+        "topi0-noise_25_2-25-00",
+        "topi0-noise_25_4-25-00",
+        "topi0-noise_25_7-25-00",
+        "topi0-noise_26_1-26-00",
+        "topi0-noise_26_2-26-00",
+        "topi0-noise_26_5-26-00",
+        "topi0-noise_26_7-26-00",
+        "topi0-noise_27_1-27-00"
+      ],
+      "task": "standing",
+      "world": "topic_shift-s0-high"
+    },
+    "19b73347f6fb0ed7440bdead": {
+      "arm": "ttl8|off|global",
+      "context": 0,
+      "family": "lexical_clutter",
+      "gold": {
+        "governing": "lexi0-setting-32-08",
+        "required": [
+          "lexi0-setting-32-08"
+        ],
+        "value": "revision_32_0"
+      },
+      "packet_sha256": "f67add7c2728a6e0c460bfb49cc7661cdb087e45edd8c9870ef7eacd410a840c",
+      "query": "lexical_clutter-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "lexi0-setting-28-07",
+        "lexi0-noise_24_2-24-00",
+        "lexi0-noise_24_4-24-00",
+        "lexi0-noise_24_5-24-00",
+        "lexi0-noise_24_7-24-00",
+        "lexi0-noise_25_1-25-00",
+        "lexi0-noise_25_2-25-00",
+        "lexi0-noise_25_4-25-00",
+        "lexi0-noise_25_7-25-00",
+        "lexi0-noise_26_1-26-00",
+        "lexi0-noise_26_2-26-00",
+        "lexi0-noise_26_5-26-00",
+        "lexi0-noise_26_7-26-00",
+        "lexi0-noise_27_1-27-00",
+        "lexi0-noise_27_2-27-00",
+        "lexi0-noise_27_4-27-00"
+      ],
+      "task": "current",
+      "world": "lexical_clutter-s0-high"
+    },
+    "1fb36fd05aec9917e913e75b": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 0,
+      "family": "expiring_exception",
+      "gold": {
+        "governing": "expi0-setting-01-00",
+        "required": [
+          "expi0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "e4a01160db62f46c5b4b2da49c05de6dc750ded093dfb87aa59ed426b4b03a82",
+      "query": "expiring_exception-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "expi0-setting-01-00",
+        "expi0-topic_new-01-00",
+        "expi0-guard_new-01-00",
+        "expi0-guard-01-00",
+        "expi0-noise_01_1-01-00",
+        "expi0-noise_01_2-01-00",
+        "expi0-noise_01_5-01-00",
+        "expi0-noise_01_7-01-00",
+        "expi0-noise_02_1-02-00",
+        "expi0-noise_02_2-02-00",
+        "expi0-noise_02_4-02-00",
+        "expi0-noise_02_5-02-00",
+        "expi0-noise_02_7-02-00",
+        "expi0-noise_03_1-03-00",
+        "expi0-noise_03_4-03-00",
+        "expi0-noise_03_5-03-00"
+      ],
+      "task": "current",
+      "world": "expiring_exception-s0-high"
+    },
+    "256cf141ed0d22b5ec7f8b89": {
+      "arm": "all|off|global",
+      "context": 3,
+      "family": "expiring_exception",
+      "gold": {
+        "governing": "expi0-guard-01-00",
+        "required": [
+          "expi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "31be4e15ae3f2ef8fb388b9b92350b101af10dd97bff5867e9f2d68123ebe9c1",
+      "query": "expiring_exception-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "expi0-guard-01-00",
+        "expi0-guard_new-01-00",
+        "expi0-setting-01-00",
+        "expi0-topic_new-01-00",
+        "expi0-noise_01_1-01-00",
+        "expi0-noise_01_2-01-00",
+        "expi0-noise_01_5-01-00",
+        "expi0-noise_01_7-01-00",
+        "expi0-noise_02_1-02-00",
+        "expi0-noise_02_2-02-00",
+        "expi0-noise_02_4-02-00",
+        "expi0-noise_02_5-02-00",
+        "expi0-noise_02_7-02-00",
+        "expi0-noise_03_1-03-00",
+        "expi0-noise_03_4-03-00",
+        "expi0-noise_03_5-03-00"
+      ],
+      "task": "standing",
+      "world": "expiring_exception-s0-high"
+    },
+    "2a06df49d48edfd44066b332": {
+      "arm": "ttl8|off|global",
+      "context": 2,
+      "family": "dormant_reactivation",
+      "gold": {
+        "governing": "dorm0-setting-01-00",
+        "required": [
+          "dorm0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "355d9272630a308bc013d0de5b020dfa1a54e019eae1143e8f762c1da1d83dfe",
+      "query": "dormant_reactivation-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "dorm0-noise_24_2-24-00",
+        "dorm0-noise_24_4-24-00",
+        "dorm0-noise_24_5-24-00",
+        "dorm0-noise_24_7-24-00",
+        "dorm0-noise_25_1-25-00",
+        "dorm0-noise_25_2-25-00",
+        "dorm0-noise_25_4-25-00",
+        "dorm0-noise_25_7-25-00",
+        "dorm0-noise_26_1-26-00",
+        "dorm0-noise_26_2-26-00",
+        "dorm0-noise_26_5-26-00",
+        "dorm0-noise_26_7-26-00",
+        "dorm0-noise_27_1-27-00",
+        "dorm0-noise_27_2-27-00",
+        "dorm0-noise_27_4-27-00",
+        "dorm0-noise_27_5-27-00"
+      ],
+      "task": "current",
+      "world": "dormant_reactivation-s0-high"
+    },
+    "334240555b8d1da88674486c": {
+      "arm": "all|off|global",
+      "context": 6,
+      "family": "lexical_clutter",
+      "gold": {
+        "governing": "lexi0-setting-32-08",
+        "required": [
+          "lexi0-setting-32-08"
+        ],
+        "value": "revision_32_0"
+      },
+      "packet_sha256": "95276eedc6b843e0073f25f1a89b884e45fe255f32be5b02c37e258ead4aa5ab",
+      "query": "lexical_clutter-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "lexi0-setting-04-01",
+        "lexi0-setting-12-03",
+        "lexi0-setting-20-05",
+        "lexi0-setting-28-07",
+        "lexi0-noise_01_1-01-00",
+        "lexi0-noise_01_2-01-00",
+        "lexi0-noise_01_5-01-00",
+        "lexi0-noise_01_7-01-00",
+        "lexi0-noise_02_1-02-00",
+        "lexi0-noise_02_2-02-00",
+        "lexi0-noise_02_4-02-00",
+        "lexi0-noise_02_5-02-00",
+        "lexi0-noise_02_7-02-00",
+        "lexi0-noise_03_1-03-00",
+        "lexi0-noise_03_4-03-00",
+        "lexi0-noise_03_5-03-00"
+      ],
+      "task": "current",
+      "world": "lexical_clutter-s0-high"
+    },
+    "39ce1c48249147d4c272f37a": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 6,
+      "family": "topic_shift",
+      "gold": {
+        "governing": "topi0-topic_new-32-07",
+        "required": [
+          "topi0-topic_new-32-07"
+        ],
+        "value": "migrated_32_0"
+      },
+      "packet_sha256": "af9db0c41549b9f78ee178e0ff1bc850e5136b873e041d099c412e4921d5742f",
+      "query": "topic_shift-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "topi0-setting-01-00",
+        "topi0-topic_new-32-07",
+        "topi0-guard_new-01-00",
+        "topi0-guard-01-00",
+        "topi0-noise_01_1-01-00",
+        "topi0-noise_01_2-01-00",
+        "topi0-noise_01_5-01-00",
+        "topi0-noise_01_7-01-00",
+        "topi0-noise_02_1-02-00",
+        "topi0-noise_02_2-02-00",
+        "topi0-noise_02_4-02-00",
+        "topi0-noise_02_5-02-00",
+        "topi0-noise_02_7-02-00",
+        "topi0-noise_03_1-03-00",
+        "topi0-noise_03_4-03-00",
+        "topi0-noise_03_5-03-00"
+      ],
+      "task": "current",
+      "world": "topic_shift-s0-high"
+    },
+    "3db8bde506870207f652f784": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 7,
+      "family": "topic_shift",
+      "gold": {
+        "governing": "topi0-guard-01-00",
+        "required": [
+          "topi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "fa30bf0c4e113c219e4026571276ba235a59e319b89e7e65e5a2bcadd6b3ef2e",
+      "query": "topic_shift-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "topi0-guard-01-00",
+        "topi0-guard_new-01-00",
+        "topi0-setting-01-00",
+        "topi0-topic_new-32-07",
+        "topi0-noise_01_1-01-00",
+        "topi0-noise_01_2-01-00",
+        "topi0-noise_01_5-01-00",
+        "topi0-noise_01_7-01-00",
+        "topi0-noise_02_1-02-00",
+        "topi0-noise_02_2-02-00",
+        "topi0-noise_02_4-02-00",
+        "topi0-noise_02_5-02-00",
+        "topi0-noise_02_7-02-00",
+        "topi0-noise_03_1-03-00",
+        "topi0-noise_03_4-03-00",
+        "topi0-noise_03_5-03-00"
+      ],
+      "task": "standing",
+      "world": "topic_shift-s0-high"
+    },
+    "41c7e8af76a24a0f4d6e14d7": {
+      "arm": "all|off|global",
+      "context": 1,
+      "family": "topic_shift",
+      "gold": {
+        "governing": "topi0-guard-01-00",
+        "required": [
+          "topi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "79b2dad7aa379b0271bf4d3c2f5b5d04d6d99e4e68c88577da08bb6de8647cfa",
+      "query": "topic_shift-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "topi0-guard-01-00",
+        "topi0-guard_new-01-00",
+        "topi0-setting-01-00",
+        "topi0-topic_new-01-00",
+        "topi0-topic_new-08-01",
+        "topi0-topic_new-12-02",
+        "topi0-topic_new-16-03",
+        "topi0-topic_new-20-04",
+        "topi0-topic_new-24-05",
+        "topi0-topic_new-28-06",
+        "topi0-topic_new-32-07",
+        "topi0-noise_01_1-01-00",
+        "topi0-noise_01_2-01-00",
+        "topi0-noise_01_5-01-00",
+        "topi0-noise_01_7-01-00",
+        "topi0-noise_02_1-02-00"
+      ],
+      "task": "standing",
+      "world": "topic_shift-s0-high"
+    },
+    "4a7c043ae60380654e945d11": {
+      "arm": "all|off|global",
+      "context": 2,
+      "family": "expiring_exception",
+      "gold": {
+        "governing": "expi0-setting-01-00",
+        "required": [
+          "expi0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "b1f3bdcdc4ad906d1307f49b75ced188ad92fd3a86445e066056bcd650e81cc5",
+      "query": "expiring_exception-s0-high-e32-current",
+      "referenced": [
+        "expi0-license-01-00"
+      ],
+      "selected": [
+        "expi0-setting-01-00",
+        "expi0-topic_new-01-00",
+        "expi0-guard_new-01-00",
+        "expi0-bundle-01-00",
+        "expi0-guard-01-00",
+        "expi0-noise_01_1-01-00",
+        "expi0-noise_01_2-01-00",
+        "expi0-noise_01_5-01-00",
+        "expi0-noise_01_7-01-00",
+        "expi0-noise_02_1-02-00",
+        "expi0-noise_02_2-02-00",
+        "expi0-noise_02_4-02-00",
+        "expi0-noise_02_5-02-00",
+        "expi0-noise_02_7-02-00",
+        "expi0-noise_03_1-03-00",
+        "expi0-noise_03_4-03-00"
+      ],
+      "task": "current",
+      "world": "expiring_exception-s0-high"
+    },
+    "4de7e3083114af203e687bc8": {
+      "arm": "all|off|global",
+      "context": 3,
+      "family": "historical_rollback",
+      "gold": {
+        "governing": "hist0-guard-01-00",
+        "required": [
+          "hist0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "9f071fb08bfddd93b8404860f42093913497273dead255e28cd9cf61ea934215",
+      "query": "historical_rollback-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "hist0-guard-01-00",
+        "hist0-guard_new-01-00",
+        "hist0-setting-01-00",
+        "hist0-topic_new-01-00",
+        "hist0-setting-04-01",
+        "hist0-setting-12-03",
+        "hist0-setting-20-05",
+        "hist0-setting-28-07",
+        "hist0-noise_01_1-01-00",
+        "hist0-noise_01_2-01-00",
+        "hist0-noise_01_5-01-00",
+        "hist0-noise_01_7-01-00",
+        "hist0-noise_02_1-02-00",
+        "hist0-noise_02_2-02-00",
+        "hist0-noise_02_4-02-00",
+        "hist0-noise_02_5-02-00"
+      ],
+      "task": "standing",
+      "world": "historical_rollback-s0-high"
+    },
+    "5520e78c257caaf3a8e78a9c": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 5,
+      "family": "dormant_reactivation",
+      "gold": {
+        "governing": "dorm0-guard-01-00",
+        "required": [
+          "dorm0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "32b39067fd01107d2a07f3445027dd970a76896d5b34e2bd72b25f5c3dcb2122",
+      "query": "dormant_reactivation-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "dorm0-noise_24_2-24-00",
+        "dorm0-noise_24_4-24-00",
+        "dorm0-noise_24_5-24-00",
+        "dorm0-noise_24_7-24-00",
+        "dorm0-noise_25_1-25-00",
+        "dorm0-noise_25_2-25-00",
+        "dorm0-noise_25_4-25-00",
+        "dorm0-noise_25_7-25-00",
+        "dorm0-noise_26_1-26-00",
+        "dorm0-noise_26_2-26-00",
+        "dorm0-noise_26_5-26-00",
+        "dorm0-noise_26_7-26-00",
+        "dorm0-guard-01-00",
+        "dorm0-guard_new-01-00",
+        "dorm0-setting-01-00",
+        "dorm0-topic_new-01-00"
+      ],
+      "task": "standing",
+      "world": "dormant_reactivation-s0-high"
+    },
+    "5afe65e55d0bb3422c1e15be": {
+      "arm": "all|off|global",
+      "context": 2,
+      "family": "historical_rollback",
+      "gold": {
+        "governing": "hist0-setting-32-08",
+        "required": [
+          "hist0-setting-32-08"
+        ],
+        "value": "revision_32_0"
+      },
+      "packet_sha256": "d78b4c7d94bbe959400e461d1474f595ac19f4fecf9ccf94ab31d19be0a27225",
+      "query": "historical_rollback-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "hist0-setting-04-01",
+        "hist0-setting-12-03",
+        "hist0-setting-20-05",
+        "hist0-setting-28-07",
+        "hist0-setting-01-00",
+        "hist0-setting-08-02",
+        "hist0-setting-16-04",
+        "hist0-setting-24-06",
+        "hist0-setting-32-08"
+      ],
+      "task": "current",
+      "world": "historical_rollback-s0-high"
+    },
+    "6081a915cd9af87489e7c0b1": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 4,
+      "family": "lexical_clutter",
+      "gold": {
+        "governing": "lexi0-setting-32-08",
+        "required": [
+          "lexi0-setting-32-08"
+        ],
+        "value": "revision_32_0"
+      },
+      "packet_sha256": "94333b3d21e40a30d15755eff0dffe4fa0d439e0d7afb02e5c1bfbe273ee2c96",
+      "query": "lexical_clutter-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "lexi0-noise_01_1-01-00",
+        "lexi0-noise_01_2-01-00",
+        "lexi0-noise_01_5-01-00",
+        "lexi0-noise_01_7-01-00",
+        "lexi0-noise_02_1-02-00",
+        "lexi0-noise_02_2-02-00",
+        "lexi0-noise_02_4-02-00",
+        "lexi0-noise_02_5-02-00",
+        "lexi0-noise_02_7-02-00",
+        "lexi0-noise_03_1-03-00",
+        "lexi0-noise_03_4-03-00",
+        "lexi0-noise_03_5-03-00",
+        "lexi0-noise_04_2-04-00",
+        "lexi0-noise_04_4-04-00",
+        "lexi0-noise_04_5-04-00",
+        "lexi0-noise_04_7-04-00"
+      ],
+      "task": "current",
+      "world": "lexical_clutter-s0-high"
+    },
+    "61cacbf72110a26fe6a3ef02": {
+      "arm": "all|off|global",
+      "context": 0,
+      "family": "dormant_reactivation",
+      "gold": {
+        "governing": "dorm0-setting-01-00",
+        "required": [
+          "dorm0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "e31c79859d84928b64238e61dbf71e6ac41e37c9d22ed2859f79a4bac6a435de",
+      "query": "dormant_reactivation-s0-high-e32-current",
+      "referenced": [
+        "dorm0-license-01-00"
+      ],
+      "selected": [
+        "dorm0-setting-01-00",
+        "dorm0-topic_new-01-00",
+        "dorm0-guard_new-01-00",
+        "dorm0-bundle-01-00",
+        "dorm0-guard-01-00",
+        "dorm0-noise_01_1-01-00",
+        "dorm0-noise_01_2-01-00",
+        "dorm0-noise_01_5-01-00",
+        "dorm0-noise_01_7-01-00",
+        "dorm0-noise_02_1-02-00",
+        "dorm0-noise_02_2-02-00",
+        "dorm0-noise_02_4-02-00",
+        "dorm0-noise_02_5-02-00",
+        "dorm0-noise_02_7-02-00",
+        "dorm0-noise_03_1-03-00",
+        "dorm0-noise_03_4-03-00"
+      ],
+      "task": "current",
+      "world": "dormant_reactivation-s0-high"
+    },
+    "84476f3c3dbd4516785f873f": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 1,
+      "family": "cross_project",
+      "gold": {
+        "governing": "cros0-guard-01-00",
+        "required": [
+          "cros0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "09a48d19b041ac8319390ab9fa803a06c5ae8ca6a595ec55f7df9d2253b1c315",
+      "query": "cross_project-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "cros0-noise_24_2-24-00",
+        "cros0-noise_24_4-24-00",
+        "cros0-noise_24_5-24-00",
+        "cros0-noise_24_7-24-00",
+        "cros0-noise_25_1-25-00",
+        "cros0-noise_25_2-25-00",
+        "cros0-noise_25_4-25-00",
+        "cros0-noise_25_7-25-00",
+        "cros0-noise_26_1-26-00",
+        "cros0-noise_26_2-26-00",
+        "cros0-noise_26_5-26-00",
+        "cros0-noise_26_7-26-00",
+        "cros0-guard-01-00",
+        "cros0-guard_new-01-00",
+        "cros0-setting-01-00",
+        "cros0-topic_new-01-00"
+      ],
+      "task": "standing",
+      "world": "cross_project-s0-high"
+    },
+    "85f6747324629bd6b82d6db2": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 0,
+      "family": "cross_project",
+      "gold": {
+        "governing": "cros0-setting-01-00",
+        "required": [
+          "cros0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "fc69197264923bf9af0489df102f775cf5517b1f4a2ac3f1edaf00a730d0c4a5",
+      "query": "cross_project-s0-high-e32-current",
+      "referenced": [
+        "cros0-license-01-00"
+      ],
+      "selected": [
+        "cros0-noise_24_2-24-00",
+        "cros0-noise_24_4-24-00",
+        "cros0-noise_24_5-24-00",
+        "cros0-noise_24_7-24-00",
+        "cros0-noise_25_1-25-00",
+        "cros0-noise_25_2-25-00",
+        "cros0-noise_25_4-25-00",
+        "cros0-noise_25_7-25-00",
+        "cros0-noise_26_1-26-00",
+        "cros0-noise_26_2-26-00",
+        "cros0-noise_26_5-26-00",
+        "cros0-noise_26_7-26-00",
+        "cros0-setting-01-00",
+        "cros0-topic_new-01-00",
+        "cros0-guard_new-01-00",
+        "cros0-bundle-01-00"
+      ],
+      "task": "current",
+      "world": "cross_project-s0-high"
+    },
+    "8ec8d4143781f2bd269956bf": {
+      "arm": "ttl8|off|global",
+      "context": 2,
+      "family": "topic_shift",
+      "gold": {
+        "governing": "topi0-topic_new-32-07",
+        "required": [
+          "topi0-topic_new-32-07"
+        ],
+        "value": "migrated_32_0"
+      },
+      "packet_sha256": "db0bc75394c956a404294de8a4f342f0f8ed059948bb1aeb424b2ae7b250f677",
+      "query": "topic_shift-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "topi0-topic_new-24-05",
+        "topi0-topic_new-28-06",
+        "topi0-topic_new-32-07",
+        "topi0-noise_24_2-24-00",
+        "topi0-noise_24_4-24-00",
+        "topi0-noise_24_5-24-00",
+        "topi0-noise_24_7-24-00",
+        "topi0-noise_25_1-25-00",
+        "topi0-noise_25_2-25-00",
+        "topi0-noise_25_4-25-00",
+        "topi0-noise_25_7-25-00",
+        "topi0-noise_26_1-26-00",
+        "topi0-noise_26_2-26-00",
+        "topi0-noise_26_5-26-00",
+        "topi0-noise_26_7-26-00",
+        "topi0-noise_27_1-27-00"
+      ],
+      "task": "current",
+      "world": "topic_shift-s0-high"
+    },
+    "928a7f06307dc2508292c7ed": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 6,
+      "family": "expiring_exception",
+      "gold": {
+        "governing": "expi0-setting-01-00",
+        "required": [
+          "expi0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "0f09b7a6be963ab27568fa0429a0c6f6f63456a97e8d806b4c925c1360f61ce1",
+      "query": "expiring_exception-s0-high-e32-current",
+      "referenced": [
+        "expi0-license-01-00"
+      ],
+      "selected": [
+        "expi0-noise_24_2-24-00",
+        "expi0-noise_24_4-24-00",
+        "expi0-noise_24_5-24-00",
+        "expi0-noise_24_7-24-00",
+        "expi0-noise_25_1-25-00",
+        "expi0-noise_25_2-25-00",
+        "expi0-noise_25_4-25-00",
+        "expi0-noise_25_7-25-00",
+        "expi0-noise_26_1-26-00",
+        "expi0-noise_26_2-26-00",
+        "expi0-noise_26_5-26-00",
+        "expi0-noise_26_7-26-00",
+        "expi0-setting-01-00",
+        "expi0-topic_new-01-00",
+        "expi0-guard_new-01-00",
+        "expi0-bundle-01-00"
+      ],
+      "task": "current",
+      "world": "expiring_exception-s0-high"
+    },
+    "94e945546d768545e289145b": {
+      "arm": "ttl8|off|global",
+      "context": 1,
+      "family": "lexical_clutter",
+      "gold": {
+        "governing": "lexi0-guard-01-00",
+        "required": [
+          "lexi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "f67add7c2728a6e0c460bfb49cc7661cdb087e45edd8c9870ef7eacd410a840c",
+      "query": "lexical_clutter-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "lexi0-setting-28-07",
+        "lexi0-noise_24_2-24-00",
+        "lexi0-noise_24_4-24-00",
+        "lexi0-noise_24_5-24-00",
+        "lexi0-noise_24_7-24-00",
+        "lexi0-noise_25_1-25-00",
+        "lexi0-noise_25_2-25-00",
+        "lexi0-noise_25_4-25-00",
+        "lexi0-noise_25_7-25-00",
+        "lexi0-noise_26_1-26-00",
+        "lexi0-noise_26_2-26-00",
+        "lexi0-noise_26_5-26-00",
+        "lexi0-noise_26_7-26-00",
+        "lexi0-noise_27_1-27-00",
+        "lexi0-noise_27_2-27-00",
+        "lexi0-noise_27_4-27-00"
+      ],
+      "task": "standing",
+      "world": "lexical_clutter-s0-high"
+    },
+    "95ad71590943cf0aa69783a8": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 4,
+      "family": "dormant_reactivation",
+      "gold": {
+        "governing": "dorm0-setting-01-00",
+        "required": [
+          "dorm0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "82d1b66324f4c255f1e08df8a7d6e8d979042b4fc4e2d2d7b41cd95e6e20f8fc",
+      "query": "dormant_reactivation-s0-high-e32-current",
+      "referenced": [
+        "dorm0-license-01-00"
+      ],
+      "selected": [
+        "dorm0-noise_24_2-24-00",
+        "dorm0-noise_24_4-24-00",
+        "dorm0-noise_24_5-24-00",
+        "dorm0-noise_24_7-24-00",
+        "dorm0-noise_25_1-25-00",
+        "dorm0-noise_25_2-25-00",
+        "dorm0-noise_25_4-25-00",
+        "dorm0-noise_25_7-25-00",
+        "dorm0-noise_26_1-26-00",
+        "dorm0-noise_26_2-26-00",
+        "dorm0-noise_26_5-26-00",
+        "dorm0-noise_26_7-26-00",
+        "dorm0-setting-01-00",
+        "dorm0-topic_new-01-00",
+        "dorm0-guard_new-01-00",
+        "dorm0-bundle-01-00"
+      ],
+      "task": "current",
+      "world": "dormant_reactivation-s0-high"
+    },
+    "95e3874a6d208abde024fd7f": {
+      "arm": "ttl8|off|global",
+      "context": 5,
+      "family": "historical_rollback",
+      "gold": {
+        "governing": "hist0-guard-01-00",
+        "required": [
+          "hist0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "1a72ff9f1ffefdd4131732f967879ffb78a23bc86fd03c479159c8755dfc2b02",
+      "query": "historical_rollback-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "hist0-setting-28-07",
+        "hist0-noise_24_2-24-00",
+        "hist0-noise_24_4-24-00",
+        "hist0-noise_24_5-24-00",
+        "hist0-noise_24_7-24-00",
+        "hist0-noise_25_1-25-00",
+        "hist0-noise_25_2-25-00",
+        "hist0-noise_25_4-25-00",
+        "hist0-noise_25_7-25-00",
+        "hist0-noise_26_1-26-00",
+        "hist0-noise_26_2-26-00",
+        "hist0-noise_26_5-26-00",
+        "hist0-noise_26_7-26-00",
+        "hist0-noise_27_1-27-00",
+        "hist0-noise_27_2-27-00",
+        "hist0-noise_27_4-27-00"
+      ],
+      "task": "standing",
+      "world": "historical_rollback-s0-high"
+    },
+    "9641bd64ad9b0d272fd9382a": {
+      "arm": "ttl8|off|global",
+      "context": 6,
+      "family": "cross_project",
+      "gold": {
+        "governing": "cros0-setting-01-00",
+        "required": [
+          "cros0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "e456a6da20c7f6f6b0fa616c47205babe6d5a0a4d2ee41595d32a1b22653773b",
+      "query": "cross_project-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "cros0-noise_24_2-24-00",
+        "cros0-noise_24_4-24-00",
+        "cros0-noise_24_5-24-00",
+        "cros0-noise_24_7-24-00",
+        "cros0-noise_25_1-25-00",
+        "cros0-noise_25_2-25-00",
+        "cros0-noise_25_4-25-00",
+        "cros0-noise_25_7-25-00",
+        "cros0-noise_26_1-26-00",
+        "cros0-noise_26_2-26-00",
+        "cros0-noise_26_5-26-00",
+        "cros0-noise_26_7-26-00",
+        "cros0-noise_27_1-27-00",
+        "cros0-noise_27_2-27-00",
+        "cros0-noise_27_4-27-00",
+        "cros0-noise_27_5-27-00"
+      ],
+      "task": "current",
+      "world": "cross_project-s0-high"
+    },
+    "990f95317092c6ec1c8ba51a": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 3,
+      "family": "cross_project",
+      "gold": {
+        "governing": "cros0-guard-01-00",
+        "required": [
+          "cros0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "29dc1c413dd9990ea2a2d206fa3fac361c6588803f7f1361a620037487de7f84",
+      "query": "cross_project-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "cros0-guard-01-00",
+        "cros0-guard_new-01-00",
+        "cros0-setting-01-00",
+        "cros0-topic_new-01-00",
+        "cros0-noise_01_1-01-00",
+        "cros0-noise_01_2-01-00",
+        "cros0-noise_01_5-01-00",
+        "cros0-noise_01_7-01-00",
+        "cros0-noise_02_1-02-00",
+        "cros0-noise_02_2-02-00",
+        "cros0-noise_02_4-02-00",
+        "cros0-noise_02_5-02-00",
+        "cros0-noise_02_7-02-00",
+        "cros0-noise_03_1-03-00",
+        "cros0-noise_03_4-03-00",
+        "cros0-noise_03_5-03-00"
+      ],
+      "task": "standing",
+      "world": "cross_project-s0-high"
+    },
+    "9da91bd98022ecb25d472235": {
+      "arm": "ttl8|off|global",
+      "context": 4,
+      "family": "expiring_exception",
+      "gold": {
+        "governing": "expi0-setting-01-00",
+        "required": [
+          "expi0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "ed29b413fa94c5d91827da34cc683857ee678591db24ba46c949d722883efbd9",
+      "query": "expiring_exception-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "expi0-noise_24_2-24-00",
+        "expi0-noise_24_4-24-00",
+        "expi0-noise_24_5-24-00",
+        "expi0-noise_24_7-24-00",
+        "expi0-noise_25_1-25-00",
+        "expi0-noise_25_2-25-00",
+        "expi0-noise_25_4-25-00",
+        "expi0-noise_25_7-25-00",
+        "expi0-noise_26_1-26-00",
+        "expi0-noise_26_2-26-00",
+        "expi0-noise_26_5-26-00",
+        "expi0-noise_26_7-26-00",
+        "expi0-noise_27_1-27-00",
+        "expi0-noise_27_2-27-00",
+        "expi0-noise_27_4-27-00",
+        "expi0-noise_27_5-27-00"
+      ],
+      "task": "current",
+      "world": "expiring_exception-s0-high"
+    },
+    "9df67dc61d2c9eba8fc6e0f0": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 0,
+      "family": "historical_rollback",
+      "gold": {
+        "governing": "hist0-setting-32-08",
+        "required": [
+          "hist0-setting-32-08"
+        ],
+        "value": "revision_32_0"
+      },
+      "packet_sha256": "2881735fee0302fa534a86f1f9421452d4a89bb373b9dc185bd1712310dfb026",
+      "query": "historical_rollback-s0-high-e32-current",
+      "referenced": [
+        "hist0-license-01-00"
+      ],
+      "selected": [
+        "hist0-setting-32-08",
+        "hist0-topic_new-01-00",
+        "hist0-guard_new-01-00",
+        "hist0-bundle-01-00",
+        "hist0-license-01-00",
+        "hist0-guard-01-00",
+        "hist0-noise_01_1-01-00",
+        "hist0-noise_01_2-01-00",
+        "hist0-noise_01_5-01-00",
+        "hist0-noise_01_7-01-00",
+        "hist0-noise_02_1-02-00",
+        "hist0-noise_02_2-02-00",
+        "hist0-noise_02_4-02-00",
+        "hist0-noise_02_5-02-00"
+      ],
+      "task": "current",
+      "world": "historical_rollback-s0-high"
+    },
+    "a1dbd34e8f1d69337c57bcf2": {
+      "arm": "ttl8|off|global",
+      "context": 7,
+      "family": "cross_project",
+      "gold": {
+        "governing": "cros0-guard-01-00",
+        "required": [
+          "cros0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "e456a6da20c7f6f6b0fa616c47205babe6d5a0a4d2ee41595d32a1b22653773b",
+      "query": "cross_project-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "cros0-noise_24_2-24-00",
+        "cros0-noise_24_4-24-00",
+        "cros0-noise_24_5-24-00",
+        "cros0-noise_24_7-24-00",
+        "cros0-noise_25_1-25-00",
+        "cros0-noise_25_2-25-00",
+        "cros0-noise_25_4-25-00",
+        "cros0-noise_25_7-25-00",
+        "cros0-noise_26_1-26-00",
+        "cros0-noise_26_2-26-00",
+        "cros0-noise_26_5-26-00",
+        "cros0-noise_26_7-26-00",
+        "cros0-noise_27_1-27-00",
+        "cros0-noise_27_2-27-00",
+        "cros0-noise_27_4-27-00",
+        "cros0-noise_27_5-27-00"
+      ],
+      "task": "standing",
+      "world": "cross_project-s0-high"
+    },
+    "a807d9e0165cb1d475c19b76": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 6,
+      "family": "historical_rollback",
+      "gold": {
+        "governing": "hist0-setting-32-08",
+        "required": [
+          "hist0-setting-32-08"
+        ],
+        "value": "revision_32_0"
+      },
+      "packet_sha256": "73851fa7f6155ddf778cc6a6d72e15468050e15ef86bb0746d78398beea6e3f0",
+      "query": "historical_rollback-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "hist0-setting-28-07",
+        "hist0-setting-24-06",
+        "hist0-setting-32-08",
+        "hist0-noise_24_2-24-00",
+        "hist0-noise_24_4-24-00",
+        "hist0-noise_24_5-24-00",
+        "hist0-noise_24_7-24-00",
+        "hist0-noise_25_1-25-00",
+        "hist0-noise_25_2-25-00",
+        "hist0-noise_25_4-25-00",
+        "hist0-noise_25_7-25-00",
+        "hist0-noise_26_1-26-00"
+      ],
+      "task": "current",
+      "world": "historical_rollback-s0-high"
+    },
+    "a8ecba7ee7ef64d7639dfc41": {
+      "arm": "all|off|global",
+      "context": 0,
+      "family": "topic_shift",
+      "gold": {
+        "governing": "topi0-topic_new-32-07",
+        "required": [
+          "topi0-topic_new-32-07"
+        ],
+        "value": "migrated_32_0"
+      },
+      "packet_sha256": "4e7dc2e83c3c037240fc00997eb88e2c0af87eed39ae4c90f1c77fd89b34198a",
+      "query": "topic_shift-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "topi0-setting-01-00",
+        "topi0-topic_new-01-00",
+        "topi0-topic_new-08-01",
+        "topi0-topic_new-12-02",
+        "topi0-topic_new-16-03",
+        "topi0-topic_new-20-04",
+        "topi0-topic_new-24-05",
+        "topi0-topic_new-28-06",
+        "topi0-topic_new-32-07",
+        "topi0-guard_new-01-00",
+        "topi0-guard-01-00",
+        "topi0-noise_01_1-01-00",
+        "topi0-noise_01_2-01-00",
+        "topi0-noise_01_5-01-00",
+        "topi0-noise_01_7-01-00",
+        "topi0-noise_02_1-02-00"
+      ],
+      "task": "current",
+      "world": "topic_shift-s0-high"
+    },
+    "af18b113d109ff80c0c4e926": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 7,
+      "family": "historical_rollback",
+      "gold": {
+        "governing": "hist0-guard-01-00",
+        "required": [
+          "hist0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "545049b8caeb0cd6f83c752732512187663638241febc6c8284d557e572103f6",
+      "query": "historical_rollback-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "hist0-setting-28-07",
+        "hist0-noise_24_2-24-00",
+        "hist0-noise_24_4-24-00",
+        "hist0-noise_24_5-24-00",
+        "hist0-noise_24_7-24-00",
+        "hist0-noise_25_1-25-00",
+        "hist0-noise_25_2-25-00",
+        "hist0-noise_25_4-25-00",
+        "hist0-noise_25_7-25-00",
+        "hist0-noise_26_1-26-00",
+        "hist0-noise_26_2-26-00",
+        "hist0-noise_26_5-26-00",
+        "hist0-guard-01-00",
+        "hist0-guard_new-01-00",
+        "hist0-setting-01-00",
+        "hist0-topic_new-01-00"
+      ],
+      "task": "standing",
+      "world": "historical_rollback-s0-high"
+    },
+    "b24a542d4e1b24261d140a10": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 4,
+      "family": "topic_shift",
+      "gold": {
+        "governing": "topi0-topic_new-32-07",
+        "required": [
+          "topi0-topic_new-32-07"
+        ],
+        "value": "migrated_32_0"
+      },
+      "packet_sha256": "8b588a003c6c31a657f45f47eed4e751ac3a02f65edccdf21b52a4ef8a886b8f",
+      "query": "topic_shift-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "topi0-topic_new-24-05",
+        "topi0-topic_new-28-06",
+        "topi0-topic_new-32-07",
+        "topi0-noise_24_2-24-00",
+        "topi0-noise_24_4-24-00",
+        "topi0-noise_24_5-24-00",
+        "topi0-noise_24_7-24-00",
+        "topi0-noise_25_1-25-00",
+        "topi0-noise_25_2-25-00",
+        "topi0-noise_25_4-25-00",
+        "topi0-noise_25_7-25-00",
+        "topi0-noise_26_1-26-00",
+        "topi0-setting-01-00",
+        "topi0-topic_new-01-00",
+        "topi0-topic_new-08-01",
+        "topi0-topic_new-12-02"
+      ],
+      "task": "current",
+      "world": "topic_shift-s0-high"
+    },
+    "bd4a7542d901cf612bf0d86e": {
+      "arm": "all|off|global",
+      "context": 1,
+      "family": "dormant_reactivation",
+      "gold": {
+        "governing": "dorm0-guard-01-00",
+        "required": [
+          "dorm0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "8fb4b37db7926c79532a797fed51f08fb7a893468f77c674b609992444463d0d",
+      "query": "dormant_reactivation-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "dorm0-guard-01-00",
+        "dorm0-guard_new-01-00",
+        "dorm0-setting-01-00",
+        "dorm0-topic_new-01-00",
+        "dorm0-noise_01_1-01-00",
+        "dorm0-noise_01_2-01-00",
+        "dorm0-noise_01_5-01-00",
+        "dorm0-noise_01_7-01-00",
+        "dorm0-noise_02_1-02-00",
+        "dorm0-noise_02_2-02-00",
+        "dorm0-noise_02_4-02-00",
+        "dorm0-noise_02_5-02-00",
+        "dorm0-noise_02_7-02-00",
+        "dorm0-noise_03_1-03-00",
+        "dorm0-noise_03_4-03-00",
+        "dorm0-noise_03_5-03-00"
+      ],
+      "task": "standing",
+      "world": "dormant_reactivation-s0-high"
+    },
+    "c49a53353eff4f5dd47ada1b": {
+      "arm": "ttl8|off|global",
+      "context": 5,
+      "family": "expiring_exception",
+      "gold": {
+        "governing": "expi0-guard-01-00",
+        "required": [
+          "expi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "ed29b413fa94c5d91827da34cc683857ee678591db24ba46c949d722883efbd9",
+      "query": "expiring_exception-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "expi0-noise_24_2-24-00",
+        "expi0-noise_24_4-24-00",
+        "expi0-noise_24_5-24-00",
+        "expi0-noise_24_7-24-00",
+        "expi0-noise_25_1-25-00",
+        "expi0-noise_25_2-25-00",
+        "expi0-noise_25_4-25-00",
+        "expi0-noise_25_7-25-00",
+        "expi0-noise_26_1-26-00",
+        "expi0-noise_26_2-26-00",
+        "expi0-noise_26_5-26-00",
+        "expi0-noise_26_7-26-00",
+        "expi0-noise_27_1-27-00",
+        "expi0-noise_27_2-27-00",
+        "expi0-noise_27_4-27-00",
+        "expi0-noise_27_5-27-00"
+      ],
+      "task": "standing",
+      "world": "expiring_exception-s0-high"
+    },
+    "c4fcb1039eacdb35906ecc28": {
+      "arm": "ttl8|off|global",
+      "context": 3,
+      "family": "dormant_reactivation",
+      "gold": {
+        "governing": "dorm0-guard-01-00",
+        "required": [
+          "dorm0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "355d9272630a308bc013d0de5b020dfa1a54e019eae1143e8f762c1da1d83dfe",
+      "query": "dormant_reactivation-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "dorm0-noise_24_2-24-00",
+        "dorm0-noise_24_4-24-00",
+        "dorm0-noise_24_5-24-00",
+        "dorm0-noise_24_7-24-00",
+        "dorm0-noise_25_1-25-00",
+        "dorm0-noise_25_2-25-00",
+        "dorm0-noise_25_4-25-00",
+        "dorm0-noise_25_7-25-00",
+        "dorm0-noise_26_1-26-00",
+        "dorm0-noise_26_2-26-00",
+        "dorm0-noise_26_5-26-00",
+        "dorm0-noise_26_7-26-00",
+        "dorm0-noise_27_1-27-00",
+        "dorm0-noise_27_2-27-00",
+        "dorm0-noise_27_4-27-00",
+        "dorm0-noise_27_5-27-00"
+      ],
+      "task": "standing",
+      "world": "dormant_reactivation-s0-high"
+    },
+    "d01ef7734cbad582308e582c": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 5,
+      "family": "topic_shift",
+      "gold": {
+        "governing": "topi0-guard-01-00",
+        "required": [
+          "topi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "bfc341ec6066a626b347ff8af99ccadd9467e5d50269b3d35b6d42c659736a04",
+      "query": "topic_shift-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "topi0-topic_new-24-05",
+        "topi0-topic_new-28-06",
+        "topi0-topic_new-32-07",
+        "topi0-noise_24_2-24-00",
+        "topi0-noise_24_4-24-00",
+        "topi0-noise_24_5-24-00",
+        "topi0-noise_24_7-24-00",
+        "topi0-noise_25_1-25-00",
+        "topi0-noise_25_2-25-00",
+        "topi0-noise_25_4-25-00",
+        "topi0-noise_25_7-25-00",
+        "topi0-noise_26_1-26-00",
+        "topi0-guard-01-00",
+        "topi0-guard_new-01-00",
+        "topi0-setting-01-00",
+        "topi0-topic_new-01-00"
+      ],
+      "task": "standing",
+      "world": "topic_shift-s0-high"
+    },
+    "d9f09848666697e774e2279c": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 6,
+      "family": "dormant_reactivation",
+      "gold": {
+        "governing": "dorm0-setting-01-00",
+        "required": [
+          "dorm0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "1134b27d143cd5b80ac9bf0230a804fdfa0d7c647be9b8d5cf6b0ef190320020",
+      "query": "dormant_reactivation-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "dorm0-setting-01-00",
+        "dorm0-topic_new-01-00",
+        "dorm0-guard_new-01-00",
+        "dorm0-guard-01-00",
+        "dorm0-noise_01_1-01-00",
+        "dorm0-noise_01_2-01-00",
+        "dorm0-noise_01_5-01-00",
+        "dorm0-noise_01_7-01-00",
+        "dorm0-noise_02_1-02-00",
+        "dorm0-noise_02_2-02-00",
+        "dorm0-noise_02_4-02-00",
+        "dorm0-noise_02_5-02-00",
+        "dorm0-noise_02_7-02-00",
+        "dorm0-noise_03_1-03-00",
+        "dorm0-noise_03_4-03-00",
+        "dorm0-noise_03_5-03-00"
+      ],
+      "task": "current",
+      "world": "dormant_reactivation-s0-high"
+    },
+    "dd8a0bbe8eb3d21163c5dd09": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 1,
+      "family": "historical_rollback",
+      "gold": {
+        "governing": "hist0-guard-01-00",
+        "required": [
+          "hist0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "98a9bf1fabf1117a749ca519574a74ef6d693451737642b89fbf5c0bf38a92e4",
+      "query": "historical_rollback-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "hist0-guard-01-00",
+        "hist0-guard_new-01-00",
+        "hist0-topic_new-01-00",
+        "hist0-noise_01_1-01-00",
+        "hist0-noise_01_2-01-00",
+        "hist0-noise_01_5-01-00",
+        "hist0-noise_01_7-01-00",
+        "hist0-noise_02_1-02-00",
+        "hist0-noise_02_2-02-00",
+        "hist0-noise_02_4-02-00",
+        "hist0-noise_02_5-02-00",
+        "hist0-noise_02_7-02-00",
+        "hist0-noise_03_1-03-00",
+        "hist0-noise_03_4-03-00",
+        "hist0-noise_03_5-03-00",
+        "hist0-noise_04_2-04-00"
+      ],
+      "task": "standing",
+      "world": "historical_rollback-s0-high"
+    },
+    "e6c9a9b3a172e11c199bb6f3": {
+      "arm": "ttl8|scheduled_cold|global",
+      "context": 3,
+      "family": "lexical_clutter",
+      "gold": {
+        "governing": "lexi0-guard-01-00",
+        "required": [
+          "lexi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "b18cce6c49de90e4d2b64bbb8b25bdd6cf0b8b01be5b1bd1583846f8a3f806fe",
+      "query": "lexical_clutter-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "lexi0-setting-28-07",
+        "lexi0-noise_24_2-24-00",
+        "lexi0-noise_24_4-24-00",
+        "lexi0-noise_24_5-24-00",
+        "lexi0-noise_24_7-24-00",
+        "lexi0-noise_25_1-25-00",
+        "lexi0-noise_25_2-25-00",
+        "lexi0-noise_25_4-25-00",
+        "lexi0-noise_25_7-25-00",
+        "lexi0-noise_26_1-26-00",
+        "lexi0-noise_26_2-26-00",
+        "lexi0-noise_26_5-26-00",
+        "lexi0-guard-01-00",
+        "lexi0-guard_new-01-00",
+        "lexi0-setting-01-00",
+        "lexi0-topic_new-01-00"
+      ],
+      "task": "standing",
+      "world": "lexical_clutter-s0-high"
+    },
+    "eb79245521c06fb997cedebb": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 1,
+      "family": "expiring_exception",
+      "gold": {
+        "governing": "expi0-guard-01-00",
+        "required": [
+          "expi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "31be4e15ae3f2ef8fb388b9b92350b101af10dd97bff5867e9f2d68123ebe9c1",
+      "query": "expiring_exception-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "expi0-guard-01-00",
+        "expi0-guard_new-01-00",
+        "expi0-setting-01-00",
+        "expi0-topic_new-01-00",
+        "expi0-noise_01_1-01-00",
+        "expi0-noise_01_2-01-00",
+        "expi0-noise_01_5-01-00",
+        "expi0-noise_01_7-01-00",
+        "expi0-noise_02_1-02-00",
+        "expi0-noise_02_2-02-00",
+        "expi0-noise_02_4-02-00",
+        "expi0-noise_02_5-02-00",
+        "expi0-noise_02_7-02-00",
+        "expi0-noise_03_1-03-00",
+        "expi0-noise_03_4-03-00",
+        "expi0-noise_03_5-03-00"
+      ],
+      "task": "standing",
+      "world": "expiring_exception-s0-high"
+    },
+    "ee9f24a98e5808f6d5c248f2": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 2,
+      "family": "cross_project",
+      "gold": {
+        "governing": "cros0-setting-01-00",
+        "required": [
+          "cros0-setting-01-00"
+        ],
+        "value": "initial_0"
+      },
+      "packet_sha256": "f88f9fed48c019ce1454071b6eb3e3adf8b8a1b796922ba71ed686e3af725346",
+      "query": "cross_project-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "cros0-setting-01-00",
+        "cros0-topic_new-01-00",
+        "cros0-guard_new-01-00",
+        "cros0-guard-01-00",
+        "cros0-noise_01_1-01-00",
+        "cros0-noise_01_2-01-00",
+        "cros0-noise_01_5-01-00",
+        "cros0-noise_01_7-01-00",
+        "cros0-noise_02_1-02-00",
+        "cros0-noise_02_2-02-00",
+        "cros0-noise_02_4-02-00",
+        "cros0-noise_02_5-02-00",
+        "cros0-noise_02_7-02-00",
+        "cros0-noise_03_1-03-00",
+        "cros0-noise_03_4-03-00",
+        "cros0-noise_03_5-03-00"
+      ],
+      "task": "current",
+      "world": "cross_project-s0-high"
+    },
+    "ef0fa9a21db6e43496c417a0": {
+      "arm": "all|off|global",
+      "context": 5,
+      "family": "cross_project",
+      "gold": {
+        "governing": "cros0-guard-01-00",
+        "required": [
+          "cros0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "29dc1c413dd9990ea2a2d206fa3fac361c6588803f7f1361a620037487de7f84",
+      "query": "cross_project-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "cros0-guard-01-00",
+        "cros0-guard_new-01-00",
+        "cros0-setting-01-00",
+        "cros0-topic_new-01-00",
+        "cros0-noise_01_1-01-00",
+        "cros0-noise_01_2-01-00",
+        "cros0-noise_01_5-01-00",
+        "cros0-noise_01_7-01-00",
+        "cros0-noise_02_1-02-00",
+        "cros0-noise_02_2-02-00",
+        "cros0-noise_02_4-02-00",
+        "cros0-noise_02_5-02-00",
+        "cros0-noise_02_7-02-00",
+        "cros0-noise_03_1-03-00",
+        "cros0-noise_03_4-03-00",
+        "cros0-noise_03_5-03-00"
+      ],
+      "task": "standing",
+      "world": "cross_project-s0-high"
+    },
+    "f1bd97181409926d7cd2e153": {
+      "arm": "ttl8|off|global",
+      "context": 4,
+      "family": "historical_rollback",
+      "gold": {
+        "governing": "hist0-setting-32-08",
+        "required": [
+          "hist0-setting-32-08"
+        ],
+        "value": "revision_32_0"
+      },
+      "packet_sha256": "73851fa7f6155ddf778cc6a6d72e15468050e15ef86bb0746d78398beea6e3f0",
+      "query": "historical_rollback-s0-high-e32-current",
+      "referenced": [],
+      "selected": [
+        "hist0-setting-28-07",
+        "hist0-setting-24-06",
+        "hist0-setting-32-08",
+        "hist0-noise_24_2-24-00",
+        "hist0-noise_24_4-24-00",
+        "hist0-noise_24_5-24-00",
+        "hist0-noise_24_7-24-00",
+        "hist0-noise_25_1-25-00",
+        "hist0-noise_25_2-25-00",
+        "hist0-noise_25_4-25-00",
+        "hist0-noise_25_7-25-00",
+        "hist0-noise_26_1-26-00"
+      ],
+      "task": "current",
+      "world": "historical_rollback-s0-high"
+    },
+    "fb60c4a442cba9f8931b4e1f": {
+      "arm": "latest_dependencies|off|linked",
+      "context": 5,
+      "family": "lexical_clutter",
+      "gold": {
+        "governing": "lexi0-guard-01-00",
+        "required": [
+          "lexi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "ee5fc7eb6825d7bbbd02a792295d6916ce4dd34f749498c02ec343092d8eb0fb",
+      "query": "lexical_clutter-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "lexi0-guard-01-00",
+        "lexi0-guard_new-01-00",
+        "lexi0-topic_new-01-00",
+        "lexi0-noise_01_1-01-00",
+        "lexi0-noise_01_2-01-00",
+        "lexi0-noise_01_5-01-00",
+        "lexi0-noise_01_7-01-00",
+        "lexi0-noise_02_1-02-00",
+        "lexi0-noise_02_2-02-00",
+        "lexi0-noise_02_4-02-00",
+        "lexi0-noise_02_5-02-00",
+        "lexi0-noise_02_7-02-00",
+        "lexi0-noise_03_1-03-00",
+        "lexi0-noise_03_4-03-00",
+        "lexi0-noise_03_5-03-00",
+        "lexi0-noise_04_2-04-00"
+      ],
+      "task": "standing",
+      "world": "lexical_clutter-s0-high"
+    },
+    "fc5e9eecda9bbbf70a546603": {
+      "arm": "all|off|global",
+      "context": 7,
+      "family": "lexical_clutter",
+      "gold": {
+        "governing": "lexi0-guard-01-00",
+        "required": [
+          "lexi0-guard-01-00"
+        ],
+        "value": "no_export_0"
+      },
+      "packet_sha256": "4612b55df8ceed5e778ac5446847044516edd0dfd5aedfdb38a080cdc5d711b2",
+      "query": "lexical_clutter-s0-high-e32-standing",
+      "referenced": [],
+      "selected": [
+        "lexi0-guard-01-00",
+        "lexi0-guard_new-01-00",
+        "lexi0-setting-01-00",
+        "lexi0-topic_new-01-00",
+        "lexi0-setting-04-01",
+        "lexi0-setting-12-03",
+        "lexi0-setting-20-05",
+        "lexi0-setting-28-07",
+        "lexi0-noise_01_1-01-00",
+        "lexi0-noise_01_2-01-00",
+        "lexi0-noise_01_5-01-00",
+        "lexi0-noise_01_7-01-00",
+        "lexi0-noise_02_1-02-00",
+        "lexi0-noise_02_2-02-00",
+        "lexi0-noise_02_4-02-00",
+        "lexi0-noise_02_5-02-00"
+      ],
+      "task": "standing",
+      "world": "lexical_clutter-s0-high"
+    }
+  },
+  "schema_version": 1
+}

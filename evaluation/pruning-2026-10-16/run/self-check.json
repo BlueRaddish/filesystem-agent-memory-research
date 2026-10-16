@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "future-query boundary: retention API has no query/gold/future argument",
+    "metadata excludes values/text/query/gold",
+    "TTL inclusive boundary",
+    "LRU actual read wins",
+    "LFU actual count wins",
+    "latest loses superseded; dependencies pin old",
+    "evictions do not rehydrate without admission",
+    "buffered cold hit admission uses original age",
+    "source UTF8 hashes",
+    "cold archive recovery",
+    "rendered budget",
+    "unseen paging",
+    "layout-only rename invariance",
+    "future source perturbation cannot alter past ranking or packet",
+    "expired exception restores older base",
+    "imported earlier-effective correction",
+    "wrong stale answer control",
+    "unresolved qualifier control",
+    "density-pair governing sources equal"
+  ],
+  "passed": 19
+}

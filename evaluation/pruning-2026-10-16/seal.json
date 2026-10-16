@@ -1,0 +1,32 @@
+{
+  "self_check": {
+    "checks": [
+      "future-query boundary: retention API has no query/gold/future argument",
+      "metadata excludes values/text/query/gold",
+      "TTL inclusive boundary",
+      "LRU actual read wins",
+      "LFU actual count wins",
+      "latest loses superseded; dependencies pin old",
+      "evictions do not rehydrate without admission",
+      "buffered cold hit admission uses original age",
+      "source UTF8 hashes",
+      "cold archive recovery",
+      "rendered budget",
+      "unseen paging",
+      "layout-only rename invariance",
+      "future source perturbation cannot alter past ranking or packet",
+      "expired exception restores older base",
+      "imported earlier-effective correction",
+      "wrong stale answer control",
+      "unresolved qualifier control",
+      "density-pair governing sources equal"
+    ],
+    "passed": 19
+  },
+  "sha256": {
+    "PLAN.md": "10ce93197fa97437a3b511e34b5cabfefd760666ba2f584f6f63f9e4be002b77",
+    "pruning_core.py": "09415169c94bcdd28c04f9b4036373e4af1d988e26f6785969bb2d4159032d6d",
+    "pruning_lab.py": "007ba66f8b9847a4a61ffffa836ae50e50a7dcf8c26939c81c5dd32e22b9d131"
+  },
+  "state": "SEALED_BEFORE_COLLECTION"
+}

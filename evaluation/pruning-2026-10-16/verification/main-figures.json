@@ -1,0 +1,40 @@
+{
+  "state": "FIGURE_EXPORT_IDENTITIES_PASSED",
+  "exports": 12,
+  "pairs": 6,
+  "tables_sha256": "b5845e6a418430ac4968e13591b5cf4ed84151b2ab66a6afe3921aa21d43d3ab",
+  "png_dimensions": [
+    {
+      "name": "01-longitudinal-success.png",
+      "width": 2535,
+      "height": 819
+    },
+    {
+      "name": "02-final-factorial.png",
+      "width": 1870,
+      "height": 828
+    },
+    {
+      "name": "03-storage-utility.png",
+      "width": 2193,
+      "height": 892
+    },
+    {
+      "name": "04-scenario-outcomes.png",
+      "width": 2014,
+      "height": 828
+    },
+    {
+      "name": "05-archive-effects.png",
+      "width": 1926,
+      "height": 856
+    },
+    {
+      "name": "06-work-and-growth.png",
+      "width": 2195,
+      "height": 847
+    }
+  ],
+  "manifest_sha256": "e1f4681670de62e91e084912b815f2840fd874edad854e124f76b3d13b2060b5",
+  "scope": "Manifest, twelve export hashes, PNG signature/dimensions, SVG parsing/no-script and six pair identities. Rendered values/formulas reviewed in renderer source; no visual inspection claimed by this checker."
+}

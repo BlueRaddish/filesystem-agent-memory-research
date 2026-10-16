@@ -1,0 +1,59 @@
+{
+  "audit_sha256": "9cc193b408e82d596b9dce4591e236ce0a27d3efeb8cc46fc68b9ac1f9c3a1e6",
+  "audit_wall_seconds": 166.82468350001727,
+  "cold_budget_opportunity": {
+    "scheduled_cold": {
+      "maximum_remaining_bytes_at_switch": 2443,
+      "minimum_remaining_bytes_at_switch": 3,
+      "remaining_bytes_at_switch_total": 24367987,
+      "returned_cold_bytes": 16769996,
+      "switched_trials": 11712,
+      "zero_cold_return_trials": 691
+    },
+    "unresolved_only": {
+      "maximum_remaining_bytes_at_switch": 2375,
+      "minimum_remaining_bytes_at_switch": 272,
+      "remaining_bytes_at_switch_total": 7737407,
+      "returned_cold_bytes": 6036294,
+      "switched_trials": 3721,
+      "zero_cold_return_trials": 89
+    }
+  },
+  "counts": {
+    "calls": 258048,
+    "maintenance": 64512,
+    "returned_source_observations": 991097,
+    "snapshots": 16128,
+    "trials": 64512
+  },
+  "manifest_sha256": "93a223c474b82201b7be22992e7acb7c0fbb9169bf1f62b468ba1ea19a18a69e",
+  "mutation_controls_rejected": [
+    "invented reader value",
+    "unbilled source bytes",
+    "future selected source",
+    "wrong proof completeness",
+    "invalid Cartesian arm",
+    "boolean byte charge",
+    "wrong causal access ledger",
+    "duplicate JSON keys",
+    "overflow nonfinite JSON"
+  ],
+  "normal_mutation_control": "passed",
+  "original_sources": 6024,
+  "outcomes": {
+    "stale": 1000,
+    "support_complete": 55138,
+    "unknown": 3151,
+    "value_correct": 60361
+  },
+  "queries": 1024,
+  "scope": [
+    "No generator, pruner, retriever, reader or evaluator module imported.",
+    "Independent source-body truth, retention, admission, access ledger, ranking, paging, fallback, byte and endpoint replay.",
+    "Original clock/CPU observations validated only as nonnegative finite values; elapsed performance is not independently reproduced.",
+    "Synthetic supplied-metadata mechanisms; no natural-history or learned-reader generalization."
+  ],
+  "seal_sha256": "b5bddbda9073ad9ef8961c5c6ab3e5d964a3c5e5c7b61a5cc0002320cf70458b",
+  "state": "INDEPENDENT_REPLAY_PASSED",
+  "worlds": 32
+}
